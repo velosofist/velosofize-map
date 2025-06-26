@@ -1,7 +1,7 @@
 {
     "primary": [
         {
-            "url": "../export_formats/velosofize_export_separated/velosofize_export_others.kml",
+            "url": "/export_formats/velosofize_export_separated/velosofize_export_others.kml",
             "label": "",
             "icon": "",
             "disabled": false
@@ -9,37 +9,37 @@
     ],
     "secondary": [
         {
-            "url": "../export_formats/velosofize_export_separated/velosofize_export_bikelanes.kml",
+            "url": "/export_formats/velosofize_export_separated/velosofize_export_bikelanes.kml",
             "label": "Велоалеи / Bike lanes",
             "icon": "bike_lane",
             "disabled": false
         },
         {
-            "url": "../export_formats/misc_layers/transport.kml",
+            "url": "/export_formats/misc_layers/transport.kml",
             "label": "Транспорт / Transport",
             "icon": "train",
             "disabled": false
         },
         {
-            "url": "../export_formats/misc_layers/crossings.kml",
+            "url": "/export_formats/misc_layers/crossings.kml",
             "label": "Кръстовища / Crossings",
             "icon": "directions_walk",
             "disabled": false
         },
         {
-            "url": "../export_formats/misc_layers/slow_zones.kml",
+            "url": "/export_formats/misc_layers/slow_zones.kml",
             "label": "Бавни зони / Slow zones",
             "icon": "30fps",
             "disabled": true
         },
         {
-            "url": "../export_formats/misc_layers/others.kml",
+            "url": "/export_formats/misc_layers/others.kml",
             "label": "Други / Others",
             "icon": "quiz",
             "disabled": false
         },
         {
-            "url": "../export_formats/chernapista_condensed/chernapista_condensed.kml",
+            "url": "/export_formats/chernapista_condensed/chernapista_condensed.kml",
             "label": "ПТП с участие на велосипедисти от chernapista.com",
             "icon": "warning",
             "disabled": false
@@ -47,13 +47,13 @@
     ],
     "external": [
         {
-            "url": "../export_formats/external_sources/mtb-bg.kml",
+            "url": "/export_formats/external_sources/mtb-bg.kml",
             "label": "Маршрути от MTB-BG.com / Routes from MTB-BG.com",
             "icon": "link",
             "disabled": false
         },
         {
-            "url": "../export_formats/external_sources/ignore_4.kml",
+            "url": "/export_formats/external_sources/ignore_4.kml",
             "label": "Маршрути от Sofenhagen / Routes from Sofenhagen",
             "icon": "link",
             "disabled": false

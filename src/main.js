@@ -12,15 +12,13 @@ document.getElementById('legend-overlay').style.display = 'none';
 };
 document.getElementById('switch-language-legend').onclick = function() {
   const iframe = document.getElementById('legend-iframe');
-  iframe.src = iframe.src.endsWith('cyclosm_legend.html')
-    ? './cyclosm_legend_en.html'
-    : './cyclosm_legend.html';
+  iframe.src = iframe.src.endsWith('/legend/cyclosm_legend.html')
+    ? '/legend/cyclosm_legend_en.html'
+    : '/legend/cyclosm_legend.html';
 };
 document.getElementById('legend-overlay').onclick = function(e) {
 if (e.target === this) this.style.display = 'none';
 };
-
-// ...existing code...
 
 // Place custom zoom buttons inside your overlay-toggle-secondary div
 function createStyledButton(label, icon, onClick) {
@@ -76,9 +74,9 @@ esri: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Im
 };
 
 const layerOrder = [
-{ name: 'cyclosm', icon: 'tile_icons/tile_cyclosm.png', alt: 'CyclOSM' },
-{ name: 'osm',     icon: 'tile_icons/tile_osm.png',     alt: 'OpenStreetMap' },
-{ name: 'esri',    icon: 'tile_icons/tile_sat.png',     alt: 'Satellite' }
+{ name: 'cyclosm', icon: '/attachments/tile_icons/tile_cyclosm.png', alt: 'CyclOSM' },
+{ name: 'osm',     icon: '/attachments/tile_icons/tile_osm.png',     alt: 'OpenStreetMap' },
+{ name: 'esri',    icon: '/attachments/tile_icons/tile_sat.png',     alt: 'Satellite' }
 ];
 let currentLayerIdx = 0;
 

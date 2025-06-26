@@ -1,0 +1,5 @@
+sandbox.html
+ignore*.py
+ignore*.kml
+_*/
+Gemfile*
