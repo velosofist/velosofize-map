@@ -5,19 +5,18 @@ zoomControl: false
 });
 
 document.getElementById('legend-button').onclick = function() {
-document.getElementById('legend-overlay').style.display = 'flex';
+  document.getElementById('legend-overlay').style.display = 'flex';
 };
 document.getElementById('close-legend').onclick = function() {
-document.getElementById('legend-overlay').style.display = 'none';
+  document.getElementById('legend-overlay').style.display = 'none';
 };
 document.getElementById('switch-language-legend').onclick = function() {
   const iframe = document.getElementById('legend-iframe');
-  iframe.src = iframe.src.endsWith('../legend/cyclosm_legend.html')
-    ? '../legend/cyclosm_legend_en.html'
-    : '../legend/cyclosm_legend.html';
-};
-document.getElementById('legend-overlay').onclick = function(e) {
-if (e.target === this) this.style.display = 'none';
+  if (iframe.src.includes('/legend/bg/cyclosm_legend.html')) {
+    iframe.src = '/legend/en/cyclosm_legend.html';
+  } else {
+    iframe.src = '/legend/bg/cyclosm_legend.html';
+  }
 };
 
 function createStyledButton(label, icon, onClick) {

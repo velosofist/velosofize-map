@@ -175,6 +175,16 @@
         cursor: pointer;
       }
 
+      #container-left-center,
+      #container-right-center,
+      #container-right-upper {
+        z-index: 1000;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 8px;
+      }      
+
     </style>
   </head>
   <body>
@@ -208,7 +218,7 @@
       <button id="switch-language-legend" title="Език / Language">
         <span class="material-symbols-outlined" style="font-size: 16px;">letter_switch</span>
       </button>
-      <iframe id="legend-iframe" src="/legend/cyclosm_legend.html" style="
+      <iframe id="legend-iframe" src="/legend/bg/cyclosm_legend.html" style="
         width:100%; 
         height:100%; 
         border: none; 
@@ -268,28 +278,28 @@
       right: 10px;
       top: 50%;
       transform: translateY(-50%);
-      z-index: 1000;
-      display: flex;
-      flex-direction: column;
-      align-items: flex-end;
-      gap: 8px;
     ">
-
       <div id="overlay-toggle-secondary"></div>
+    </div>
 
-      <button id="legend-button" title="CyclOSM Legend">
-        <span class="material-symbols-outlined" style="
-        font-size: 28px;
-        color: rgba(0, 0, 0, 0.8);
-        ">help</span>
-      </button>
-
+    <div id ='container-right-upper'
+    style="
+      position: fixed;
+      right: 10px;
+      top: 10px;
+    ">
       <button id="fullscreen-button" title="Full screen">
         <span class="material-symbols-outlined" style="
           font-size: 28px;
           color: rgba(0, 0, 0, 0.8);
           ">fullscreen
         </span>
+      </button>
+      <button id="legend-button" title="CyclOSM Legend">
+        <span class="material-symbols-outlined" style="
+        font-size: 28px;
+        color: rgba(0, 0, 0, 0.8);
+        ">help</span>
       </button>
     </div>
 
@@ -299,11 +309,6 @@
       left: 10px;
       top: 50%;
       transform: translateY(-50%);
-      z-index: 1000;
-      display: flex;
-      flex-direction: column;
-      align-items: flex-end;
-      gap: 8px;
     ">
       <div id="overlay-toggle-external"></div>
     </div>
