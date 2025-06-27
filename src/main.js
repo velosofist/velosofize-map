@@ -70,10 +70,9 @@ window.addEventListener('DOMContentLoaded', () => {
             icon: L.icon({
               iconUrl: "/attachments/misc_icons/pin_my_location.svg",
               iconSize: [36, 36],
-              iconAnchor: [18, 36],
-              popupAnchor: [0, -36]
+              iconAnchor: [18, 36]
             })
-          }).addTo(map).bindPopup("Your location").openPopup();
+          }).addTo(map);
           map.setView([latitude, longitude], 16);
           locateBtn.disabled = false;
           locateBtn.style.opacity = 1;
