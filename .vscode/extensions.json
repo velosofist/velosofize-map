@@ -1,0 +1,9 @@
+{
+	"recommendations": [
+		// To preview geojson and kml files as a map 
+		"jumpinjackie.vscode-map-preview",
+		// For work with csv in text editor or table view
+		"janisdd.vscode-edit-csv",
+		"mechatroner.rainbow-csv"
+	]
+}

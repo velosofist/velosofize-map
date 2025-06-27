@@ -1,7 +1,7 @@
 {
     "primary": [
         {
-            "url": "/export_formats/velosofize_export_separated/velosofize_export_others.kml",
+            "url": "/export_formats/separated/velosofize_export_others.kml",
             "label": "",
             "icon": "",
             "disabled": false
@@ -9,21 +9,21 @@
     ],
     "secondary": [
         {
-            "url": "/export_formats/velosofize_export_separated/velosofize_export_bikelanes.kml",
+            "url": "/export_formats/separated/velosofize_export_bikelanes.kml",
             "label": "Велоалеи / Bike lanes",
             "icon": "bike_lane",
-            "disabled": false
-        },
-        {
-            "url": "/export_formats/misc_layers/transport.kml",
-            "label": "Транспорт / Transport",
-            "icon": "train",
             "disabled": false
         },
         {
             "url": "/export_formats/misc_layers/crossings.kml",
             "label": "Кръстовища / Crossings",
             "icon": "directions_walk",
+            "disabled": false
+        },
+        {
+            "url": "/export_formats/misc_layers/transport.kml",
+            "label": "Транспорт / Transport",
+            "icon": "train",
             "disabled": false
         },
         {
@@ -37,25 +37,31 @@
             "label": "Други / Others",
             "icon": "quiz",
             "disabled": false
-        },
-        {
-            "url": "/export_formats/chernapista_condensed/chernapista_condensed.kml",
-            "label": "ПТП с участие на велосипедисти от chernapista.com",
-            "icon": "warning",
-            "disabled": false
         }
     ],
     "external": [
         {
             "url": "/export_formats/external_sources/mtb-bg.kml",
             "label": "Маршрути от MTB-BG.com / Routes from MTB-BG.com",
-            "icon": "link",
+            "icon": "https://mtb-bg.com/wp-content/uploads/2020/04/cropped-favicon-mtb-1-32x32.png",
             "disabled": false
         },
         {
-            "url": "/export_formats/external_sources/ignore_4.kml",
-            "label": "Маршрути от Sofenhagen / Routes from Sofenhagen",
-            "icon": "link",
+            "url": "/export_formats/external_sources/alabak.kml",
+            "label": "Планински маршрути в местност Алабак / Mountain routes from Alabak.info",
+            "icon": "https://alabak.info/favicon.ico",
+            "disabled": false
+        },
+        {
+            "url": "/export_formats/external_sources/sofenhagen.kml",
+            "label": "Безопасни градски отсечки от Sofenhagen / Safe urban routes from Sofenhagen",
+            "icon": "https://www.sofenhagen.com/images/logo-sofen.png",
+            "disabled": false
+        },
+        {
+            "url": "/export_formats/chernapista_condensed/chernapista_condensed.kml",
+            "label": "ПТП с участие на велосипедисти от chernapista.com",
+            "icon": "car_crash",
             "disabled": false
         }
     ]

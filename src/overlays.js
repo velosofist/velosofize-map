@@ -1,4 +1,4 @@
-fetch('overlays.json')
+fetch('/src/overlays.json')
   .then(response => response.json())
   .then(data => {
     data.primary.forEach(layer => {
@@ -14,7 +14,7 @@ fetch('overlays.json')
     });
 });
 
-fetch('overlays.json')
+fetch('/src/overlays.json')
 .then(response => response.json())
 .then(data => {
     const externalOverlays = data.external;
@@ -22,57 +22,60 @@ fetch('overlays.json')
     const externalOverlayLayers = {};
 
     externalOverlays.forEach(({url, label, icon, disabled}) => {
-        const overlay = createStyledOverlay(url);
-        externalOverlayLayers[url] = overlay;
+    const overlay = createStyledOverlay(url);
+    externalOverlayLayers[url] = overlay;
 
-        if (!disabled) {
-            const btn = document.createElement('button');
-            btn.title = label;
+    if (!disabled) {
+        const btn = document.createElement('button');
+        btn.title = label;
+        btn.style.padding = '4px 4px';
+        btn.style.fontSize = '14px';
+        btn.style.cursor = 'pointer';
+        btn.style.border = "2px solid rgba(0, 0, 0, 0.4)";
+        btn.style.background = '#eee8d5';
+        btn.style.color = '#08103b';
+        btn.style.borderRadius = '50%';
+        btn.dataset.active = 'false';
+
+        if (typeof icon === 'string' && icon.startsWith('http')) {
+            if (icon.toLowerCase().endsWith('.svg')) {
+                // Fetch and embed the SVG
+                fetch(icon)
+                    .then(res => res.text())
+                    .then(svg => {
+                        btn.innerHTML = `<span style="display:inline-block;width:28px;height:28px;vertical-align:middle;">${svg}</span>`;
+                    })
+                    .catch(() => {
+                        btn.innerHTML = `<span style="font-size: 28px;">❓</span>`;
+                    });
+            } else if (icon.toLowerCase().endsWith('.png')) {
+                btn.innerHTML = `<img src="${icon}" alt="" style="width:28px;height:28px;vertical-align:middle;">`;
+            } else {
+                // Unknown image type, fallback
+                btn.innerHTML = `<img src="${icon}" alt="" style="width:28px;height:28px;vertical-align:middle;">`;
+            }
+        } else {
+            // Fallback to Material Symbols if not a URL
             btn.innerHTML = `<span class="material-symbols-outlined" style="font-size: 28px;">${icon}</span>`;
-            btn.style.margin = '0 4px';
-            btn.style.padding = '4px 4px';
-            btn.style.fontSize = '14px';
-            btn.style.cursor = 'pointer';
-            btn.style.border = "2px solid rgba(0, 0, 0, 0.4)";
-            btn.style.background = '#eee8d5';
-            btn.style.color = '#08103b';
-            btn.style.borderRadius = '50%';
-            btn.dataset.active = 'false';
-            
-            btn.onclick = function() {
-                if (btn.dataset.active === 'false') {
-                    overlay.addTo(map);
-                    btn.style.background = '#2aa19870';
-                    btn.style.color = '#fff';
-                    btn.dataset.active = 'true';
-                } else {
-                    map.removeLayer(overlay);
-                    btn.style.background = '#eee8d5';
-                    btn.style.color = '#08103b';
-                    btn.dataset.active = 'false';
-                }
-            };
-
-            externalToggleDiv.appendChild(btn);
         }
-    });
-    
-    // const base03 =    #002b36;
-    // const base02 =    #073642;
-    // const base01 =    #586e75;
-    // const base00 =    #657b83;
-    // const base0 =     #839496;
-    // const base1 =     #93a1a1;
-    // const base2 =     #eee8d5;
-    // const base3 =     #fdf6e3;
-    // const yellow =    #b58900;
-    // const orange =    #cb4b16;
-    // const red =       #dc322f;
-    // const magenta =   #d33682;
-    // const violet =    #6c71c4;
-    // const blue =      #268bd2;
-    // const cyan =      #2aa198;
-    // const green =     #859900;
+
+        btn.onclick = function() {
+            if (btn.dataset.active === 'false') {
+                overlay.addTo(map);
+                btn.style.background = '#86C68090';
+                btn.style.color = '#fff';
+                btn.dataset.active = 'true';
+            } else {
+                map.removeLayer(overlay);
+                btn.style.background = '#eee8d5';
+                btn.style.color = '#08103b';
+                btn.dataset.active = 'false';
+            }
+        };
+
+        externalToggleDiv.appendChild(btn);
+    }
+});
     
     const secondaryOverlays = data.secondary;
     const secondaryToggleDiv = document.getElementById('overlay-toggle-secondary');
@@ -86,7 +89,6 @@ fetch('overlays.json')
             const btn = document.createElement('button');
             btn.title = label;
             btn.innerHTML = `<span class="material-symbols-outlined" style="font-size: 28px;">${icon}</span>`;
-            btn.style.margin = '0 4px';
             btn.style.padding = '4px 4px';
             btn.style.fontSize = '14px';
             btn.style.cursor = 'pointer';
@@ -99,7 +101,7 @@ fetch('overlays.json')
             btn.onclick = function() {
                 if (btn.dataset.active === 'false') {
                     overlay.addTo(map);
-                    btn.style.background = '#2aa19870';
+                    btn.style.background = '#86C68090';
                     btn.style.color = '#fff';
                     btn.dataset.active = 'true';
                 } else {
@@ -114,8 +116,6 @@ fetch('overlays.json')
         }
     });
 });
-
-
 
 function styleFromStyleUrl(styleUrl, featureWeight) {
 const match = styleUrl?.match(/#line-([0-9A-Fa-f]{6})/);

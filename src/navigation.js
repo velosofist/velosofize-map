@@ -4,32 +4,44 @@ let line = null;
 let popup = null;
 
 function addLabeledMarker(latlng) {
-if (markers.length >= 2) return;
+  if (markers.length >= 2) return;
 
-const label = markers.length === 0 ? 'A' : 'B';
+  const label = markers.length === 0 ? 'A' : 'B';
 
-const marker = L.marker(latlng, {
-    draggable: true,
-    title: label,
-}).addTo(map);
+  const marker = L.marker(latlng, {
+      draggable: true,
+      title: label,
+      icon: L.icon({
+        iconUrl: "attachments/misc_icons/pin_navigation.svg",
+        iconSize: [36, 36],
+        iconAnchor: [18, 36],
+        popupAnchor: [0, -36]
+      })
+  }).addTo(map);
 
-marker.bindTooltip(label, { permanent: true, direction: 'top' }).openTooltip();
+  // Place the tooltip at the top right of the pin
+  marker.bindTooltip(label, {
+    permanent: true,
+    direction: 'right',
+    offset: [0, -32], // right and up from the pin
+    className: 'marker-label-tooltip'
+  }).openTooltip();
 
-// Remove marker on click
-marker.on('click', () => {
-    map.removeLayer(marker);
-    const index = markers.indexOf(marker);
-    if (index !== -1) {
-    markers.splice(index, 1);
-    updateLabels();
-    updateNavConnectingLine();
-    }
-});
+  // Remove marker on click
+  marker.on('click', () => {
+      map.removeLayer(marker);
+      const index = markers.indexOf(marker);
+      if (index !== -1) {
+        markers.splice(index, 1);
+        updateLabels();
+        updateNavConnectingLine();
+      }
+  });
 
-marker.on('drag', updateNavConnectingLine); // update line if marker moves
+  marker.on('drag', updateNavConnectingLine); // update line if marker moves
 
-markers.push(marker);
-updateNavConnectingLine();
+  markers.push(marker);
+  updateNavConnectingLine();
 }
 
 function updateLabels() {

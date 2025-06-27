@@ -4,7 +4,7 @@ zoom: 13,
 zoomControl: false
 });
 
-document.getElementById('legend-btn').onclick = function() {
+document.getElementById('legend-button').onclick = function() {
 document.getElementById('legend-overlay').style.display = 'flex';
 };
 document.getElementById('close-legend').onclick = function() {
@@ -12,20 +12,18 @@ document.getElementById('legend-overlay').style.display = 'none';
 };
 document.getElementById('switch-language-legend').onclick = function() {
   const iframe = document.getElementById('legend-iframe');
-  iframe.src = iframe.src.endsWith('/legend/cyclosm_legend.html')
-    ? '/legend/cyclosm_legend_en.html'
-    : '/legend/cyclosm_legend.html';
+  iframe.src = iframe.src.endsWith('../legend/cyclosm_legend.html')
+    ? '../legend/cyclosm_legend_en.html'
+    : '../legend/cyclosm_legend.html';
 };
 document.getElementById('legend-overlay').onclick = function(e) {
 if (e.target === this) this.style.display = 'none';
 };
 
-// Place custom zoom buttons inside your overlay-toggle-secondary div
 function createStyledButton(label, icon, onClick) {
   const btn = document.createElement('button');
   btn.title = label;
   btn.innerHTML = `<span class="material-symbols-outlined" style="font-size: 28px;">${icon}</span>`;
-  btn.style.margin = '0 4px';
   btn.style.padding = '4px 4px';
   btn.style.fontSize = '14px';
   btn.style.cursor = 'pointer';
@@ -38,15 +36,56 @@ function createStyledButton(label, icon, onClick) {
   return btn;
 }
 
+document.getElementById('fullscreen-button').onclick = function() {
+  const elem = document.documentElement; // or document.getElementById('map') for just the map
+  if (!document.fullscreenElement) {
+    elem.requestFullscreen().catch(err => {
+      alert(`Error attempting to enable full-screen mode: ${err.message}`);
+    });
+  } else {
+    document.exitFullscreen();
+  }
+};
+
 window.addEventListener('DOMContentLoaded', () => {
-  // Find the overlay-toggle-secondary div
+  // Find the overlay-zoom div
   const secondaryDiv = document.getElementById('overlay-zoom');
   if (secondaryDiv) {
-    // Create zoom in/out buttons
     const zoomInBtn = createStyledButton('Zoom in', 'add', () => map.zoomIn());
     const zoomOutBtn = createStyledButton('Zoom out', 'remove', () => map.zoomOut());
 
-    // Stack buttons vertically
+    // Location button
+    const locateBtn = createStyledButton('Show my location', 'my_location', () => {
+      if (!navigator.geolocation) {
+        alert('Geolocation is not supported by your browser.');
+        return;
+      }
+      locateBtn.disabled = true;
+      locateBtn.style.opacity = 0.6;
+      navigator.geolocation.getCurrentPosition(
+        (pos) => {
+          const { latitude, longitude } = pos.coords;
+          const userMarker = L.marker([latitude, longitude], {
+            title: "Your location",
+            icon: L.icon({
+              iconUrl: "/attachments/misc_icons/pin_my_location.svg",
+              iconSize: [36, 36],
+              iconAnchor: [18, 36],
+              popupAnchor: [0, -36]
+            })
+          }).addTo(map).bindPopup("Your location").openPopup();
+          map.setView([latitude, longitude], 16);
+          locateBtn.disabled = false;
+          locateBtn.style.opacity = 1;
+        },
+        (err) => {
+          alert('Unable to retrieve your location.');
+          locateBtn.disabled = false;
+          locateBtn.style.opacity = 1;
+        }
+      );
+    });
+
     const zoomBtnContainer = document.createElement('div');
     zoomBtnContainer.style.display = 'flex';
     zoomBtnContainer.style.flexDirection = 'column';
@@ -55,8 +94,8 @@ window.addEventListener('DOMContentLoaded', () => {
 
     zoomBtnContainer.appendChild(zoomInBtn);
     zoomBtnContainer.appendChild(zoomOutBtn);
+    zoomBtnContainer.appendChild(locateBtn);
 
-    // Add to the overlay-toggle-secondary div
     secondaryDiv.appendChild(zoomBtnContainer);
   }
 });
@@ -120,10 +159,9 @@ setTimeout(() => {
     setTimeout(() => {
     flashDiv.style.display = 'none';
     }, 500); // Hide after fade out
-}, 500); // Show for 0.7s before starting fade out
+}, 500); // Show for x ms before starting fade out
 }
 
-// Example: Call this in your setBaseLayer function
 function setBaseLayer(layerName) {
 if (layers[layerName] && currentBaseLayer !== layers[layerName]) {
     map.removeLayer(currentBaseLayer);

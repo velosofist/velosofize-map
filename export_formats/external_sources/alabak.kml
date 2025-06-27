@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Планински маршрути в местност Алабак</name>
+    <Style id="poly-4186F0-1200-77-normal">
+      <LineStyle>
+        <color>fff08641</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4df08641</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-4186F0-1200-77-highlight">
+      <LineStyle>
+        <color>fff08641</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4df08641</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-4186F0-1200-77">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-4186F0-1200-77-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-4186F0-1200-77-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Планински маршрути в местност Алабак</name>
+      <description><![CDATA[description: https://alabak.info<br>Source: Alabak.info]]></description>
+      <styleUrl>#poly-4186F0-1200-77</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>https://alabak.info</value>
+        </Data>
+        <Data name="Source">
+          <value>Alabak.info</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              24.017609,42.214484,0
+              23.9996489,42.2066486,0
+              23.9884051,42.1907524,0
+              23.9705523,42.1639741,0
+              23.9689807,42.1471558,0
+              23.9375485,42.1379882,0
+              23.9210549,42.1176222,0
+              23.8898106,42.0991692,0
+              23.8863844,42.0850441,0
+              23.8380092,42.0544678,0
+              23.8312028,42.0560255,0
+              23.8254264,42.0553205,0
+              23.8157619,42.0556943,0
+              23.8099083,42.0546567,0
+              23.8130464,42.0535623,0
+              23.8609843,42.0453879,0
+              23.854333,42.031418,0
+              23.8638071,42.0162256,0
+              23.943356,41.98529,0
+              23.9592428,41.9896747,0
+              23.982202,42.001774,0
+              23.9902983,42.0329318,0
+              24.0124593,42.0659821,0
+              24.003057,42.112081,0
+              24.0158518,42.1151045,0
+              24.0453177,42.0955251,0
+              24.060748,42.096077,0
+              24.075114,42.091997,0
+              24.0935946,42.1035116,0
+              24.1037548,42.1048011,0
+              24.119462,42.119158,0
+              24.132124,42.14752,0
+              24.139369,42.14929,0
+              24.1389677,42.153137,0
+              24.0937555,42.1785167,0
+              24.0818243,42.2003274,0
+              24.017609,42.214484,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>

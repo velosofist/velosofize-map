@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>Маршрути от други платформи</name>
+    <name>Планински маршрути от други платформи</name>
     <Style id="poly-F9A825-1200-76-normal">
       <LineStyle>
         <color>ff25a8f9</color>
@@ -35,7 +35,7 @@
       </Pair>
     </StyleMap>
     <Placemark>
-      <name>Маршрути около Севлиево от MTB-BG.com</name>
+      <name>Планински маршрути около Севлиево от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -254,7 +254,7 @@
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Благоевград от MTB-BG.com</name>
+      <name>Планински маршрути около Благоевград от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -364,7 +364,7 @@
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около София от MTB-BG.com</name>
+      <name>Планински маршрути около София от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -560,7 +560,7 @@
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Самоков и Говедарци от MTB-BG.com</name>
+      <name>Планински маршрути около Самоков и Говедарци от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -694,7 +694,7 @@ https://info.mtb-bg.com/говедарци</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Смолян и Пампорово от MTB-BG.com</name>
+      <name>Планински маршрути около Смолян и Пампорово от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -851,7 +851,7 @@ https://info.mtb-bg.com/говедарци</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Брезник от MTB-BG.com</name>
+      <name>Планински маршрути около Брезник от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -1004,7 +1004,7 @@ https://info.mtb-bg.com/говедарци</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Габрово от MTB-BG.com</name>
+      <name>Планински маршрути около Габрово от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -1136,7 +1136,7 @@ https://info.mtb-bg.com/говедарци</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Стара Загора от MTB-BG.com</name>
+      <name>Планински маршрути около Стара Загора от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -1318,7 +1318,7 @@ https://info.mtb-bg.com/говедарци</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Асеновград от MTB-BG.com</name>
+      <name>Планински маршрути около Асеновград от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -1457,7 +1457,7 @@ https://info.mtb-bg.com/говедарци</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Ямбол от MTB-BG.com</name>
+      <name>Планински маршрути около Ямбол от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -1610,7 +1610,7 @@ https://info.mtb-bg.com/говедарци</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Царево от MTB-BG.com</name>
+      <name>Планински маршрути около Царево от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -1746,7 +1746,7 @@ https://info.mtb-bg.com/говедарци</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Велинград от MTB-BG.com</name>
+      <name>Планински маршрути около Велинград от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -1832,7 +1832,7 @@ https://info.mtb-bg.com/говедарци</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Кюстендил от MTB-BG.com</name>
+      <name>Планински маршрути около Кюстендил от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -1945,7 +1945,7 @@ https://info.mtb-bg.com/говедарци</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Бобошево от MTB-BG.com</name>
+      <name>Планински маршрути около Бобошево от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -2014,7 +2014,7 @@ https://info.mtb-bg.com/говедарци</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Радомир от MTB-BG.com</name>
+      <name>Планински маршрути около Радомир от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -2145,7 +2145,7 @@ https://info.mtb-bg.com/говедарци</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Своге от MTB-BG.com</name>
+      <name>Планински маршрути около Своге от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -2301,7 +2301,7 @@ https://info.mtb-bg.com/говедарци</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Троян от MTB-BG.com</name>
+      <name>Планински маршрути около Троян от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -2422,7 +2422,7 @@ https://info.mtb-bg.com/говедарци</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Дупница от MTB-BG.com</name>
+      <name>Планински маршрути около Дупница от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -2518,7 +2518,7 @@ https://info.mtb-bg.com/говедарци</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Трявна от MTB-BG.com</name>
+      <name>Планински маршрути около Трявна от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -2622,7 +2622,7 @@ https://info.mtb-bg.com/говедарци</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Враца от MTB-BG.com</name>
+      <name>Планински маршрути около Враца от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -2798,7 +2798,7 @@ https://info.mtb-bg.com/говедарци</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Гоце Делчев от MTB-BG.com</name>
+      <name>Планински маршрути около Гоце Делчев от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -2872,7 +2872,7 @@ https://info.mtb-bg.com/говедарци</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Трън от MTB-BG.com</name>
+      <name>Планински маршрути около Трън от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -3016,7 +3016,7 @@ https://info.mtb-bg.com/говедарци</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Банско от MTB-BG.com</name>
+      <name>Планински маршрути около Банско от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -3090,7 +3090,7 @@ https://info.mtb-bg.com/говедарци</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Несебър от MTB-BG.com</name>
+      <name>Планински маршрути около Несебър от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -3193,7 +3193,7 @@ https://info.mtb-bg.com/говедарци</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Доспат от MTB-BG.com</name>
+      <name>Планински маршрути около Доспат от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -3262,7 +3262,7 @@ https://info.mtb-bg.com/говедарци</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Петрич от MTB-BG.com</name>
+      <name>Планински маршрути около Петрич от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -3363,7 +3363,7 @@ https://info.mtb-bg.com/говедарци</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Батак от MTB-BG.com</name>
+      <name>Планински маршрути около Батак от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -3472,7 +3472,7 @@ https://info.mtb-bg.com/говедарци</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Ябланица от MTB-BG.com</name>
+      <name>Планински маршрути около Ябланица от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -3548,7 +3548,7 @@ https://info.mtb-bg.com/говедарци</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Елена от MTB-BG.com</name>
+      <name>Планински маршрути около Елена от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -3686,7 +3686,7 @@ https://info.mtb-bg.com/говедарци</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Луковит от MTB-BG.com</name>
+      <name>Планински маршрути около Луковит от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -3790,7 +3790,7 @@ https://info.mtb-bg.com/говедарци</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Костинброд от MTB-BG.com</name>
+      <name>Планински маршрути около Костинброд от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -3866,7 +3866,7 @@ https://info.mtb-bg.com/говедарци</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Сандански и Голешово от MTB-BG.com</name>
+      <name>Планински маршрути около Сандански и Голешово от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -3979,7 +3979,7 @@ https://info.mtb-bg.com/голешово</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Ивайловград от MTB-BG.com</name>
+      <name>Планински маршрути около Ивайловград от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -4092,7 +4092,7 @@ https://info.mtb-bg.com/голешово</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Чипровци от MTB-BG.com</name>
+      <name>Планински маршрути около Чипровци от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -4169,7 +4169,7 @@ https://info.mtb-bg.com/голешово</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Белоградчик от MTB-BG.com</name>
+      <name>Планински маршрути около Белоградчик от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -4269,7 +4269,7 @@ https://info.mtb-bg.com/голешово</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Драгоман от MTB-BG.com</name>
+      <name>Планински маршрути около Драгоман от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -4388,7 +4388,7 @@ https://info.mtb-bg.com/голешово</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Сливен от MTB-BG.com</name>
+      <name>Планински маршрути около Сливен от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -4582,7 +4582,7 @@ https://info.mtb-bg.com/голешово</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Стрелча от MTB-BG.com</name>
+      <name>Планински маршрути около Стрелча от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -4658,7 +4658,7 @@ https://info.mtb-bg.com/голешово</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Елин Пелин и Габра от MTB-BG.com</name>
+      <name>Планински маршрути около Елин Пелин и Габра от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -4770,7 +4770,7 @@ https://info.mtb-bg.com/gabra</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Перник от MTB-BG.com</name>
+      <name>Планински маршрути около Перник от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -4902,7 +4902,7 @@ https://info.mtb-bg.com/gabra</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Чепеларе от MTB-BG.com</name>
+      <name>Планински маршрути около Чепеларе от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -5011,7 +5011,7 @@ https://info.mtb-bg.com/gabra</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Септември от MTB-BG.com</name>
+      <name>Планински маршрути около Септември от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -5090,7 +5090,7 @@ https://info.mtb-bg.com/gabra</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Годеч от MTB-BG.com</name>
+      <name>Планински маршрути около Годеч от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -5176,7 +5176,7 @@ https://info.mtb-bg.com/gabra</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Бургас от MTB-BG.com</name>
+      <name>Планински маршрути около Бургас от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -5347,7 +5347,7 @@ https://info.mtb-bg.com/gabra</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Брацигово от MTB-BG.com</name>
+      <name>Планински маршрути около Брацигово от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -5413,7 +5413,7 @@ https://info.mtb-bg.com/gabra</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Симитли от MTB-BG.com</name>
+      <name>Планински маршрути около Симитли от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -5511,7 +5511,7 @@ https://info.mtb-bg.com/gabra</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Кресна от MTB-BG.com</name>
+      <name>Планински маршрути около Кресна от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -5573,7 +5573,7 @@ https://info.mtb-bg.com/gabra</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Тетевен от MTB-BG.com</name>
+      <name>Планински маршрути около Тетевен от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -5685,7 +5685,7 @@ https://info.mtb-bg.com/gabra</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Варна от MTB-BG.com</name>
+      <name>Планински маршрути около Варна от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -5763,7 +5763,7 @@ https://info.mtb-bg.com/gabra</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Свиленград от MTB-BG.com</name>
+      <name>Планински маршрути около Свиленград от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -5876,7 +5876,7 @@ https://info.mtb-bg.com/gabra</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Струмяни от MTB-BG.com</name>
+      <name>Планински маршрути около Струмяни от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -5946,7 +5946,7 @@ https://info.mtb-bg.com/gabra</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Костенец от MTB-BG.com</name>
+      <name>Планински маршрути около Костенец от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -6044,7 +6044,7 @@ https://info.mtb-bg.com/gabra</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Божурище от MTB-BG.com</name>
+      <name>Планински маршрути около Божурище от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -6118,7 +6118,7 @@ https://info.mtb-bg.com/gabra</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Девня от MTB-BG.com</name>
+      <name>Планински маршрути около Девня от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -6171,7 +6171,7 @@ https://info.mtb-bg.com/gabra</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Пещера от MTB-BG.com</name>
+      <name>Планински маршрути около Пещера от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -6231,7 +6231,7 @@ https://info.mtb-bg.com/gabra</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Копривщица от MTB-BG.com</name>
+      <name>Планински маршрути около Копривщица от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -6284,7 +6284,7 @@ https://info.mtb-bg.com/gabra</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Сапарева баня от MTB-BG.com</name>
+      <name>Планински маршрути около Сапарева баня от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -6340,7 +6340,7 @@ https://info.mtb-bg.com/gabra</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Ботевград от MTB-BG.com</name>
+      <name>Планински маршрути около Ботевград от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -6438,7 +6438,7 @@ https://info.mtb-bg.com/gabra</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Рила от MTB-BG.com</name>
+      <name>Планински маршрути около Рила от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -6511,7 +6511,7 @@ https://info.mtb-bg.com/gabra</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Пловдив и Родопи от MTB-BG.com</name>
+      <name>Планински маршрути около Пловдив и Родопи от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -6621,7 +6621,7 @@ https://info.mtb-bg.com/gabra</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Якоруда от MTB-BG.com</name>
+      <name>Планински маршрути около Якоруда от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -6699,7 +6699,7 @@ https://info.mtb-bg.com/gabra</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Велико Търново от MTB-BG.com</name>
+      <name>Планински маршрути около Велико Търново от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -6915,7 +6915,7 @@ https://info.mtb-bg.com/gabra</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Белица от MTB-BG.com</name>
+      <name>Планински маршрути около Белица от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -7001,7 +7001,7 @@ https://info.mtb-bg.com/gabra</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Казанлък от MTB-BG.com</name>
+      <name>Планински маршрути около Казанлък от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -7118,7 +7118,7 @@ https://info.mtb-bg.com/gabra</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Златица от MTB-BG.com</name>
+      <name>Планински маршрути около Златица от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -7155,7 +7155,7 @@ https://info.mtb-bg.com/gabra</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Долни чифлик от MTB-BG.com</name>
+      <name>Планински маршрути около Долни чифлик от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -7293,7 +7293,7 @@ https://info.mtb-bg.com/gabra</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Хисаря от MTB-BG.com</name>
+      <name>Планински маршрути около Хисаря от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -7508,7 +7508,7 @@ https://info.mtb-bg.com/gabra</value>
       </MultiGeometry>
     </Placemark>
     <Placemark>
-      <name>Маршрути около Малко Търново от MTB-BG.com</name>
+      <name>Планински маршрути около Малко Търново от MTB-BG.com</name>
       <styleUrl>#poly-F9A825-1200-76</styleUrl>
       <ExtendedData>
         <Data name="description">
