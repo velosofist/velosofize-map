@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <title>Velosofize Map</title>
     <link rel="icon" href="/attachments/favicon_dark/favicon.ico" type="image/x-icon">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
@@ -21,15 +21,24 @@
         color: rgba(0, 0, 0, 0.8);
       }
 
-      body {
-        margin: 0; 
-        padding: 0; 
-        font-family: 
-        sans-serif; 
-        background: #eee8d5;
+      html, body {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;    /* Prevent scrolling */
+        position: fixed;     /* Prevent scrolling on iOS */
+        overscroll-behavior: none; /* Prevent pull-to-refresh on supported browsers */
+        touch-action: none;  /* Prevent double-tap zoom and scrolling */
       }
 
-      #map { width: 100vw; height: 100vh; position: absolute; top: 0; left: 0; }
+      #map {
+        position: fixed;
+        top: 0; left: 0; right: 0; bottom: 0;
+        width: 100vw;
+        height: 100vh;
+        touch-action: none;
+      }
       
       #project-header {
         position: fixed;

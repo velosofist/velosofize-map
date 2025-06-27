@@ -54,7 +54,7 @@ window.addEventListener('DOMContentLoaded', () => {
     const zoomInBtn = createStyledButton('Zoom in', 'add', () => map.zoomIn());
     const zoomOutBtn = createStyledButton('Zoom out', 'remove', () => map.zoomOut());
 
-    // Location button
+    let userLocationMarker = null;
     const locateBtn = createStyledButton('Show my location', 'my_location', () => {
       if (!navigator.geolocation) {
         alert('Geolocation is not supported by your browser.');
@@ -65,7 +65,11 @@ window.addEventListener('DOMContentLoaded', () => {
       navigator.geolocation.getCurrentPosition(
         (pos) => {
           const { latitude, longitude } = pos.coords;
-          const userMarker = L.marker([latitude, longitude], {
+          // Remove previous location marker if it exists
+          if (userLocationMarker) {
+            map.removeLayer(userLocationMarker);
+          }
+          userLocationMarker = L.marker([latitude, longitude], {
             title: "Your location",
             icon: L.icon({
               iconUrl: "/attachments/misc_icons/pin_my_location.svg",
@@ -112,23 +116,22 @@ esri: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Im
 };
 
 const layerOrder = [
-{ name: 'cyclosm', icon: '/attachments/tile_icons/tile_cyclosm.png', alt: 'CyclOSM' },
-{ name: 'osm',     icon: '/attachments/tile_icons/tile_osm.png',     alt: 'OpenStreetMap' },
-{ name: 'esri',    icon: '/attachments/tile_icons/tile_sat.png',     alt: 'Satellite' }
+  { name: 'cyclosm', icon: '/attachments/tile_icons/tile_cyclosm.png', alt: 'CyclOSM' },
+  { name: 'osm',     icon: '/attachments/tile_icons/tile_osm.png',     alt: 'OpenStreetMap' },
+  { name: 'esri',    icon: '/attachments/tile_icons/tile_sat.png',     alt: 'Satellite' }
 ];
 let currentLayerIdx = 0;
 
 function updateLayerIcon() {
-const { icon, alt } = layerOrder[currentLayerIdx];
-document.getElementById('layer-icon-img').src = icon;
-document.getElementById('layer-icon-img').alt = alt;
+  const { icon, alt } = layerOrder[currentLayerIdx];
+  document.getElementById('layer-icon-img').src = icon;
+  document.getElementById('layer-icon-img').alt = alt;
 }
 
 document.getElementById('layer-icon-btn').onclick = function() {
-// Cycle to next layer
-currentLayerIdx = (currentLayerIdx + 1) % layerOrder.length;
-setBaseLayer(layerOrder[currentLayerIdx].name);
-updateLayerIcon();
+  currentLayerIdx = (currentLayerIdx + 1) % layerOrder.length;
+  setBaseLayer(layerOrder[currentLayerIdx].name);
+  updateLayerIcon();
 };
 
 // Ensure icon matches current layer on load
@@ -139,33 +142,44 @@ layers.cyclosm.addTo(map);
 let currentBaseLayer = layers.cyclosm;
 
 const layerFlashNames = {
-cyclosm: "CyclOSM",
-osm: "OpenStreetMap",
-esri: "Satellite"
+  cyclosm: "CyclOSM",
+  osm: "OpenStreetMap",
+  esri: "Satellite"
 };
 
 function flashLayerName(layerKey) {
-const flashDiv = document.getElementById('layer-name-flash');
-flashDiv.textContent = layerFlashNames[layerKey] || '';
-flashDiv.style.display = 'block';
-flashDiv.style.opacity = '0.8';
+  const flashDiv = document.getElementById('layer-name-flash');
+  flashDiv.textContent = layerFlashNames[layerKey] || '';
+  flashDiv.style.display = 'block';
+  flashDiv.style.opacity = '0.8';
 
-// Force reflow to restart the transition if called rapidly
-void flashDiv.offsetWidth;
+  // Force reflow to restart the transition if called rapidly
+  void flashDiv.offsetWidth;
 
-setTimeout(() => {
-    flashDiv.style.opacity = '0';
-    setTimeout(() => {
-    flashDiv.style.display = 'none';
-    }, 500); // Hide after fade out
-}, 500); // Show for x ms before starting fade out
+  setTimeout(() => {
+      flashDiv.style.opacity = '0';
+      setTimeout(() => {
+      flashDiv.style.display = 'none';
+      }, 500); // Hide after fade out
+  }, 500); // Show for x ms before starting fade out
 }
 
 function setBaseLayer(layerName) {
-if (layers[layerName] && currentBaseLayer !== layers[layerName]) {
-    map.removeLayer(currentBaseLayer);
-    map.addLayer(layers[layerName]);
-    currentBaseLayer = layers[layerName];
-    flashLayerName(layerName);
+  if (layers[layerName] && currentBaseLayer !== layers[layerName]) {
+      map.removeLayer(currentBaseLayer);
+      map.addLayer(layers[layerName]);
+      currentBaseLayer = layers[layerName];
+      flashLayerName(layerName);
+  }
 }
-}
+
+window.addEventListener('resize', () => {
+  document.getElementById('map').style.height = window.innerHeight + 'px';
+  document.getElementById('map').style.width = window.innerWidth + 'px';
+  if (window.map && window.map.invalidateSize) {
+    window.map.invalidateSize();
+  }
+});
+
+document.getElementById('map').style.height = window.innerHeight + 'px';
+document.getElementById('map').style.width = window.innerWidth + 'px';
