@@ -1,3 +1,5 @@
+window.allCustomMarkers = window.allCustomMarkers || [];
+
 fetch('/src/overlays.json')
   .then(response => response.json())
   .then(data => {
@@ -135,51 +137,78 @@ if (match) {
 }
 
 function colorFromStyleUrl(styleUrl) {
-const match = styleUrl?.match(/#(?:icon-\d+-)?([0-9A-Fa-f]{6})/);
-return match ? `#${match[1]}` : "#CCCCCC";
+    const match = styleUrl?.match(/#(?:icon-\d+-)?([0-9A-Fa-f]{6})/);
+    return match ? `#${match[1]}` : "#CCCCCC";
 }
 
 function pointToLayer(feature, latlng) {
-const styleUrl = feature.properties?.styleUrl;
-const fillColor = colorFromStyleUrl(styleUrl);
+    const styleUrl = feature.properties?.styleUrl;
+    const fillColor = colorFromStyleUrl(styleUrl);
 
-// Extract the relevant style (ignoring everything after the second '-')
-const relevantStyle = styleUrl?.split('-')[1]?.split('-')[0];
+    // Extract the relevant style (ignoring everything after the second '-')
+    const relevantStyle = styleUrl?.split('-')[1]?.split('-')[0];
 
-// Mapping of relevant styles to Material Symbols icon names
-const iconMapping = {
-    '1589': 'fitness_center',
-    '1877': 'stairs_2',
-    '1833': 'directions_walk',
-    '1718': 'tram',
-    '1716': 'train',
-    '1703': 'water_bottle',
-    '959': 'car_crash',
-    '1532': 'directions_bus',
-    '1634': 'landscape',
-};
+    // Default to 'question_mark' if no match is found
+    const iconName = iconMapping[relevantStyle] || 'question_mark';
 
-// Default to 'question_mark' if no match is found
-const iconName = iconMapping[relevantStyle] || 'question_mark';
+    // Create a combined divIcon with both the circle and the Material Symbols icon
+    const iconSizePx = 24;
+    const combinedIconHtml = `
+        <div style="position: relative; width: 12px; height: 12px;">
+            <div style="
+                width: 22px; 
+                height: 22px; 
+                border-radius: 50%; 
+                background-color: ${fillColor}; 
+                opacity: 0.8; 
+                border: 1px 
+                solid white;
+            "></div>
+            <span class="material-symbols-outlined" style="position: absolute; top: 4px; left: 4px; font-size: 16px; color: #e6e5e1;">${iconName}</span>
+        </div>
+    `;
 
-// Create a combined divIcon with both the circle and the Material Symbols icon
-const combinedIconHtml = `
-    <div style="position: relative; width: 24px; height: 24px;">
-    <div style="width: 22px; height: 22px; border-radius: 50%; background-color: ${fillColor}; opacity: 0.8; border: 1px solid white;"></div>
-    <span class="material-symbols-outlined" style="position: absolute; top: 4px; left: 4px; font-size: 16px; color: #e6e5e1;">${iconName}</span>
-    </div>
-`;
+    const combinedDivIcon = L.divIcon({
+        className: 'custom-combined-icon',
+        html: combinedIconHtml,
+        iconSize: [iconSizePx, iconSizePx],
+        iconAnchor: [iconSizePx / 2, iconSizePx / 2]
+    });
 
-const iconSizePx = 24
-const combinedDivIcon = L.divIcon({
-    className: 'custom-combined-icon',
-    html: combinedIconHtml,
-    iconSize: [iconSizePx, iconSizePx], // Adjust size as needed
-    iconAnchor: [iconSizePx/2, iconSizePx/2] // Center the icon
-});
+    // Create a small colored dot icon for zoomed-out view
+    const smallDotIcon = `
+        <div style="position: relative; width: 12px; height: 12px;">
+            <div style="
+                width: 6px; 
+                height: 6px; 
+                border-radius: 50%; 
+                background-color: #000000; 
+                opacity: 0.8; 
+                border: 1px 
+                solid white;
+            "></div>
+        </div>
+    `;
 
-// Create a marker with the combined icon
-return L.marker(latlng, { icon: combinedDivIcon });
+    const smallDivDotIcon = L.divIcon({
+        className: 'custom-combined-icon',
+        html: smallDotIcon,
+        iconSize: [iconSizePx/2, iconSizePx/2],
+        iconAnchor: [iconSizePx / 4, iconSizePx / 4]
+    });
+
+    // Create a marker with the combined icon
+    const marker = L.marker(latlng, { icon: combinedDivIcon });
+
+    // Store both icons for zoom-based style switching
+    marker._originalIcon = combinedDivIcon;
+    marker._smallDotIcon = smallDivDotIcon;
+
+    // Add to global array for zoom-based style switching
+    window.allCustomMarkers = window.allCustomMarkers || [];
+    window.allCustomMarkers.push(marker);
+
+    return marker;
 }
 
 function createStyledOverlay(url) {

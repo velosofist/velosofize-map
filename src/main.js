@@ -1,7 +1,7 @@
 const map = L.map('map', {
-center: [42.685534, 23.319048],
-zoom: 13,
-zoomControl: false
+  center: [42.685534, 23.319048],
+  zoom: 13,
+  zoomControl: false
 });
 
 document.getElementById('legend-button').onclick = function() {
@@ -45,62 +45,6 @@ document.getElementById('fullscreen-button').onclick = function() {
     document.exitFullscreen();
   }
 };
-
-window.addEventListener('DOMContentLoaded', () => {
-  // Find the overlay-zoom div
-  const secondaryDiv = document.getElementById('overlay-zoom');
-  if (secondaryDiv) {
-    const zoomInBtn = createStyledButton('Zoom in', 'add', () => map.zoomIn());
-    const zoomOutBtn = createStyledButton('Zoom out', 'remove', () => map.zoomOut());
-
-    let userLocationMarker = null;
-    const locateBtn = createStyledButton('Show my location', 'my_location', () => {
-      if (!navigator.geolocation) {
-        alert('Geolocation is not supported by your browser.');
-        return;
-      }
-      locateBtn.disabled = true;
-      locateBtn.style.opacity = 0.6;
-      navigator.geolocation.getCurrentPosition(
-        (pos) => {
-          const { latitude, longitude } = pos.coords;
-          // Remove previous location marker if it exists
-          if (userLocationMarker) {
-            map.removeLayer(userLocationMarker);
-          }
-          userLocationMarker = L.marker([latitude, longitude], {
-            title: "Your location",
-            icon: L.icon({
-              iconUrl: "/attachments/misc_icons/pin_my_location.svg",
-              iconSize: [36, 36],
-              iconAnchor: [18, 36]
-            })
-          }).addTo(map);
-          map.setView([latitude, longitude], 16);
-          locateBtn.disabled = false;
-          locateBtn.style.opacity = 1;
-        },
-        (err) => {
-          alert('Unable to retrieve your location.');
-          locateBtn.disabled = false;
-          locateBtn.style.opacity = 1;
-        }
-      );
-    });
-
-    const zoomBtnContainer = document.createElement('div');
-    zoomBtnContainer.style.display = 'flex';
-    zoomBtnContainer.style.flexDirection = 'column';
-    zoomBtnContainer.style.alignItems = 'center';
-    zoomBtnContainer.style.gap = '8px';
-
-    zoomBtnContainer.appendChild(zoomInBtn);
-    zoomBtnContainer.appendChild(zoomOutBtn);
-    zoomBtnContainer.appendChild(locateBtn);
-
-    secondaryDiv.appendChild(zoomBtnContainer);
-  }
-});
 
 const layers = {
   cyclosm: L.tileLayer('https://{s}.tile-cyclosm.openstreetmap.fr/cyclosm/{z}/{x}/{y}.png', {

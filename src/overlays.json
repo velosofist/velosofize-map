@@ -41,7 +41,7 @@
     ],
     "external": [
         {
-            "url": "/export_formats/external_sources/mtb-bg.kml",
+            "url": "/export_formats/external_sources/mtb_bg.kml",
             "label": "Маршрути от MTB-BG.com / Routes from MTB-BG.com",
             "icon": "https://mtb-bg.com/wp-content/uploads/2020/04/cropped-favicon-mtb-1-32x32.png",
             "disabled": false
