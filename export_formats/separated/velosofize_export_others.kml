@@ -8083,7 +8083,7 @@
       <LineString>
         <tessellate>1</tessellate>
         <coordinates>
-          23.399108,42.655304,0
+          23.3991026,42.6552803,0
           23.396449,42.656511,0
           23.395128,42.657054,0
         </coordinates>
@@ -8480,14 +8480,14 @@
     </Placemark>
 <Placemark>
       <name>Line 265</name>
-      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
-      <styleUrl>#line-F4EB37-3519</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 5<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-A52714-4100</styleUrl>
       <ExtendedData>
         <Data name="Категория">
-          <value>Удобни</value>
+          <value/>
         </Data>
         <Data name="Категория #">
-          <value>3.0</value>
+          <value>5.0</value>
         </Data>
         <Data name="Град/район">
           <value>София</value>
@@ -8550,9 +8550,6 @@
           23.383949,42.657015,0
           23.384163,42.657049,0
           23.384732,42.657333,0
-          23.384732,42.657463,0
-          23.384604,42.657488,0
-          23.384546,42.657386,0
         </coordinates>
       </LineString>
     </Placemark>
@@ -8757,7 +8754,6 @@
           23.387262,42.654763,0
           23.385806,42.655765,0
           23.385911,42.655883,0
-          23.38407,42.657204,0
         </coordinates>
       </LineString>
     </Placemark>
@@ -9216,7 +9212,9 @@
           23.397576,42.65099,0
           23.397498,42.651183,0
           23.397659,42.65177,0
-          23.397654,42.65293,0
+          23.3977,42.6527655,0
+          23.3989642,42.6528142,0
+          23.398939,42.655184,0
         </coordinates>
       </LineString>
     </Placemark>
@@ -9409,7 +9407,7 @@
           23.406043,42.638623,0
           23.402267,42.637072,0
           23.400239,42.636749,0
-          23.397632,42.636978,0
+          23.3979807,42.6369504,0
         </coordinates>
       </LineString>
     </Placemark>
@@ -9647,12 +9645,6 @@
       <LineString>
         <tessellate>1</tessellate>
         <coordinates>
-          23.401195,42.644413,0
-          23.401081,42.64441,0
-          23.399647,42.64492,0
-          23.39942,42.645027,0
-          23.399239,42.645135,0
-          23.398548,42.645687,0
           23.39847,42.645823,0
           23.398184,42.645994,0
           23.396987,42.647041,0
@@ -11197,7 +11189,8 @@
       <LineString>
         <tessellate>1</tessellate>
         <coordinates>
-          23.372506,42.67216,0
+          23.3712525,42.6718418,0
+          23.3716027,42.6715082,0
           23.376213,42.67491,0
           23.375755,42.67487,0
           23.373998,42.673495,0
@@ -13252,42 +13245,6 @@
           23.4027669,42.6644608,0
           23.404184,42.666022,0
           23.402573,42.666834,0
-        </coordinates>
-      </LineString>
-    </Placemark>
-<Placemark>
-      <name>Line 67</name>
-      <description><![CDATA[Категория: Неизпробвани<br>Категория #: <br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
-      <styleUrl>#line-CCCCCC-3713</styleUrl>
-      <ExtendedData>
-        <Data name="Категория">
-          <value>Неизпробвани</value>
-        </Data>
-        <Data name="Категория #">
-          <value/>
-        </Data>
-        <Data name="Град/район">
-          <value>София</value>
-        </Data>
-        <Data name="name">
-          <value/>
-        </Data>
-        <Data name="description">
-          <value/>
-        </Data>
-        <Data name="Категория #">
-          <value/>
-        </Data>
-      </ExtendedData>
-      <LineString>
-        <tessellate>1</tessellate>
-        <coordinates>
-          23.397654,42.65293,0
-          23.397311,42.652985,0
-          23.397259,42.65517,0
-          23.398939,42.655184,0
-          23.399108,42.655304,0
-          23.399267,42.655495,0
         </coordinates>
       </LineString>
     </Placemark>
@@ -15760,6 +15717,74 @@
           23.3533334,42.6544245,0
           23.3533536,42.6540021,0
           23.3533098,42.6537204,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+<Placemark>
+      <name>Line 544</name>
+      <description><![CDATA[Категория: <br>Категория #: 5<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-A52714-4100</styleUrl>
+      <ExtendedData>
+        <Data name="Категория">
+          <value/>
+        </Data>
+        <Data name="Категория #">
+          <value>5.0</value>
+        </Data>
+        <Data name="Град/район">
+          <value>София</value>
+        </Data>
+        <Data name="name">
+          <value/>
+        </Data>
+        <Data name="description">
+          <value/>
+        </Data>
+        <Data name="Категория #">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          23.3840884,42.6571932,0
+          23.385911,42.655883,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+<Placemark>
+      <name/>
+      <description><![CDATA[Категория: <br>Категория #: 5<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-A52714-4100</styleUrl>
+      <ExtendedData>
+        <Data name="Категория">
+          <value/>
+        </Data>
+        <Data name="Категория #">
+          <value>5.0</value>
+        </Data>
+        <Data name="Град/район">
+          <value>София</value>
+        </Data>
+        <Data name="name">
+          <value/>
+        </Data>
+        <Data name="description">
+          <value/>
+        </Data>
+        <Data name="Категория #">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          23.401195,42.644413,0
+          23.401081,42.64441,0
+          23.399647,42.64492,0
+          23.399239,42.645135,0
+          23.398548,42.645687,0
+          23.39847,42.645823,0
         </coordinates>
       </LineString>
     </Placemark>

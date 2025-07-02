@@ -11,6 +11,13 @@ const map = L.map('map', {
   maxBoundsViscosity: 1.0      // prevent moving outside bounds
 });
 
+const initialMaplibreLayer = L.maplibreGL({
+  style: '/src/maplibre-bright-fork/style.json',
+  attribution: '&copy; OpenFreemap, Maplibre'
+}).addTo(map);
+
+let currentBaseLayer = initialMaplibreLayer;
+
 document.getElementById('legend-button').onclick = function() {
   document.getElementById('legend-overlay').style.display = 'flex';
 };
@@ -54,20 +61,21 @@ document.getElementById('fullscreen-button').onclick = function() {
 };
 
 const layers = {
-  cyclosm: L.tileLayer('https://{s}.tile-cyclosm.openstreetmap.fr/cyclosm/{z}/{x}/{y}.png', {
-      attribution: '&copy; CyclOSM, OpenStreetMap contributors'
+  osm: L.maplibreGL({
+    style: '/src/maplibre-bright-fork/style.json',
+    attribution: '&copy; OpenFreemap, Maplibre'
   }),
-  osm: L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: '&copy; OpenStreetMap contributors'
+  cyclosm: L.tileLayer('https://{s}.tile-cyclosm.openstreetmap.fr/cyclosm/{z}/{x}/{y}.png', {
+    attribution: '&copy; CyclOSM, OpenStreetMap contributors'
   }),
   esri: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-      attribution: '&copy; Esri, Earthstar Geographics'
+    attribution: '&copy; Esri, Earthstar Geographics'
   })
 };
 
 const layerOrder = [
-  { name: 'cyclosm', icon: '/attachments/tile_icons/tile_cyclosm.png', alt: 'CyclOSM' },
   { name: 'osm',     icon: '/attachments/tile_icons/tile_osm.png',     alt: 'OpenStreetMap' },
+  { name: 'cyclosm', icon: '/attachments/tile_icons/tile_cyclosm.png', alt: 'CyclOSM' },
   { name: 'esri',    icon: '/attachments/tile_icons/tile_sat.png',     alt: 'Satellite' }
 ];
 let currentLayerIdx = 0;
@@ -87,13 +95,9 @@ document.getElementById('layer-icon-btn').onclick = function() {
 // Ensure icon matches current layer on load
 updateLayerIcon();
 
-// Default base layer
-layers.cyclosm.addTo(map);
-let currentBaseLayer = layers.cyclosm;
-
 const layerFlashNames = {
+  osm: "MapLibre",
   cyclosm: "CyclOSM",
-  osm: "OpenStreetMap",
   esri: "Satellite"
 };
 
@@ -115,12 +119,18 @@ function flashLayerName(layerKey) {
 }
 
 function setBaseLayer(layerName) {
-  if (layers[layerName] && currentBaseLayer !== layers[layerName]) {
-      map.removeLayer(currentBaseLayer);
-      map.addLayer(layers[layerName]);
-      currentBaseLayer = layers[layerName];
-      flashLayerName(layerName);
+  // Remove MapLibre GL if it's still present
+  if (map.hasLayer(initialMaplibreLayer)) {
+    map.removeLayer(initialMaplibreLayer);
   }
+  // Remove current base layer if present and not MapLibre GL
+  if (currentBaseLayer && map.hasLayer(currentBaseLayer) && currentBaseLayer !== initialMaplibreLayer) {
+    map.removeLayer(currentBaseLayer);
+  }
+  // Add the new base layer
+  currentBaseLayer = layers[layerName];
+  currentBaseLayer.addTo(map);
+  flashLayerName(layerName);
 }
 
 window.addEventListener('resize', () => {
@@ -129,6 +139,49 @@ window.addEventListener('resize', () => {
   if (window.map && window.map.invalidateSize) {
     window.map.invalidateSize();
   }
+});
+
+let userLayer = null;
+
+document.getElementById('upload-layer-button').onclick = function() {
+  document.getElementById('upload-layer').click();
+};
+
+document.getElementById('upload-layer').addEventListener('change', function(event) {
+  const file = event.target.files[0];
+  if (!file) return;
+
+  // Remove previous user layer if present
+  if (userLayer) {
+    map.removeLayer(userLayer);
+    userLayer = null;
+  }
+
+  const reader = new FileReader();
+  reader.onload = function(e) {
+    try {
+      let ext = file.name.split('.').pop().toLowerCase();
+      if (ext === 'geojson' || ext === 'json') {
+        userLayer = omnivore.geojson.parse(e.target.result);
+      } else if (ext === 'gpx') {
+        userLayer = omnivore.gpx.parse(e.target.result);
+      } else if (ext === 'kml') {
+        userLayer = omnivore.kml.parse(e.target.result);
+      } else {
+        alert('Unsupported file type.');
+        return;
+      }
+      userLayer.addTo(map);
+      try {
+        map.fitBounds(userLayer.getBounds());
+      } catch (err) {
+        // If no bounds (empty file), do nothing
+      }
+    } catch (err) {
+      alert('Invalid file.');
+    }
+  };
+  reader.readAsText(file);
 });
 
 document.getElementById('map').style.height = window.innerHeight + 'px';

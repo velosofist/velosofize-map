@@ -1,6 +1,12 @@
 {
     "primary": [
         {
+            "url": "/export_formats/separated/velosofize_export_bikelanes.kml",
+            "label": "Велоалеи / Bike lanes",
+            "icon": "bike_lane",
+            "disabled": false
+        },
+        {
             "url": "/export_formats/separated/velosofize_export_others.kml",
             "label": "",
             "icon": "",
@@ -8,12 +14,6 @@
         }
     ],
     "secondary": [
-        {
-            "url": "/export_formats/separated/velosofize_export_bikelanes.kml",
-            "label": "Велоалеи / Bike lanes",
-            "icon": "bike_lane",
-            "disabled": false
-        },
         {
             "url": "/export_formats/misc_layers/crossings.kml",
             "label": "Кръстовища / Crossings",
@@ -48,7 +48,7 @@
         },
         {
             "url": "/export_formats/external_sources/openmtbmap.kml",
-            "label": "Маршрути от OpenMtbMap / Routes from OpenMtbMap",
+            "label": "Маршрути от MTB Map Europe / Routes from MTB Map Europe",
             "icon": "landscape",
             "disabled": false
         },

@@ -9,6 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="description" content="Маршрути и информация за велосипедисти в България.">
 
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-omnivore/leaflet-omnivore.min.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <!-- Maplibre GL -->
@@ -167,7 +169,8 @@
       }
 
       #legend-button,
-      #fullscreen-button {
+      #fullscreen-button,
+      #upload-layer-button {
         display: flex;
         flex-direction: column;
         gap: 4px;
@@ -249,9 +252,6 @@
       <span>VELOSOFIZE</span>
     </div>
 
-    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-    <script src="https://unpkg.com/leaflet-omnivore/leaflet-omnivore.min.js"></script>
-
     <div id="link-buttons">
       <a href="https://www.google.com/maps/d/u/0/edit?mid=13Ke06MOSLTuBBbr2ITKNV7kLhs_v2Qc&usp=sharing"
         target="_blank" title="Google Maps">
@@ -296,6 +296,14 @@
       right: 10px;
       top: 10px;
     ">
+      <input type="file" id="upload-layer" accept=".kml,.gpx,.geojson" style="display:none;">
+      <button id="upload-layer-button" title="Add custom layer">
+        <span class="material-symbols-outlined" style="
+        font-size: 28px;
+        color: rgba(0, 0, 0, 0.8);
+        ">upload_file</span>
+      </button>
+
       <button id="fullscreen-button" title="Full screen">
         <span class="material-symbols-outlined" style="
           font-size: 28px;
