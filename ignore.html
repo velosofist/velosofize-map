@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>MapLibre GL Leaflet Example</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Leaflet -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+  <!-- Maplibre GL -->
+  <link href="https://unpkg.com/maplibre-gl/dist/maplibre-gl.css" rel="stylesheet" />
+  <script src="https://unpkg.com/maplibre-gl/dist/maplibre-gl.js"></script>
+
+  <!-- Maplibre GL Leaflet  -->
+  <script src="https://unpkg.com/@maplibre/maplibre-gl-leaflet/leaflet-maplibre-gl.js"></script>
+
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    #map {
+      width: 100vw;
+      height: 100vh;
+      min-height: 500px;
+    }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  <script>
+    const map = L.map('map', {
+    center: [42.685534, 23.319048],
+    zoom: 13,
+    zoomControl: false
+    });
+    // Add OpenFreemap Liberty vector base
+    L.maplibreGL({
+    style: 'https://tiles.openfreemap.org/styles/dark',
+    }).addTo(map);
+
+    // Add CyclOSM as a semi-transparent overlay
+    const cyclosmOverlay = L.tileLayer('https://{s}.tile-cyclosm.openstreetmap.fr/cyclosm/{z}/{x}/{y}.png', {
+    attribution: '&copy; CyclOSM, OpenStreetMap contributors',
+    opacity: 0.6 // Adjust opacity as needed
+    }).addTo(map);
+  </script>
+</body>
+</html>

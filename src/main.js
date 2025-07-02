@@ -1,7 +1,14 @@
+const southWest = L.latLng(40.749972, 22.118564);
+const northEast = L.latLng(44.361463, 29.123858);
+const bounds = L.latLngBounds(southWest, northEast);
+
 const map = L.map('map', {
-  center: [42.685534, 23.319048],
+  center: [42.685534, 23.319048], //center on Sofia
   zoom: 13,
-  zoomControl: false
+  zoomControl: false,
+  minZoom: 9,
+  maxBounds: bounds,
+  maxBoundsViscosity: 1.0      // prevent moving outside bounds
 });
 
 document.getElementById('legend-button').onclick = function() {

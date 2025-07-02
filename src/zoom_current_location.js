@@ -27,7 +27,7 @@ window.addEventListener('DOMContentLoaded', () => {
 map.on('zoomend', function() {
     const zoom = map.getZoom();
     window.allCustomMarkers.forEach(marker => {
-        if (zoom <= 7) {
+        if (zoom <= 9) {
             // Show as small dot
             marker.setIcon(L.divIcon({
                 className: 'small-dot-marker',
