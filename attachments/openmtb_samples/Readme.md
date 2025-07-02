@@ -1,0 +1,2 @@
+These images are courtesy of Martin Tesař and MTB map Europe contributors.
+To avoid unnesseary load on "MTB map Europe" tile providers' servers (e.g. in case of only linking to mtbmap.cz), sample maps are hosted directly on this repository with the goal of leading any interested users of Velosofize to https://mtbmap.cz itself, as the links to the images in map.velosofize.com stay right beside a link to their website.

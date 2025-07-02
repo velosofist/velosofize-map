@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>mtbmap</name>
+    <name>Планински маршрути от MTB Map Europe</name>
     <Style id="poly-0288D1-1200-76-normal">
       <LineStyle>
         <color>ffd18802</color>
@@ -35,7 +35,7 @@
       </Pair>
     </StyleMap>
     <Placemark>
-      <name>Blagoevgrad</name>
+      <name>Планински маршрути около Благоевград от MTB Map Europe</name>
       <description>Карта / Map : https://mtbmap.cz/
 Извадка / Sample : https://map.velosofize.com/attachments/openmtb_samples/blagoevgrad.png</description>
       <styleUrl>#poly-0288D1-1200-76</styleUrl>
@@ -55,7 +55,7 @@
       </Polygon>
     </Placemark>
     <Placemark>
-      <name>Varna</name>
+      <name>Планински маршрути около Варна от MTB Map Europe</name>
       <description>Карта / Map : https://mtbmap.cz/
 Извадка / Sample : https://map.velosofize.com/attachments/openmtb_samples/varna.png</description>
       <styleUrl>#poly-0288D1-1200-76</styleUrl>
@@ -75,7 +75,7 @@
       </Polygon>
     </Placemark>
     <Placemark>
-      <name>Alabak</name>
+      <name>Планински маршрути в местност Алабак от MTB Map Europe</name>
       <description>Карта / Map : https://mtbmap.cz/
 Извадка / Sample : https://map.velosofize.com/attachments/openmtb_samples/alabak.png</description>
       <styleUrl>#poly-0288D1-1200-76</styleUrl>
@@ -95,7 +95,7 @@
       </Polygon>
     </Placemark>
     <Placemark>
-      <name>Vitosha</name>
+      <name>Планински маршрути във Витоша от MTB Map Europe</name>
       <description>Карта / Map : https://mtbmap.cz/
 Извадка / Sample : https://map.velosofize.com/attachments/openmtb_samples/vitosha.png</description>
       <styleUrl>#poly-0288D1-1200-76</styleUrl>
@@ -115,7 +115,7 @@
       </Polygon>
     </Placemark>
     <Placemark>
-      <name>Rila</name>
+      <name>Планински маршрути в Рила от MTB Map Europe</name>
       <description>Карта / Map : https://mtbmap.cz/
 Извадка / Sample : https://map.velosofize.com/attachments/openmtb_samples/rila.png</description>
       <styleUrl>#poly-0288D1-1200-76</styleUrl>
@@ -135,7 +135,7 @@
       </Polygon>
     </Placemark>
     <Placemark>
-      <name>Pirin</name>
+      <name>Планински маршрути в Пирин от MTB Map Europe</name>
       <description>Карта / Map : https://mtbmap.cz/
 Извадка / Sample : https://map.velosofize.com/attachments/openmtb_samples/pirin.png</description>
       <styleUrl>#poly-0288D1-1200-76</styleUrl>
@@ -155,7 +155,7 @@
       </Polygon>
     </Placemark>
     <Placemark>
-      <name>Novi Iskar</name>
+      <name>Планински маршрути около Нови Искър от MTB Map Europe</name>
       <description>Карта / Map : https://mtbmap.cz/
 Извадка / Sample : https://map.velosofize.com/attachments/openmtb_samples/novi-iskar.png</description>
       <styleUrl>#poly-0288D1-1200-76</styleUrl>
@@ -175,7 +175,7 @@
       </Polygon>
     </Placemark>
     <Placemark>
-      <name>Asenovgrad</name>
+      <name>Планински маршрути около Асеновград от MTB Map Europe</name>
       <description>Карта / Map : https://mtbmap.cz/
 Извадка / Sample : https://map.velosofize.com/attachments/openmtb_samples/asenovgrad.png</description>
       <styleUrl>#poly-0288D1-1200-76</styleUrl>
@@ -195,7 +195,7 @@
       </Polygon>
     </Placemark>
     <Placemark>
-      <name>Rodopi</name>
+      <name>Планински маршрути в Родопите от MTB Map Europe</name>
       <description>Карта / Map : https://mtbmap.cz/
 Извадка / Sample : https://map.velosofize.com/attachments/openmtb_samples/rodopi.png</description>
       <styleUrl>#poly-0288D1-1200-76</styleUrl>
