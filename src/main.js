@@ -184,5 +184,23 @@ document.getElementById('upload-layer').addEventListener('change', function(even
   reader.readAsText(file);
 });
 
+document.addEventListener('DOMContentLoaded', function() {
+  const projectHeader = document.getElementById('project-header');
+  const linkButtons = document.getElementById('link-buttons');
+
+  projectHeader.onclick = function(e) {
+    // Only toggle if not clicking a link inside the dropdown
+    if (e.target.closest('#link-buttons')) return;
+    linkButtons.style.display = (linkButtons.style.display === 'flex') ? 'none' : 'flex';
+  };
+
+  // Optional: Hide dropdown when clicking outside
+  document.addEventListener('click', function(e) {
+    if (!projectHeader.contains(e.target)) {
+      linkButtons.style.display = 'none';
+    }
+  });
+});
+
 document.getElementById('map').style.height = window.innerHeight + 'px';
 document.getElementById('map').style.width = window.innerWidth + 'px';

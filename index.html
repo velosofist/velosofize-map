@@ -12,13 +12,12 @@
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script src="https://unpkg.com/leaflet-omnivore/leaflet-omnivore.min.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <!-- Maplibre GL -->
+    
     <link href="https://unpkg.com/maplibre-gl/dist/maplibre-gl.css" rel="stylesheet" />
     <script src="https://unpkg.com/maplibre-gl/dist/maplibre-gl.js"></script>
-
-    <!-- Maplibre GL Leaflet  -->
     <script src="https://unpkg.com/@maplibre/maplibre-gl-leaflet/leaflet-maplibre-gl.js"></script>
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     
     <style>
       .material-symbols-outlined {
@@ -48,10 +47,9 @@
         width: 100%;
         margin: 0;
         padding: 0;
-        overflow: hidden;    /* Prevent scrolling */
-        position: fixed;     /* Prevent scrolling on iOS */
-        overscroll-behavior: none; /* Prevent pull-to-refresh on supported browsers */
-        touch-action: none;  /* Prevent double-tap zoom and scrolling */
+        overflow: hidden;
+        overscroll-behavior: none;
+        touch-action: none;
       }
 
       #map {
@@ -61,7 +59,7 @@
         height: 100vh;
         touch-action: none;
       }
-      
+
       #project-header {
         position: fixed;
         top: 10px;
@@ -78,8 +76,26 @@
         font-family: sans-serif;
         height: 32px;
         border-radius: 32px;
+        width: fit-content;
       }
-      
+
+      #velosofize-title {
+        position: relative;
+        z-index: 1;
+      }
+
+      #velosofize-arrow {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 100%;
+        margin-top: 0px;
+        font-size: 24px;
+        color: rgba(0,0,0,0.8);
+        line-height: 1;
+        pointer-events: none;
+      }
+
       #project-header img {
         width: 24px;
         height: 24px;
@@ -111,13 +127,32 @@
         bottom: 24px;
         z-index: 2000;
       }
-      #link-buttons {
+      /* #link-buttons {
         position: fixed;
         top: 10px;
         left: 10px;
         z-index: 1000;
+      }*/
+
+      #link-buttons {
+        display: none;
+        position: absolute;
+        top: 110%;
+        left: 50%;
+        transform: translateX(-50%);
+        flex-direction: row;
+        background: #fdf6e3;
+        border: 2px solid #eee8d5;
+        border-radius: 12px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        z-index: 2001;
+        min-width: 180px;
+        padding: 4px 4px;
+        gap: 8px;
+        border-radius: 32px;
+        width: fit-content;
       }
-      
+
       #link-buttons a {
         display: flex;
         align-items: center;
@@ -136,12 +171,10 @@
         height: 26px;
       }
 
-      /* #overlay-toggle-secondary button:hover,
-      #overlay-toggle-external button:hover {
       #link-buttons a:hover {
         transform: scale(1.1);
         transition: transform 0.15s;
-      } */
+      }
 
       #switch-language-legend,
       #close-legend{
@@ -249,36 +282,38 @@
       <img
         src="/attachments/favicon_light/favicon-32x32.png"
         alt="Velosofize Icon">
-      <span>VELOSOFIZE</span>
+      <span id="velosofize-title" style="line-height: 1;">VELOSOFIZE</span>
+      <span id="velosofize-arrow" class="material-symbols-outlined">arrow_drop_down</span>
+      <div id="link-buttons">
+        <a href="https://www.google.com/maps/d/u/0/edit?mid=13Ke06MOSLTuBBbr2ITKNV7kLhs_v2Qc&usp=sharing"
+          target="_blank" title="Google Maps">
+          <img
+            src="https://www.gstatic.com/marketing-cms/assets/images/48/6b/6a951c294a47991a8229779b508e/maps.webp=s108-fcrop64=1,00000000ffffffff-rw"
+            alt="Google Maps">
+        </a>
+        <a href="https://earth.google.com/web/@42.68536362,23.34252187,551.21893103a,13559.28278408d,35y,-0h,0t,0r/data=CgRCAggBMigKJgokCiAxM0tlMDZNT1NMVHVCQmJyMklUS05WN2tMaHNfdjJRYyACOgMKATBCAggASggI3rfSkgMQAQ"
+          target="_blank" title="Google Earth">
+          <img
+            src="https://www.gstatic.com/marketing-cms/assets/images/32/80/489eca5d4dfab22aa3901c6c882a/g-earth.webp=s108-fcrop64=1,00000000ffffffff-rw"
+            alt="Google Earth">
+        </a>
+        <a href="https://github.com/velosofist/velosofize-map/tree/main/export_formats"
+          target="_blank" title="GitHub export options">
+          <img
+            src="/attachments/github-mark/github-mark.png"
+            alt="GitHub">
+        </a>
+        <a href="https://docs.velosofize.com"
+          target="_blank" title="Written materials">
+          <img
+            src="/attachments/misc_icons/docs_icon_dark.png"
+            alt="Written materials">
+        </a>
+  
+      </div>
+
     </div>
 
-    <div id="link-buttons">
-      <a href="https://www.google.com/maps/d/u/0/edit?mid=13Ke06MOSLTuBBbr2ITKNV7kLhs_v2Qc&usp=sharing"
-        target="_blank" title="Google Maps">
-        <img
-          src="https://www.gstatic.com/marketing-cms/assets/images/48/6b/6a951c294a47991a8229779b508e/maps.webp=s108-fcrop64=1,00000000ffffffff-rw"
-          alt="Google Maps">
-      </a>
-      <a href="https://earth.google.com/web/@42.68536362,23.34252187,551.21893103a,13559.28278408d,35y,-0h,0t,0r/data=CgRCAggBMigKJgokCiAxM0tlMDZNT1NMVHVCQmJyMklUS05WN2tMaHNfdjJRYyACOgMKATBCAggASggI3rfSkgMQAQ"
-        target="_blank" title="Google Earth">
-        <img
-          src="https://www.gstatic.com/marketing-cms/assets/images/32/80/489eca5d4dfab22aa3901c6c882a/g-earth.webp=s108-fcrop64=1,00000000ffffffff-rw"
-          alt="Google Earth">
-      </a>
-      <a href="https://github.com/velosofist/velosofize-map/tree/main/export_formats"
-        target="_blank" title="GitHub export options">
-        <img
-          src="/attachments/github-mark/github-mark.png"
-          alt="GitHub">
-      </a>
-      <a href="https://docs.velosofize.com"
-        target="_blank" title="Written materials">
-        <img
-          src="/attachments/misc_icons/docs_icon_dark.png"
-          alt="Written materials">
-      </a>
-
-    </div>
 
     <div id ='container-right-center'
     style="

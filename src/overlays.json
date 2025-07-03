@@ -9,17 +9,17 @@
         {
             "url": "/export_formats/separated/velosofize_export_others.kml",
             "label": "",
-            "icon": "",
+            "icon": "directions_bike",
             "disabled": false
-        }
-    ],
-    "secondary": [
+        },
         {
             "url": "/export_formats/misc_layers/crossings.kml",
             "label": "Кръстовища / Crossings",
             "icon": "directions_walk",
             "disabled": false
-        },
+        }
+    ],
+    "secondary": [
         {
             "url": "/export_formats/misc_layers/transport.kml",
             "label": "Транспорт / Transport",

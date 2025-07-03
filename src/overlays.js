@@ -1,24 +1,54 @@
 window.allCustomMarkers = window.allCustomMarkers || [];
 
 fetch('/src/overlays.json')
-  .then(response => response.json())
-  .then(data => {
-    data.primary.forEach(layer => {
-    if (layer.disabled === false) {
-        // Add normally
-        createStyledOverlay(layer.url).addTo(map);
-    } else if (layer.disabled === "conditional") {
-        // Add your custom logic here
-        if (currentBaseLayer=='cyclosm') {
-        createStyledOverlay(layer.url).addTo(map);
-        }
-    }
-    });
-});
-
-fetch('/src/overlays.json')
 .then(response => response.json())
 .then(data => {
+    const allOverlays = [
+        ...data.primary.map(layer => ({...layer, isPrimary: true})),
+        ...data.secondary.map(layer => ({...layer, isPrimary: false}))
+    ];
+    const overlayToggleDiv = document.getElementById('overlay-toggle-secondary');
+    const overlayLayers = {};
+
+    allOverlays.forEach(({url, label, icon, disabled, isPrimary}) => {
+        const overlay = createStyledOverlay(url);
+        overlayLayers[url] = overlay;
+
+        if (!disabled) {
+            const btn = document.createElement('button');
+            btn.title = label;
+            btn.innerHTML = `<span class="material-symbols-outlined" style="font-size: 28px;">${icon}</span>`;
+            btn.style.padding = '4px 4px';
+            btn.style.fontSize = '14px';
+            btn.style.cursor = 'pointer';
+            btn.style.border = "2px solid rgba(0, 0, 0, 0.4)";
+            btn.style.background = isPrimary ? '#86C68090' : '#eee8d5';
+            btn.style.color = isPrimary ? '#fff' : 'rgba(0, 0, 0, 0.8)';
+            btn.style.borderRadius = '50%';
+            btn.dataset.active = isPrimary ? 'true' : 'false';
+
+            if (isPrimary) {
+                overlay.addTo(map); // Add primary overlays by default
+            }
+
+            btn.onclick = function() {
+                if (btn.dataset.active === 'false') {
+                    overlay.addTo(map);
+                    btn.style.background = '#86C68090';
+                    btn.style.color = '#fff';
+                    btn.dataset.active = 'true';
+                } else {
+                    map.removeLayer(overlay);
+                    btn.style.background = '#eee8d5';
+                    btn.style.color = '#08103b';
+                    btn.dataset.active = 'false';
+                }
+            };
+
+            overlayToggleDiv.appendChild(btn);
+        }
+    });
+
     const externalOverlays = data.external;
     const externalToggleDiv = document.getElementById('overlay-toggle-external');
     const externalOverlayLayers = {};
@@ -77,45 +107,6 @@ fetch('/src/overlays.json')
 
         externalToggleDiv.appendChild(btn);
     }
-});
-    
-    const secondaryOverlays = data.secondary;
-    const secondaryToggleDiv = document.getElementById('overlay-toggle-secondary');
-    const secondaryOverlayLayers = {};
-    
-    secondaryOverlays.forEach(({url, label, icon, disabled}) => {
-        const overlay = createStyledOverlay(url);
-        secondaryOverlayLayers[url] = overlay;
-        
-        if (!disabled) {
-            const btn = document.createElement('button');
-            btn.title = label;
-            btn.innerHTML = `<span class="material-symbols-outlined" style="font-size: 28px;">${icon}</span>`;
-            btn.style.padding = '4px 4px';
-            btn.style.fontSize = '14px';
-            btn.style.cursor = 'pointer';
-            btn.style.border = "2px solid rgba(0, 0, 0, 0.4)";
-            btn.style.background = '#eee8d5';
-            btn.style.color = 'rgba(0, 0, 0, 0.8)';
-            btn.style.borderRadius = '50%';
-            btn.dataset.active = 'false';
-
-            btn.onclick = function() {
-                if (btn.dataset.active === 'false') {
-                    overlay.addTo(map);
-                    btn.style.background = '#86C68090';
-                    btn.style.color = '#fff';
-                    btn.dataset.active = 'true';
-                } else {
-                    map.removeLayer(overlay);
-                    btn.style.background = '#eee8d5';
-                    btn.style.color = '#08103b';
-                    btn.dataset.active = 'false';
-                }
-            };
-
-            secondaryToggleDiv.appendChild(btn);
-        }
     });
 });
 
