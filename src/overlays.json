@@ -36,7 +36,7 @@
             "url": "/export_formats/misc_layers/others.kml",
             "label": "Други / Others",
             "icon": "quiz",
-            "disabled": false
+            "disabled": true
         }
     ],
     "external": [
@@ -61,7 +61,7 @@
         {
             "url": "/export_formats/external_sources/sofenhagen.kml",
             "label": "Безопасни градски отсечки от Sofenhagen / Safe urban routes from Sofenhagen",
-            "icon": "https://www.sofenhagen.com/images/logo-sofen.png",
+            "icon": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://sofenhagen.com",
             "disabled": false
         },
         {
