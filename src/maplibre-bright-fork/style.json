@@ -1726,7 +1726,6 @@
         [
           "in",
           "subclass",
-          "bicycle",
           "hospital",
           "pharmacy"
         ]
@@ -1759,6 +1758,7 @@
         [
           "in",
           "subclass",
+          "bicycle",
           "toilets",
           "drinking_water"
         ]
