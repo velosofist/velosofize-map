@@ -14,7 +14,7 @@
       "url": "https://tiles.openfreemap.org/planet"
     }
   },
-  "sprite": "https://maputnik.github.io/osm-liberty/sprites/osm-liberty",
+  "sprite": "https://tiles.openfreemap.org/sprites/ofm_f384/ofm",
   "glyphs": "https://tiles.openfreemap.org/fonts/{fontstack}/{range}.pbf",
   "layers": [
     {
@@ -1718,83 +1718,61 @@
       "minzoom": 12,
       "filter": [
         "all",
-        ["==", "$type", "Point"],
-        ["in", "subclass", "bicycle", "bicycle_rental", "drinking_water", "shelter", "toilets"]
+        [
+          "==",
+          "$type",
+          "Point"
+        ],
+        [
+          "in",
+          "subclass",
+          "bicycle",
+          "hospital",
+          "pharmacy"
+        ]
       ],
       "layout": {
-        "icon-image": ["get", "subclass"],
+        "icon-image": [
+          "get",
+          "subclass"
+        ],
         "icon-size": 1,
         "icon-allow-overlap": true
+      },
+      "paint": {
+        "icon-opacity": 0.5
       }
     },
     {
-      "id": "poi-pharmacy",
-      "type": "symbol",
-      "source": "openmaptiles",
-      "source-layer": "poi",        
-      "filter": ["==", "class", "pharmacy"],
-      "layout": {
-        "symbol-avoid-edges": false,
-        "text-allow-overlap": false,
-        "text-field": "",
-        "text-font": [
-          "Noto Sans Regular"
-        ],
-        "text-ignore-placement": false,
-        "text-line-height": -0.15,
-        "text-padding": 3,
-        "text-size": {
-          "stops": [
-            [
-              51,
-              27
-            ],
-            [
-              66,
-              33
-            ]
-          ]
-        }
-      }                        
-    },
-    {
-      "id": "hospitals",
+      "id": "amenities_important",
       "type": "symbol",
       "source": "openmaptiles",
       "source-layer": "poi",
+      "minzoom": 12,
       "filter": [
-        "==",
-        "class",
-        "hospital"
+        "all",
+        [
+          "==",
+          "$type",
+          "Point"
+        ],
+        [
+          "in",
+          "subclass",
+          "toilets",
+          "drinking_water"
+        ]
       ],
       "layout": {
-        "symbol-avoid-edges": false,
-        "text-allow-overlap": false,
-        "text-field": "+",
-        "text-font": [
-          "Noto Sans Bold"
+        "icon-image": [
+          "get",
+          "subclass"
         ],
-        "text-ignore-placement": false,
-        "text-line-height": -0.15,
-        "text-padding": 3,
-        "text-size": {
-          "stops": [
-            [
-              51,
-              27
-            ],
-            [
-              66,
-              33
-            ]
-          ]
-        }
+        "icon-size": 1,
+        "icon-allow-overlap": true
       },
-        "paint": {
-        "text-color": "rgba(224, 45, 45, 1)",
-        "text-halo-blur": 0,
-        "text-halo-color": "rgba(255, 255, 255, 0.75)",
-        "text-halo-width": 3
+      "paint": {
+        "icon-opacity": 1
       }
     }
   ],
