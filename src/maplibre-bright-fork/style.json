@@ -1650,10 +1650,10 @@
       ],
       "layout": {},
       "paint": {
-        "circle-radius": 6,
-        "circle-color": "rgba(0, 0, 0, 0)",
-        "circle-stroke-color": "black",
-        "circle-stroke-width": 2
+        "circle-radius": 8,
+        "circle-color": "rgba(31, 184, 51, 0.7)",
+        "circle-stroke-color": "white",
+        "circle-stroke-width": 1
       }
     },
     {
