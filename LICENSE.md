@@ -4,7 +4,7 @@ You may fork or use parts of this project for personal use only.
 
 When it comes to the contents of [this repository](https://github.com/velosofist/velosofize-map): Commercial use, redistribution, or hosting copies under a different name or domain is **not permitted** without prior, explicit permission. Contact: : <velosofize@gmail.com>
 
-Other repositories related to this project may have different terms of use, such as [github.com/velosofist/velosofize](https://github.com/velosofist/velosofize-map), which will be available under the much more permissive MIT License.
+Other repositories related to this project may have different terms of use.
 
 © 2025 Alexandar Dimitrov. All rights reserved.
 
@@ -14,7 +14,7 @@ Other repositories related to this project may have different terms of use, such
 
 Що се отнася до [това repository](https://github.com/velosofist/velosofize-map): Комерсиалната употреба, разпространението и хостинга под други имена и домейни **не е** позволено без изрично съгласие от създателя на проекта. За контакт: <velosofize@gmail.com>
 
-Други части от този проект (repositories) може да са публикувани под други условия и лицензи, като например [github.com/velosofist/velosofize](https://github.com/velosofist/velosofize-map), който е дотъпен под много по-малко стриктния МИТ Лиценз (MIT License).
+Други части от този проект (repositories) може да са публикувани под други условия и лицензи.
 
 ## Leaflet.js:
 
