@@ -12,14 +12,14 @@
             "icon": "directions_bike",
             "disabled": false
         },
-        {
-            "url": "/export_formats/misc_layers/crossings.kml",
-            "label": "Кръстовища / Crossings",
-            "icon": "directions_walk",
-            "disabled": false
-        }
     ],
     "secondary": [
+        {
+            "url": "/export_formats/misc_layers/crossings.kml",
+            "label": "Пресичания / Crossings",
+            "icon": "directions_walk",
+            "disabled": false
+        },
         {
             "url": "/export_formats/misc_layers/transport.kml",
             "label": "Транспорт / Transport",
