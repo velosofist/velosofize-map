@@ -12,7 +12,7 @@ const map = L.map('map', {
 });
 
 const initialMaplibreLayer = L.maplibreGL({
-  style: '/src/maplibre-bright-fork/style.json',
+  style: '/src/styles/maplibre-bright-fork/style.json',
   attribution: '&copy; OpenFreemap, Maplibre'
 }).addTo(map);
 
@@ -60,24 +60,27 @@ document.getElementById('fullscreen-button').onclick = function() {
   }
 };
 
-const layers = {
-  osm: L.maplibreGL({
-    style: '/src/maplibre-bright-fork/style.json',
-    attribution: '&copy; OpenFreemap, Maplibre'
-  }),
-  cyclosm: L.tileLayer('https://{s}.tile-cyclosm.openstreetmap.fr/cyclosm/{z}/{x}/{y}.png', {
-    attribution: '&copy; CyclOSM, OpenStreetMap contributors'
-  }),
-  esri: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-    attribution: '&copy; Esri, Earthstar Geographics'
-  })
-};
-
 const layerOrder = [
-  { name: 'osm',     icon: '/attachments/tile_icons/tile_osm.png',     alt: 'OpenStreetMap' },
-  { name: 'cyclosm', icon: '/attachments/tile_icons/tile_cyclosm.png', alt: 'CyclOSM' },
-  { name: 'esri',    icon: '/attachments/tile_icons/tile_sat.png',     alt: 'Satellite' }
+  {
+    name: 'libre',
+    icon: '/attachments/tile_icons/tile_osm.png',
+    alt: 'Maplibre',
+    source: L.maplibreGL('/src/styles/maplibre-bright-fork/style.json'),
+  },
+  {
+    name: 'cyclosm',
+    icon: '/attachments/tile_icons/tile_cyclosm.png',
+    alt: 'CyclOSM',
+    source: L.maplibreGL('/src/styles/cyclosm/style.json'),
+  },
+  { 
+    name: 'satellite',
+    icon: '/attachments/tile_icons/tile_sat.png',
+    alt: 'Satellite',
+    source: L.maplibreGL('/src/styles/satellite/style.json'),
+  }
 ];
+
 let currentLayerIdx = 0;
 
 function updateLayerIcon() {
@@ -95,15 +98,13 @@ document.getElementById('layer-icon-btn').onclick = function() {
 // Ensure icon matches current layer on load
 updateLayerIcon();
 
-const layerFlashNames = {
-  osm: "MapLibre",
-  cyclosm: "CyclOSM",
-  esri: "Satellite"
-};
-
 function flashLayerName(layerKey) {
   const flashDiv = document.getElementById('layer-name-flash');
-  flashDiv.textContent = layerFlashNames[layerKey] || '';
+
+  const layer = layerOrder.find(l => l.name === layerKey);
+
+  // Use the 'alt' property as the display name
+  flashDiv.textContent = layer ? layer.alt : '';
   flashDiv.style.display = 'block';
   flashDiv.style.opacity = '0.8';
 
@@ -111,12 +112,13 @@ function flashLayerName(layerKey) {
   void flashDiv.offsetWidth;
 
   setTimeout(() => {
-      flashDiv.style.opacity = '0';
-      setTimeout(() => {
+    flashDiv.style.opacity = '0';
+    setTimeout(() => {
       flashDiv.style.display = 'none';
-      }, 500); // Hide after fade out
+    }, 500); // Hide after fade out
   }, 500); // Show for x ms before starting fade out
 }
+
 
 function setBaseLayer(layerName) {
   // Remove MapLibre GL if it's still present
@@ -128,7 +130,7 @@ function setBaseLayer(layerName) {
     map.removeLayer(currentBaseLayer);
   }
   // Add the new base layer
-  currentBaseLayer = layers[layerName];
+  currentBaseLayer = layerOrder.find(layer => layer.name === layerName)?.source;
   currentBaseLayer.addTo(map);
   flashLayerName(layerName);
 }

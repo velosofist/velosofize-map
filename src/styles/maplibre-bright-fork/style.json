@@ -511,10 +511,10 @@
         "text-font": [
           "Noto Sans Regular"
         ],
-        "text-size": 10
+        "text-size": 20
       },
       "paint": {
-        "text-color": "rgba(212, 177, 146, 1)"
+        "text-color": "rgba(110, 88, 73, 1)"
       }
     },
     {
@@ -1597,36 +1597,6 @@
         "text-halo-blur": 0,
         "text-halo-color": "hsla(0, 0%, 100%, 0.75)",
         "text-halo-width": 2
-      }
-    },
-    {
-      "id": "House number labels",
-      "type": "symbol",
-      "source": "openmaptiles",
-      "source-layer": "housenumber",
-      "minzoom": 16,
-      "layout": {
-        "symbol-avoid-edges": false,
-        "text-allow-overlap": false,
-        "text-field": "{housenumber}",
-        "text-font": [
-          "Noto Sans Regular"
-        ],
-        "text-ignore-placement": false,
-        "text-line-height": -0.15,
-        "text-padding": 3,
-        "text-size": {
-          "stops": [
-            [
-              17,
-              9
-            ],
-            [
-              22,
-              11
-            ]
-          ]
-        }
       }
     },
     {
