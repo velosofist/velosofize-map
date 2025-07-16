@@ -1,37 +1,69 @@
-const southWest = L.latLng(40.749972, 22.118564);
-const northEast = L.latLng(44.361463, 29.123858);
+// Limits to the coordinates users can view (around Bulgaria's borders)
+const southWest = L.latLng(
+  40.749972, 
+  22.118564
+);
+const northEast = L.latLng(
+  44.361463, 
+  29.123858
+);
 const bounds = L.latLngBounds(southWest, northEast);
 
 const map = L.map('map', {
-  center: [42.685534, 23.319048], //center on Sofia
+  //center on Sofia center
+  center: [
+    42.685534, 
+    23.319048
+  ],
   zoom: 13,
   zoomControl: false,
   minZoom: 9,
   maxBounds: bounds,
-  maxBoundsViscosity: 1.0      // prevent moving outside bounds
+  maxBoundsViscosity: 0.5
 });
 
-const initialMaplibreLayer = L.maplibreGL({
-  style: '/src/styles/maplibre-bright-fork/style.json',
-  attribution: '&copy; OpenFreemap, Maplibre'
-}).addTo(map);
-
-let currentBaseLayer = initialMaplibreLayer;
-
-document.getElementById('legend-button').onclick = function() {
-  document.getElementById('legend-overlay').style.display = 'flex';
-};
-document.getElementById('close-legend').onclick = function() {
-  document.getElementById('legend-overlay').style.display = 'none';
-};
-document.getElementById('switch-language-legend').onclick = function() {
-  const iframe = document.getElementById('legend-iframe');
-  if (iframe.src.includes('/legend/bg/cyclosm_legend.html')) {
-    iframe.src = '/legend/en/cyclosm_legend.html';
-  } else {
-    iframe.src = '/legend/bg/cyclosm_legend.html';
+const baseLayerConfig = [
+  {
+    name: 'libre',
+    icon: '/attachments/tile_icons/tile_osm.png',
+    alt: 'Maplibre',
+    style: '/src/styles/maplibre-bright-fork/style.json',
+    attribution: '&copy; OpenFreemap, Maplibre'
+  },
+  {
+    name: 'cyclosm',
+    icon: '/attachments/tile_icons/tile_cyclosm.png',
+    alt: 'CyclOSM',
+    style: '/src/styles/cyclosm/style.json',
+    attribution: '&copy; OpenFreemap, Maplibre'
+  },
+  { 
+    name: 'satellite',
+    icon: '/attachments/tile_icons/tile_sat.png',
+    alt: 'Satellite',
+    style: '/src/styles/satellite/style.json',
+    attribution: '&copy; OpenFreemap, Maplibre'
   }
+];
+
+function sourceFromMapLibre(key) {
+  return L.maplibreGL({
+    style: baseLayerConfig.find(layer => layer.name === key)?.style,
+    attribution: baseLayerConfig.find(layer => layer.name === key)?.attribution
+  })
 };
+
+const layers = {
+  libre: sourceFromMapLibre('libre'),
+  cyclosm: sourceFromMapLibre('cyclosm'),
+  satellite: sourceFromMapLibre('satellite')
+}; 
+
+const defaultBaseLayer = layers['libre']
+
+defaultBaseLayer.addTo(map);
+
+let currentBaseLayer = defaultBaseLayer;
 
 function createStyledButton(label, icon, onClick) {
   const btn = document.createElement('button');
@@ -60,38 +92,17 @@ document.getElementById('fullscreen-button').onclick = function() {
   }
 };
 
-const layerOrder = [
-  {
-    name: 'libre',
-    icon: '/attachments/tile_icons/tile_osm.png',
-    alt: 'Maplibre',
-    source: L.maplibreGL('/src/styles/maplibre-bright-fork/style.json'),
-  },
-  {
-    name: 'cyclosm',
-    icon: '/attachments/tile_icons/tile_cyclosm.png',
-    alt: 'CyclOSM',
-    source: L.maplibreGL('/src/styles/cyclosm/style.json'),
-  },
-  { 
-    name: 'satellite',
-    icon: '/attachments/tile_icons/tile_sat.png',
-    alt: 'Satellite',
-    source: L.maplibreGL('/src/styles/satellite/style.json'),
-  }
-];
-
 let currentLayerIdx = 0;
 
 function updateLayerIcon() {
-  const { icon, alt } = layerOrder[currentLayerIdx];
+  const { icon, alt } = baseLayerConfig[currentLayerIdx];
   document.getElementById('layer-icon-img').src = icon;
   document.getElementById('layer-icon-img').alt = alt;
 }
 
 document.getElementById('layer-icon-btn').onclick = function() {
-  currentLayerIdx = (currentLayerIdx + 1) % layerOrder.length;
-  setBaseLayer(layerOrder[currentLayerIdx].name);
+  currentLayerIdx = (currentLayerIdx + 1) % baseLayerConfig.length;
+  setBaseLayer(baseLayerConfig[currentLayerIdx].name);
   updateLayerIcon();
 };
 
@@ -101,7 +112,7 @@ updateLayerIcon();
 function flashLayerName(layerKey) {
   const flashDiv = document.getElementById('layer-name-flash');
 
-  const layer = layerOrder.find(l => l.name === layerKey);
+  const layer = baseLayerConfig.find(l => l.name === layerKey);
 
   // Use the 'alt' property as the display name
   flashDiv.textContent = layer ? layer.alt : '';
@@ -119,18 +130,17 @@ function flashLayerName(layerKey) {
   }, 500); // Show for x ms before starting fade out
 }
 
-
 function setBaseLayer(layerName) {
-  // Remove MapLibre GL if it's still present
-  if (map.hasLayer(initialMaplibreLayer)) {
-    map.removeLayer(initialMaplibreLayer);
+  // Remove default base layer if it's still present
+  if (map.hasLayer(defaultBaseLayer)) {
+    map.removeLayer(defaultBaseLayer);
   }
-  // Remove current base layer if present and not MapLibre GL
-  if (currentBaseLayer && map.hasLayer(currentBaseLayer) && currentBaseLayer !== initialMaplibreLayer) {
+  // Remove current base layer if present and not the default
+  if (currentBaseLayer && map.hasLayer(currentBaseLayer) && currentBaseLayer !== defaultBaseLayer) {
     map.removeLayer(currentBaseLayer);
   }
   // Add the new base layer
-  currentBaseLayer = layerOrder.find(layer => layer.name === layerName)?.source;
+  currentBaseLayer = layers[layerName];
   currentBaseLayer.addTo(map);
   flashLayerName(layerName);
 }
@@ -141,49 +151,6 @@ window.addEventListener('resize', () => {
   if (window.map && window.map.invalidateSize) {
     window.map.invalidateSize();
   }
-});
-
-let userLayer = null;
-
-document.getElementById('upload-layer-button').onclick = function() {
-  document.getElementById('upload-layer').click();
-};
-
-document.getElementById('upload-layer').addEventListener('change', function(event) {
-  const file = event.target.files[0];
-  if (!file) return;
-
-  // Remove previous user layer if present
-  if (userLayer) {
-    map.removeLayer(userLayer);
-    userLayer = null;
-  }
-
-  const reader = new FileReader();
-  reader.onload = function(e) {
-    try {
-      let ext = file.name.split('.').pop().toLowerCase();
-      if (ext === 'geojson' || ext === 'json') {
-        userLayer = omnivore.geojson.parse(e.target.result);
-      } else if (ext === 'gpx') {
-        userLayer = omnivore.gpx.parse(e.target.result);
-      } else if (ext === 'kml') {
-        userLayer = omnivore.kml.parse(e.target.result);
-      } else {
-        alert('Unsupported file type.');
-        return;
-      }
-      userLayer.addTo(map);
-      try {
-        map.fitBounds(userLayer.getBounds());
-      } catch (err) {
-        // If no bounds (empty file), do nothing
-      }
-    } catch (err) {
-      alert('Invalid file.');
-    }
-  };
-  reader.readAsText(file);
 });
 
 document.addEventListener('DOMContentLoaded', function() {
