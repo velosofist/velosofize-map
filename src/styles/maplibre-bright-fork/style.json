@@ -500,7 +500,7 @@
       "type": "symbol",
       "source": "openmaptiles",
       "source-layer": "housenumber",
-      "minzoom": 17,
+      "minzoom": 16,
       "filter": [
         "==",
         "$type",
