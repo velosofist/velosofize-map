@@ -13,7 +13,7 @@ The Velosofize project includes resources from other repositories, such as velos
 The development of Velosofize Map in its current form would not be possible without the generous contributions to other free-to-use and open-source projects, including:
 
 * OpenStreetMap
-* Cyclosm
+* CyclOSM
 * OpenMapTiles
 * OpenFreeMap
 * Leaflet
@@ -21,9 +21,9 @@ The development of Velosofize Map in its current form would not be possible with
 * Maputnik
 * Google My Maps
 * Google Fonts (Icons)
-* geojson.io
+* [geojson.io](https://geojson.io)
 * [MapBox's togeojson tool](https://github.com/mapbox/togeojson)
-* [Черна писта](chernapista.com)
+* [Черна писта](https://chernapista.com)
 
 and others. Further attributions will be added to NOTICES.md along with respective licenses.
 
