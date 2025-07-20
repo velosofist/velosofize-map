@@ -33,7 +33,7 @@ and others. Further attributions will be added to NOTICES.md along with respecti
 
 ## Why KML format instead of GeoJson??
 
-Much like JSON is superior to XML in many respects, GeoJson as a format might seem like an obvious choice for the representation of the underlying data used in Velosofize. The reason for the heavy use of KML format (which is closely linked to the development of Google Earth) in this project is simply that it is the default format in Google My Maps, which will likely be used in the future to gather users' suggestions for new routes to be added to the map. I am, however, open to suggestions for a different stack on the users' side to gather suggested routes in GeoJson format.  
+Much like JSON is superior to XML in many respects, GeoJson as a format might seem like an obvious choice for the representation of the underlying data used in Velosofize. The reason for the heavy use of KML format (which is closely linked to the development of Google Earth) in this project is simply that it is the default format in Google My Maps, which will likely be used in the future to gather users' suggestions for new routes to be added to the map. I am, however, open to suggestions for a different stack on the users' side to gather suggested routes in GeoJson format. The existing KML files would be easy enough to convert using [MapBox's togeojson tool](https://github.com/mapbox/togeojson).
 
 ## Contributions
 
