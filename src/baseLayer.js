@@ -28,7 +28,7 @@ const baseLayerConfig = [
     icon: '/attachments/tile_icons/tile_osm.png',
     alt: 'Maplibre',
     render: 'maplibre',
-    style: '/src/styles/maplibre-bright-fork/style.json',
+    style: '/src/styles/bright/style.json',
     attribution: '&copy; OpenFreemap, Maplibre'
   },
   {

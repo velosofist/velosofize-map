@@ -203,25 +203,25 @@ function pointToLayer(feature, latlng) {
 }
 
 function createStyledOverlay(url) {
-return omnivore.kml(url, null, L.geoJson(null, {
-    style: function(feature) {
-    const styleUrl = feature.properties?.styleUrl;
+    return omnivore.kml(url, null, L.geoJson(null, {
+        style: function(feature) {
+        const styleUrl = feature.properties?.styleUrl;
 
-    // Determine weight based on feature type
-    let featureWeight;
-    if (feature.geometry?.type === 'Point') {
-        featureWeight = 1;
-    } else if (feature.geometry?.type === 'LineString') {
-        featureWeight = 4;
-    } else if (feature.geometry?.type === 'Polygon') {
-        featureWeight = 3;
-    }
+        // Determine weight based on feature type
+        let featureWeight;
+        if (feature.geometry?.type === 'Point') {
+            featureWeight = 1;
+        } else if (feature.geometry?.type === 'LineString') {
+            featureWeight = 4;
+        } else if (feature.geometry?.type === 'Polygon') {
+            featureWeight = 3;
+        }
 
-    return styleFromStyleUrl(styleUrl, featureWeight);
-    },
-    pointToLayer: pointToLayer,
-    onEachFeature: interactivePoints
-}));
+        return styleFromStyleUrl(styleUrl, featureWeight);
+        },
+        pointToLayer: pointToLayer,
+        onEachFeature: interactivePoints
+    }));
 }
 
 function escapeHtml(text) {

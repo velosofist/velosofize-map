@@ -42,6 +42,20 @@
         pointer-events: auto;
       }
 
+      .button-container {
+        z-index: 1000;
+        align-items: flex-end;
+        gap: 8px;
+        display: flex;
+        flex-direction: column;
+        background: #fdf6e3;
+        color: rgba(0, 0, 0, 0.8);
+        border: 2px solid #eee8d5;
+        box-shadow: 0px 0px 10px black;
+        padding: 4px;
+        box-sizing: border-box;
+      }
+
       html, body {
         height: 100%;
         width: 100%;
@@ -102,37 +116,65 @@
         border-radius: 4px;
       }
 
-      /* General button styling */
-      #legend-btn,
       #overlay-zoom,
       #link-buttons,
       #overlay-toggle-external,
-      #overlay-toggle-secondary{
+      #overlay-toggle-secondary {
+        gap: 8px;
+      }
+
+      #overlay-zoom,
+      #link-buttons,
+      #overlay-toggle-external,
+      #overlay-toggle-secondary {
         display: flex;
         flex-direction: column;
-        gap: 8px;
         background: #fdf6e3;
         color: rgba(0, 0, 0, 0.8);
         border: 2px solid #eee8d5;
         box-shadow: 0px 0px 10px black;
-        border-radius: 32px;
         padding: 4px;
         box-sizing: border-box;
       }
 
-      /* Additonal rules for link and zoom buttons */
+      #legend-button,
+      #fullscreen-button,
+      #upload-layer-button {
+        width: 52px;
+        height: 52px;
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+      }
+
+      #legend-button,
+      #fullscreen-button,
+      #upload-layer-button {
+        background: #fdf6e3;
+        border: 2px solid #eee8d5;
+        box-shadow: 0px 0px 10px black;
+        color: rgba(0, 0, 0, 0.8);
+      }
+
+      #overlay-toggle-external,
+      #overlay-toggle-secondary,
+      #overlay-zoom {
+        border-radius: 32px;
+      }
+
+      #legend-button,
+      #fullscreen-button,
+      #upload-layer-button {
+        border-radius: 50%;
+      }
+
       #overlay-zoom {
         position: fixed;
         right: 10px;
         bottom: 24px;
         z-index: 2000;
       }
-      /* #link-buttons {
-        position: fixed;
-        top: 10px;
-        left: 10px;
-        z-index: 1000;
-      }*/
 
       #link-buttons {
         display: none;
@@ -147,7 +189,7 @@
         box-shadow: 0 2px 8px rgba(0,0,0,0.2);
         z-index: 2001;
         min-width: 180px;
-        padding: 4px 4px;
+        padding: 4px;
         gap: 8px;
         border-radius: 32px;
         width: fit-content;
@@ -176,8 +218,9 @@
         transition: transform 0.15s;
       }
 
-      #switch-language-legend,
-      #close-legend{
+      #switch-language-legend-button,
+      #close-legend-button{
+        position:absolute; 
         right: 16px; 
         z-index: 10; 
         background: #fdf6e3; 
@@ -191,36 +234,16 @@
         cursor: pointer;
       }
         
-      #close-legend{
-        position:absolute; 
+      #close-legend-button{
         top:16px; 
       }
       
-      #switch-language-legend{
-        position:absolute; 
+      #switch-language-legend-button{
         top:64px; 
       }
 
-      #legend-button,
-      #fullscreen-button,
-      #upload-layer-button {
-        display: flex;
-        flex-direction: column;
-        gap: 4px;
-        width: 52px;
-        height: 52px;
-        background: #fdf6e3;
-        color: rgba(0, 0, 0, 0.8);
-        border: 2px solid #eee8d5;
-        box-shadow: 0px 0px 10px black;
-        border-radius: 50%;
-        align-items: center;
-        justify-content: center;
-        cursor: pointer;
-      }
-
       #container-left-center,
-      #container-right-center,
+      /* #container-right-center, */
       #container-right-upper {
         z-index: 1000;
         display: flex;
@@ -316,6 +339,7 @@
 
 
     <div id ='container-right-center'
+    class="button-container"
     style="
       position: absolute;
       right: 10px;

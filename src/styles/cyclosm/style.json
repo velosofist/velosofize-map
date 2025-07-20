@@ -32,6 +32,71 @@
     "source": "ne2_shaded",
     "minzoom": 0,
     "maxzoom": 22
+    },
+        {
+      "id": "amenities",
+      "type": "symbol",
+      "source": "openmaptiles",
+      "source-layer": "poi",
+      "minzoom": 12,
+      "filter": [
+        "all",
+        [
+          "==",
+          "$type",
+          "Point"
+        ],
+        [
+          "in",
+          "subclass",
+          "hospital",
+          "pharmacy"
+        ]
+      ],
+      "layout": {
+        "icon-image": [
+          "get",
+          "subclass"
+        ],
+        "icon-size": 1,
+        "icon-allow-overlap": true
+      },
+      "paint": {
+        "icon-opacity": 0.5
+      }
+    },
+        {
+      "id": "amenities_important",
+      "type": "symbol",
+      "source": "openmaptiles",
+      "source-layer": "poi",
+      "minzoom": 12,
+      "filter": [
+        "all",
+        [
+          "==",
+          "$type",
+          "Point"
+        ],
+        [
+          "in",
+          "subclass",
+          "bicycle",
+          "toilets",
+          "drinking_water"
+        ]
+      ],
+      "layout": {
+        "icon-image": [
+          "get",
+          "subclass"
+        ],
+        "icon-size": 1,
+        "icon-allow-overlap": true
+      },
+      "paint": {
+        "icon-opacity": 1
+      }
     }
   ],
   "id": "basic"
