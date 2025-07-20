@@ -16,20 +16,24 @@ While the current code only accounts for a static page hosted on GitHub pages an
 
 The development of Velosofize Map in its current form would not be possible without the generous contributions to other free-to-use and open-source projects, including:
 
-* OpenStreetMap
-* CyclOSM
-* OpenMapTiles
-* OpenFreeMap
-* Leaflet
-* Maplibre
-* Maputnik
-* Google My Maps
-* Google Fonts (Icons)
+* [OpenStreetMap](https://www.openstreetmap.org/)
+* [CyclOSM](https://www.cyclosm.org/)
+* [OpenMapTiles](https://openmaptiles.github.io/)
+* [OpenFreeMap](https://openfreemap.org/)
+* [Leaflet.js](https://leafletjs.com)
+* [Maplibre](https://maplibre.org/)
+  * [Maputnik](https://maplibre.org/maputnik/)
+* [Google My Maps](http://mymaps.google.com/)
+* [Google Material Icons](https://fonts.google.com/icons)
 * [geojson.io](https://geojson.io)
 * [MapBox's togeojson tool](https://github.com/mapbox/togeojson)
 * [Черна писта](https://chernapista.com)
 
-and others. Further attributions will be added to NOTICES.md along with respective licenses.
+and others. Further attributions will be added to NOTICES.md along with respective licenses. Some more attributions to other projects are included throughout https://github.com/velosofist/velosofize/
+
+## Why KML format instead of GeoJson??
+
+Much like JSON is superior to XML in many respects, GeoJson as a format might seem like an obvious choice for the representation of the underlying data used in Velosofize. The reason for the heavy use of KML format (which is closely linked to the development of Google Earth) in this project is simply that it is the default format in Google My Maps, which will likely be used in the future to gather users' suggestions for new routes to be added to the map. I am, however, open to suggestions for a different stack on the users' side to gather suggested routes in GeoJson format.  
 
 ## Contributions
 
