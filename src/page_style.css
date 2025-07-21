@@ -148,28 +148,24 @@ html, body {
   box-sizing: border-box;
 }
 
-#container-left-center {
+#container-overlays-external-buttons {
   position: absolute;
   left: 10px;
   top: 50%;
   transform: translateY(-50%);
 }
 
-#container-right-center {
+#container-overlays-buttons {
   position: absolute;
   right: 10px;
   top: 50%;
   transform: translateY(-50%);
 }
 
-#container-right-upper {
-  position: fixed;
-  right: 10px;
+#container-misc-buttons {
+  position: absolute;
   top: 10px;
-  background: none;
-  border: none;
-  box-shadow: none;
-  padding: 0;
+  right: 10px;
 }
 
 /* ====== Overlay Zoom ====== */
@@ -191,8 +187,7 @@ html, body {
 }
 
 /* ====== Overlay Toggles ====== */
-#overlay-toggle-external,
-#overlay-toggle-secondary {
+.button-container-pod {
   display: flex;
   flex-direction: column;
   background: #fdf6e3;
@@ -206,7 +201,7 @@ html, body {
 }
 
 /* ====== Main Buttons ====== */
-#legend-button,
+/* #legend-button,
 #fullscreen-button,
 #upload-layer-button {
   width: 52px;
@@ -222,17 +217,18 @@ html, body {
   justify-content: center;
   padding: 0;
 }
+*/
 
 #legend-button span,
 #fullscreen-button span,
-#upload-layer-button span {
+#upload-layer span {
   font-size: 28px;
   color: rgba(0, 0, 0, 0.8);
 }
 
 .overlay-toggle-btn {
   padding: 4px 4px;
-  font-size: 14px;
+  font-size: 28px;
   cursor: pointer;
   border: 2px solid rgba(0, 0, 0, 0.4);
   background: #eee8d5;

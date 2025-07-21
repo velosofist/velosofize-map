@@ -31,17 +31,6 @@ function createStyledButton(label, icon, onClick) {
   return btn;
 }
 
-document.getElementById('fullscreen-button').onclick = function() {
-  const elem = document.documentElement; // or document.getElementById('map') for just the map
-  if (!document.fullscreenElement) {
-    elem.requestFullscreen().catch(err => {
-      alert(`Error attempting to enable full-screen mode: ${err.message}`);
-    });
-  } else {
-    document.exitFullscreen();
-  }
-};
-
 window.addEventListener('resize', () => {
   document.getElementById('map').style.height = window.innerHeight + 'px';
   document.getElementById('map').style.width = window.innerWidth + 'px';

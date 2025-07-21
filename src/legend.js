@@ -1,7 +1,3 @@
-document.getElementById('legend-button').onclick = function() {
-  document.getElementById('legend-overlay').style.display = 'flex';
-};
-
 document.getElementById('close-legend-button').onclick = function() {
   document.getElementById('legend-overlay').style.display = 'none';
 };

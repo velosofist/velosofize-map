@@ -21,20 +21,24 @@
     <link rel="stylesheet" href="/src/page_style.css" />
   </head>
   <body>
+    
     <div id="map"></div>
+    
+    <input type="file" id="upload-layer">
+
     <div id="legend-overlay">
-    <div>
-      <button id="close-legend-button" title="Затвори / Close">
-        <span class="material-symbols-outlined" style="font-size: 16px;">close</span>
-      </button>
-      <button id="switch-language-legend-button" title="Език / Language">
-        <span class="material-symbols-outlined" style="font-size: 16px;">letter_switch</span>
-      </button>
-      <iframe id="legend-iframe" 
-      src="/legend/bg/cyclosm_legend.html">
-      </iframe>
+      <div>
+        <button id="close-legend-button" title="Затвори / Close">
+          <span class="material-symbols-outlined" style="font-size: 16px;">close</span>
+        </button>
+        <button id="switch-language-legend-button" title="Език / Language">
+          <span class="material-symbols-outlined" style="font-size: 16px;">letter_switch</span>
+        </button>
+        <iframe id="legend-iframe" 
+        src="/legend/bg/cyclosm_legend.html">
+        </iframe>
+      </div>
     </div>
-  </div>
 
     <div id="project-header">
       <img
@@ -67,40 +71,23 @@
             src="/attachments/misc_icons/docs_icon_dark.png"
             alt="Written materials">
         </a>
-  
       </div>
-
     </div>
 
 
-    <div id ='container-right-center'
+    <div id ='container-overlays-buttons'
     class="button-container">
-      <div id="overlay-toggle-secondary"></div>
+      <div id="overlay-toggle-secondary" class="button-container-pod"></div>
     </div>
 
-    <div id ='container-right-upper'>
-      <input type="file" id="upload-layer" accept=".kml,.gpx,.geojson" style="display:none;">
-      <button id="upload-layer-button" title="Add custom layer">
-        <span class="material-symbols-outlined">
-          upload_file
-        </span>
-      </button>
-
-      <button id="fullscreen-button" title="Full screen">
-        <span class="material-symbols-outlined">
-          fullscreen
-        </span>
-      </button>
-      <button id="legend-button" title="Legend">
-        <span class="material-symbols-outlined">
-          help
-        </span>
-      </button>
-    </div>
-
-    <div id ='container-left-center'
+    <div id="container-misc-buttons"
     class="button-container">
-      <div id="overlay-toggle-external"></div>
+      <div class="button-container-pod"></div>
+    </div>
+
+    <div id ='container-overlays-external-buttons'
+    class="button-container">
+      <div id="overlay-toggle-external" class="button-container-pod"></div>
     </div>
 
     <div id="overlay-zoom"></div>
@@ -123,7 +110,7 @@
   <script src="src/ios.js"></script>
   <script src="src/zoom_current_location.js"></script>
   <script src="src/icon_mapping.js"></script>
-  <script src="src/upload_layer.js"></script>
+  <script src="src/misc_buttons.js"></script>
   <script src="src/legend.js"></script>
   </body>
 </html>
