@@ -133,9 +133,7 @@ html, body {
 }
 
 /* ====== Overlay Containers ====== */
-.button-container,
-#container-left-center,
-#container-right-upper {
+.button-container {
   z-index: 1000;
   display: flex;
   flex-direction: column;
@@ -155,7 +153,6 @@ html, body {
   left: 10px;
   top: 50%;
   transform: translateY(-50%);
-  padding: 0;
 }
 
 #container-right-center {

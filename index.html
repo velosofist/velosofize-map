@@ -22,52 +22,21 @@
   </head>
   <body>
     <div id="map"></div>
-    <div id="vignette"></div>
-
-    <div id="legend-overlay" style="
-      display: none; 
-      position: fixed; 
-      top: 0; 
-      left: 0; 
-      width: 100vw; 
-      height: 100vh;
-      background:rgba(0,0,0,0.8); 
-      z-index: 3000; 
-      align-items: center; 
-      justify-content: center;
-    ">
-    <div style="
-      position:relative; 
-      width:90vw; 
-      max-width:600px; 
-      height:90vh; 
-      background:#eee8d5; 
-      border-radius:12px; 
-      overflow:hidden;
-    ">
+    <div id="legend-overlay">
+    <div>
       <button id="close-legend-button" title="Затвори / Close">
         <span class="material-symbols-outlined" style="font-size: 16px;">close</span>
       </button>
       <button id="switch-language-legend-button" title="Език / Language">
         <span class="material-symbols-outlined" style="font-size: 16px;">letter_switch</span>
       </button>
-      <iframe id="legend-iframe" src="/legend/bg/cyclosm_legend.html" style="
-        width:100%; 
-        height:100%; 
-        border: none; 
-      "></iframe>
+      <iframe id="legend-iframe" 
+      src="/legend/bg/cyclosm_legend.html">
+      </iframe>
     </div>
   </div>
 
-    <div id="project-header" style = "
-      box-shadow: 0px 0px 10px black;
-      text-decoration:none; 
-      color: rgba(0, 0, 0, 0.8); 
-      display:flex; 
-      align-items:center; 
-      gap: 14px;
-      font-weight: bold;
-      ">
+    <div id="project-header">
       <img
         src="/attachments/favicon_light/favicon-32x32.png"
         alt="Velosofize Icon">
@@ -105,108 +74,46 @@
 
 
     <div id ='container-right-center'
-    class="button-container"
-    style="
-      position: absolute;
-      right: 10px;
-      top: 50%;
-      transform: translateY(-50%);
-    ">
+    class="button-container">
       <div id="overlay-toggle-secondary"></div>
     </div>
 
-    <div id ='container-right-upper'
-    style="
-      position: fixed;
-      right: 10px;
-      top: 10px;
-    ">
+    <div id ='container-right-upper'>
       <input type="file" id="upload-layer" accept=".kml,.gpx,.geojson" style="display:none;">
       <button id="upload-layer-button" title="Add custom layer">
-        <span class="material-symbols-outlined" style="
-        font-size: 28px;
-        color: rgba(0, 0, 0, 0.8);
-        ">upload_file</span>
+        <span class="material-symbols-outlined">
+          upload_file
+        </span>
       </button>
 
       <button id="fullscreen-button" title="Full screen">
-        <span class="material-symbols-outlined" style="
-          font-size: 28px;
-          color: rgba(0, 0, 0, 0.8);
-          ">fullscreen
+        <span class="material-symbols-outlined">
+          fullscreen
         </span>
       </button>
-      <button id="legend-button" title="CyclOSM Legend">
-        <span class="material-symbols-outlined" style="
-        font-size: 28px;
-        color: rgba(0, 0, 0, 0.8);
-        ">help</span>
+      <button id="legend-button" title="Legend">
+        <span class="material-symbols-outlined">
+          help
+        </span>
       </button>
     </div>
 
     <div id ='container-left-center'
-    style="
-      position: absolute;
-      left: 10px;
-      top: 50%;
-      transform: translateY(-50%);
-    ">
+    class="button-container">
       <div id="overlay-toggle-external"></div>
     </div>
 
     <div id="overlay-zoom"></div>
   
-    <div id="layer-switcher-container"
-    style="
-      position: fixed;
-      left: 50%;
-      transform: translateX(-50%);
-      bottom: 24px;
-      display: flex;
-      flex-direction: column;
-      gap: 4px;
-      align-items: center;
-      background: #fdf6e3;
-      color: rgba(0, 0, 0, 0.8);
-      box-shadow: 0px 0px 10px black;
-      border: 2px solid #e6e5e1;
-      border-radius: 50%;
-      z-index: 2000;
-    ">
-      <button id="layer-icon-btn"
-        style="background: #000033; 
-        border: 2px solid #eee8d5;
-        border-radius: 50%; 
-        padding: 0; 
-        cursor: pointer;">
-        <img id="layer-icon-img" src="tile_icons/tile_cyclosm.png" alt="CyclOSM" 
-        style="
-        width: 60px; 
-        height: 60px;
-        border-radius: 50%;
-        border: 2px solid rgba(0, 0, 0, 0.4);
-        ">
+    <div id="layer-switcher-container">
+      <button id="layer-icon-btn">
+        <img id="layer-icon-img" src="tile_icons/tile_cyclosm.png" 
+        alt="CyclOSM"
+        >
       </button>
     </div>
     
-    <div id="layer-name-flash"
-    style="
-      display: none;
-      position: fixed;
-      top: 50%;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 120px;
-      background: #fdf6e3;
-      color: rgba(0, 0, 0, 0.8);
-      font-weight: bold; 
-      font-size: 16px;
-      text-align: center;
-      padding: 12px 32px;
-      border-radius: 12px;
-      z-index: 3000;
-      transition: opacity 0.5s;
-    ">
+    <div id="layer-name-flash">
   </div>
 
   <script src="src/baseLayer.js"></script>
