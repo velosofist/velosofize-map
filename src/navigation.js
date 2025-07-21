@@ -24,23 +24,6 @@ const markers = [];
 let line = null;
 let popup = null;
 
-// Create styled button
-function createStyledButton(label, icon, onClick) {
-  const btn = document.createElement('button');
-  btn.title = label;
-  btn.innerHTML = `<span class="material-symbols-outlined" style="font-size: 28px;">${icon}</span>`;
-  btn.style.padding = '4px 4px';
-  btn.style.fontSize = '14px';
-  btn.style.cursor = 'pointer';
-  btn.style.border = "2px solid rgba(0, 0, 0, 0.4)";
-  btn.style.background = '#eee8d5';
-  btn.style.color = '#08103b';
-  btn.style.borderRadius = '50%';
-  btn.dataset.active = 'false';
-  btn.onclick = onClick;
-  return btn;
-}
-
 // Build navigation links
 const getMarkerLatLngs = () => {
   if (markers.length !== 2) return null;
@@ -69,39 +52,6 @@ function generateNavPopupHtml() {
     </div>
   `;
 }
-
-// Add this after your map is initialized
-function setupDirectionToggleButton() {
-  const container = L.DomUtil.create('div', 'leaflet-bar leaflet-control');
-  const label = directionReversed ? 'B → A' : 'A → B';
-  const icon = 'swap_horiz';
-  const button = createStyledButton(label, icon, (event) => toggleDirection(event));
-  container.appendChild(button);
-
-  const customControl = L.Control.extend({
-    onAdd: function () {
-      return container;
-    },
-    onRemove: function () {}
-  });
-
-  map.addControl(new customControl({ position: 'topright' }));
-}
-
-window.toggleDirection = function (event) {
-  directionReversed = !directionReversed;
-
-  const navLinksDiv = document.getElementById('nav-links');
-  if (navLinksDiv) {
-    navLinksDiv.innerHTML = buildServiceLinks();
-  }
-
-  // Update button label
-  if (event && event.target) {
-    event.target.textContent = directionReversed ? "B → A" : "A → B";
-  }
-};
-
 
 // Marker logic
 function addLabeledMarker(latlng) {
@@ -166,16 +116,5 @@ function updateNavConnectingLine() {
       .setLatLng(midpoint)
       .setContent(generateNavPopupHtml())
       .addTo(map);
-
-    // Add styled toggle button after DOM is mounted
-    setTimeout(() => {
-      const container = document.getElementById('toggle-button-container');
-      if (container) {
-        const label = directionReversed ? 'B → A' : 'A → B';
-        const icon = 'swap_horiz';
-        const button = createStyledButton(label, icon, (event) => toggleDirection(event));
-        container.appendChild(button);
-      }
-    }, 0);
   }
 }

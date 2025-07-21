@@ -15,8 +15,6 @@ map.on('contextmenu', function (e) {
   addLabeledMarker(e.latlng);
 });
 
-setupDirectionToggleButton();
-
 function createStyledButton(label, icon, onClick) {
   const btn = document.createElement('button');
   btn.title = label;
