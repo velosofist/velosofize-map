@@ -5399,5 +5399,37 @@
         </coordinates>
       </LineString>
     </Placemark>
+<Placemark>
+      <name>Line 546</name>
+      <description><![CDATA[Категория: <br>Категория #: 1<br>Град/район: <br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-4294</styleUrl>
+      <ExtendedData>
+        <Data name="Категория">
+          <value/>
+        </Data>
+        <Data name="Категория #">
+          <value>1.0</value>
+        </Data>
+        <Data name="Град/район">
+          <value/>
+        </Data>
+        <Data name="name">
+          <value/>
+        </Data>
+        <Data name="description">
+          <value/>
+        </Data>
+        <Data name="Категория #">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          23.544934,42.3304243,0
+          23.5433463,42.32784,0
+        </coordinates>
+      </LineString>
+    </Placemark>
 </Document>
 </kml>

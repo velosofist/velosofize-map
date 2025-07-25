@@ -4,3 +4,5 @@ ignore*.py
 ignore*.kml
 _*/
 Gemfile*
+opencyclemap/
+settings.json

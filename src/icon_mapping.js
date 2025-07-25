@@ -1,4 +1,4 @@
-// Mapping of relevant styles to Material Symbols icon names
+// Mapping of relevant styles from Google My Maps to Material Symbols icon names
 const iconMapping = {
     '1589': 'fitness_center',
     '1877': 'stairs_2',

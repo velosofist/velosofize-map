@@ -3,6 +3,7 @@ window.allCustomMarkers = window.allCustomMarkers || [];
 fetch('/src/overlays.json')
 .then(response => response.json())
 .then(data => {
+    // Combine overlays and set up containers
     const allOverlays = [
         ...data.primary.map(layer => ({...layer, isPrimary: true})),
         ...data.secondary.map(layer => ({...layer, isPrimary: false}))
@@ -10,121 +11,153 @@ fetch('/src/overlays.json')
     const overlayToggleDiv = document.getElementById('overlay-toggle-secondary');
     const overlayLayers = {};
 
+    // Add a button for CyclOSM Lite overlay
+    const cyclosmLiteBtn = document.createElement('button');
+    cyclosmLiteBtn.classList.add('overlay-toggle-btn');
+    cyclosmLiteBtn.title = 'Cyclosm Lite Overlay';
+    cyclosmLiteBtn.innerHTML = `<span class="material-symbols-outlined" style="font-size: 28px;">bike_lane</span>`;
+    cyclosmLiteBtn.dataset.active = 'false'; // Initially inactive
+
+    // Create the CyclOSM Lite layer
+    const cyclosmLayer = L.tileLayer('https://{s}.tile-cyclosm.openstreetmap.fr/cyclosm-lite/{z}/{x}/{y}.png', {
+        attribution: '&copy; Cyclosm contributors'
+    });
+
+    // Attach the onclick handler to toggle the layer
+    cyclosmLiteBtn.onclick = function () {
+        if (cyclosmLiteBtn.dataset.active === 'false') {
+            cyclosmLayer.addTo(map); // Add the layer to the map
+            cyclosmLiteBtn.dataset.active = 'true'; // Mark as active
+        } else {
+            map.removeLayer(cyclosmLayer); // Remove the layer from the map
+            cyclosmLiteBtn.dataset.active = 'false'; // Mark as inactive
+        }
+    };
+
+    // Append the button to the overlayToggleDiv
+    overlayToggleDiv.appendChild(cyclosmLiteBtn);
+
+    // Helper to create a styled button for overlays
+    function createOverlayButton({label, icon, isPrimary}) {
+        const btn = document.createElement('button');
+        btn.classList.add('overlay-toggle-btn');
+        btn.title = label;
+        btn.dataset.active = isPrimary ? 'true' : 'false';
+
+        // Icon logic
+        if (typeof icon === 'string' && icon.startsWith('http')) {
+            if (icon.toLowerCase().endsWith('.svg')) {
+                fetch(icon)
+                    .then(res => res.text())
+                    .then(svg => {
+                        btn.innerHTML = `<span style="
+                        display:inline-block;
+                        width:28px;
+                        height:28px;
+                        vertical-align:middle;
+                        ">${svg}</span>`;
+                    })
+                    .catch(() => {
+                        btn.innerHTML = `<span style="font-size: 28px;">❓</span>`;
+                    });
+            } else {
+                btn.innerHTML = `<img src="${icon}" alt="" style="width:28px;height:28px;vertical-align:middle;">`;
+            }
+        } else {
+            btn.innerHTML = `<span class="material-symbols-outlined" style="font-size: 28px;">${icon}</span>`;
+        }
+        return btn;
+    }
+
+    // Add primary and secondary overlays
     allOverlays.forEach(({url, label, icon, disabled, isPrimary}) => {
         const overlay = createStyledOverlay(url);
         overlayLayers[url] = overlay;
 
         if (!disabled) {
-            const btn = document.createElement('button');
-            btn.title = label;
-            btn.innerHTML = `<span class="material-symbols-outlined" style="font-size: 28px;">${icon}</span>`;
-            btn.style.padding = '4px 4px';
-            btn.style.fontSize = '14px';
-            btn.style.cursor = 'pointer';
-            btn.style.border = "2px solid rgba(0, 0, 0, 0.4)";
-            btn.style.background = isPrimary ? '#86C68090' : '#eee8d5';
-            btn.style.color = isPrimary ? '#fff' : 'rgba(0, 0, 0, 0.8)';
-            btn.style.borderRadius = '50%';
-            btn.dataset.active = isPrimary ? 'true' : 'false';
+            const btn = createOverlayButton({label, icon, isPrimary});
 
             if (isPrimary) {
-                overlay.addTo(map); // Add primary overlays by default
+                overlay.addTo(map);
             }
 
             btn.onclick = function() {
                 if (btn.dataset.active === 'false') {
                     overlay.addTo(map);
-                    btn.style.background = '#86C68090';
-                    btn.style.color = '#fff';
                     btn.dataset.active = 'true';
                 } else {
                     map.removeLayer(overlay);
-                    btn.style.background = '#eee8d5';
-                    btn.style.color = '#08103b';
                     btn.dataset.active = 'false';
                 }
+                // Visual state handled by CSS
             };
 
             overlayToggleDiv.appendChild(btn);
         }
     });
 
+    // Add external overlays
     const externalOverlays = data.external;
     const externalToggleDiv = document.getElementById('overlay-toggle-external');
     const externalOverlayLayers = {};
 
     externalOverlays.forEach(({url, label, icon, disabled}) => {
-    const overlay = createStyledOverlay(url);
-    externalOverlayLayers[url] = overlay;
+        const overlay = createStyledOverlay(url);
+        externalOverlayLayers[url] = overlay;
 
-    if (!disabled) {
-        const btn = document.createElement('button');
-        btn.title = label;
-        btn.style.padding = '4px 4px';
-        btn.style.fontSize = '14px';
-        btn.style.cursor = 'pointer';
-        btn.style.border = "2px solid rgba(0, 0, 0, 0.4)";
-        btn.style.background = '#eee8d5';
-        btn.style.color = '#08103b';
-        btn.style.borderRadius = '50%';
-        btn.dataset.active = 'false';
+        if (!disabled) {
+            const btn = document.createElement('button');
+            btn.classList.add('overlay-toggle-btn');
+            btn.title = label;
+            btn.dataset.active = 'false';
 
-        if (typeof icon === 'string' && icon.startsWith('http')) {
-            if (icon.toLowerCase().endsWith('.svg')) {
-                // Fetch and embed the SVG
-                fetch(icon)
-                    .then(res => res.text())
-                    .then(svg => {
-                        btn.innerHTML = `<span style="display:inline-block;width:28px;height:28px;vertical-align:middle;">${svg}</span>`;
-                    })
-                    .catch(() => {
-                        btn.innerHTML = `<span style="font-size: 28px;">❓</span>`;
-                    });
-            } else if (icon.toLowerCase().endsWith('.png')) {
-                btn.innerHTML = `<img src="${icon}" alt="" style="width:28px;height:28px;vertical-align:middle;">`;
+            if (typeof icon === 'string' && icon.startsWith('http')) {
+                if (icon.toLowerCase().endsWith('.svg')) {
+                    fetch(icon)
+                        .then(res => res.text())
+                        .then(svg => {
+                            btn.innerHTML = `<span style="display:inline-block;width:28px;height:28px;vertical-align:middle;">${svg}</span>`;
+                        })
+                        .catch(() => {
+                            btn.innerHTML = `<span style="font-size: 28px;">❓</span>`;
+                        });
+                } else {
+                    btn.innerHTML = `<img src="${icon}" alt="" style="width:28px;height:28px;vertical-align:middle;">`;
+                }
             } else {
-                // Unknown image type, fallback
-                btn.innerHTML = `<img src="${icon}" alt="" style="width:28px;height:28px;vertical-align:middle;">`;
+                btn.innerHTML = `<span class="material-symbols-outlined" style="font-size: 28px;">${icon}</span>`;
             }
-        } else {
-            // Fallback to Material Symbols if not a URL
-            btn.innerHTML = `<span class="material-symbols-outlined" style="font-size: 28px;">${icon}</span>`;
+
+            btn.onclick = function() {
+                if (btn.dataset.active === 'false') {
+                    overlay.addTo(map);
+                    btn.dataset.active = 'true';
+                } else {
+                    map.removeLayer(overlay);
+                    btn.dataset.active = 'false';
+                }
+            };
+
+            externalToggleDiv.appendChild(btn);
         }
-
-        btn.onclick = function() {
-            if (btn.dataset.active === 'false') {
-                overlay.addTo(map);
-                btn.style.background = '#86C68090';
-                btn.style.color = '#fff';
-                btn.dataset.active = 'true';
-            } else {
-                map.removeLayer(overlay);
-                btn.style.background = '#eee8d5';
-                btn.style.color = '#08103b';
-                btn.dataset.active = 'false';
-            }
-        };
-
-        externalToggleDiv.appendChild(btn);
-    }
     });
 });
 
 function styleFromStyleUrl(styleUrl, featureWeight) {
-const match = styleUrl?.match(/#line-([0-9A-Fa-f]{6})/);
-if (match) {
-    return {
-    color: `#${match[1]}`,
-    weight: featureWeight,
-    opacity: 1
-    };
-} else {
-    return {
-    color: "#0074D9", // grey by default
-    weight: featureWeight,
-    opacity: 0.8
-    };
-}
+    const match = styleUrl?.match(/#line-([0-9A-Fa-f]{6})/);
+    if (match) {
+        return {
+        color: `#${match[1]}`,
+        weight: featureWeight,
+        opacity: 1
+        };
+    } else {
+        return {
+        color: "#0074D9", // grey by default
+        weight: featureWeight,
+        opacity: 0.8
+        };
+    }
 }
 
 function colorFromStyleUrl(styleUrl) {
@@ -203,25 +236,25 @@ function pointToLayer(feature, latlng) {
 }
 
 function createStyledOverlay(url) {
-return omnivore.kml(url, null, L.geoJson(null, {
-    style: function(feature) {
-    const styleUrl = feature.properties?.styleUrl;
+    return omnivore.kml(url, null, L.geoJson(null, {
+        style: function(feature) {
+            const styleUrl = feature.properties?.styleUrl;
 
-    // Determine weight based on feature type
-    let featureWeight;
-    if (feature.geometry?.type === 'Point') {
-        featureWeight = 1;
-    } else if (feature.geometry?.type === 'LineString') {
-        featureWeight = 4;
-    } else if (feature.geometry?.type === 'Polygon') {
-        featureWeight = 3;
-    }
+            // Determine weight based on feature type
+            let featureWeight;
+            if (feature.geometry?.type === 'Point') {
+                featureWeight = 1;
+            } else if (feature.geometry?.type === 'LineString') {
+                featureWeight = 4;
+            } else if (feature.geometry?.type === 'Polygon') {
+                featureWeight = 3;
+            }
 
-    return styleFromStyleUrl(styleUrl, featureWeight);
-    },
-    pointToLayer: pointToLayer,
-    onEachFeature: interactivePoints
-}));
+            return styleFromStyleUrl(styleUrl, featureWeight);
+        },
+        pointToLayer: pointToLayer,
+        onEachFeature: interactivePoints
+    }));
 }
 
 function escapeHtml(text) {

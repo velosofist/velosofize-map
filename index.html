@@ -18,267 +18,29 @@
     <script src="https://unpkg.com/@maplibre/maplibre-gl-leaflet/leaflet-maplibre-gl.js"></script>
     
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    
-    <style>
-      .material-symbols-outlined {
-        font-variation-settings:
-          'FILL' 0,
-          'wght' 600,
-          'GRAD' 0,
-          'opsz' 24;
-        font-size: 16px;
-        color: rgba(0, 0, 0, 0.8);
-      }
-
-      .leaflet-control-attribution {
-        position: fixed !important;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        z-index: 1001;
-        background: rgba(255,255,255,0.85);
-        margin: 0;
-        padding: 0 8px;
-        pointer-events: auto;
-      }
-
-      html, body {
-        height: 100%;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        overscroll-behavior: none;
-        touch-action: none;
-      }
-
-      #map {
-        position: fixed;
-        top: 0; left: 0; right: 0; bottom: 0;
-        width: 100vw;
-        height: 100vh;
-        touch-action: none;
-      }
-
-      #project-header {
-        position: fixed;
-        top: 10px;
-        left: 50%;
-        transform: translateX(-50%);
-        background: #fdf6e3;
-        padding: 6px 12px;
-        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-        z-index: 1000;
-        display: flex;
-        align-items: center;
-        border: 2px solid #eee8d5;
-        font-size: 24px;
-        font-family: sans-serif;
-        height: 32px;
-        border-radius: 32px;
-        width: fit-content;
-      }
-
-      #velosofize-title {
-        position: relative;
-        z-index: 1;
-      }
-
-      #velosofize-arrow {
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        top: 100%;
-        margin-top: 0px;
-        font-size: 24px;
-        color: rgba(0,0,0,0.8);
-        line-height: 1;
-        pointer-events: none;
-      }
-
-      #project-header img {
-        width: 24px;
-        height: 24px;
-        border-radius: 4px;
-      }
-
-      /* General button styling */
-      #legend-btn,
-      #overlay-zoom,
-      #link-buttons,
-      #overlay-toggle-external,
-      #overlay-toggle-secondary{
-        display: flex;
-        flex-direction: column;
-        gap: 8px;
-        background: #fdf6e3;
-        color: rgba(0, 0, 0, 0.8);
-        border: 2px solid #eee8d5;
-        box-shadow: 0px 0px 10px black;
-        border-radius: 32px;
-        padding: 4px;
-        box-sizing: border-box;
-      }
-
-      /* Additonal rules for link and zoom buttons */
-      #overlay-zoom {
-        position: fixed;
-        right: 10px;
-        bottom: 24px;
-        z-index: 2000;
-      }
-      /* #link-buttons {
-        position: fixed;
-        top: 10px;
-        left: 10px;
-        z-index: 1000;
-      }*/
-
-      #link-buttons {
-        display: none;
-        position: absolute;
-        top: 110%;
-        left: 50%;
-        transform: translateX(-50%);
-        flex-direction: row;
-        background: #fdf6e3;
-        border: 2px solid #eee8d5;
-        border-radius: 12px;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-        z-index: 2001;
-        min-width: 180px;
-        padding: 4px 4px;
-        gap: 8px;
-        border-radius: 32px;
-        width: fit-content;
-      }
-
-      #link-buttons a {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 32px;
-        height: 32px;
-        background: #eee8d5;
-        border-radius: 50%;
-        border: 2px solid rgba(0, 0, 0, 0.4);
-        transition: transform 0.2s;
-        padding: 0;
-      }
-
-      #link-buttons a img {
-        width: 26px;
-        height: 26px;
-      }
-
-      #link-buttons a:hover {
-        transform: scale(1.1);
-        transition: transform 0.15s;
-      }
-
-      #switch-language-legend,
-      #close-legend{
-        right: 16px; 
-        z-index: 10; 
-        background: #fdf6e3; 
-        color: rgba(0, 0, 0, 0.8); 
-        border: 2px solid #eee8d5;
-        box-shadow: 0px 0px 10px black;
-        border-radius: 50%; 
-        width: 32px; 
-        height: 32px; 
-        font-size: 18px; 
-        cursor: pointer;
-      }
-        
-      #close-legend{
-        position:absolute; 
-        top:16px; 
-      }
-      
-      #switch-language-legend{
-        position:absolute; 
-        top:64px; 
-      }
-
-      #legend-button,
-      #fullscreen-button,
-      #upload-layer-button {
-        display: flex;
-        flex-direction: column;
-        gap: 4px;
-        width: 52px;
-        height: 52px;
-        background: #fdf6e3;
-        color: rgba(0, 0, 0, 0.8);
-        border: 2px solid #eee8d5;
-        box-shadow: 0px 0px 10px black;
-        border-radius: 50%;
-        align-items: center;
-        justify-content: center;
-        cursor: pointer;
-      }
-
-      #container-left-center,
-      #container-right-center,
-      #container-right-upper {
-        z-index: 1000;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        gap: 8px;
-      }      
-
-    </style>
+    <link rel="stylesheet" href="/src/page_style.css" />
   </head>
   <body>
+    
     <div id="map"></div>
-    <div id="vignette"></div>
+    
+    <input type="file" id="upload-layer">
 
-    <div id="legend-overlay" style="
-      display: none; 
-      position: fixed; 
-      top: 0; 
-      left: 0; 
-      width: 100vw; 
-      height: 100vh;
-      background:rgba(0,0,0,0.8); 
-      z-index: 3000; 
-      align-items: center; 
-      justify-content: center;
-    ">
-    <div style="
-      position:relative; 
-      width:90vw; 
-      max-width:600px; 
-      height:90vh; 
-      background:#eee8d5; 
-      border-radius:12px; 
-      overflow:hidden;
-    ">
-      <button id="close-legend" title="Затвори / Close">
-        <span class="material-symbols-outlined" style="font-size: 16px;">close</span>
-      </button>
-      <button id="switch-language-legend" title="Език / Language">
-        <span class="material-symbols-outlined" style="font-size: 16px;">letter_switch</span>
-      </button>
-      <iframe id="legend-iframe" src="/legend/bg/cyclosm_legend.html" style="
-        width:100%; 
-        height:100%; 
-        border: none; 
-      "></iframe>
+    <div id="legend-overlay">
+      <div>
+        <button id="close-legend-button" title="Затвори / Close">
+          <span class="material-symbols-outlined" style="font-size: 16px;">close</span>
+        </button>
+        <button id="switch-language-legend-button" title="Език / Language">
+          <span class="material-symbols-outlined" style="font-size: 16px;">letter_switch</span>
+        </button>
+        <iframe id="legend-iframe" 
+        src="/legend/bg/cyclosm_legend.html">
+        </iframe>
+      </div>
     </div>
-  </div>
 
-    <div id="project-header" style = "
-      box-shadow: 0px 0px 10px black;
-      text-decoration:none; 
-      color: rgba(0, 0, 0, 0.8); 
-      display:flex; 
-      align-items:center; 
-      gap: 14px;
-      font-weight: bold;
-      ">
+    <div id="project-header">
       <img
         src="/attachments/favicon_light/favicon-32x32.png"
         alt="Velosofize Icon">
@@ -309,121 +71,48 @@
             src="/attachments/misc_icons/docs_icon_dark.png"
             alt="Written materials">
         </a>
-  
       </div>
-
     </div>
 
 
-    <div id ='container-right-center'
-    style="
-      position: absolute;
-      right: 10px;
-      top: 50%;
-      transform: translateY(-50%);
-    ">
-      <div id="overlay-toggle-secondary"></div>
+    <div id ='container-overlays-buttons'
+    class="button-container">
+      <div id="overlay-toggle-secondary" class="button-container-pod"></div>
     </div>
 
-    <div id ='container-right-upper'
-    style="
-      position: fixed;
-      right: 10px;
-      top: 10px;
-    ">
-      <input type="file" id="upload-layer" accept=".kml,.gpx,.geojson" style="display:none;">
-      <button id="upload-layer-button" title="Add custom layer">
-        <span class="material-symbols-outlined" style="
-        font-size: 28px;
-        color: rgba(0, 0, 0, 0.8);
-        ">upload_file</span>
-      </button>
-
-      <button id="fullscreen-button" title="Full screen">
-        <span class="material-symbols-outlined" style="
-          font-size: 28px;
-          color: rgba(0, 0, 0, 0.8);
-          ">fullscreen
-        </span>
-      </button>
-      <button id="legend-button" title="CyclOSM Legend">
-        <span class="material-symbols-outlined" style="
-        font-size: 28px;
-        color: rgba(0, 0, 0, 0.8);
-        ">help</span>
-      </button>
+    <div id="container-misc-buttons"
+    class="button-container">
+      <div class="button-container-pod"></div>
     </div>
 
-    <div id ='container-left-center'
-    style="
-      position: absolute;
-      left: 10px;
-      top: 50%;
-      transform: translateY(-50%);
-    ">
-      <div id="overlay-toggle-external"></div>
+    <div id ='container-overlays-external-buttons'
+    class="button-container">
+      <div id="overlay-toggle-external" class="button-container-pod"></div>
     </div>
 
     <div id="overlay-zoom"></div>
   
-    <div id="layer-switcher-container"
-    style="
-      position: fixed;
-      left: 50%;
-      transform: translateX(-50%);
-      bottom: 24px;
-      display: flex;
-      flex-direction: column;
-      gap: 4px;
-      align-items: center;
-      background: #fdf6e3;
-      color: rgba(0, 0, 0, 0.8);
-      box-shadow: 0px 0px 10px black;
-      border: 2px solid #e6e5e1;
-      border-radius: 50%;
-      z-index: 2000;
-    ">
-      <button id="layer-icon-btn"
-        style="background: #000033; 
-        border: 2px solid #eee8d5;
-        border-radius: 50%; 
-        padding: 0; 
-        cursor: pointer;">
-        <img id="layer-icon-img" src="tile_icons/tile_cyclosm.png" alt="CyclOSM" 
-        style="
-        width: 60px; 
-        height: 60px;
-        border-radius: 50%;
-        border: 2px solid rgba(0, 0, 0, 0.4);
-        ">
+    <div id="layer-switcher-container">
+      <button id="layer-icon-btn">
+        <img id="layer-icon-img" src="tile_icons/tile_cyclosm.png" 
+        alt="CyclOSM"
+        >
       </button>
     </div>
     
-    <div id="layer-name-flash"
-    style="
-      display: none;
-      position: fixed;
-      top: 50%;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 120px;
-      background: #fdf6e3;
-      color: rgba(0, 0, 0, 0.8);
-      font-weight: bold; 
-      font-size: 16px;
-      text-align: center;
-      padding: 12px 32px;
-      border-radius: 12px;
-      z-index: 3000;
-      transition: opacity 0.5s;
-    ">
+    <div id="layer-name-flash">
   </div>
 
+  <script src="src/config.js"></script>
+  <script src="src/configOverride.js"></script>
+  <script src="src/baseLayer.js"></script>
+  <script src="src/navigation.js"></script>
   <script src="src/main.js"></script>
   <script src="src/overlays.js"></script>
-  <script src="src/navigation.js"></script>
   <script src="src/ios.js"></script>
   <script src="src/zoom_current_location.js"></script>
   <script src="src/icon_mapping.js"></script>
+  <script src="src/misc_buttons.js"></script>
+  <script src="src/legend.js"></script>
   </body>
 </html>
