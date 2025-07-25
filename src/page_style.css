@@ -237,12 +237,17 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: background 0.2s, color 0.2s;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Gradual fade effect */
 }
 
 .overlay-toggle-btn[data-active="true"] {
-  background: #86C68090;
-  color: #fff;
+  background: #86C68090; /* Active state background */
+  color: #fff; /* Active state text color */
+}
+
+.overlay-toggle-btn[data-active="false"] {
+  background: transparent; /* Inactive state background */
+  color: inherit; /* Inactive state text color */
 }
 
 /* ====== Legend Overlay ====== */

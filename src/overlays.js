@@ -11,6 +11,32 @@ fetch('/src/overlays.json')
     const overlayToggleDiv = document.getElementById('overlay-toggle-secondary');
     const overlayLayers = {};
 
+    // Add a button for CyclOSM Lite overlay
+    const cyclosmLiteBtn = document.createElement('button');
+    cyclosmLiteBtn.classList.add('overlay-toggle-btn');
+    cyclosmLiteBtn.title = 'Cyclosm Lite Overlay';
+    cyclosmLiteBtn.innerHTML = `<span class="material-symbols-outlined" style="font-size: 28px;">bike_lane</span>`;
+    cyclosmLiteBtn.dataset.active = 'false'; // Initially inactive
+
+    // Create the CyclOSM Lite layer
+    const cyclosmLayer = L.tileLayer('https://{s}.tile-cyclosm.openstreetmap.fr/cyclosm-lite/{z}/{x}/{y}.png', {
+        attribution: '&copy; Cyclosm contributors'
+    });
+
+    // Attach the onclick handler to toggle the layer
+    cyclosmLiteBtn.onclick = function () {
+        if (cyclosmLiteBtn.dataset.active === 'false') {
+            cyclosmLayer.addTo(map); // Add the layer to the map
+            cyclosmLiteBtn.dataset.active = 'true'; // Mark as active
+        } else {
+            map.removeLayer(cyclosmLayer); // Remove the layer from the map
+            cyclosmLiteBtn.dataset.active = 'false'; // Mark as inactive
+        }
+    };
+
+    // Append the button to the overlayToggleDiv
+    overlayToggleDiv.appendChild(cyclosmLiteBtn);
+
     // Helper to create a styled button for overlays
     function createOverlayButton({label, icon, isPrimary}) {
         const btn = document.createElement('button');
@@ -24,7 +50,12 @@ fetch('/src/overlays.json')
                 fetch(icon)
                     .then(res => res.text())
                     .then(svg => {
-                        btn.innerHTML = `<span style="display:inline-block;width:28px;height:28px;vertical-align:middle;">${svg}</span>`;
+                        btn.innerHTML = `<span style="
+                        display:inline-block;
+                        width:28px;
+                        height:28px;
+                        vertical-align:middle;
+                        ">${svg}</span>`;
                     })
                     .catch(() => {
                         btn.innerHTML = `<span style="font-size: 28px;">❓</span>`;
