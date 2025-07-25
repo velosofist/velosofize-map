@@ -29,7 +29,7 @@ The development of Velosofize Map in its current form would not be possible with
 * [MapBox's togeojson tool](https://github.com/mapbox/togeojson)
 * [Черна писта](https://chernapista.com)
 
-and others. Further attributions will be added to NOTICES.md along with respective licenses. Some more attributions to other projects are included throughout https://github.com/velosofist/velosofize/
+and others. Further attributions will be added to NOTICES.md along with respective licenses. Attributions to other projects are included throughout https://github.com/velosofist/velosofize/ , including in <https://docs.velosofize.com/bg/alternatives> .
 
 ## Why KML format instead of GeoJson??
 
