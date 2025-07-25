@@ -18,6 +18,7 @@ const map = L.map('map', {
   zoom: 13,
   zoomControl: false,
   minZoom: 9,
+  maxZoom: 19,
   maxBounds: bounds,
   maxBoundsViscosity: 0.5
 });
@@ -38,13 +39,5 @@ const baseLayerConfig = [
     render: 'maplibre',
     style: '/src/styles/cyclosm/style.json',
     attribution: '&copy; CyclOSM, OpenStreetMap contributors'
-  },
-  { 
-    name: 'satellite',
-    icon: '/attachments/tile_icons/tile_sat.png',
-    alt: 'Satellite',
-    render: 'maplibre',
-    style: '/src/styles/satellite/style.json',
-    attribution: '&copy; Esri, Earthstar Geographics'
   }
 ];

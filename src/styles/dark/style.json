@@ -1548,7 +1548,7 @@
         "text-color": "rgba(255, 255, 255, 0.5)"
       }
     },
-        {
+    {
       "id": "amenities-bicycle_parking",
       "type": "circle",
       "source": "openmaptiles",
@@ -1569,64 +1569,10 @@
       ],
       "layout": {},
       "paint": {
-        "circle-radius": 8,
-        "circle-color": "rgba(31, 184, 51, 0.7)",
+        "circle-radius": 9,
+        "circle-color": "#5d00ff80",
         "circle-stroke-color": "white",
         "circle-stroke-width": 1
-      }
-    },
-    {
-      "id": "road_cycleway",
-      "type": "line",
-      "source": "openmaptiles",
-      "source-layer": "transportation",
-      "minzoom": 8,
-      "filter": [
-        "all",
-        [
-          "==",
-          "$type",
-          "LineString"
-        ],
-        [
-          "in",
-          "class",
-          "path"
-        ],
-        [
-          "any",
-          [
-            "==",
-            "subclass",
-            "cycleway"
-          ],
-          [
-            "==",
-            "bicycle",
-            1
-          ]
-        ]
-      ],
-      "layout": {
-        "line-cap": "square",
-        "line-join": "bevel",
-        "visibility": "visible"
-      },
-      "paint": {
-        "line-color": "rgba(0,0, 255, 1)",
-        "line-width": {
-          "base": 1.2,
-          "stops": [
-            [
-              4,
-              1
-            ],
-            [
-              20,
-              10
-            ]
-          ]
-        }
       }
     },
     {

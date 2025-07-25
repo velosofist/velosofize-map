@@ -1,0 +1,160 @@
+{
+  "version": 8,
+  "sources": {
+    "openmaptiles": {
+      "type": "vector",
+      "url": "https://tiles.openfreemap.org/planet"
+    }
+  },
+  "sprite": "https://tiles.openfreemap.org/sprites/ofm_f384/ofm",
+  "glyphs": "https://tiles.openfreemap.org/fonts/{fontstack}/{range}.pbf",
+  "layers": [
+    {
+      "id": "amenities-bicycle_parking",
+      "type": "circle",
+      "source": "openmaptiles",
+      "source-layer": "poi",
+      "minzoom": 1,
+      "filter": [
+        "all",
+        [
+          "==",
+          "$type",
+          "Point"
+        ],
+        [
+          "==",
+          "subclass",
+          "bicycle_parking"
+        ]
+      ],
+      "layout": {},
+      "paint": {
+        "circle-radius": 8,
+        "circle-color": "#5d00ff",
+        "circle-stroke-color": "white",
+        "circle-stroke-width": 1
+      }
+    },
+    {
+      "id": "road_cycleway",
+      "type": "line",
+      "source": "openmaptiles",
+      "source-layer": "transportation",
+      "minzoom": 8,
+      "filter": [
+        "all",
+        [
+          "==",
+          "$type",
+          "LineString"
+        ],
+        [
+          "in",
+          "class",
+          "path"
+        ],
+        [
+          "any",
+          [
+            "==",
+            "subclass",
+            "cycleway"
+          ],
+          [
+            "==",
+            "bicycle",
+            1
+          ]
+        ]
+      ],
+      "layout": {
+        "line-cap": "square",
+        "line-join": "bevel",
+        "visibility": "visible"
+      },
+      "paint": {
+        "line-color": "rgba(0,0, 255, 1)",
+        "line-width": {
+          "base": 1.2,
+          "stops": [
+            [
+              4,
+              1
+            ],
+            [
+              20,
+              10
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "amenities",
+      "type": "symbol",
+      "source": "openmaptiles",
+      "source-layer": "poi",
+      "minzoom": 12,
+      "filter": [
+        "all",
+        [
+          "==",
+          "$type",
+          "Point"
+        ],
+        [
+          "in",
+          "subclass",
+          "hospital",
+          "pharmacy"
+        ]
+      ],
+      "layout": {
+        "icon-image": [
+          "get",
+          "subclass"
+        ],
+        "icon-size": 1,
+        "icon-allow-overlap": true
+      },
+      "paint": {
+        "icon-opacity": 0.5
+      }
+    },
+    {
+      "id": "amenities_important",
+      "type": "symbol",
+      "source": "openmaptiles",
+      "source-layer": "poi",
+      "minzoom": 12,
+      "filter": [
+        "all",
+        [
+          "==",
+          "$type",
+          "Point"
+        ],
+        [
+          "in",
+          "subclass",
+          "bicycle",
+          "toilets",
+          "drinking_water"
+        ]
+      ],
+      "layout": {
+        "icon-image": [
+          "get",
+          "subclass"
+        ],
+        "icon-size": 1,
+        "icon-allow-overlap": true
+      },
+      "paint": {
+        "icon-opacity": 1
+      }
+    }
+  ],
+  "id": "basic"
+}
