@@ -28,6 +28,7 @@ The development of Velosofize Map in its current form would not be possible with
 * [geojson.io](https://geojson.io)
 * [MapBox's togeojson tool](https://github.com/mapbox/togeojson)
 * [Черна писта](https://chernapista.com)
+* [Overpass Turbo](https://overpass-turbo.eu/)
 
 and others. Further attributions will be added to NOTICES.md along with respective licenses. Attributions to other projects are included throughout https://github.com/velosofist/velosofize/ , including in <https://docs.velosofize.com/bg/alternatives> .
 
