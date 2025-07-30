@@ -103,16 +103,35 @@
     <div id="layer-name-flash">
   </div>
 
-  <!-- <script src="src/config.js"></script> -->
-  <script src="imports/src/configOverride.js"></script>
-  <script src="src/baseLayer.js"></script>
-  <script src="src/navigation.js"></script>
-  <script src="src/main.js"></script>
-  <script src="src/overlays.js"></script>
-  <script src="src/ios.js"></script>
-  <script src="src/zoomCurrentLocation.js"></script>
-  <script src="src/iconMapping.js"></script>
-  <script src="src/miscButtons.js"></script>
-  <script src="src/legend.js"></script>
+  <script>
+    function loadConfigScript(src, onload, onerror) {
+      const script = document.createElement('script');
+      script.src = src;
+      if (onload) script.onload = onload;
+      if (onerror) script.onerror = onerror;
+      document.head.appendChild(script);
+    }
+
+    function loadAppScripts() {
+      [
+        'src/baseLayer.js',
+        'src/navigation.js',
+        'src/main.js',
+        'src/overlays.js',
+        'src/ios.js',
+        'src/zoomCurrentLocation.js',
+        'src/miscButtons.js',
+        'src/legend.js'
+      ].forEach(function(src) {
+        const s = document.createElement('script');
+        s.src = src;
+        document.head.appendChild(s);
+      });
+    }
+
+    loadConfigScript('/imports/src/configOverride.js', loadAppScripts, function() {
+      loadConfigScript('/src/configHardcoded.js', loadAppScripts);
+    });
+  </script>
   </body>
 </html>

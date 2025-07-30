@@ -13,9 +13,10 @@ function getThunderforestApiKey() {
 }
 
 function renderWithMapLibre(key) {
+  const  layerConfig = baseLayerConfig.find(layer => layer.name === key);
     return L.maplibreGL({
-        style: baseLayerConfig.find(layer => layer.name === key)?.style,
-        attribution: baseLayerConfig.find(layer => layer.name === key)?.attribution
+        style: layerConfig?.style,
+        attribution: layerConfig?.attribution
     })
 }
 
@@ -23,15 +24,20 @@ function renderWithMapLibre(key) {
 function renderWithLeaflet(key) {
   const layerConfig = baseLayerConfig.find(layer => layer.name === key);
     return L.tileLayer(
-        baseLayerConfig.find(layer => layer.name === key)?.style, {
-        attribution: baseLayerConfig.find(layer => layer.name === key)?.attribution
+        layerConfig?.style, {
+        attribution: layerConfig?.attribution
     })
 }
 
 function renderWithLeafletAuth(key) {
   const layerConfig = baseLayerConfig.find(layer => layer.name === key);
   return getThunderforestApiKey().then(apiKey => {
-    const url = baseLayerConfig.find(layer => layer.name === key)?.style + `?apikey=${apiKey}`;
+    let url;
+    if (apiKey) {
+      url = layerConfig?.style + `?apikey=${apiKey}`;
+    } else {
+      url = layerConfig?.style;
+    }
     return L.tileLayer(url, {
       attribution: layerConfig.attribution
     });

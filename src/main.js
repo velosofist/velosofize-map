@@ -34,8 +34,8 @@ function createStyledButton(label, icon, onClick) {
 window.addEventListener('resize', () => {
   document.getElementById('map').style.height = window.innerHeight + 'px';
   document.getElementById('map').style.width = window.innerWidth + 'px';
-  if (window.map && window.map.invalidateSize) {
-    window.map.invalidateSize();
+  if (map && map.invalidateSize) {
+    map.invalidateSize();
   }
 });
 
