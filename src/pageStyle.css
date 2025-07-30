@@ -168,6 +168,16 @@ html, body {
   right: 10px;
 }
 
+#overlay-label-popup {
+  background: #fffbe8;
+  border: 1px solid #ccc;
+  padding: 6px 12px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  z-index: 9999;
+  pointer-events: none;
+}
+
 /* ====== Overlay Zoom ====== */
 #overlay-zoom {
   position: fixed;
@@ -201,24 +211,6 @@ html, body {
 }
 
 /* ====== Main Buttons ====== */
-/* #legend-button,
-#fullscreen-button,
-#upload-layer-button {
-  width: 52px;
-  height: 52px;
-  background: #fdf6e3;
-  border: 2px solid #eee8d5;
-  box-shadow: 0px 0px 10px black;
-  color: rgba(0, 0, 0, 0.8);
-  border-radius: 50%;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0;
-}
-*/
-
 #legend-button span,
 #fullscreen-button span,
 #upload-layer span {
@@ -238,6 +230,19 @@ html, body {
   align-items: center;
   justify-content: center;
   transition: background-color 0.3s ease, color 0.3s ease; /* Gradual fade effect */
+  -webkit-tap-highlight-color: transparent; /* Remove blue tap highlight on mobile */
+}
+
+/* Prevent selection of icons as text */
+.overlay-toggle-btn,
+.overlay-toggle-btn *,
+#close-legend-button,
+#switch-language-legend-button,
+.material-symbols-outlined,
+.material-symbols-outlined * {
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 .overlay-toggle-btn[data-active="true"] {

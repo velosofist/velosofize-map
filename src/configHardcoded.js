@@ -129,7 +129,7 @@ const overlaysData = {
             "disabled": false
         },
         {
-            "url": "/export_formats/parking.kml",
+            "url": "/export_formats/external_sources/parking.kml",
             "label": "Велопаркинги / Bicycle parking (© OpenStreetMap contributors)",
             "icon": "local_parking",
             "disabled": false

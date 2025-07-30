@@ -36,13 +36,31 @@ cyclosmLiteBtn.onclick = function () {
 // Append the button to the overlayToggleDiv
 overlayToggleDiv.appendChild(cyclosmLiteBtn);
 
-// Helper to create a styled button for overlays
-// ...existing code...
+function showOverlayLabelPopup(label, event) {
+    // Remove any existing popup
+    const existing = document.getElementById('overlay-label-popup');
+    if (existing) existing.remove();
+
+    const popupDiv = document.createElement('div');
+    popupDiv.id = 'overlay-label-popup';
+    popupDiv.textContent = label;
+    popupDiv.style.position = 'fixed';
+    // Only set position dynamically
+    let x = event.clientX || (event.touches && event.touches[0].clientX) || 0;
+    let y = event.clientY || (event.touches && event.touches[0].clientY) || 0;
+    popupDiv.style.left = (x + 10) + 'px';
+    popupDiv.style.top = (y + 10) + 'px';
+    document.body.appendChild(popupDiv);
+}
+
+function hideOverlayLabelPopup() {
+    const existing = document.getElementById('overlay-label-popup');
+    if (existing) existing.remove();
+}
 
 function createOverlayToggleButton({label, icon, isPrimary = false, overlay, containerDiv}) {
     const btn = document.createElement('button');
     btn.classList.add('overlay-toggle-btn');
-    btn.title = label;
     btn.dataset.active = isPrimary ? 'true' : 'false';
 
     // Icon logic (reuse your existing logic)
@@ -77,10 +95,14 @@ function createOverlayToggleButton({label, icon, isPrimary = false, overlay, con
         }
     };
 
+    btn.addEventListener('mousedown', (e) => showOverlayLabelPopup(label, e));
+    btn.addEventListener('mouseup', hideOverlayLabelPopup);
+    btn.addEventListener('mouseleave', hideOverlayLabelPopup);
+    btn.addEventListener('touchstart', (e) => showOverlayLabelPopup(label, e));
+    btn.addEventListener('touchend', hideOverlayLabelPopup);
+
     containerDiv.appendChild(btn);
 }
-
-// ...existing code...
 
 // Add primary and secondary overlays
 allOverlays.forEach(({url, label, icon, disabled, isPrimary}) => {
@@ -96,7 +118,6 @@ allOverlays.forEach(({url, label, icon, disabled, isPrimary}) => {
         });
     }
 });
-
 
 // Add external overlays
 const externalOverlays = data.external;
@@ -116,6 +137,7 @@ externalOverlays.forEach(({url, label, icon, disabled}) => {
         });
     }
 });
+
 function styleFromStyleUrl(styleUrl, featureWeight) {
     const match = styleUrl?.match(/#line-([0-9A-Fa-f]{6})/);
     if (match) {
