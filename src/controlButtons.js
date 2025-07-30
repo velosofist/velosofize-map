@@ -18,12 +18,6 @@ function setupZoomControls() {
   secondaryDiv.appendChild(zoomBtnContainer);
 }
 
-
-window.addEventListener('DOMContentLoaded', () => {
-  setupZoomControls();
-  setupCurrentLocationButton();
-});
-
 map.on('zoomend', function() {
     const zoom = map.getZoom();
     window.allCustomMarkers.forEach(marker => {
@@ -95,3 +89,47 @@ function setupCurrentLocationButton() {
   }
   zoomBtnContainer.appendChild(locateBtn);
 }
+
+function setupHideExternalOverlaysButton() {
+  const containerExternal = document.getElementById('container-overlays-external-buttons');
+  const containerPrimary = document.getElementById('container-overlays-buttons');
+  const secondaryDiv = document.getElementById('overlay-zoom');
+  if (!containerExternal || !containerPrimary || !secondaryDiv) return;
+
+  // Create the toggle button
+  let isHidden = false;
+  const toggleBtn = createStyledButton('Hide/show overlays', 'layers_clear', () => {
+    isHidden = !isHidden;
+    if (isHidden) {
+      containerExternal.style.display = 'none';
+      containerPrimary.style.display = 'none';
+      // Change icon to "layers"
+      toggleBtn.querySelector('.material-symbols-outlined').textContent = 'layers';
+    } else {
+      containerExternal.style.display = '';
+      containerPrimary.style.display = '';
+      // Change icon to "layers_clear"
+      toggleBtn.querySelector('.material-symbols-outlined').textContent = 'layers_clear';
+    }
+  });
+
+  // Use the same styling and container as the zoom/location buttons
+  let zoomBtnContainer = secondaryDiv.querySelector('.zoom-btn-container');
+  if (!zoomBtnContainer) {
+    zoomBtnContainer = document.createElement('div');
+    zoomBtnContainer.className = 'zoom-btn-container';
+    zoomBtnContainer.style.display = 'flex';
+    zoomBtnContainer.style.flexDirection = 'column';
+    zoomBtnContainer.style.alignItems = 'center';
+    zoomBtnContainer.style.gap = '8px';
+    secondaryDiv.appendChild(zoomBtnContainer);
+  }
+
+  zoomBtnContainer.insertBefore(toggleBtn, zoomBtnContainer.firstChild);
+}
+
+window.addEventListener('DOMContentLoaded', () => {
+  setupHideExternalOverlaysButton();
+  setupZoomControls();
+  setupCurrentLocationButton();
+});
