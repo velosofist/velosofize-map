@@ -1,4 +1,4 @@
-# Method for easy exports of kml and geojson files:
+# Easy exports of KML and GeoJson files:
 
 ## Acquire automatic download link:
 
@@ -16,18 +16,12 @@ Keep a KML with a network link.
     <NetworkLink>
       <name>VELOSOFIZE</name>
       <Link>
-        <href><![CDATA[https://www.google.com/maps/d/u/0/kml?forcekml=1&mid=13Ke06MOSLTuBBbr2ITKNV7kLhs_v2Qc&lid=3wjSl8o1dLc]]></href>
+        <href><![CDATA[https://www.google.com/maps/d/u/0/kml?forcekml=...]]></href>
       </Link>
     </NetworkLink>
   </Document>
 </kml>
 ```
-
-| | |
-|:--|:--|
-| Routes: | 'https://www.google.com/maps/d/u/0/kml?forcekml=1&mid=13Ke06MOSLTuBBbr2ITKNV7kLhs_v2Qc&lid=3wjSl8o1dLc'| 
-| Crossings: | 'https://www.google.com/maps/d/u/0/kml?forcekml=1&mid=13Ke06MOSLTuBBbr2ITKNV7kLhs_v2Qc&lid=bB78iE4m2io'| 
-| Others | 'https://www.google.com/maps/d/u/0/kml?forcekml=1&mid=13Ke06MOSLTuBBbr2ITKNV7kLhs_v2Qc&lid=ToS2rNd9rNc'| 
 
 ```bash
 git clone https://github.com/mapbox/togeojson.git

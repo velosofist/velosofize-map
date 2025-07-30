@@ -1,0 +1,7815 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Велопаркинги (© OpenStreetMap contributors)</name>
+    <Style id="icon-1644-01579B-normal">
+      <IconStyle>
+        <color>ff9b5701</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1644-01579B-highlight">
+      <IconStyle>
+        <color>ff9b5701</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1644-01579B">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1644-01579B-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1644-01579B-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="created_by">
+          <value>Potlatch 0.10f</value>
+        </Data>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.178802,42.349434,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.318106,42.685614,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>10.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.321234,42.70002,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>4.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.331274,42.686339,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>10.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.319383,42.677829,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>9.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.308489,42.673992,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>6.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.331304,42.68322,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.321443,42.681812,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>6.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.30965,42.691956,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.370438,42.665733,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>НКЖИ bike parking</name>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>6.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.316129,42.713365,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.68733,42.653513,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.908208,43.20333,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>7.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.367131,42.642524,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>50.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.33256,42.686763,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.438566,42.640268,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.318533,42.701045,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Кайлъка</name>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.621817,43.392579,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>13.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.329637,42.688852,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>3.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.288282,42.676145,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.730649,42.657366,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.904197,43.204735,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.64562,42.557152,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>7.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.307931,42.68573,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>25.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.374116,42.667626,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>45.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.373678,42.666874,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>50.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.372957,42.667525,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>15.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.373276,42.667183,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>40.0</value>
+        </Data>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.373458,42.666052,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>10.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.3742,42.666395,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>10.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.37415,42.66883,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>25.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.375709,42.666495,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>10.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.37387,42.668175,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>10.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.375057,42.66604,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.328842,42.687894,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>4.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.332323,42.687088,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>3.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.332439,42.687165,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>6.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          25.641091,43.07809,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>10.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.325727,42.696801,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>60.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.374977,42.667786,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.300595,42.678611,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.301591,42.678766,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.302218,42.678072,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>4.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.299806,42.672146,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>7.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.294692,42.671476,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>3.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.296587,42.670453,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.298939,42.670586,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.917875,43.197785,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.295807,42.66987,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>4.0</value>
+        </Data>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.290314,42.667031,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>16.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.331974,42.696776,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>16.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.381951,42.660607,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>6.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.324373,42.695986,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          25.646594,43.081536,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>20.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.711554,42.704007,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>20.0</value>
+        </Data>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.710903,42.703311,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.715419,42.66378,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.339583,42.133163,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.400585,41.741664,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>4.0</value>
+        </Data>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.679948,42.411854,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>6.0</value>
+        </Data>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.331568,42.690092,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.678171,42.410794,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.682849,42.412039,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.681195,42.411177,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.678845,42.407703,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.67877,42.407458,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.680434,42.411751,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>3.0</value>
+        </Data>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.680442,42.41248,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.67936,42.412003,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.68028,42.412261,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>3.0</value>
+        </Data>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.680334,42.412216,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.680496,42.41125,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.680754,42.411222,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>4.0</value>
+        </Data>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.681756,42.411935,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>4.0</value>
+        </Data>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.680061,42.411271,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>4.0</value>
+        </Data>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.67869,42.410347,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>6.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.33883,42.687446,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.300848,42.727624,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.322636,42.692894,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>20.0</value>
+        </Data>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.924418,43.20863,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>8.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.252858,42.720973,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>10.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.347082,42.659133,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>10.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.32027,42.67114,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.52218,41.875112,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.311926,42.640565,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>10.0</value>
+        </Data>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.297145,42.683676,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>7.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.326571,42.684472,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          26.960267,43.256125,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          26.942813,43.276036,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>9.0</value>
+        </Data>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.318937,42.686597,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.225624,43.408565,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>6.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.331553,42.688631,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>7.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.321646,42.687602,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>4.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.327547,42.689407,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>3.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.330926,42.686614,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>6.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.316344,42.684606,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>11.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.321113,42.684454,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.710592,42.703463,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.317838,42.695767,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.32072,42.695932,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.321663,42.695955,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>12.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.294231,42.67141,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.709178,42.703992,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>4.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.320999,42.695234,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>4.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.324063,42.694656,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.315611,42.683282,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.395614,42.671744,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.327464,42.690688,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>10.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.910329,43.207053,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.705003,42.693947,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.313106,42.708885,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>6.0</value>
+        </Data>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.350517,42.671554,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>6.0</value>
+        </Data>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.368821,42.649443,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>16.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.918119,43.203465,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.311735,42.704773,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>6.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.314136,42.689615,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>4.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.317124,42.703933,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.307912,42.705773,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>10.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.319856,42.697849,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>10.0</value>
+        </Data>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.311855,42.698104,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.310584,42.699638,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>4.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.307184,42.700119,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>4.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.307671,42.698938,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.310606,42.678603,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>4.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.240967,42.684527,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>4.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.309811,42.677295,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>4.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.331208,42.698091,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>4.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.312379,42.686862,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>6.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.317701,42.662486,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>4.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.346065,42.69415,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>6.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.334866,42.696586,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>4.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.328309,42.692542,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>4.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.330187,42.691647,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>6.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.32199,42.699478,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>2.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.31967,42.699513,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>4.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.315927,42.700106,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>4.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.324361,42.700056,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>4.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.332238,42.698291,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>30.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.320693,42.678412,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>4.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.304352,42.699301,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>6.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.326181,42.690262,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.308799,42.700285,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.306802,42.701904,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>4.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.313223,42.698074,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>6.0</value>
+        </Data>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.793888,42.14001,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>2.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.319401,42.698115,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.302105,42.711296,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>8.0</value>
+        </Data>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.333411,42.704345,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>8.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.917824,43.207769,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>20.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.920732,43.198552,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.91348,42.897207,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>10.0</value>
+        </Data>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.938875,43.222323,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.921543,43.204438,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>10.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.912286,43.210108,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>10.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.3727,42.670484,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>20.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.272782,42.711684,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>4.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.312222,42.69093,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>6.0</value>
+        </Data>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.319705,42.669535,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>6.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.31707,42.663182,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>10.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.920558,43.209811,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.467767,42.527389,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          25.357612,42.427454,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.727182,42.147061,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.728857,42.147524,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.749357,42.159473,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.747541,42.159318,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.739797,42.15935,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.741533,42.159268,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.76437,42.160347,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.76273,42.14714,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.742061,42.15926,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.769025,42.129058,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.77007,42.130236,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.768616,42.129599,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.767628,42.13093,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.764793,42.134065,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.76402,42.135468,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.765024,42.135814,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.765793,42.136094,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.767987,42.136852,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.770224,42.13758,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.780162,42.141166,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.785414,42.142989,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.778889,42.148714,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.776988,42.149382,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.770116,42.148369,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.765541,42.147548,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.757449,42.145655,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.756884,42.145475,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.755146,42.144895,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.756282,42.145488,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.762569,42.15434,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>10.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.746418,42.153474,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.740964,42.152798,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.736488,42.15277,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.734864,42.152823,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.738329,42.148692,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.734834,42.148281,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.732875,42.148096,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.790869,42.138388,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.923245,43.201378,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.733542,42.158641,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.717782,42.15004,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.71637,42.148634,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.707154,42.142854,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.706407,42.142436,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.696818,42.13687,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.705403,42.143515,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.716317,42.150463,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.716855,42.150781,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.762639,42.160172,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.787986,42.13395,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.780559,42.131556,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.78048,42.131546,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.784979,42.143914,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.783945,42.142648,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.744938,42.153222,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.750556,42.15405,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.715467,42.156305,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.714858,42.157095,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.715247,42.156494,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.706597,42.154719,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.712895,42.15576,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.713574,42.156202,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.713472,42.156194,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.262248,41.457651,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.796715,42.141375,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.796442,42.141241,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.794056,42.140097,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.795332,42.134655,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.763426,42.14672,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.763261,42.142861,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.763204,42.140332,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.763129,42.138193,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.771777,42.125116,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>8.0</value>
+        </Data>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.766045,42.310785,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.740825,42.123918,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.747831,42.122691,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.754936,42.122643,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.752522,42.122506,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.791986,42.147978,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.784089,42.148583,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.718019,42.156137,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.716517,42.156027,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>6.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.307319,42.696928,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.309717,42.733804,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>6.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.396564,42.650508,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>4.0</value>
+        </Data>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.357912,42.662513,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>18.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.740658,42.135056,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.738799,42.1347,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.733725,42.133725,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.726749,42.1339,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.726773,42.133951,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>10.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.36153,42.680822,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.71722,42.708438,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.706018,42.699494,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.730817,42.151761,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.732811,42.151637,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.708714,42.702792,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.26954,42.683615,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.673216,42.653564,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.304669,42.694234,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>3.0</value>
+        </Data>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.312015,42.688574,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.372591,42.622604,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.371386,42.622642,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.928721,43.209581,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.316088,42.717037,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.71488,42.143562,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.719624,42.142767,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.343011,42.708554,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.715626,42.147021,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.320885,42.695926,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.302537,42.677165,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>7.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.333215,42.674664,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>9.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.321293,42.69708,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.336279,42.652806,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>10.0</value>
+        </Data>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.332178,42.686126,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.943247,42.099616,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>3.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.333559,42.676967,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>6.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.323407,42.705783,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>6.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.322345,42.692487,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>6.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.322912,42.692457,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>6.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.31125,42.687354,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.718992,42.6628,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.719417,42.662576,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.944366,42.100139,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.273453,42.670783,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>8.0</value>
+        </Data>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.357069,42.663481,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.284614,42.678995,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>6.0</value>
+        </Data>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.350514,42.671557,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>6.0</value>
+        </Data>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.35053,42.671552,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.333958,42.659968,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>6.0</value>
+        </Data>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.321376,42.680383,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>16.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.320981,42.670959,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>6.0</value>
+        </Data>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.321759,42.678711,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>10.0</value>
+        </Data>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.320568,42.670984,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>10.0</value>
+        </Data>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.319882,42.669478,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>10.0</value>
+        </Data>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.316528,42.659567,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>10.0</value>
+        </Data>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.315987,42.657083,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>6.0</value>
+        </Data>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.319352,42.68554,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>6.0</value>
+        </Data>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.327893,42.688144,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>10.0</value>
+        </Data>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.31909,42.688974,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>6.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.358097,42.662435,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>8.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.319331,42.668427,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>4.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.327341,42.693233,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>4.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.326847,42.692867,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>6.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.316882,42.686932,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>6.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          25.644887,43.075494,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>6.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          25.645793,43.076223,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>6.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          25.644838,43.075672,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>6.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          25.647077,43.07571,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>6.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          25.64724,43.075722,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.40952,42.640587,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.409653,42.640534,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>6.0</value>
+        </Data>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.301383,42.679315,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>4.0</value>
+        </Data>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.36442,42.658634,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.928161,43.21603,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>10.0</value>
+        </Data>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.335159,42.691652,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.468539,42.735316,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>16.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.334973,42.641233,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>9.0</value>
+        </Data>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.720067,42.710536,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>3.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.291741,42.693127,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>4.0</value>
+        </Data>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.308591,42.686233,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>4.0</value>
+        </Data>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.308542,42.686298,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.710647,42.704381,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.71115,42.704068,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.715944,42.70778,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>10.0</value>
+        </Data>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.346628,42.696987,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.393359,42.611193,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>10.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.493788,42.533615,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>10.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.493717,42.533633,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.916866,43.211693,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.785825,42.90809,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.725294,42.146502,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>4.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.339231,42.687743,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>6.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.325177,42.665001,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.282593,42.678701,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.312564,42.714636,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.312586,42.714629,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.312606,42.714622,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.266913,42.646956,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.70071,42.387778,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.700625,42.388848,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.700602,42.388884,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>8.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.308634,42.67388,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.725163,42.146878,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>4.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.329416,42.696156,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>3.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.324298,42.691788,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>6.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.324913,42.694725,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.733468,42.133672,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>2.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.915026,43.203332,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.909828,43.204539,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.438248,42.639943,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>9.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.300272,42.659631,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.276751,42.669194,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.279919,42.665791,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>10.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.288194,42.664664,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>28.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.287929,42.664389,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>4.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.279276,42.671273,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>12.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.374852,42.669683,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>12.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.374659,42.66954,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>10.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.927993,43.215503,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>10.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.305042,42.695556,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>4.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.267298,42.666941,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.333425,42.673956,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>13.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.288962,42.665103,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>20.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.330257,42.673758,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>10.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.275646,42.74038,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>6.0</value>
+        </Data>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.352605,42.702627,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>10.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.276443,42.741097,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>4.0</value>
+        </Data>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.32219,42.699231,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>6.0</value>
+        </Data>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.321846,42.697903,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>4.0</value>
+        </Data>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.3221,42.699244,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.326253,42.196556,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.334746,42.195971,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>3.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.919225,43.205896,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.371869,42.653821,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>10.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.328298,42.658142,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.287868,42.655561,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>8.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.328549,42.687893,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>8.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.276494,42.66923,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>6.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.302378,42.665172,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>6.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.302389,42.665182,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>4.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.303805,42.696087,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>4.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          28.035803,43.704717,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.720692,42.703845,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          25.617386,42.438443,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          25.617382,42.43845,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.712661,42.705621,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.716358,42.707457,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.711821,42.705376,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.713408,42.70669,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.713678,42.704568,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>6.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.739769,42.660558,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.717689,42.706915,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.791348,42.12654,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.77657,42.127429,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.723037,42.149711,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>4.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.317514,42.692499,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.759905,42.709615,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>8.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.331403,42.698841,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.906749,43.21184,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>4.0</value>
+        </Data>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          25.635954,42.405061,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          28.162648,43.424924,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>15.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.336024,42.693888,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>20.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.335616,42.693402,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.317866,42.717177,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>4.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.328339,42.700476,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.370233,42.644044,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.370099,42.642331,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>6.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.321584,42.692543,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>6.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.332269,42.69472,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>6.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.32961,42.691132,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>6.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.329465,42.690999,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.319239,42.711764,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>10.0</value>
+        </Data>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.671956,42.652724,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.740705,42.124247,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.724326,42.128729,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>6.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.320978,42.692584,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.743075,42.130376,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.481109,42.499027,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.734719,42.125941,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.721485,42.127682,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.720713,42.126634,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>4.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.296113,42.677777,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.726248,42.143328,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          24.725786,42.139866,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>4.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.310296,42.687146,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.31472,42.688443,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>30.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.330279,42.674367,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>13.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.329733,42.673831,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>8.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.303992,42.687023,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.277328,42.687998,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.277388,42.688078,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.295132,42.670604,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.295083,42.670558,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>18.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.276958,42.67353,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>8.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.324599,42.696682,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>4.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.32404,42.704524,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>2.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.360434,42.675998,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>7.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.333082,42.687127,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.909121,42.897415,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.909156,42.89739,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.29345,42.673062,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>10.0</value>
+        </Data>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.319509,42.698213,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.311897,42.678828,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>12.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.289486,42.666421,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>3.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.360654,42.678608,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>4.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.273238,42.657564,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>15.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.294184,42.690913,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>4.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.304086,42.66971,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>6.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.304032,42.66963,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>4.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.296325,42.677766,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>3.0</value>
+        </Data>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.292442,42.679807,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>3.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.365171,42.678359,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>20.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.330538,42.673411,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.241532,42.725762,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.29726,42.685148,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.290294,42.665623,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.330495,42.673478,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>2.0</value>
+        </Data>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.312344,42.690651,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.290313,42.698789,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.335028,42.682943,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>4.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          26.571963,43.244092,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>10.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.920624,43.19695,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.926448,43.207811,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>3.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.948437,43.21128,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.948546,43.211346,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>6.0</value>
+        </Data>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.324439,42.70541,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>10.0</value>
+        </Data>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.323814,42.705427,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>3.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.313582,42.661379,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.268115,42.678512,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.267759,42.668594,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.244992,42.65989,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.244828,42.660251,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.245542,42.66021,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.243193,42.660007,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>6.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.313257,42.697264,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>4.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.31341,42.698133,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          26.330386,42.679313,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>30.0</value>
+        </Data>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.309356,42.69822,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>40.0</value>
+        </Data>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.478629,42.489482,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.480788,42.4897,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.481276,42.492395,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.481526,42.490807,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.483343,42.495503,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          27.481429,42.492777,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>6.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.331627,42.695788,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.30782,42.698551,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.308764,42.698552,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value>no</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.309244,42.698472,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>5.0</value>
+        </Data>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.308379,42.698604,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name/>
+      <styleUrl>#icon-1644-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="capacity">
+          <value>2.0</value>
+        </Data>
+        <Data name="covered">
+          <value>yes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.297028,42.685673,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
