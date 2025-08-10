@@ -1,0 +1,15 @@
+(
+  relation["route"~"(bicycle|mtb)"]["type"="route"]({{bbox}});
+);
+out geom;
+
+{{style:
+*[network=Alabak]      { color: #000000; fill-color:#000000; opacity:0.5}
+*[network=alabak]      { color: #000000; fill-color:#000000; opacity:0.5}
+*[network=icn]         { color: #ff00ff; fill-color:#ff00ff; opacity:0.5}
+*[network=ncn]         { color: #aa00ff; fill-color:#aa00ff; opacity:0.5}
+*[network=rcn]         { color: #5500ff; fill-color:#5500ff; opacity:0.5}
+*[network=lcn]         { color: #0000ff; fill-color:#0000ff; opacity:0.5}
+*[network=mcn]         { color: #d15000; fill-color:#d15000; opacity:0.5}
+*[route=mtb]           { color: #d15000; fill-color:#d15000; opacity:0.5}
+}}
