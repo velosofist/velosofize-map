@@ -13,9 +13,10 @@ function getThunderforestApiKey() {
 }
 
 function renderWithMapLibre(key) {
+  const  layerConfig = baseLayerConfig.find(layer => layer.name === key);
     return L.maplibreGL({
-        style: baseLayerConfig.find(layer => layer.name === key)?.style,
-        attribution: baseLayerConfig.find(layer => layer.name === key)?.attribution
+        style: layerConfig?.style,
+        attribution: layerConfig?.attribution
     })
 }
 
@@ -23,36 +24,46 @@ function renderWithMapLibre(key) {
 function renderWithLeaflet(key) {
   const layerConfig = baseLayerConfig.find(layer => layer.name === key);
     return L.tileLayer(
-        baseLayerConfig.find(layer => layer.name === key)?.style, {
-        attribution: baseLayerConfig.find(layer => layer.name === key)?.attribution
+        layerConfig?.style, {
+        attribution: layerConfig?.attribution
     })
 }
 
 function renderWithLeafletAuth(key) {
   const layerConfig = baseLayerConfig.find(layer => layer.name === key);
   return getThunderforestApiKey().then(apiKey => {
-    const url = baseLayerConfig.find(layer => layer.name === key)?.style + `?apikey=${apiKey}`;
+    let url;
+    if (apiKey) {
+      url = layerConfig?.style + `?apikey=${apiKey}`;
+    } else {
+      url = layerConfig?.style;
+    }
     return L.tileLayer(url, {
       attribution: layerConfig.attribution
     });
   });
 }
 
-const layers = {};
+function fillBaseLayerList() {
+  const layers = {};
 
-for (const layer of baseLayerConfig) {
-  if (layer.render === 'maplibre') {
-    layers[layer.name] = renderWithMapLibre(layer.name);
-  } else if (layer.render === 'leaflet') {
-    layers[layer.name] = renderWithLeaflet(layer.name);
-  } else if (layer.render === 'leaflet_auth') {
-    layers[layer.name] = renderWithLeafletAuth(layer.name);
-  } else {
-    console.warn(`Unknown render method for layer: ${layer.name}`);
+  for (const layer of baseLayerConfig) {
+    if (layer.render === 'maplibre') {
+      layers[layer.name] = renderWithMapLibre(layer.name);
+    } else if (layer.render === 'leaflet') {
+      layers[layer.name] = renderWithLeaflet(layer.name);
+    } else if (layer.render === 'leaflet_auth') {
+      layers[layer.name] = renderWithLeafletAuth(layer.name);
+    } else {
+      console.warn(`Unknown render method for layer: ${layer.name}`);
+    }
   }
-}
 
-const defaultBaseLayer = layers['libre'];
+  return layers;
+};
+
+layersList = fillBaseLayerList();
+const defaultBaseLayer = layersList['libre'];
 
 function updateLayerIcon() {
   const { icon, alt } = baseLayerConfig[currentBaseLayerId];
@@ -90,13 +101,13 @@ async function setBaseLayer(layerName) {
   if (currentBaseLayer && map.hasLayer(currentBaseLayer) && currentBaseLayer !== defaultBaseLayer) {
     map.removeLayer(currentBaseLayer);
   }
-  let newLayer = layers[layerName];
+  let newLayer = layersList[layerName];
   if (newLayer instanceof Promise) {
     newLayer = await newLayer;
-    layers[layerName] = newLayer; // cache resolved layer
+    layersList[layerName] = newLayer; // cache resolved layer
   }
   // Add the new base layer
-  currentBaseLayer = layers[layerName];
+  currentBaseLayer = layersList[layerName];
   currentBaseLayer.addTo(map);
   flashLayerName(layerName);
 }

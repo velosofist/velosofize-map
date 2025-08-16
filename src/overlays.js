@@ -1,146 +1,167 @@
 window.allCustomMarkers = window.allCustomMarkers || [];
+const data = overlaysData;
 
-fetch('/src/overlays.json')
-.then(response => response.json())
-.then(data => {
-    // Combine overlays and set up containers
-    const allOverlays = [
-        ...data.primary.map(layer => ({...layer, isPrimary: true})),
-        ...data.secondary.map(layer => ({...layer, isPrimary: false}))
-    ];
-    const overlayToggleDiv = document.getElementById('overlay-toggle-secondary');
-    const overlayLayers = {};
+// Combine overlays and set up containers
+const allOverlays = [
+    ...data.primary.map(layer => ({...layer, isPrimary: true})),
+    ...data.secondary.map(layer => ({...layer, isPrimary: false}))
+];
 
-    // Add a button for CyclOSM Lite overlay
-    const cyclosmLiteBtn = document.createElement('button');
-    cyclosmLiteBtn.classList.add('overlay-toggle-btn');
-    cyclosmLiteBtn.title = 'Cyclosm Lite Overlay';
-    cyclosmLiteBtn.innerHTML = `<span class="material-symbols-outlined" style="font-size: 28px;">bike_lane</span>`;
-    cyclosmLiteBtn.dataset.active = 'false'; // Initially inactive
+const overlayToggleDiv = document.getElementById('overlay-toggle-secondary');
+const overlayLayers = {};
 
-    // Create the CyclOSM Lite layer
-    const cyclosmLayer = L.tileLayer('https://{s}.tile-cyclosm.openstreetmap.fr/cyclosm-lite/{z}/{x}/{y}.png', {
-        attribution: '&copy; Cyclosm contributors'
-    });
+// Add a button for CyclOSM Lite overlay
+const cyclosmLiteBtn = document.createElement('button');
+cyclosmLiteBtn.classList.add('overlay-toggle-btn');
+cyclosmLiteBtn.title = 'Cyclosm Lite Overlay';
+cyclosmLiteBtn.innerHTML = `<span class="material-symbols-outlined" style="font-size: 28px;">bike_lane</span>`;
+cyclosmLiteBtn.dataset.active = 'false'; // Initially inactive
 
-    // Attach the onclick handler to toggle the layer
-    cyclosmLiteBtn.onclick = function () {
-        if (cyclosmLiteBtn.dataset.active === 'false') {
-            cyclosmLayer.addTo(map); // Add the layer to the map
-            cyclosmLiteBtn.dataset.active = 'true'; // Mark as active
+// Create the CyclOSM Lite layer
+const cyclosmLayer = L.tileLayer('https://{s}.tile-cyclosm.openstreetmap.fr/cyclosm-lite/{z}/{x}/{y}.png', {
+    attribution: '&copy; Cyclosm contributors'
+});
+
+// Attach the onclick handler to toggle the layer
+cyclosmLiteBtn.onclick = function () {
+    if (cyclosmLiteBtn.dataset.active === 'false') {
+        cyclosmLayer.addTo(map); // Add the layer to the map
+        cyclosmLiteBtn.dataset.active = 'true'; // Mark as active
+    } else {
+        map.removeLayer(cyclosmLayer); // Remove the layer from the map
+        cyclosmLiteBtn.dataset.active = 'false'; // Mark as inactive
+    }
+};
+
+// Append the button to the overlayToggleDiv
+overlayToggleDiv.appendChild(cyclosmLiteBtn);
+
+function showOverlayLabelPopup(label, event) {
+    // Remove any existing popup
+    const existing = document.getElementById('overlay-label-popup');
+    if (existing) existing.remove();
+
+    const popupDiv = document.createElement('div');
+    popupDiv.id = 'overlay-label-popup';
+    popupDiv.textContent = label;
+    popupDiv.style.position = 'fixed';
+
+    // Append the popup to the body first to calculate its dimensions
+    document.body.appendChild(popupDiv);
+
+    // Center the popup in the viewport
+    const popupWidth = popupDiv.offsetWidth;
+    const popupHeight = popupDiv.offsetHeight;
+    const viewportWidth = window.innerWidth;
+    const viewportHeight = window.innerHeight;
+
+    popupDiv.style.left = `${(viewportWidth - popupWidth) / 2}px`;
+    popupDiv.style.top = `${(viewportHeight - popupHeight) / 2}px`;
+}
+
+function hideOverlayLabelPopup() {
+    const existing = document.getElementById('overlay-label-popup');
+    if (existing) existing.remove();
+}
+
+function createOverlayToggleButton({ label, icon, isPrimary = false, overlay, containerDiv }) {
+    const btn = document.createElement('button');
+    btn.classList.add('overlay-toggle-btn');
+    btn.dataset.active = isPrimary ? 'true' : 'false';
+
+    // Default to '?' if the icon is not provided or invalid
+    if (!icon || typeof icon !== 'string') {
+        icon = '?';
+    }
+
+    // Icon logic
+    if (icon.startsWith('http')) {
+        if (icon.toLowerCase().endsWith('.svg')) {
+            fetch(icon)
+                .then(res => res.text())
+                .then(svg => {
+                    btn.innerHTML = `<span style="display:inline-block;width:28px;height:28px;vertical-align:middle;">${svg}</span>`;
+                })
+                .catch(() => {
+                    btn.innerHTML = `<span style="font-size: 28px;">❓</span>`;
+                });
         } else {
-            map.removeLayer(cyclosmLayer); // Remove the layer from the map
-            cyclosmLiteBtn.dataset.active = 'false'; // Mark as inactive
+            btn.innerHTML = `<img src="${icon}" alt="" style="width:28px;height:28px;vertical-align:middle;">`;
+        }
+    } else if (icon.startsWith('/')) {
+        // Handle relative paths
+        const relativeIconPath = `${window.location.origin}${icon}`;
+        if (icon.toLowerCase().endsWith('.svg')) {
+            fetch(relativeIconPath)
+                .then(res => res.text())
+                .then(svg => {
+                    btn.innerHTML = `<span style="display:inline-block;width:28px;height:28px;vertical-align:middle;">${svg}</span>`;
+                })
+                .catch(() => {
+                    btn.innerHTML = `<span style="font-size: 28px;">❓</span>`;
+                });
+        } else {
+            btn.innerHTML = `<img src="${relativeIconPath}" alt="" style="width:28px;height:28px;vertical-align:middle;">`;
+        }
+    } else {
+        btn.innerHTML = `<span class="material-symbols-outlined" style="font-size: 28px;">${icon}</span>`;
+    }
+
+    // Add/remove overlay logic
+    if (isPrimary) {
+        overlay.addTo(map);
+    }
+    btn.onclick = function() {
+        if (btn.dataset.active === 'false') {
+            overlay.addTo(map);
+            btn.dataset.active = 'true';
+        } else {
+            map.removeLayer(overlay);
+            btn.dataset.active = 'false';
         }
     };
 
-    // Append the button to the overlayToggleDiv
-    overlayToggleDiv.appendChild(cyclosmLiteBtn);
+    btn.addEventListener('mousedown', (e) => showOverlayLabelPopup(label, e));
+    btn.addEventListener('mouseup', hideOverlayLabelPopup);
+    btn.addEventListener('mouseleave', hideOverlayLabelPopup);
+    btn.addEventListener('touchstart', (e) => showOverlayLabelPopup(label, e));
+    btn.addEventListener('touchend', hideOverlayLabelPopup);
 
-    // Helper to create a styled button for overlays
-    function createOverlayButton({label, icon, isPrimary}) {
-        const btn = document.createElement('button');
-        btn.classList.add('overlay-toggle-btn');
-        btn.title = label;
-        btn.dataset.active = isPrimary ? 'true' : 'false';
+    containerDiv.appendChild(btn);
+}
 
-        // Icon logic
-        if (typeof icon === 'string' && icon.startsWith('http')) {
-            if (icon.toLowerCase().endsWith('.svg')) {
-                fetch(icon)
-                    .then(res => res.text())
-                    .then(svg => {
-                        btn.innerHTML = `<span style="
-                        display:inline-block;
-                        width:28px;
-                        height:28px;
-                        vertical-align:middle;
-                        ">${svg}</span>`;
-                    })
-                    .catch(() => {
-                        btn.innerHTML = `<span style="font-size: 28px;">❓</span>`;
-                    });
-            } else {
-                btn.innerHTML = `<img src="${icon}" alt="" style="width:28px;height:28px;vertical-align:middle;">`;
-            }
-        } else {
-            btn.innerHTML = `<span class="material-symbols-outlined" style="font-size: 28px;">${icon}</span>`;
-        }
-        return btn;
-    }
-
-    // Add primary and secondary overlays
-    allOverlays.forEach(({url, label, icon, disabled, isPrimary}) => {
+// Add primary and secondary overlays
+allOverlays.forEach(({url, label, icon, disabled, isPrimary}) => {
+    if (!disabled) {
         const overlay = createStyledOverlay(url);
         overlayLayers[url] = overlay;
+        createOverlayToggleButton({
+            label,
+            icon,
+            isPrimary,
+            overlay,
+            containerDiv: overlayToggleDiv
+        });
+    }
+});
 
-        if (!disabled) {
-            const btn = createOverlayButton({label, icon, isPrimary});
+// Add external overlays
+const externalOverlays = data.external;
+const externalToggleDiv = document.getElementById('overlay-toggle-external');
+const externalOverlayLayers = {};
 
-            if (isPrimary) {
-                overlay.addTo(map);
-            }
-
-            btn.onclick = function() {
-                if (btn.dataset.active === 'false') {
-                    overlay.addTo(map);
-                    btn.dataset.active = 'true';
-                } else {
-                    map.removeLayer(overlay);
-                    btn.dataset.active = 'false';
-                }
-                // Visual state handled by CSS
-            };
-
-            overlayToggleDiv.appendChild(btn);
-        }
-    });
-
-    // Add external overlays
-    const externalOverlays = data.external;
-    const externalToggleDiv = document.getElementById('overlay-toggle-external');
-    const externalOverlayLayers = {};
-
-    externalOverlays.forEach(({url, label, icon, disabled}) => {
+externalOverlays.forEach(({url, label, icon, disabled}) => {
+    if (!disabled) {
         const overlay = createStyledOverlay(url);
         externalOverlayLayers[url] = overlay;
-
-        if (!disabled) {
-            const btn = document.createElement('button');
-            btn.classList.add('overlay-toggle-btn');
-            btn.title = label;
-            btn.dataset.active = 'false';
-
-            if (typeof icon === 'string' && icon.startsWith('http')) {
-                if (icon.toLowerCase().endsWith('.svg')) {
-                    fetch(icon)
-                        .then(res => res.text())
-                        .then(svg => {
-                            btn.innerHTML = `<span style="display:inline-block;width:28px;height:28px;vertical-align:middle;">${svg}</span>`;
-                        })
-                        .catch(() => {
-                            btn.innerHTML = `<span style="font-size: 28px;">❓</span>`;
-                        });
-                } else {
-                    btn.innerHTML = `<img src="${icon}" alt="" style="width:28px;height:28px;vertical-align:middle;">`;
-                }
-            } else {
-                btn.innerHTML = `<span class="material-symbols-outlined" style="font-size: 28px;">${icon}</span>`;
-            }
-
-            btn.onclick = function() {
-                if (btn.dataset.active === 'false') {
-                    overlay.addTo(map);
-                    btn.dataset.active = 'true';
-                } else {
-                    map.removeLayer(overlay);
-                    btn.dataset.active = 'false';
-                }
-            };
-
-            externalToggleDiv.appendChild(btn);
-        }
-    });
+        createOverlayToggleButton({
+            label,
+            icon,
+            isPrimary: false,
+            overlay,
+            containerDiv: externalToggleDiv
+        });
+    }
 });
 
 function styleFromStyleUrl(styleUrl, featureWeight) {
@@ -301,10 +322,6 @@ const pointPopupHtml = (name, description) => {
         ${buttonsHtml}
     `;
 };
-
-function extractLinks(text) {
-    return [...(text.matchAll(/https?:\/\/[^\s"<]+/g))].map(match => match[0]);
-}
 
 function interactivePoints(feature, layer) {
     if (feature.geometry?.type === 'Point' || 'Polygon') {

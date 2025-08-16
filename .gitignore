@@ -6,3 +6,5 @@ _*/
 Gemfile*
 opencyclemap/
 settings.json
+myenv/
+scripts/

@@ -18,7 +18,7 @@
     <script src="https://unpkg.com/@maplibre/maplibre-gl-leaflet/leaflet-maplibre-gl.js"></script>
     
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet" href="/src/page_style.css" />
+    <link rel="stylesheet" href="/src/pageStyle.css" />
   </head>
   <body>
     
@@ -103,16 +103,35 @@
     <div id="layer-name-flash">
   </div>
 
-  <script src="src/config.js"></script>
-  <script src="src/configOverride.js"></script>
-  <script src="src/baseLayer.js"></script>
-  <script src="src/navigation.js"></script>
-  <script src="src/main.js"></script>
-  <script src="src/overlays.js"></script>
-  <script src="src/ios.js"></script>
-  <script src="src/zoom_current_location.js"></script>
-  <script src="src/icon_mapping.js"></script>
-  <script src="src/misc_buttons.js"></script>
-  <script src="src/legend.js"></script>
+  <script>
+    function loadConfigScript(src, onload, onerror) {
+      const script = document.createElement('script');
+      script.src = src;
+      if (onload) script.onload = onload;
+      if (onerror) script.onerror = onerror;
+      document.head.appendChild(script);
+    }
+
+    function loadAppScripts() {
+      [
+        'src/baseLayer.js',
+        'src/controlButtons.js',
+        'src/miscButtons.js',
+        'src/main.js',
+        'src/navigation.js',
+        'src/overlays.js',
+        'src/ios.js',
+        'src/legend.js'
+      ].forEach(function(src) {
+        const s = document.createElement('script');
+        s.src = src;
+        document.head.appendChild(s);
+      });
+    }
+
+    loadConfigScript('/imports/src/configOverride.js', loadAppScripts, function() {
+      loadConfigScript('/src/configHardcoded.js', loadAppScripts);
+    });
+  </script>
   </body>
 </html>

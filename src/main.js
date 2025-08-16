@@ -34,12 +34,14 @@ function createStyledButton(label, icon, onClick) {
 window.addEventListener('resize', () => {
   document.getElementById('map').style.height = window.innerHeight + 'px';
   document.getElementById('map').style.width = window.innerWidth + 'px';
-  if (window.map && window.map.invalidateSize) {
-    window.map.invalidateSize();
+  if (map && map.invalidateSize) {
+    map.invalidateSize();
   }
 });
 
-document.addEventListener('DOMContentLoaded', function() {
+window.onload = function() {
+  console.log('Window onload event fired');
+  
   const projectHeader = document.getElementById('project-header');
   const linkButtons = document.getElementById('link-buttons');
 
@@ -55,7 +57,13 @@ document.addEventListener('DOMContentLoaded', function() {
       linkButtons.style.display = 'none';
     }
   });
-});
+
+  setupHideExternalOverlaysButton();
+  setupZoomControls();
+  setupCurrentLocationButton();
+
+  miscButtons()
+};
 
 document.getElementById('map').style.height = window.innerHeight + 'px';
 document.getElementById('map').style.width = window.innerWidth + 'px';
