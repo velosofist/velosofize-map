@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>map (8).kml</name>
+    <name>sofenhagen_routes</name>
     <Style id="line-FBC02D-4294-nodesc-normal">
       <LineStyle>
         <color>ff2dc0fb</color>
@@ -240,17 +240,6 @@
           23.287854,42.713203,0
           23.288252,42.713312,0
           23.287727,42.714343,0
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name/>
-      <styleUrl>#line-FBC02D-4294-nodesc</styleUrl>
-      <LineString>
-        <tessellate>1</tessellate>
-        <coordinates>
-          23.251627,42.672014,0
-          23.253478,42.676997,0
         </coordinates>
       </LineString>
     </Placemark>
@@ -1108,20 +1097,6 @@
         <coordinates>
           23.312884,42.707503,0
           23.314775,42.707078,0
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name/>
-      <styleUrl>#line-FBC02D-4294-nodesc</styleUrl>
-      <LineString>
-        <tessellate>1</tessellate>
-        <coordinates>
-          23.253474,42.677014,0
-          23.25596,42.683684,0
-          23.256001,42.6844,0
-          23.255856,42.685024,0
-          23.254385,42.690414,0
         </coordinates>
       </LineString>
     </Placemark>

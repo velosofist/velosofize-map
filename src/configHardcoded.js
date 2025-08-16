@@ -101,6 +101,12 @@ const overlaysData = {
             "label": "Други / Others",
             "icon": "quiz",
             "disabled": true
+        },
+        {
+            "url": "/export_formats/external_sources/bike_parking.kml",
+            "label": "Велопаркинги / Bicycle parking (© OpenStreetMap contributors)",
+            "icon": "local_parking",
+            "disabled": false
         }
     ],
     "external": [
@@ -120,12 +126,6 @@ const overlaysData = {
             "url": "/export_formats/chernapista_condensed/chernapista_condensed.kml",
             "label": "ПТП с участие на велосипедисти от chernapista.com",
             "icon": "car_crash",
-            "disabled": false
-        },
-        {
-            "url": "/export_formats/external_sources/bike_parking.kml",
-            "label": "Велопаркинги / Bicycle parking (© OpenStreetMap contributors)",
-            "icon": "local_parking",
             "disabled": false
         },
     ]

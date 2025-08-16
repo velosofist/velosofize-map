@@ -1,7 +1,7 @@
 
 
 // Dynamically create and append overlay control buttons to the correct container pod
-window.addEventListener('DOMContentLoaded', function() {
+function miscButtons() {
   // Find the container pod for the right upper controls
   const rightUpperPod = document.querySelector('#container-misc-buttons .button-container-pod');
   if (!rightUpperPod) return;
@@ -46,7 +46,7 @@ window.addEventListener('DOMContentLoaded', function() {
     document.getElementById('upload-layer').click();
   };
   rightUpperPod.appendChild(uploadBtn);
-});
+};
 
 let userLayer = null;
 

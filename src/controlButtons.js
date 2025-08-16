@@ -17,25 +17,6 @@ function setupZoomControls() {
   secondaryDiv.appendChild(zoomBtnContainer);
 }
 
-map.on('zoomend', function() {
-    const zoom = map.getZoom();
-    window.allCustomMarkers.forEach(marker => {
-        if (zoom <= 9) {
-            // Show as small dot
-            marker.setIcon(L.divIcon({
-                className: 'small-dot-marker',
-                iconSize: [10, 10],
-                iconAnchor: [5, 5]
-            }));
-        } else {
-            // Restore original icon
-            if (marker._originalIcon) {
-                marker.setIcon(marker._originalIcon);
-            }
-        }
-    });
-});
-
 function setupCurrentLocationButton() {
   const secondaryDiv = document.getElementById('overlay-zoom');
   if (!secondaryDiv) return;
@@ -126,9 +107,3 @@ function setupHideExternalOverlaysButton() {
 
   zoomBtnContainer.insertBefore(toggleBtn, zoomBtnContainer.firstChild);
 }
-
-window.addEventListener('DOMContentLoaded', () => {
-  setupHideExternalOverlaysButton();
-  setupZoomControls();
-  setupCurrentLocationButton();
-});

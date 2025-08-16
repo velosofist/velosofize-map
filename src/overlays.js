@@ -58,44 +58,47 @@ function hideOverlayLabelPopup() {
     if (existing) existing.remove();
 }
 
-function createOverlayToggleButton({label, icon, isPrimary = false, overlay, containerDiv}) {
+function createOverlayToggleButton({ label, icon, isPrimary = false, overlay, containerDiv }) {
     const btn = document.createElement('button');
     btn.classList.add('overlay-toggle-btn');
     btn.dataset.active = isPrimary ? 'true' : 'false';
 
-    // Icon logic (updated to support relative paths)
-    if (typeof icon === 'string') {
-        if (icon.startsWith('http')) {
-            if (icon.toLowerCase().endsWith('.svg')) {
-                fetch(icon)
-                    .then(res => res.text())
-                    .then(svg => {
-                        btn.innerHTML = `<span style="display:inline-block;width:28px;height:28px;vertical-align:middle;">${svg}</span>`;
-                    })
-                    .catch(() => {
-                        btn.innerHTML = `<span style="font-size: 28px;">❓</span>`;
-                    });
-            } else {
-                btn.innerHTML = `<img src="${icon}" alt="" style="width:28px;height:28px;vertical-align:middle;">`;
-            }
-        } else if (icon.startsWith('./') || icon.startsWith('/')) {
-            // Handle relative paths
-            const relativeIconPath = `${window.location.origin}${icon}`;
-            if (icon.toLowerCase().endsWith('.svg')) {
-                fetch(relativeIconPath)
-                    .then(res => res.text())
-                    .then(svg => {
-                        btn.innerHTML = `<span style="display:inline-block;width:28px;height:28px;vertical-align:middle;">${svg}</span>`;
-                    })
-                    .catch(() => {
-                        btn.innerHTML = `<span style="font-size: 28px;">❓</span>`;
-                    });
-            } else {
-                btn.innerHTML = `<img src="${relativeIconPath}" alt="" style="width:28px;height:28px;vertical-align:middle;">`;
-            }
+    // Default to '?' if the icon is not provided or invalid
+    if (!icon || typeof icon !== 'string') {
+        icon = '?';
+    }
+
+    // Icon logic
+    if (icon.startsWith('http')) {
+        if (icon.toLowerCase().endsWith('.svg')) {
+            fetch(icon)
+                .then(res => res.text())
+                .then(svg => {
+                    btn.innerHTML = `<span style="display:inline-block;width:28px;height:28px;vertical-align:middle;">${svg}</span>`;
+                })
+                .catch(() => {
+                    btn.innerHTML = `<span style="font-size: 28px;">❓</span>`;
+                });
         } else {
-            btn.innerHTML = `<span class="material-symbols-outlined" style="font-size: 28px;">${icon}</span>`;
+            btn.innerHTML = `<img src="${icon}" alt="" style="width:28px;height:28px;vertical-align:middle;">`;
         }
+    } else if (icon.startsWith('/')) {
+        // Handle relative paths
+        const relativeIconPath = `${window.location.origin}${icon}`;
+        if (icon.toLowerCase().endsWith('.svg')) {
+            fetch(relativeIconPath)
+                .then(res => res.text())
+                .then(svg => {
+                    btn.innerHTML = `<span style="display:inline-block;width:28px;height:28px;vertical-align:middle;">${svg}</span>`;
+                })
+                .catch(() => {
+                    btn.innerHTML = `<span style="font-size: 28px;">❓</span>`;
+                });
+        } else {
+            btn.innerHTML = `<img src="${relativeIconPath}" alt="" style="width:28px;height:28px;vertical-align:middle;">`;
+        }
+    } else {
+        btn.innerHTML = `<span class="material-symbols-outlined" style="font-size: 28px;">${icon}</span>`;
     }
 
     // Add/remove overlay logic
