@@ -1,4 +1,3 @@
-
 function setupZoomControls() {
   const secondaryDiv = document.getElementById('overlay-zoom');
   if (!secondaryDiv) return;
