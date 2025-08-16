@@ -1005,27 +1005,6 @@
       <LineString>
         <tessellate>1</tessellate>
         <coordinates>
-          23.321356,42.652406,0
-          23.324108,42.651662,0
-          23.324445,42.650392,0
-          23.325646,42.650055,0
-          23.327022,42.650283,0
-          23.327575,42.650531,0
-          23.330043,42.649459,0
-          23.331352,42.651027,0
-          23.333483,42.649449,0
-          23.334022,42.649856,0
-          23.334117,42.650223,0
-          23.335587,42.650203,0
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name/>
-      <styleUrl>#line-FBC02D-4294-nodesc</styleUrl>
-      <LineString>
-        <tessellate>1</tessellate>
-        <coordinates>
           23.303055,42.707845,0
           23.300754,42.710905,0
         </coordinates>

@@ -45,12 +45,18 @@ function showOverlayLabelPopup(label, event) {
     popupDiv.id = 'overlay-label-popup';
     popupDiv.textContent = label;
     popupDiv.style.position = 'fixed';
-    // Only set position dynamically
-    let x = event.clientX || (event.touches && event.touches[0].clientX) || 0;
-    let y = event.clientY || (event.touches && event.touches[0].clientY) || 0;
-    popupDiv.style.left = (x + 10) + 'px';
-    popupDiv.style.top = (y + 10) + 'px';
+
+    // Append the popup to the body first to calculate its dimensions
     document.body.appendChild(popupDiv);
+
+    // Center the popup in the viewport
+    const popupWidth = popupDiv.offsetWidth;
+    const popupHeight = popupDiv.offsetHeight;
+    const viewportWidth = window.innerWidth;
+    const viewportHeight = window.innerHeight;
+
+    popupDiv.style.left = `${(viewportWidth - popupWidth) / 2}px`;
+    popupDiv.style.top = `${(viewportHeight - popupHeight) / 2}px`;
 }
 
 function hideOverlayLabelPopup() {

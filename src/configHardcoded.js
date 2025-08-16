@@ -72,7 +72,7 @@ const overlaysData = {
         },
         {
             "url": "/export_formats/external_sources/sofenhagen_routes.kml",
-            "label": "Безопасни градски отсечки от Sofenhagen / Safe urban routes from Sofenhagen",
+            "label": "Отсечки в София от Sofenhagen.com / Routes in Sofia from Sofenhagen.com",
             "icon": "/attachments/misc_icons/logo_sofen.png",
             "disabled": false
         }

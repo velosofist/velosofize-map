@@ -76,19 +76,30 @@ function setupHideExternalOverlaysButton() {
   const secondaryDiv = document.getElementById('overlay-zoom');
   if (!containerExternal || !containerPrimary || !secondaryDiv) return;
 
+  // Add fade effect styles
+  [containerExternal, containerPrimary].forEach(container => {
+    container.style.transition = 'opacity 0.5s ease';
+    container.style.opacity = '1';
+    container.style.visibility = 'visible';
+  });
+
   // Create the toggle button
   let isHidden = false;
   const toggleBtn = createStyledButton('Hide/show overlays', 'layers_clear', () => {
     isHidden = !isHidden;
     if (isHidden) {
-      containerExternal.style.display = 'none';
-      containerPrimary.style.display = 'none';
-      // Change icon to "layers"
+      [containerExternal, containerPrimary].forEach(container => {
+        container.style.opacity = '0';
+        setTimeout(() => {
+          container.style.visibility = 'hidden';
+        }, 500); // Match the transition duration (0.5s)
+      });
       toggleBtn.querySelector('.material-symbols-outlined').textContent = 'layers';
     } else {
-      containerExternal.style.display = '';
-      containerPrimary.style.display = '';
-      // Change icon to "layers_clear"
+      [containerExternal, containerPrimary].forEach(container => {
+        container.style.visibility = 'visible';
+        container.style.opacity = '1';
+      });
       toggleBtn.querySelector('.material-symbols-outlined').textContent = 'layers_clear';
     }
   });
