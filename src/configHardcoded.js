@@ -111,12 +111,6 @@ const overlaysData = {
             "disabled": false
         },
         {
-            "url": "/export_formats/external_sources/openmtbmap.kml",
-            "label": "Маршрути от MTB Map Europe / Routes from MTB Map Europe",
-            "icon": "landscape",
-            "disabled": false
-        },
-        {
             "url": "/export_formats/external_sources/alabak.kml",
             "label": "Планински маршрути в местност Алабак / Mountain routes from Alabak.info",
             "icon": "https://alabak.info/favicon.ico",
@@ -129,7 +123,7 @@ const overlaysData = {
             "disabled": false
         },
         {
-            "url": "/export_formats/external_sources/parking.kml",
+            "url": "/export_formats/external_sources/bike_parking.kml",
             "label": "Велопаркинги / Bicycle parking (© OpenStreetMap contributors)",
             "icon": "local_parking",
             "disabled": false
