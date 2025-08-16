@@ -69,6 +69,12 @@ const overlaysData = {
             "label": "",
             "icon": "directions_bike",
             "disabled": false
+        },
+        {
+            "url": "/export_formats/external_sources/sofenhagen_routes.kml",
+            "label": "Безопасни градски отсечки от Sofenhagen / Safe urban routes from Sofenhagen",
+            "icon": "/attachments/misc_icons/logo_sofen.png",
+            "disabled": false
         }
     ],
     "secondary": [
@@ -114,12 +120,6 @@ const overlaysData = {
             "url": "/export_formats/external_sources/alabak.kml",
             "label": "Планински маршрути в местност Алабак / Mountain routes from Alabak.info",
             "icon": "https://alabak.info/favicon.ico",
-            "disabled": false
-        },
-        {
-            "url": "/export_formats/external_sources/sofenhagen.kml",
-            "label": "Безопасни градски отсечки от Sofenhagen / Safe urban routes from Sofenhagen",
-            "icon": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://sofenhagen.com",
             "disabled": false
         },
         {

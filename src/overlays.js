@@ -63,22 +63,39 @@ function createOverlayToggleButton({label, icon, isPrimary = false, overlay, con
     btn.classList.add('overlay-toggle-btn');
     btn.dataset.active = isPrimary ? 'true' : 'false';
 
-    // Icon logic (reuse your existing logic)
-    if (typeof icon === 'string' && icon.startsWith('http')) {
-        if (icon.toLowerCase().endsWith('.svg')) {
-            fetch(icon)
-                .then(res => res.text())
-                .then(svg => {
-                    btn.innerHTML = `<span style="display:inline-block;width:28px;height:28px;vertical-align:middle;">${svg}</span>`;
-                })
-                .catch(() => {
-                    btn.innerHTML = `<span style="font-size: 28px;">❓</span>`;
-                });
+    // Icon logic (updated to support relative paths)
+    if (typeof icon === 'string') {
+        if (icon.startsWith('http')) {
+            if (icon.toLowerCase().endsWith('.svg')) {
+                fetch(icon)
+                    .then(res => res.text())
+                    .then(svg => {
+                        btn.innerHTML = `<span style="display:inline-block;width:28px;height:28px;vertical-align:middle;">${svg}</span>`;
+                    })
+                    .catch(() => {
+                        btn.innerHTML = `<span style="font-size: 28px;">❓</span>`;
+                    });
+            } else {
+                btn.innerHTML = `<img src="${icon}" alt="" style="width:28px;height:28px;vertical-align:middle;">`;
+            }
+        } else if (icon.startsWith('./') || icon.startsWith('/')) {
+            // Handle relative paths
+            const relativeIconPath = `${window.location.origin}${icon}`;
+            if (icon.toLowerCase().endsWith('.svg')) {
+                fetch(relativeIconPath)
+                    .then(res => res.text())
+                    .then(svg => {
+                        btn.innerHTML = `<span style="display:inline-block;width:28px;height:28px;vertical-align:middle;">${svg}</span>`;
+                    })
+                    .catch(() => {
+                        btn.innerHTML = `<span style="font-size: 28px;">❓</span>`;
+                    });
+            } else {
+                btn.innerHTML = `<img src="${relativeIconPath}" alt="" style="width:28px;height:28px;vertical-align:middle;">`;
+            }
         } else {
-            btn.innerHTML = `<img src="${icon}" alt="" style="width:28px;height:28px;vertical-align:middle;">`;
+            btn.innerHTML = `<span class="material-symbols-outlined" style="font-size: 28px;">${icon}</span>`;
         }
-    } else {
-        btn.innerHTML = `<span class="material-symbols-outlined" style="font-size: 28px;">${icon}</span>`;
     }
 
     // Add/remove overlay logic
@@ -296,10 +313,6 @@ const pointPopupHtml = (name, description) => {
         ${buttonsHtml}
     `;
 };
-
-function extractLinks(text) {
-    return [...(text.matchAll(/https?:\/\/[^\s"<]+/g))].map(match => match[0]);
-}
 
 function interactivePoints(feature, layer) {
     if (feature.geometry?.type === 'Point' || 'Polygon') {
