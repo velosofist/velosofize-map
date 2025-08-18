@@ -16,10 +16,8 @@ for pm in placemarks:
         cat = m.group(1)
         if cat in ('1', '2'):
             cat_1_2.append(pm)
-        else:
+        elif cat in ('3', '4', '5'):
             cat_other.append(pm)
-    else:
-        cat_other.append(pm)
 
 def write_kml(placemarks, output_file):
     # Copy the original KML header and footer
