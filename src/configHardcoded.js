@@ -17,7 +17,7 @@ const map = L.map('map', {
   ],
   zoom: 13,
   zoomControl: false,
-  minZoom: 9,
+  minZoom: 8,
   maxZoom: 19,
   maxBounds: bounds,
   maxBoundsViscosity: 0.5
@@ -59,19 +59,19 @@ const iconMapping = {
 const overlaysData = {
     "primary": [
         {
-            "url": "/export_formats/separated/velosofize_export_bikelanes.kml",
+            "url": "/overlays/separated/velosofize_bikelanes.kml",
             "label": "Велоалеи / Bike lanes",
             "icon": "bike_lane",
             "disabled": false
         },
         {
-            "url": "/export_formats/separated/velosofize_export_others.kml",
-            "label": "",
+            "url": "/overlays/separated/velosofize_routes.kml",
+            "label": "Отсечки от Velosofize (по субективни критерии) / Routes from Velosofize (subjective)",
             "icon": "directions_bike",
             "disabled": false
         },
         {
-            "url": "/export_formats/external_sources/sofenhagen_routes.kml",
+            "url": "/overlays/external_sources/sofenhagen_routes.kml",
             "label": "Отсечки в София от Sofenhagen.com / Routes in Sofia from Sofenhagen.com",
             "icon": "/attachments/misc_icons/logo_sofen.png",
             "disabled": false
@@ -79,31 +79,31 @@ const overlaysData = {
     ],
     "secondary": [
         {
-            "url": "/export_formats/misc_layers/crossings.kml",
+            "url": "/overlays/misc_layers/crossings.kml",
             "label": "Пресичания / Crossings",
             "icon": "directions_walk",
             "disabled": false
         },
         {
-            "url": "/export_formats/misc_layers/transport.kml",
+            "url": "/overlays/misc_layers/transport.kml",
             "label": "Транспорт / Transport",
             "icon": "train",
             "disabled": false
         },
         {
-            "url": "/export_formats/misc_layers/slow_zones.kml",
+            "url": "/overlays/misc_layers/slow_zones.kml",
             "label": "Бавни зони / Slow zones",
             "icon": "30fps",
             "disabled": true
         },
         {
-            "url": "/export_formats/misc_layers/others.kml",
+            "url": "/overlays/misc_layers/others.kml",
             "label": "Други / Others",
             "icon": "quiz",
             "disabled": true
         },
         {
-            "url": "/export_formats/external_sources/bike_parking.kml",
+            "url": "/overlays/external_sources/bike_parking.kml",
             "label": "Велопаркинги / Bicycle parking (© OpenStreetMap contributors)",
             "icon": "local_parking",
             "disabled": false
@@ -111,19 +111,19 @@ const overlaysData = {
     ],
     "external": [
         {
-            "url": "/export_formats/external_sources/mtb_bg.kml",
+            "url": "/overlays/external_sources/mtb_bg.kml",
             "label": "Маршрути от MTB-BG.com / Routes from MTB-BG.com",
             "icon": "https://mtb-bg.com/wp-content/uploads/2020/04/cropped-favicon-mtb-1-32x32.png",
             "disabled": false
         },
         {
-            "url": "/export_formats/external_sources/alabak.kml",
+            "url": "/overlays/external_sources/alabak.kml",
             "label": "Планински маршрути в местност Алабак / Mountain routes from Alabak.info",
             "icon": "https://alabak.info/favicon.ico",
             "disabled": false
         },
         {
-            "url": "/export_formats/chernapista_condensed/chernapista_condensed.kml",
+            "url": "/overlays/chernapista/chernapista_condensed.kml",
             "label": "ПТП с участие на велосипедисти от chernapista.com",
             "icon": "car_crash",
             "disabled": false
