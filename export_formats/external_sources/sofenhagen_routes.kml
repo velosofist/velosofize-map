@@ -8,7 +8,6 @@
         <width>4.294</width>
       </LineStyle>
       <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
     <Style id="line-FBC02D-4294-nodesc-highlight">
@@ -17,7 +16,6 @@
         <width>6.441</width>
       </LineStyle>
       <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
     <StyleMap id="line-FBC02D-4294-nodesc">

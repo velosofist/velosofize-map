@@ -136,7 +136,6 @@
     </StyleMap>
     <Placemark>
       <name>МТБ Казанлък - яз.Копринка - Средна гора - Бузовград</name>
-      <description><![CDATA[description: <br>@id: relation/68392<br>network: rcn<br>ref: Кз1<br>route: mtb<br>route_ref: Кз1<br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -355,7 +354,6 @@
     </Placemark>
     <Placemark>
       <name>МТБ Дъбовете - Мегалита - Бузовград</name>
-      <description><![CDATA[description: <br>@id: relation/68525<br>network: lcn<br>ref: Мгл<br>route: mtb<br>route_ref: Мгл<br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -532,7 +530,6 @@
     </Placemark>
     <Placemark>
       <name>МТБ Дъбовете - яз.Средноговоро - вр.Руя - Розово</name>
-      <description><![CDATA[description: <br>@id: relation/68526<br>network: lcn<br>ref: Кз2<br>route: mtb<br>route_ref: Кз2<br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -738,7 +735,6 @@
     </Placemark>
     <Placemark>
       <name>МТБ Кръстец - Бедек - Бузлуджа - Шипка - Узана - Партизанска Песен - Мазалат</name>
-      <description><![CDATA[description: <br>@id: relation/68528<br>network: rcn<br>ref: С<br>route: mtb<br>route_ref: CT<br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: Може да се добави, като част от ncn маршрут Ком-Емине<br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -1065,7 +1061,6 @@
     </Placemark>
     <Placemark>
       <name>МТБ Шипка - Узана - Ясеново</name>
-      <description><![CDATA[description: <br>@id: relation/68532<br>network: rcn<br>ref: Яс2<br>route: mtb<br>route_ref: Яс2<br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -1279,7 +1274,6 @@
     </Placemark>
     <Placemark>
       <name>МТБ Партизанска Песен - Ясеново</name>
-      <description><![CDATA[description: <br>@id: relation/68533<br>network: rcn<br>ref: Яс1<br>route: mtb<br>route_ref: Яс1<br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -1498,7 +1492,6 @@
     </Placemark>
     <Placemark>
       <name>МТБ Кънчево - Средна Гора - Средногорово</name>
-      <description><![CDATA[description: <br>@id: relation/69113<br>network: lcn<br>ref: Кз3<br>route: mtb<br>route_ref: Кз3<br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -1815,7 +1808,6 @@
     </Placemark>
     <Placemark>
       <name>МТБ Казанлък - Енина - х.Бедек</name>
-      <description><![CDATA[description: <br>@id: relation/69255<br>network: rcn<br>ref: Ен1<br>route: mtb<br>route_ref: Ен1<br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -2077,7 +2069,6 @@
     </Placemark>
     <Placemark>
       <name>МТБ х.Българка - Селце - Горно Изворово</name>
-      <description><![CDATA[description: <br>@id: relation/69256<br>network: rcn<br>ref: БГи<br>route: mtb<br>route_ref: БГи<br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -2334,7 +2325,6 @@
     </Placemark>
     <Placemark>
       <name>МТБ с.Тъжа - х.Тъжа - вр Ботев</name>
-      <description><![CDATA[description: <br>@id: relation/229605<br>network: rcn<br>ref: Тжа<br>route: mtb<br>route_ref: Тжа<br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: 00ff00<br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -2576,7 +2566,6 @@
     </Placemark>
     <Placemark>
       <name>МТБ София - Камбаните - Бистрица</name>
-      <description><![CDATA[description: <br>@id: relation/240033<br>network: lcn<br>ref: Кмб<br>route: mtb<br>route_ref: Кмб<br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: proposed<br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -2760,7 +2749,6 @@
     </Placemark>
     <Placemark>
       <name>Витоша 100 байк</name>
-      <description><![CDATA[description: <br>@id: relation/240047<br>network: rcn<br>ref: ОбВ<br>route: mtb<br>route_ref: ОбВ<br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: 2596<br>descent: 2593<br>distance: 91<br>foot: yes<br>roundtrip: yes<br>operator: <br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -3210,7 +3198,6 @@
     </Placemark>
     <Placemark>
       <name>Рудопия</name>
-      <description><![CDATA[description: <br>@id: relation/279100<br>network: ncn<br>ref: Р<br>route: mtb<br>route_ref: Р<br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: www.bikearea.org<br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -4718,7 +4705,6 @@
     </Placemark>
     <Placemark>
       <name>Широка поляна - Борино - Буйново</name>
-      <description><![CDATA[description: <br>@id: relation/279893<br>network: rcn<br>ref: Р-1<br>route: mtb<br>route_ref: Р-1<br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -5019,7 +5005,6 @@
     </Placemark>
     <Placemark>
       <name>Kladova hut - Velingrad</name>
-      <description><![CDATA[description: <br>@id: relation/301671<br>network: Alabak<br>ref: <br>route: mtb<br>route_ref: <br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: Bikearea<br>network:type: node_network<br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -5199,7 +5184,6 @@
     </Placemark>
     <Placemark>
       <name>Lokvata - Velingrad</name>
-      <description><![CDATA[description: <br>@id: relation/301672<br>network: Alabak<br>ref: <br>route: mtb<br>route_ref: <br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: Bikearea<br>network:type: node_network<br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -5423,7 +5407,6 @@
     </Placemark>
     <Placemark>
       <name>МТБ Аврамово - Огняново</name>
-      <description><![CDATA[description: <br>@id: relation/307516<br>network: rcn<br>ref: A<br>route: mtb<br>route_ref: A<br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: http://www.bikeara.org<br>network:type: <br>mtb:type: cross country<br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -5883,7 +5866,6 @@
     </Placemark>
     <Placemark>
       <name>МТБ Било Средна Гора</name>
-      <description><![CDATA[description: <br>@id: relation/359165<br>network: rcn<br>ref: СРГ<br>route: mtb<br>route_ref: СРГ<br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -6171,7 +6153,6 @@
     </Placemark>
     <Placemark>
       <name>Купа Зарата</name>
-      <description><![CDATA[description: <br>@id: relation/550248<br>network: rcn<br>ref: КЗ<br>route: mtb<br>route_ref: <br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: КК Зарата<br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -6431,7 +6412,6 @@
     </Placemark>
     <Placemark>
       <name>Велорали Средна Гора 2011 - ден 2</name>
-      <description><![CDATA[description: <br>@id: relation/1753069<br>network: rcn<br>ref: SG2<br>route: mtb<br>route_ref: <br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: КК Зарата<br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -6670,7 +6650,6 @@
     </Placemark>
     <Placemark>
       <name>Велорали Средна Гора 2011 - ден 1</name>
-      <description><![CDATA[description: <br>@id: relation/1755061<br>network: rcn<br>ref: SG1<br>route: mtb<br>route_ref: <br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: КК Зарата<br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -6962,7 +6941,6 @@
     </Placemark>
     <Placemark>
       <name>Купа Зарата 2012</name>
-      <description><![CDATA[description: <br>@id: relation/1969648<br>network: lcn<br>ref: КЗ2<br>route: mtb<br>route_ref: <br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: КК Зарата<br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -7226,7 +7204,6 @@
     </Placemark>
     <Placemark>
       <name>Дунавски велосипеден маршрут</name>
-      <description><![CDATA[description: <br>@id: relation/2343436<br>network: ncn<br>ref: EV6<br>route: bicycle<br>route_ref: <br>type: route<br>stroke: #aa00ff<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: EV6 in Bulgaria<br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: Donauradweg BG<br>name:en: Danube Bike Trail - part Bulgaria<br>name:hu: Duna menti kerékpárút – Bulgáriai<br>name:sr: Дунавска бициклистичка рута - Бугарска<br>name:sr-Latn: Dunavska biciklistička ruta - Bugarska<br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-9C27B0-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -8312,7 +8289,6 @@
     </Placemark>
     <Placemark>
       <name>Danube Bike Trail</name>
-      <description><![CDATA[description: <br>@id: relation/2353336<br>network: icn<br>ref: EV6<br>route: bicycle<br>route_ref: <br>type: route<br>stroke: #ff00ff<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: EV6 in Romania Ion Corvin - Constanta<br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: Donauradweg RO Teil 4.2a<br>name:en: Danube Cycle Path - part Romania - leg 4.2a<br>name:hu: Duna menti kerékpárút – Romániai 4.2a szakasz<br>name:sr: Дунавска бициклистичка рута - Румунија део 4.2a<br>name:sr-Latn: Dunavska biciklistička ruta - Rumunija deo 4.2a<br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-C2185B-2938</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -8735,7 +8711,6 @@
     </Placemark>
     <Placemark>
       <name>Danube Bike Trail</name>
-      <description><![CDATA[description: <br>@id: relation/2353606<br>network: icn<br>ref: EV6<br>route: bicycle<br>route_ref: <br>type: route<br>stroke: #ff00ff<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: EV6 in Romania - Kaluderova - Calafat<br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: Donauradweg RO Teil 1<br>name:en: Danube Bike Trail - part Romania - leg 1<br>name:hu: Duna menti kerékpárút – Romániai 1. szakasz<br>name:sr: Дунавска бициклистичка рута - Румунија део 1<br>name:sr-Latn: Dunavska biciklistička ruta - Rumunija deo 1<br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-C2185B-2938</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -9732,7 +9707,6 @@
     </Placemark>
     <Placemark>
       <name>Danube Bike Trail</name>
-      <description><![CDATA[description: <br>@id: relation/2355509<br>network: icn<br>ref: EV6<br>route: bicycle<br>route_ref: <br>type: route<br>stroke: #ff00ff<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: EV6 in Romania - Calafat - Giurgiu<br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: Donauradweg RO Teil 2<br>name:en: Danube Cycle Path - part Romania - leg 2<br>name:hu: Duna menti kerékpárút – Romániai 2. szakasz<br>name:sr: Дунавска бициклистичка рута - Румунија део 2<br>name:sr-Latn: Dunavska biciklistička ruta - Rumunija deo 2<br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-C2185B-2938</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -10208,7 +10182,6 @@
     </Placemark>
     <Placemark>
       <name>Danube Bike Trail</name>
-      <description><![CDATA[description: <br>@id: relation/2750854<br>network: icn<br>ref: EV6<br>route: bicycle<br>route_ref: <br>type: route<br>stroke: #ff00ff<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: EV6 in Romania Giurgiu - Calarasi - Ion Corvin<br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: Donauradweg RO Teil 3<br>name:en: Danube Cycle Path - part Romania - leg 3<br>name:hu: Duna menti kerékpárút – Romániai 3. szakasz<br>name:sr: Дунавска бициклистичка рута - Румунија део 3<br>name:sr-Latn: Dunavska biciklistička ruta - Rumunija deo 3<br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-C2185B-2938</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -10880,7 +10853,6 @@
     </Placemark>
     <Placemark>
       <name>Danube Bike Trail</name>
-      <description><![CDATA[description: <br>@id: relation/2751410<br>network: icn<br>ref: EV6<br>route: bicycle<br>route_ref: <br>type: route<br>stroke: #ff00ff<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: EV6 in Romania - Ion Corvin - Tulcea<br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: Donauradweg RO Teil 4.1<br>name:en: Danube Cycle Path - part Romania - leg 4.1<br>name:hu: Duna menti kerékpárút – Romániai 4.1 szakasz<br>name:sr: Дунавска бициклистичка рута - Румунија део 4.1<br>name:sr-Latn: Dunavska biciklistička ruta - Rumunija deo 4.1<br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-C2185B-2938</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -11834,7 +11806,6 @@
     </Placemark>
     <Placemark>
       <name>EuroVelo 6 - Atlantic-Black Sea - part Bulgaria</name>
-      <description><![CDATA[description: <br>@id: relation/2764756<br>network: icn<br>ref: EV6<br>route: bicycle<br>route_ref: <br>type: route<br>stroke: #ff00ff<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: #b13176<br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: EuroVelo 6 - Atlantik-Schwarzes Meer - Teil Bulgarien<br>name:en: EuroVelo 6 - Atlantic-Black Sea - part Bulgaria<br>name:hu: EuroVelo 6 – Bulgáriai szakasz<br>name:sr: <br>name:sr-Latn: <br>alt_name: Atlantic-Black Sea - part Bulgaria<br>lanes: 1<br>name:cs: EuroVelo 6 - Atlantik-Černé moře - sekce Bulharsko<br>name:fr: EuroVelo 6 - Atlantique-Mer Noire - tronçon Bulgarie<br>name:hr: EuroVelo 6 - Atlantik-Crno More - dio Bugarska<br>name:nl: EuroVelo 6 - Atlantisch-Zwarte Zee - deel Bulgarije<br>name:pl: EuroVelo 6 - Atlantyk-Morze Czarne - część Bułgaria<br>osmc:symbol: :blue:yellow_circle:6:white<br>surface: asphalt<br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-C2185B-2938</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -12913,7 +12884,6 @@
     </Placemark>
     <Placemark>
       <name>EuroVelo 6 - Atlantic-Black Sea - part Romania</name>
-      <description><![CDATA[description: <br>@id: relation/2764816<br>network: icn<br>ref: EV6<br>route: bicycle<br>route_ref: <br>type: route<br>stroke: #ff00ff<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: #b13176<br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: EuroVelo 6 - Atlantik-Schwarzes Meer - Teil Rumänien<br>name:en: EuroVelo 6 - Atlantic-Black Sea - part Romania<br>name:hu: EuroVelo 6 – Atlantic-Black Sea - Romániai szakasz<br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: EuroVelo 6 - Atlantik-Černé moře - sekce Rumunsko<br>name:fr: EuroVelo 6 - Atlantique-Mer Noire - tronçon Roumanie<br>name:hr: EuroVelo 6 - Atlantik-Crno More - dio Rumunjska<br>name:nl: EuroVelo 6 - Atlantisch-Zwarte Zee - deel Roemenië<br>name:pl: EuroVelo 6 - Atlantyk-Morze Czarne - część Rumunia<br>osmc:symbol: :blue:yellow_circle:6:white<br>surface: <br>cycle_network: EuroVelo<br>name:sk: EuroVelo 6 - Atlantik-Čierne more - sekcia Rumunsko<br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-C2185B-2938</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -15436,7 +15406,6 @@
     </Placemark>
     <Placemark>
       <name>EuroVelo 13 - Iron Curtain Trail - part Bulgaria South</name>
-      <description><![CDATA[description: <br>@id: relation/2778994<br>network: icn<br>ref: EV13<br>route: bicycle<br>route_ref: <br>type: route<br>stroke: #ff00ff<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: #cf5345<br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: EuroVelo 13 - Iron Curtain Trail - Bulgarischer Abschnitt Süd<br>name:en: EuroVelo 13 - Iron Curtain Trail - part Bulgaria South<br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: EuroVelo 13 - Stezka železné opony - sekce Bulharsko 2<br>name:fr: EuroVelo 13 - La route du rideau de fer - part Bulgarie Sud<br>name:hr: EuroVelo 13 - Ruta Željezne Zavjese - dio Bugarska 2<br>name:nl: EuroVelo 13 - IJzerengordijnpad - deel Bulgarije Zuid<br>name:pl: EuroVelo 13 - Szlak Żelaznej Kurtyny - część Bułgaria 2<br>osmc:symbol: <br>surface: <br>cycle_network: EuroVelo<br>name:sk: EuroVelo 13 - Cesta Železnej opony - sekcia Bulharsko 2<br>from: MK/BG border (Zlatarevo)<br>name:bg: ЕвроВело 13 - Пътя на желязната завеса Юг<br>name:sl: EuroVelo 13 - Varnostna zavesa pot - oddelek Bolgarija 2<br>name:tr: EuroVelo 13 - Demir Perde Yolu - kısım Bulgaristan 2<br>to: BG/GR border (Slaveevo)<br>website: https://en.eurovelo.com/ev13/bulgaria<br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-C2185B-2938</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -16953,7 +16922,6 @@
     </Placemark>
     <Placemark>
       <name>EuroVelo 13 - Iron Curtain Trail - part Greece/Turkey</name>
-      <description><![CDATA[description: <br>@id: relation/2779189<br>network: icn<br>ref: EV-13<br>route: bicycle<br>route_ref: <br>type: route<br>stroke: #ff00ff<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: #cf5345<br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: EuroVelo 13 - Eiserner-Vorhang-Route - Abschnitt Griechenland/Türkei<br>name:en: EuroVelo 13 - Iron Curtain Trail - part Greece/Turkey<br>name:hu: EuroVelo 13 - Vasfüggöny útvonal - Görögország/Törökország szakasz<br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: EuroVelo 13 - Stezka železné opony - sekce Řecko/Turecko<br>name:fr: EuroVelo 13 - La route du rideau de fer - part Grèce/Turquie<br>name:hr: EuroVelo 13 - Ruta Željezne Zavjese - dio Grčka/Turska<br>name:nl: EuroVelo 13 - IJzerengordijnpad - deel Griekenland/Turkije<br>name:pl: EuroVelo 13 - Szlak Żelaznej Kurtyny - część Grecja/Turcja<br>osmc:symbol: <br>surface: <br>cycle_network: EuroVelo<br>name:sk: EuroVelo 13 - Cesta Železnej opony - sekcia Grécko/Turecko<br>from: BG/GR border<br>name:bg: <br>name:sl: EuroVelo 13 - Varnostna zavesa pot - oddelek Grčija/Turčija<br>name:tr: EuroVelo 13 - Demir Perde Yolu - kısım Yunanistan/Türkiye<br>to: TR/BG border (Kırklareli)<br>website: <br>icn_ref: 13<br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-C2185B-2938</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -17532,7 +17500,6 @@
     </Placemark>
     <Placemark>
       <name>EuroVelo 13 - Iron Curtain Trail - part North Macedonia</name>
-      <description><![CDATA[description: <br>@id: relation/2779415<br>network: icn<br>ref: EV13<br>route: bicycle<br>route_ref: <br>type: route<br>stroke: #ff00ff<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: #cf5345<br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: EuroVelo 13 - Eiserner-Vorhang-Route - Abschnitt Nordmazedonien<br>name:en: EuroVelo 13 - Iron Curtain Trail - part North Macedonia<br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: EuroVelo 13 - Stezka železné opony - sekce Severní Makedonie<br>name:fr: EuroVelo 13 - La route du rideau de fer - part Macédoine du Nord<br>name:hr: EuroVelo 13 - Ruta Željezne Zavjese - dio Sjeverna Makedonija<br>name:nl: EuroVelo 13 - IJzerengordijnpad - deel Noord-Macedonië<br>name:pl: EuroVelo 13 - Szlak Żelaznej Kurtyny - część Macedonia Północna<br>osmc:symbol: <br>surface: <br>cycle_network: EuroVelo<br>name:sk: EuroVelo 13 - Cesta Železnej opony - sekcia Severné Macedónsko<br>from: Delchevo<br>name:bg: <br>name:sl: EuroVelo 13 - Varnostna zavesa pot - oddelek Severna Makedonija<br>name:tr: EuroVelo 13 - Demir Perde Yolu - kısım Kuzey Makedonya<br>to: Novo Selo<br>website: https://en.eurovelo.com/ev13/republic-of-macedonia<br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-C2185B-2938</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -18005,7 +17972,6 @@
     </Placemark>
     <Placemark>
       <name>Варна - Аладжа манстир</name>
-      <description><![CDATA[description: <br>@id: relation/3151675<br>network: rcn<br>ref: В-А<br>route: mtb<br>route_ref: <br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: Велоклуб "УСТРЕМ"<br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: [{"role":"alternative","rel":"9790238","reltags":{"cycle_network":"BG:ВелоТоуринг БГ","name":"Крайбрежен маршрут","name:en":"Coastal route","network":"ncn","ref":"BP10","route":"bicycle","type":"route"}}]<br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -18063,7 +18029,6 @@
           <value/>
         </Data>
         <Data name="operator">
-          <value><![CDATA[Велоклуб "УСТРЕМ"]]></value>
         </Data>
         <Data name="network:type">
           <value/>
@@ -18141,7 +18106,6 @@
           <value/>
         </Data>
         <Data name="@relations">
-          <value><![CDATA[[{"role":"alternative","rel":"9790238","reltags":{"cycle_network":"BG:ВелоТоуринг БГ","name":"Крайбрежен маршрут","name:en":"Coastal route","network":"ncn","ref":"BP10","route":"bicycle","type":"route"}}]]]></value>
         </Data>
         <Data name="bicycle">
           <value/>
@@ -18219,7 +18183,6 @@
     </Placemark>
     <Placemark>
       <name>Купа Мургаш</name>
-      <description><![CDATA[description: <br>@id: relation/3481217<br>network: <br>ref: КМ<br>route: mtb<br>route_ref: <br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: www.veloclubmammut.com/<br>network:type: <br>mtb:type: <br>name:de: <br>name:en: Murgash cup<br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -18603,7 +18566,6 @@
     </Placemark>
     <Placemark>
       <name>Пампорово-Пловдив</name>
-      <description><![CDATA[description: <br>@id: relation/3498099<br>network: rcn<br>ref: П-П<br>route: mtb<br>route_ref: <br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: cross country<br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -18983,7 +18945,6 @@
     </Placemark>
     <Placemark>
       <name>Вело Маршрут Ярлово</name>
-      <description><![CDATA[description: <br>@id: relation/3593397<br>network: lcn<br>ref: 12<br>route: mtb<br>route_ref: <br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -19182,7 +19143,6 @@
     </Placemark>
     <Placemark>
       <name>Вело маршрут Бояна</name>
-      <description><![CDATA[description: <br>@id: relation/3627160<br>network: lcn<br>ref: B7<br>route: mtb<br>route_ref: <br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: yes<br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: designated<br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -19380,7 +19340,6 @@
     </Placemark>
     <Placemark>
       <name>Вело маршрут Владая</name>
-      <description><![CDATA[description: <br>@id: relation/3630310<br>network: lcn<br>ref: B10<br>route: mtb<br>route_ref: <br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: yes<br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: grade3<br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -19590,7 +19549,6 @@
     </Placemark>
     <Placemark>
       <name>Веломаршрут Варна - с. Прилеп</name>
-      <description><![CDATA[description: <br>@id: relation/3666933<br>network: rcn<br>ref: В-П<br>route: mtb<br>route_ref: <br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: Велоклуб Устрем<br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -19825,7 +19783,6 @@
     </Placemark>
     <Placemark>
       <name>Вело Маршрут Чуйпетльово 2</name>
-      <description><![CDATA[description: <br>@id: relation/4601580<br>network: lcn<br>ref: 11<br>route: mtb<br>route_ref: <br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -20026,7 +19983,6 @@
     </Placemark>
     <Placemark>
       <name>Вело Маршрут Чуйпетльово 1</name>
-      <description><![CDATA[description: <br>@id: relation/4601657<br>network: lcn<br>ref: 9<br>route: mtb<br>route_ref: <br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -20213,7 +20169,6 @@
     </Placemark>
     <Placemark>
       <name>Вело Маршрут Кладница</name>
-      <description><![CDATA[description: <br>@id: relation/4601695<br>network: lcn<br>ref: 8<br>route: mtb<br>route_ref: <br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -20452,7 +20407,6 @@
     </Placemark>
     <Placemark>
       <name>Yalıköy - Çilingoz Yolu</name>
-      <description><![CDATA[description: <br>@id: relation/6251192<br>network: lcn<br>ref: <br>route: bicycle<br>route_ref: <br>type: route<br>stroke: #0000ff<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: [{"role":"","rel":"6336540","reltags":{"network":"lcn","route":"bicycle","type":"route"}}]<br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-673AB7-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -20588,7 +20542,6 @@
           <value/>
         </Data>
         <Data name="@relations">
-          <value><![CDATA[[{"role":"","rel":"6336540","reltags":{"network":"lcn","route":"bicycle","type":"route"}}]]]></value>
         </Data>
         <Data name="bicycle">
           <value/>
@@ -20659,7 +20612,6 @@
     </Placemark>
     <Placemark>
       <name/>
-      <description><![CDATA[description: <br>@id: relation/6336540<br>network: lcn<br>ref: <br>route: bicycle<br>route_ref: <br>type: route<br>stroke: #0000ff<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-673AB7-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -20822,7 +20774,6 @@
     </Placemark>
     <Placemark>
       <name/>
-      <description><![CDATA[description: <br>@id: relation/6336542<br>network: lcn<br>ref: <br>route: bicycle<br>route_ref: <br>type: route<br>stroke: #0000ff<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-673AB7-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -21017,7 +20968,6 @@
     </Placemark>
     <Placemark>
       <name>Лудогорски маратон 1</name>
-      <description><![CDATA[description: <br>@id: relation/6442522<br>network: lwn<br>ref: Лудо1<br>route: mtb<br>route_ref: Лудо1<br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: https://green-foot.net/bg/site/index<br>icn_ref: <br>@relations: <br>bicycle: yes<br>tracktype: <br>start_date: 29.07<br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -21259,7 +21209,6 @@
     </Placemark>
     <Placemark>
       <name>Лудогорски маратон 2</name>
-      <description><![CDATA[description: <br>@id: relation/6442523<br>network: rwn<br>ref: Лудо2<br>route: mtb<br>route_ref: Лудо2<br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -21502,7 +21451,6 @@
     </Placemark>
     <Placemark>
       <name>Обиколка на Варненското езеро</name>
-      <description><![CDATA[description: <br>@id: relation/6552449<br>network: rcn<br>ref: ОВЕ<br>route: mtb<br>route_ref: <br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: Велоклуб "УСТРЕМ"<br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -21560,7 +21508,6 @@
           <value/>
         </Data>
         <Data name="operator">
-          <value><![CDATA[Велоклуб "УСТРЕМ"]]></value>
         </Data>
         <Data name="network:type">
           <value/>
@@ -21783,7 +21730,6 @@
     </Placemark>
     <Placemark>
       <name/>
-      <description><![CDATA[description: <br>@id: relation/6990952<br>network: <br>ref: <br>route: mtb<br>route_ref: <br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -21954,7 +21900,6 @@
     </Placemark>
     <Placemark>
       <name>Локорско - дългото (Ендуро трасе)</name>
-      <description><![CDATA[description: <br>@id: relation/7170024<br>network: lcn<br>ref: <br>route: mtb<br>route_ref: <br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -22115,7 +22060,6 @@
     </Placemark>
     <Placemark>
       <name>Локорско дългото</name>
-      <description><![CDATA[description: <br>@id: relation/7170025<br>network: <br>ref: <br>route: mtb<br>route_ref: <br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: allmountain<br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: ендуро трасе<br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -22320,7 +22264,6 @@
     </Placemark>
     <Placemark>
       <name>Локорско - късото</name>
-      <description><![CDATA[description: <br>@id: relation/7170026<br>network: <br>ref: <br>route: mtb<br>route_ref: <br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: allmountain<br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: Lokorsko short trail]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -22496,7 +22439,6 @@
     </Placemark>
     <Placemark>
       <name>Веломаршрут - Подбалканският път</name>
-      <description><![CDATA[description: <br>@id: relation/8824092<br>network: ncn<br>ref: BP5<br>route: bicycle<br>route_ref: <br>type: route<br>stroke: #aa00ff<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: Велоразходка<br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: BG:ВелоТоуринг БГ<br>name:sk: <br>from: София<br>name:bg: <br>name:sl: <br>name:tr: <br>to: Бургас<br>website: http://velotouring-bg.org/routes_multi/pat-6-podbalkanskiat-pat/<br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-9C27B0-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -23305,7 +23247,6 @@
     </Placemark>
     <Placemark>
       <name>По река Искър</name>
-      <description><![CDATA[description: <br>@id: relation/9139391<br>network: ncn<br>ref: BP2<br>route: bicycle<br>route_ref: <br>type: route<br>stroke: #aa00ff<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: http://velotouring-bg.org/routes_multi/bp2-iskar/<br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-9C27B0-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -24344,7 +24285,6 @@
     </Placemark>
     <Placemark>
       <name>Път 37</name>
-      <description><![CDATA[description: <br>@id: relation/9148510<br>network: ncn<br>ref: BP4<br>route: bicycle<br>route_ref: <br>type: route<br>stroke: #aa00ff<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: ВелоТоуринг БГ<br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: BG:ВелоТоуринг БГ<br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: http://velotouring-bg.org/routes_multi/%d0%bf%d1%8a%d1%82-37-2/<br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-9C27B0-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -25250,7 +25190,6 @@
     </Placemark>
     <Placemark>
       <name>Малък Искър</name>
-      <description><![CDATA[description: <br>@id: relation/9149156<br>network: ncn<br>ref: BP4<br>route: bicycle<br>route_ref: <br>type: route<br>stroke: #aa00ff<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: Велотуринг БГ<br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: BG:ВелоТоуринг БГ<br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: http://velotouring-bg.org/routes_multi/%d0%bf%d1%8a%d1%82-37-2/<br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-9C27B0-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -25538,7 +25477,6 @@
     </Placemark>
     <Placemark>
       <name>ПредБалкан</name>
-      <description><![CDATA[description: <br>@id: relation/9149529<br>network: ncn<br>ref: BP3<br>route: bicycle<br>route_ref: <br>type: route<br>stroke: #aa00ff<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: ВелоТуринг БГ<br>network:type: <br>mtb:type: <br>name:de: <br>name:en: ForeBalkan<br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: BG:ВелоТоуринг БГ<br>name:sk: <br>from: Видин<br>name:bg: <br>name:sl: <br>name:tr: <br>to: Варна<br>website: http://velotouring-bg.org/routes_multi/bp3-forebalkan/<br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-9C27B0-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -27947,7 +27885,6 @@
     </Placemark>
     <Placemark>
       <name>EuroVelo 13 - Iron Curtain Trail - part Serbia</name>
-      <description><![CDATA[description: <br>@id: relation/9241810<br>network: icn<br>ref: EV13<br>route: bicycle<br>route_ref: <br>type: route<br>stroke: #ff00ff<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: #cf5345<br>state: <br>ascent: <br>descent: <br>distance: 576<br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: EuroVelo 13 - Eiserner-Vorhang-Route - Teil Serbien<br>name:en: EuroVelo 13 - Iron Curtain Trail - part Serbia<br>name:hu: <br>name:sr: ЕуроВело 13 - Рута гвоздене завесе - део Србија<br>name:sr-Latn: EuroVelo 13 - Ruta gvozdene zavese - deo Srbija<br>alt_name: <br>lanes: <br>name:cs: EuroVelo 13 - Stezka železné opony - sekce Srbsko<br>name:fr: EuroVelo 13 - La route du rideau de fer - part Serbie<br>name:hr: EuroVelo 13 - Ruta Željezne Zavjese - dio Srbija<br>name:nl: EuroVelo 13 - IJzerengordijnpad - deel Servië<br>name:pl: EuroVelo 13 - Szlak Żelaznej Kurtyny - część Serbia<br>osmc:symbol: <br>surface: <br>cycle_network: EuroVelo<br>name:sk: EuroVelo 13 - Cesta Železnej opony - sekcia Srbsko<br>from: RO/SRB border (Vatin)<br>name:bg: EuroVelo 13 - Пътя на желязната завеса - част Сърбия<br>name:sl: EuroVelo 13 - Varnostna zavesa pot - oddelek Srbija<br>name:tr: EuroVelo 13 - Demir Perde Yolu - kısım Sırbistan<br>to: SRB/BG border (Gradina)<br>website: https://en.eurovelo.com/ev13/serbia<br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-C2185B-2938</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -29232,7 +29169,6 @@
     </Placemark>
     <Placemark>
       <name>EuroVelo 13 - Tran - Vlasina - Bosilegrad -</name>
-      <description><![CDATA[description: <br>@id: relation/9333326<br>network: rcn<br>ref: EV13<br>route: bicycle<br>route_ref: <br>type: route<br>stroke: #5500ff<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: <br>name:en: EuroVelo 13 - alternative Tran - Bosilegrad<br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: ЕвроВело 13 - Пътя на желязната завеса<br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-673AB7-2356</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -29665,7 +29601,6 @@
     </Placemark>
     <Placemark>
       <name>Велокоридор Баташка планина</name>
-      <description><![CDATA[description: <br>@id: relation/9675388<br>network: rcn<br>ref: B<br>route: mtb<br>route_ref: <br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: www.bikearea.org<br>network:type: <br>mtb:type: <br>name:de: <br>name:en: Batashka mountain Bike route<br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: BG:Bikearea<br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -30087,7 +30022,6 @@
     </Placemark>
     <Placemark>
       <name>Краищенско</name>
-      <description><![CDATA[description: <br>@id: relation/9767972<br>network: rcn<br>ref: BP19<br>route: bicycle<br>route_ref: <br>type: route<br>stroke: #5500ff<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: BG:ВелоТоуринг БГ<br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-673AB7-2356</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -30900,7 +30834,6 @@
     </Placemark>
     <Placemark>
       <name>Тур Странджа</name>
-      <description><![CDATA[description: <br>@id: relation/9769744<br>network: rcn<br>ref: TC<br>route: bicycle<br>route_ref: <br>type: route<br>stroke: #5500ff<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: crosscountry<br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: white:white:A:yellow<br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: mtb<br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-673AB7-2356</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -31473,7 +31406,6 @@
     </Placemark>
     <Placemark>
       <name>Крайбрежен маршрут</name>
-      <description><![CDATA[description: <br>@id: relation/9790238<br>network: ncn<br>ref: BP10<br>route: bicycle<br>route_ref: <br>type: route<br>stroke: #aa00ff<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: <br>name:en: Coastal route<br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: BG:ВелоТоуринг БГ<br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-9C27B0-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -32523,7 +32455,6 @@
     </Placemark>
     <Placemark>
       <name>EuroVelo 13 - Iron Curtain Trail - part Bulgaria Strandzha</name>
-      <description><![CDATA[description: <br>@id: relation/10291334<br>network: icn<br>ref: EV13<br>route: bicycle<br>route_ref: <br>type: route<br>stroke: #ff00ff<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: #cf5345<br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: EuroVelo 13 - Iron Curtain Trail - Bulgarischer Abschnitt Strandscha<br>name:en: EuroVelo 13 - Iron Curtain Trail - part Bulgaria Strandzha<br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: EuroVelo 13 - Stezka železné opony - sekce Bulharsko 3<br>name:fr: EuroVelo 13 - La route du rideau de fer - part Bulgarie Strandja<br>name:hr: EuroVelo 13 - Ruta Željezne Zavjese - dio Bugarska 3<br>name:nl: EuroVelo 13 - IJzerengordijnpad - deel Bulgarije Strandzja<br>name:pl: EuroVelo 13 - Szlak Żelaznej Kurtyny - część Bułgaria 3<br>osmc:symbol: <br>surface: <br>cycle_network: EuroVelo<br>name:sk: EuroVelo 13 - Cesta Železnej opony - sekcia Bulharsko 3<br>from: TR/BG border (Malko Tarnovo)<br>name:bg: ЕвроВело 13 - Пътя на желязната завеса Странджа<br>name:sl: EuroVelo 13 - Varnostna zavesa pot - oddelek Bolgarija 3<br>name:tr: EuroVelo 13 - Demir Perde Yolu - kısım Bulgaristan 3<br>to: Rezovo<br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-C2185B-2938</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -32935,7 +32866,6 @@
     </Placemark>
     <Placemark>
       <name>EuroVelo 13 - Iron Curtain Trail - part Bulgaria West</name>
-      <description><![CDATA[description: <br>@id: relation/10294229<br>network: icn<br>ref: EV13<br>route: bicycle<br>route_ref: <br>type: route<br>stroke: #ff00ff<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: #cf5345<br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: EuroVelo 13 - Iron Curtain Trail - Bulgarischer Abschnitt West<br>name:en: EuroVelo 13 - Iron Curtain Trail - part Bulgaria West<br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: EuroVelo 13 - Stezka železné opony - sekce Bulharsko 1<br>name:fr: EuroVelo 13 - La route du rideau de fer - part Bulgarie Occidentale<br>name:hr: EuroVelo 13 - Ruta Željezne Zavjese - dio Bugarska 1<br>name:nl: EuroVelo 13 - IJzerengordijnpad - deel Bulgarije West<br>name:pl: EuroVelo 13 - Szlak Żelaznej Kurtyny - część Bułgaria 1<br>osmc:symbol: <br>surface: <br>cycle_network: EuroVelo<br>name:sk: EuroVelo 13 - Cesta Železnej opony - sekcia Bulharsko 1<br>from: SRB/BG border (Kalotina)<br>name:bg: ЕвроВело 13 - Пътя на желязната завеса Запад<br>name:sl: EuroVelo 13 - Varnostna zavesa pot - oddelek Bolgarija 1<br>name:tr: EuroVelo 13 - Demir Perde Yolu - kısım Bulgaristan 1<br>to: BG/MK border (Stanke Lisichkovo)<br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-C2185B-2938</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -33605,7 +33535,6 @@
     </Placemark>
     <Placemark>
       <name>Видин-Белоградчик-Лом</name>
-      <description><![CDATA[description: <br>@id: relation/10337647<br>network: rcn<br>ref: EV6-B<br>route: bicycle<br>route_ref: <br>type: route<br>stroke: #5500ff<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: EuroVelo 6 Alternative<br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: <br>name:en: Vidin-Belogradchik-Lom<br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-673AB7-2356</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -34004,7 +33933,6 @@
     </Placemark>
     <Placemark>
       <name>Божурище – Брезник – Сливница</name>
-      <description><![CDATA[description: <br>@id: relation/10340020<br>network: lcn<br>ref: <br>route: bicycle<br>route_ref: <br>type: route<br>stroke: #0000ff<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: BG:ВелоТоуринг_БГ<br>name:sk: <br>from: Божурище<br>name:bg: <br>name:sl: <br>name:tr: <br>to: Сливница<br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-673AB7-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -34284,7 +34212,6 @@
     </Placemark>
     <Placemark>
       <name>Кътински пирамиди</name>
-      <description><![CDATA[description: <br>@id: relation/10340262<br>network: lcn<br>ref: <br>route: bicycle<br>route_ref: <br>type: route<br>stroke: #0000ff<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: yes<br>operator: <br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: BG:ВелоТоуринг_БГ<br>name:sk: <br>from: кв. Илиенци<br>name:bg: <br>name:sl: <br>name:tr: <br>to: Кътина<br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-673AB7-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -34546,7 +34473,6 @@
     </Placemark>
     <Placemark>
       <name>Балша</name>
-      <description><![CDATA[description: <br>@id: relation/10341748<br>network: lcn<br>ref: <br>route: bicycle<br>route_ref: <br>type: route<br>stroke: #0000ff<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: BG:ВелоТуринг_БГ<br>name:sk: <br>from: МС Ломско шосе<br>name:bg: <br>name:sl: <br>name:tr: <br>to: Балша<br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-673AB7-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -34879,7 +34805,6 @@
     </Placemark>
     <Placemark>
       <name>Манастирите на Банкя</name>
-      <description><![CDATA[description: <br>@id: relation/10341846<br>network: lcn<br>ref: <br>route: mtb<br>route_ref: <br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: BG:ВелоТуринг_БГ<br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -35122,7 +35047,6 @@
     </Placemark>
     <Placemark>
       <name>Банкя - Златуша - Сливница</name>
-      <description><![CDATA[description: <br>@id: relation/10342002<br>network: lcn<br>ref: <br>route: mtb<br>route_ref: <br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: BG:ВелоТуринг_БГ<br>name:sk: <br>from: Банкя<br>name:bg: <br>name:sl: <br>name:tr: <br>to: Сливница<br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -35349,7 +35273,6 @@
     </Placemark>
     <Placemark>
       <name>Вело маршрут Петлюка</name>
-      <description><![CDATA[description: <br>@id: relation/10342183<br>network: <br>ref: <br>route: mtb<br>route_ref: <br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -35518,7 +35441,6 @@
     </Placemark>
     <Placemark>
       <name>Божурище - Безден - Костинброд</name>
-      <description><![CDATA[description: <br>@id: relation/10343221<br>network: lcn<br>ref: <br>route: bicycle<br>route_ref: <br>type: route<br>stroke: #0000ff<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: yes<br>operator: <br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: BG:ВелоТуринг_БГ<br>name:sk: <br>from: Божурище<br>name:bg: <br>name:sl: <br>name:tr: <br>to: Безден<br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-673AB7-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -35792,7 +35714,6 @@
     </Placemark>
     <Placemark>
       <name>ВелоЕрул</name>
-      <description><![CDATA[description: <br>@id: relation/10346443<br>network: lcn<br>ref: BE<br>route: bicycle<br>route_ref: <br>type: route<br>stroke: #0000ff<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: yes<br>operator: Трънско туристическо дружество<br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-673AB7-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -36139,7 +36060,6 @@
     </Placemark>
     <Placemark>
       <name>Елин Пелин - Мирково</name>
-      <description><![CDATA[description: <br>@id: relation/10346615<br>network: lcn<br>ref: <br>route: bicycle<br>route_ref: <br>type: route<br>stroke: #0000ff<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: BG:ВелоТуринг_БГ<br>name:sk: <br>from: Гара Елин Пелин<br>name:bg: <br>name:sl: <br>name:tr: <br>to: Мирково<br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-673AB7-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -36387,7 +36307,6 @@
     </Placemark>
     <Placemark>
       <name>EuroVelo 13 Svilengrad - Lesovo - Edirne</name>
-      <description><![CDATA[description: <br>@id: relation/10347155<br>network: icn<br>ref: EV13<br>route: bicycle<br>route_ref: <br>type: route<br>stroke: #ff00ff<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: alternate<br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: <br>name:en: EuroVelo 13 alternative Svilengrad - Edirne<br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: ЕвроВело 13 - Пътя на желязната завеса<br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-C2185B-2938</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -36961,7 +36880,6 @@
     </Placemark>
     <Placemark>
       <name>Varvarski bani - Hizha Ravno bore - Smadenica</name>
-      <description><![CDATA[description: <br>@id: relation/10984188<br>network: lcn<br>ref: 110<br>route: mtb<br>route_ref: <br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: www.alabak.info<br>network:type: node_network<br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: Varvarski bani<br>name:bg: <br>name:sl: <br>name:tr: <br>to: Smadenica<br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -37148,7 +37066,6 @@
     </Placemark>
     <Placemark>
       <name>Salihov grob - Tsepina train station</name>
-      <description><![CDATA[description: Very difficult MTB downhill track.<br>@id: relation/10984199<br>network: lcn<br>ref: 115<br>route: mtb<br>route_ref: <br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: www.alabak.info<br>network:type: node_network<br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: Alabak<br>name:sk: <br>from: Salihov grob<br>name:bg: <br>name:sl: <br>name:tr: <br>to: Tsepina train station<br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -37321,7 +37238,6 @@
     </Placemark>
     <Placemark>
       <name>Milevi skali - Salihov grob - Sinora - Dolene</name>
-      <description><![CDATA[description: <br>@id: relation/10984215<br>network: lcn<br>ref: 112<br>route: mtb<br>route_ref: <br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: www.alabak.info<br>network:type: node_network<br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: Alabak<br>name:sk: <br>from: Fenera<br>name:bg: <br>name:sl: <br>name:tr: <br>to: Salihov grob<br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -37525,7 +37441,6 @@
     </Placemark>
     <Placemark>
       <name>Ravno bore hut - Varvarski bani downhill</name>
-      <description><![CDATA[description: <br>@id: relation/10984268<br>network: lcn<br>ref: 111<br>route: mtb<br>route_ref: <br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: www.alabak.info<br>network:type: node_network<br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: Alabak<br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -37696,7 +37611,6 @@
     </Placemark>
     <Placemark>
       <name>Varvara - Smadenitsa - Milevi skali</name>
-      <description><![CDATA[description: <br>@id: relation/10984298<br>network: Alabak<br>ref: 100<br>route: mtb<br>route_ref: <br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: Alabak Association<br>network:type: node_network<br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: Alabak<br>name:sk: <br>from: Varvara<br>name:bg: <br>name:sl: <br>name:tr: <br>to: Milevi skali<br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -37931,7 +37845,6 @@
     </Placemark>
     <Placemark>
       <name>Sveti Georgi - Varavara MTB downhill</name>
-      <description><![CDATA[description: Difficult MTB downhill track<br>@id: relation/10984339<br>network: lcn<br>ref: 101<br>route: mtb<br>route_ref: <br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: Alabak Association<br>network:type: node_network<br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: Alabak<br>name:sk: <br>from: Varavara<br>name:bg: <br>name:sl: <br>name:tr: <br>to: Sveti Georgi<br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -38117,7 +38030,6 @@
     </Placemark>
     <Placemark>
       <name>Leskata - Varvara</name>
-      <description><![CDATA[description: Medium level of difficulty MTB downhill trail<br>@id: relation/10984356<br>network: lcn<br>ref: 102<br>route: mtb<br>route_ref: <br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: www.alabak.info<br>network:type: node_network<br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: Alabak<br>name:sk: <br>from: Leskata<br>name:bg: <br>name:sl: <br>name:tr: <br>to: Varvara<br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -38287,7 +38199,6 @@
     </Placemark>
     <Placemark>
       <name>Suhia dol - Varvara</name>
-      <description><![CDATA[description: <br>@id: relation/10984357<br>network: lcn<br>ref: 104<br>route: mtb<br>route_ref: <br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: www.alabak.info<br>network:type: node_network<br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: Alabak<br>name:sk: <br>from: Varvara<br>name:bg: <br>name:sl: <br>name:tr: <br>to: Suhia dol<br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -38454,7 +38365,6 @@
     </Placemark>
     <Placemark>
       <name>Smadenitsa - Varvara downhill track</name>
-      <description><![CDATA[description: Difficult MTB downhill track<br>@id: relation/10984386<br>network: lcn<br>ref: 105<br>route: mtb<br>route_ref: <br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: www.alabak.info<br>network:type: node_network<br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: Alabak<br>name:sk: <br>from: Smadenitsa<br>name:bg: <br>name:sl: <br>name:tr: <br>to: Varvara<br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -38629,7 +38539,6 @@
     </Placemark>
     <Placemark>
       <name>Milevi skali - Dolene</name>
-      <description><![CDATA[description: Difficult MTB downhill track<br>@id: relation/10984387<br>network: lcn<br>ref: 114<br>route: mtb<br>route_ref: <br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: www.alabak.info<br>network:type: node_network<br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: Alabak<br>name:sk: <br>from: Milevi skali<br>name:bg: <br>name:sl: <br>name:tr: <br>to: Dolene<br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -38811,7 +38720,6 @@
     </Placemark>
     <Placemark>
       <name>Leskata - Lipovo ravnishte - Varvara</name>
-      <description><![CDATA[description: Difficult MTB downhill track<br>@id: relation/10984401<br>network: lcn<br>ref: 103<br>route: mtb<br>route_ref: <br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: www.alabak.info<br>network:type: node_network<br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: Alabak<br>name:sk: <br>from: Leskata<br>name:bg: <br>name:sl: <br>name:tr: <br>to: Varvara<br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -38990,7 +38898,6 @@
     </Placemark>
     <Placemark>
       <name>Milevi skali - Varvara</name>
-      <description><![CDATA[description: <br>@id: relation/10984423<br>network: Alabak<br>ref: 113<br>route: mtb<br>route_ref: <br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: Alabak<br>network:type: node_network<br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -39197,7 +39104,6 @@
     </Placemark>
     <Placemark>
       <name>Ravno bore - Sinora</name>
-      <description><![CDATA[description: <br>@id: relation/10993017<br>network: alabak<br>ref: 120<br>route: mtb<br>route_ref: <br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: www.alabak.info<br>network:type: node_network<br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -39362,8 +39268,6 @@
       </LineString>
     </Placemark>
     <Placemark>
-      <name><![CDATA[Зелен коридор "Шейновец"]]></name>
-      <description><![CDATA[description: <br>@id: relation/12128790<br>network: lcn<br>ref: <br>route: mtb<br>route_ref: <br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: green<br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: фондация "Свиленград 2000"<br>network:type: node_network<br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: red_triangle<br>surface: <br>cycle_network: Greenways<br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: 2006<br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -39421,7 +39325,6 @@
           <value/>
         </Data>
         <Data name="operator">
-          <value><![CDATA[фондация "Свиленград 2000"]]></value>
         </Data>
         <Data name="network:type">
           <value>node_network</value>
@@ -39578,7 +39481,6 @@
     </Placemark>
     <Placemark>
       <name>предизвикай странджа веломаршрут</name>
-      <description><![CDATA[description: <br>@id: relation/13024538<br>network: <br>ref: <br>route: mtb<br>route_ref: <br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: <br>name:en: Strandzha Challenge<br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -39840,7 +39742,6 @@
     </Placemark>
     <Placemark>
       <name>Vama Veche</name>
-      <description><![CDATA[description: <br>@id: relation/13481849<br>network: <br>ref: <br>route: bicycle<br>route_ref: <br>type: route<br>stroke: <br>stroke-width: <br>stroke-opacity: <br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-BDBDBD-1200</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -40005,7 +39906,6 @@
     </Placemark>
     <Placemark>
       <name>Vama Veche</name>
-      <description><![CDATA[description: <br>@id: relation/13481850<br>network: <br>ref: <br>route: bicycle<br>route_ref: <br>type: route<br>stroke: <br>stroke-width: <br>stroke-opacity: <br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-BDBDBD-1200</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -40166,7 +40066,6 @@
     </Placemark>
     <Placemark>
       <name>Vama Veche</name>
-      <description><![CDATA[description: <br>@id: relation/13481851<br>network: <br>ref: <br>route: bicycle<br>route_ref: <br>type: route<br>stroke: <br>stroke-width: <br>stroke-opacity: <br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-BDBDBD-1200</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -40330,7 +40229,6 @@
     </Placemark>
     <Placemark>
       <name>Св. Петка - вр. Острец - Велинград</name>
-      <description><![CDATA[description: <br>@id: relation/15314891<br>network: lcn<br>ref: 220<br>route: bicycle<br>route_ref: <br>type: route<br>stroke: #0000ff<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: Св. Петка<br>name:bg: <br>name:sl: <br>name:tr: <br>to: Велинград<br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-673AB7-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -40527,7 +40425,6 @@
     </Placemark>
     <Placemark>
       <name>Kırklareli-lüleburgaz yerel bisiklet rotası</name>
-      <description><![CDATA[description: <br>@id: relation/16321438<br>network: lcn<br>ref: <br>route: bicycle<br>route_ref: <br>type: route<br>stroke: #0000ff<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-673AB7-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -40831,7 +40728,6 @@
     </Placemark>
     <Placemark>
       <name>Lüleburgaz-Çerkezköy yerel bisiklet rotası</name>
-      <description><![CDATA[description: <br>@id: relation/16381863<br>network: lcn<br>ref: <br>route: bicycle<br>route_ref: <br>type: route<br>stroke: #0000ff<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-673AB7-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -41218,7 +41114,6 @@
     </Placemark>
     <Placemark>
       <name/>
-      <description><![CDATA[description: <br>@id: relation/17431338<br>network: <br>ref: <br>route: bicycle<br>route_ref: <br>type: route<br>stroke: <br>stroke-width: <br>stroke-opacity: <br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-BDBDBD-1200</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -41388,7 +41283,6 @@
     </Placemark>
     <Placemark>
       <name/>
-      <description><![CDATA[description: <br>@id: relation/17431339<br>network: <br>ref: <br>route: bicycle<br>route_ref: <br>type: route<br>stroke: <br>stroke-width: <br>stroke-opacity: <br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-BDBDBD-1200</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -41551,7 +41445,6 @@
     </Placemark>
     <Placemark>
       <name>Byala red</name>
-      <description><![CDATA[description: <br>@id: relation/17726331<br>network: lcn<br>ref: red<br>route: mtb<br>route_ref: <br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: Byala<br>name:sk: <br>from: Byala<br>name:bg: <br>name:sl: <br>name:tr: <br>to: Shkorpilovtsi beach<br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -41862,7 +41755,6 @@
     </Placemark>
     <Placemark>
       <name/>
-      <description><![CDATA[description: <br>@id: relation/17726375<br>network: <br>ref: Yellow<br>route: mtb<br>route_ref: <br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: Byala<br>name:bg: <br>name:sl: <br>name:tr: <br>to: Kara-Dere<br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -42092,7 +41984,6 @@
     </Placemark>
     <Placemark>
       <name/>
-      <description><![CDATA[description: <br>@id: relation/17778768<br>network: lcn<br>ref: <br>route: bicycle<br>route_ref: <br>type: route<br>stroke: #0000ff<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-673AB7-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -42264,7 +42155,6 @@
     </Placemark>
     <Placemark>
       <name>Secret mile</name>
-      <description><![CDATA[description: <br>@id: relation/17819448<br>network: <br>ref: <br>route: bicycle<br>route_ref: <br>type: route<br>stroke: <br>stroke-width: <br>stroke-opacity: <br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: enduro<br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: Secret mile]]></description>
       <styleUrl>#line-BDBDBD-1200</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -42433,7 +42323,6 @@
     </Placemark>
     <Placemark>
       <name>Chalin</name>
-      <description><![CDATA[description: <br>@id: relation/17819454<br>network: <br>ref: <br>route: bicycle<br>route_ref: <br>type: route<br>stroke: <br>stroke-width: <br>stroke-opacity: <br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: enduro<br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: Чалин<br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: Chalin]]></description>
       <styleUrl>#line-BDBDBD-1200</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -42601,7 +42490,6 @@
     </Placemark>
     <Placemark>
       <name>Who dares wins(upper part)</name>
-      <description><![CDATA[description: <br>@id: relation/17905287<br>network: <br>ref: <br>route: bicycle<br>route_ref: <br>type: route<br>stroke: <br>stroke-width: <br>stroke-opacity: <br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: enduro<br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: Kойто играй пичели(горна част)<br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-BDBDBD-1200</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -42768,7 +42656,6 @@
     </Placemark>
     <Placemark>
       <name>Who dares(middle part)</name>
-      <description><![CDATA[description: <br>@id: relation/17905288<br>network: <br>ref: <br>route: bicycle<br>route_ref: <br>type: route<br>stroke: <br>stroke-width: <br>stroke-opacity: <br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: enduro<br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: Който играй пичели(средна част)<br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-BDBDBD-1200</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -42931,7 +42818,6 @@
     </Placemark>
     <Placemark>
       <name>Secret XCO</name>
-      <description><![CDATA[description: <br>@id: relation/17905289<br>network: <br>ref: <br>route: bicycle<br>route_ref: <br>type: route<br>stroke: <br>stroke-width: <br>stroke-opacity: <br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-BDBDBD-1200</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -43093,7 +42979,6 @@
     </Placemark>
     <Placemark>
       <name>Приказка</name>
-      <description><![CDATA[description: <br>@id: relation/18051942<br>network: <br>ref: <br>route: bicycle<br>route_ref: <br>type: route<br>stroke: <br>stroke-width: <br>stroke-opacity: <br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: downhill<br>name:de: <br>name:en: Fairy tale<br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-BDBDBD-1200</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -43260,7 +43145,6 @@
     </Placemark>
     <Placemark>
       <name/>
-      <description><![CDATA[description: <br>@id: relation/19081633<br>network: <br>ref: <br>route: mtb<br>route_ref: <br>type: route<br>stroke: #d15000<br>stroke-width: 4<br>stroke-opacity: 0.5<br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: Владая<br>name:bg: <br>name:sl: <br>name:tr: <br>to: Кралев дол<br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-E65100-2550</styleUrl>
       <ExtendedData>
         <Data name="description">
@@ -43497,7 +43381,6 @@
     </Placemark>
     <Placemark>
       <name/>
-      <description><![CDATA[description: <br>@id: relation/19274486<br>network: <br>ref: <br>route: bicycle<br>route_ref: <br>type: route<br>stroke: <br>stroke-width: <br>stroke-opacity: <br>note: <br>colour: <br>state: <br>ascent: <br>descent: <br>distance: <br>foot: <br>roundtrip: <br>operator: <br>network:type: <br>mtb:type: <br>name:de: <br>name:en: <br>name:hu: <br>name:sr: <br>name:sr-Latn: <br>alt_name: <br>lanes: <br>name:cs: <br>name:fr: <br>name:hr: <br>name:nl: <br>name:pl: <br>osmc:symbol: <br>surface: <br>cycle_network: <br>name:sk: <br>from: <br>name:bg: <br>name:sl: <br>name:tr: <br>to: <br>website: <br>icn_ref: <br>@relations: <br>bicycle: <br>tracktype: <br>start_date: <br>mtb:name: ]]></description>
       <styleUrl>#line-BDBDBD-1200</styleUrl>
       <ExtendedData>
         <Data name="description">

@@ -36,7 +36,6 @@
     </StyleMap>
     <Placemark>
       <name>Планински маршрути в местност Алабак</name>
-      <description><![CDATA[description: https://alabak.info<br>Source: Alabak.info]]></description>
       <styleUrl>#poly-4186F0-1200-77</styleUrl>
       <ExtendedData>
         <Data name="description">

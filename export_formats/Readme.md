@@ -16,7 +16,6 @@ Keep a KML with a network link.
     <NetworkLink>
       <name>VELOSOFIZE</name>
       <Link>
-        <href><![CDATA[https://www.google.com/maps/d/u/0/kml?forcekml=...]]></href>
       </Link>
     </NetworkLink>
   </Document>

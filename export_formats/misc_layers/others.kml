@@ -48,7 +48,6 @@
         <scale>0</scale>
       </LabelStyle>
       <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
     <Style id="icon-1589-757575-nodesc-highlight">
@@ -63,7 +62,6 @@
         <scale>1</scale>
       </LabelStyle>
       <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
     <StyleMap id="icon-1589-757575-nodesc">
