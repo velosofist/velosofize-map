@@ -13,8 +13,8 @@ jobs:
       - name: Checkout Pages Repo
         uses: actions/checkout@v4
 
-      - name: Clone Private Repo
-        run: git clone https://x-access-token:${{ secrets.IMPORTS_TOKEN }}@github.com/velosofist/velosofize-imports.git imports
+      # - name: Clone Private Repo
+      #  run: git clone https://x-access-token:${{ secrets.IMPORTS_TOKEN }}@github.com/velosofist/velosofize-imports.git imports
 
       - name: Commit and Push Changes
         run: |
