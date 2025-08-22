@@ -70,58 +70,11 @@ const overlaysData = {
             "icon": "directions_bike",
             "disabled": false
         },
-        {
-            "url": "/overlays/external_sources/sofenhagen_routes.kml",
-            "label": "Отсечки в София от Sofenhagen.com / Routes in Sofia from Sofenhagen.com",
-            "icon": "/attachments/misc_icons/logo_sofen.png",
-            "disabled": false
-        }
     ],
     "secondary": [
-        {
-            "url": "/overlays/misc_layers/crossings.kml",
-            "label": "Пресичания / Crossings",
-            "icon": "directions_walk",
-            "disabled": false
-        },
-        {
-            "url": "/overlays/misc_layers/transport.kml",
-            "label": "Транспорт / Transport",
-            "icon": "train",
-            "disabled": false
-        },
-        {
-            "url": "/overlays/misc_layers/slow_zones.kml",
-            "label": "Бавни зони / Slow zones",
-            "icon": "30fps",
-            "disabled": true
-        },
-        {
-            "url": "/overlays/misc_layers/others.kml",
-            "label": "Други / Others",
-            "icon": "quiz",
-            "disabled": true
-        },
-        {
-            "url": "/overlays/external_sources/bike_parking.kml",
-            "label": "Велопаркинги / Bicycle parking (© OpenStreetMap contributors)",
-            "icon": "local_parking",
-            "disabled": false
-        }
+
     ],
     "external": [
-        {
-            "url": "/overlays/external_sources/mtb_bg.kml",
-            "label": "Маршрути от MTB-BG.com / Routes from MTB-BG.com",
-            "icon": "https://mtb-bg.com/wp-content/uploads/2020/04/cropped-favicon-mtb-1-32x32.png",
-            "disabled": false
-        },
-        {
-            "url": "/overlays/external_sources/alabak.kml",
-            "label": "Планински маршрути в местност Алабак / Mountain routes from Alabak.info",
-            "icon": "https://alabak.info/favicon.ico",
-            "disabled": false
-        },
         {
             "url": "/overlays/chernapista/chernapista_condensed.kml",
             "label": "ПТП с участие на велосипедисти от chernapista.com",
