@@ -1,0 +1,27 @@
+name: Deploy with External Repo
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Pages Repo
+        uses: actions/checkout@v4
+
+      - name: Clone Private Repo
+        run: git clone https://x-access-token:${{ secrets.IMPORTS_TOKEN }}@github.com/velosofist/velosofize-imports.git imports
+
+      - name: Commit and Push Changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Update site with external repo content" || echo "No changes to commit"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
