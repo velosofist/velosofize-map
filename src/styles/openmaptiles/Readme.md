@@ -1,1 +1,0 @@
-This is a blank style without any tiles being fetched. I still haven't figured out how to overlay two style.json's with MapLibre, but it would be very useful to use this for icons from openmaptiles with the same sprite (icon pack) for all tile providers to be able to clean up the legend a bit.

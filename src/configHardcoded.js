@@ -37,7 +37,7 @@ const baseLayerConfig = [
     icon: '/attachments/tile_icons/tile_cyclosm.png',
     alt: 'CyclOSM',
     render: 'maplibre',
-    style: '/src/styles/cyclosm/style.json',
+    style: '/imports/src/styles/cyclosm/style.json',
     attribution: '&copy; CyclOSM, OpenStreetMap contributors'
   }
 ];

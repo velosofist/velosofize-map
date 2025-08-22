@@ -1,1 +1,0 @@
-Won't be used until I figure out the terms of use and whether Esri satellite imagery is actually free.
