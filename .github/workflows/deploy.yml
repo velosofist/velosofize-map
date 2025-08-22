@@ -32,11 +32,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
       # Add obfuscated GIS files from external sources
       - name: Clone Private Repo
         run: git clone https://x-access-token:${{ secrets.IMPORTS_TOKEN }}@github.com/velosofist/velosofize-imports.git ./
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
