@@ -5,7 +5,7 @@ name: Deploy static content to Pages
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: main
+    branches: [$default-branch]
 
   # Allow manual workflow runs from the Actions tab
   workflow_dispatch:
@@ -34,7 +34,7 @@ jobs:
         uses: actions/checkout@v4
       # Add obfuscated GIS files from external sources
       - name: Clone Private Repo
-        run: git clone https://x-access-token:${{ secrets.IMPORTS_TOKEN }}@github.com/velosofist/velosofize-imports.git ./
+        run: git clone https://x-access-token:${{ secrets.IMPORTS_TOKEN }}@github.com/velosofist/velosofize-imports.git imports
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
