@@ -24,6 +24,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Add .nojekyll
+        run: touch .nojekyll
+
       # Set up SSH for cloning private repo
       - name: Set up SSH key
         run: |
