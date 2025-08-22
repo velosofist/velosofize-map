@@ -40,6 +40,9 @@ jobs:
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
+      # Debug step
+      - name: List workspace files
+        run: find . | sort
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
