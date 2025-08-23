@@ -47,6 +47,7 @@ jobs:
         run: |
           echo "Injecting Thunderforest Key..."
           sed -i "s|{{THUNDERFOREST_KEY}}|${{ secrets.THUNDERFOREST_KEY }}|" ./imports/src/configOverride.js
+          sed -i "s|{{THUNDERFOREST_KEY}}|${{ secrets.THUNDERFOREST_KEY }}|" ./imports/src/styles/*/style.json
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
