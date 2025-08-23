@@ -10,8 +10,6 @@ The focus of the project is to gather as much information as possible that Bulga
 
 The Velosofize project includes resources from other repositories, such as velosofist/velosofize and velosofist/velosofize-minima-theme , which account for the blog section of the website (docs.velosofize.com) and its styling.
 
-While the current code only accounts for a static page hosted on GitHub pages and with hardcoded data in KML and GeoJson format, one of the goals is for it to be expanded in the future so there's a static version (e.g. "Velosofize Lite" on Github Pages) and one with Firebase integration to allow for a more interactive user experience and for creators of other projects, events, resources, etc. to add contributions which are not easily downloadable by users.
-
 ## Projects used
 
 The development of Velosofize Map in its current form would not be possible without the generous contributions to other free-to-use and open-source projects, including:

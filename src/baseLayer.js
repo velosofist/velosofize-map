@@ -1,17 +1,3 @@
-function getThunderforestApiKey() {
-  return firebase.firestore()
-    .collection(firebase_collection)
-    .doc(firebase_document)
-    .get()
-    .then(doc => {
-      if (doc.exists && doc.data().apiKey) {
-        return doc.data().apiKey;
-      } else {
-        throw new Error('Thunderforest API key not found in Firestore');
-      }
-    });
-}
-
 function renderWithMapLibre(key) {
   const  layerConfig = baseLayerConfig.find(layer => layer.name === key);
     return L.maplibreGL({
@@ -27,21 +13,6 @@ function renderWithLeaflet(key) {
         layerConfig?.style, {
         attribution: layerConfig?.attribution
     })
-}
-
-function renderWithLeafletAuth(key) {
-  const layerConfig = baseLayerConfig.find(layer => layer.name === key);
-  return getThunderforestApiKey().then(apiKey => {
-    let url;
-    if (apiKey) {
-      url = layerConfig?.style + `?apikey=${apiKey}`;
-    } else {
-      url = layerConfig?.style;
-    }
-    return L.tileLayer(url, {
-      attribution: layerConfig.attribution
-    });
-  });
 }
 
 function fillBaseLayerList() {

@@ -150,14 +150,14 @@ html, body {
 
 #container-overlays-external-buttons {
   position: absolute;
-  right: 74px;
+  left: 74px;
   top: 50%;
   transform: translateY(-50%);
 }
 
 #container-overlays-buttons {
   position: absolute;
-  right: 10px;
+  left: 10px;
   top: 50%;
   transform: translateY(-50%);
 }
