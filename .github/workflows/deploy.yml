@@ -40,8 +40,9 @@ jobs:
       # Use SSH to clone the private repo
       - name: Clone Private Repo
         run: git clone git@github.com:velosofist/velosofize-imports.git imports
-      - name: Remove .git from imports
-        run: rm -rf imports/.git
+      - name: Remove .git history
+        run: rm -rf .git && rm -rf imports/.git
+
       - name: Inject Thunderforest Key
         run: |
           echo "Injecting Thunderforest Key..."
