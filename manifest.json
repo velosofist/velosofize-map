@@ -1,0 +1,20 @@
+{
+  "name": "Velosofize Map",
+  "short_name": "Velosofize",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#eee8d5",
+  "theme_color": "#eee8d5",
+  "icons": [
+    {
+      "src": "/attachments/favicon_light/favicon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/attachments/favicon_light/favicon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
