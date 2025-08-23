@@ -14,7 +14,7 @@
       "url": "https://tiles.openfreemap.org/planet"
     }
   },
-  "sprite": "https://tiles.openfreemap.org/sprites/ofm_f384/ofm",
+  "sprite": "https://raw.githubusercontent.com/maputnik/osm-liberty/refs/heads/gh-pages/sprites/osm-liberty",
   "glyphs": "https://tiles.openfreemap.org/fonts/{fontstack}/{range}.pbf",
   "layers": [
     {
@@ -1616,7 +1616,8 @@
           "in",
           "subclass",
           "hospital",
-          "pharmacy"
+          "pharmacy",
+          "shelter"
         ]
       ],
       "layout": {
@@ -1649,7 +1650,8 @@
           "subclass",
           "bicycle",
           "toilets",
-          "drinking_water"
+          "drinking_water",
+          "bicycle_rental"
         ]
       ],
       "layout": {
