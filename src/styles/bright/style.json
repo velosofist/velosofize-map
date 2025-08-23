@@ -1616,8 +1616,7 @@
           "in",
           "subclass",
           "hospital",
-          "pharmacy",
-          "shelter"
+          "pharmacy"
         ]
       ],
       "layout": {
@@ -1651,7 +1650,8 @@
           "bicycle",
           "toilets",
           "drinking_water",
-          "bicycle_rental"
+          "bicycle_rental",
+          "shelter"
         ]
       ],
       "layout": {
