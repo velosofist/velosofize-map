@@ -165,24 +165,30 @@ externalOverlays.forEach(({url, label, icon, disabled}) => {
 });
 
 function styleFromStyleUrl(styleUrl, featureWeight) {
-    const match = styleUrl?.match(/#line-([0-9A-Fa-f]{6})/);
+    // Match #line-xxxxxx, #poly-xxxxxx, or #icon-xxxxxx
+    const match = styleUrl?.match(/#(?:line|poly|icon-\d+)-([0-9A-Fa-f]{6})/);
     if (match) {
         return {
-        color: `#${match[1]}`,
-        weight: featureWeight,
-        opacity: 1
+            color: `#${match[1]}`,
+            weight: featureWeight,
+            opacity: 1,
+            fillColor: `#${match[1]}`,
+            fillOpacity: 0.2
         };
     } else {
         return {
-        color: "#0074D9", // grey by default
-        weight: featureWeight,
-        opacity: 0.8
+            color: "#0074D9",
+            weight: featureWeight,
+            opacity: 0.8,
+            fillColor: "#0074D9",
+            fillOpacity: 0.2
         };
     }
 }
 
 function colorFromStyleUrl(styleUrl) {
-    const match = styleUrl?.match(/#(?:icon-\d+-)?([0-9A-Fa-f]{6})/);
+    // Match #line-xxxxxx, #poly-xxxxxx, or #icon-xxxxxx
+    const match = styleUrl?.match(/#(?:line|poly|icon-\d+)-([0-9A-Fa-f]{6})/);
     return match ? `#${match[1]}` : "#CCCCCC";
 }
 
