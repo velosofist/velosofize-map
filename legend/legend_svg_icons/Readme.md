@@ -1,0 +1,1 @@
+Source: [hyperknot/openfreemap-styles](https://github.com/hyperknot/openfreemap-styles/tree/a384916948c6e4fa84372a47fd9db75d1eb433d9/styles/liberty/svgs/svgs_iconset)
