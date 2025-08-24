@@ -1,48 +1,16 @@
 window.allCustomMarkers = window.allCustomMarkers || [];
-const data = overlaysData;
+const data = overlaysConfig;
 
-// Combine overlays and set up containers
-const allOverlays = [
-    ...data.primary.map(layer => ({...layer, isPrimary: true})),
-    ...data.secondary.map(layer => ({...layer, isPrimary: false}))
-];
-
-const overlayToggleDiv = document.getElementById('overlay-toggle-secondary');
-const overlayLayers = {};
-
-// Add a button for CyclOSM Lite overlay
-const cyclosmLiteBtn = document.createElement('button');
-cyclosmLiteBtn.classList.add('overlay-toggle-btn');
-cyclosmLiteBtn.title = 'Cyclosm Lite Overlay';
-cyclosmLiteBtn.innerHTML = `<span class="material-symbols-outlined" style="font-size: 28px;">bike_lane</span>`;
-cyclosmLiteBtn.dataset.active = 'false'; // Initially inactive
-
-// Create the CyclOSM Lite layer
-const cyclosmLayer = L.tileLayer('https://{s}.tile-cyclosm.openstreetmap.fr/cyclosm-lite/{z}/{x}/{y}.png', {
-    attribution: '&copy; Cyclosm contributors'
-});
-
-// Attach the onclick handler to toggle the layer
-cyclosmLiteBtn.onclick = function () {
-    if (cyclosmLiteBtn.dataset.active === 'false') {
-        cyclosmLayer.addTo(map); // Add the layer to the map
-        cyclosmLiteBtn.dataset.active = 'true'; // Mark as active
-    } else {
-        map.removeLayer(cyclosmLayer); // Remove the layer from the map
-        cyclosmLiteBtn.dataset.active = 'false'; // Mark as inactive
-    }
-};
-
-// Append the button to the overlayToggleDiv
-overlayToggleDiv.appendChild(cyclosmLiteBtn);
+const primaryToggleDiv = document.getElementById('overlay-toggle-primary');
+const externalToggleDiv = document.getElementById('overlay-toggle-external');
 
 function showOverlayLabelPopup(label, event) {
     // Remove any existing popup
-    const existing = document.getElementById('overlay-label-popup');
+    const existing = document.getElementById('overlay-button-label-popup');
     if (existing) existing.remove();
 
     const popupDiv = document.createElement('div');
-    popupDiv.id = 'overlay-label-popup';
+    popupDiv.id = 'overlay-button-label-popup';
     popupDiv.textContent = label;
     popupDiv.style.position = 'fixed';
 
@@ -60,14 +28,14 @@ function showOverlayLabelPopup(label, event) {
 }
 
 function hideOverlayLabelPopup() {
-    const existing = document.getElementById('overlay-label-popup');
+    const existing = document.getElementById('overlay-button-label-popup');
     if (existing) existing.remove();
 }
 
-function createOverlayToggleButton({ label, icon, isPrimary = false, overlay, containerDiv }) {
+function createOverlayToggleButton({ label, icon, enabledByDefault = false, overlay, containerDiv }) {
     const btn = document.createElement('button');
-    btn.classList.add('overlay-toggle-btn');
-    btn.dataset.active = isPrimary ? 'true' : 'false';
+    btn.classList.add('overlay-toggle-button');
+    btn.dataset.active = enabledByDefault ? 'true' : 'false';
 
     // Default to '?' if the icon is not provided or invalid
     if (!icon || typeof icon !== 'string') {
@@ -75,40 +43,38 @@ function createOverlayToggleButton({ label, icon, isPrimary = false, overlay, co
     }
 
     // Icon logic
-    if (icon.startsWith('http')) {
-        if (icon.toLowerCase().endsWith('.svg')) {
-            fetch(icon)
-                .then(res => res.text())
-                .then(svg => {
-                    btn.innerHTML = `<span style="display:inline-block;width:28px;height:28px;vertical-align:middle;">${svg}</span>`;
-                })
-                .catch(() => {
-                    btn.innerHTML = `<span style="font-size: 28px;">❓</span>`;
-                });
-        } else {
-            btn.innerHTML = `<img src="${icon}" alt="" style="width:28px;height:28px;vertical-align:middle;">`;
-        }
-    } else if (icon.startsWith('/')) {
-        // Handle relative paths
-        const relativeIconPath = `${window.location.origin}${icon}`;
-        if (icon.toLowerCase().endsWith('.svg')) {
-            fetch(relativeIconPath)
-                .then(res => res.text())
-                .then(svg => {
-                    btn.innerHTML = `<span style="display:inline-block;width:28px;height:28px;vertical-align:middle;">${svg}</span>`;
-                })
-                .catch(() => {
-                    btn.innerHTML = `<span style="font-size: 28px;">❓</span>`;
-                });
-        } else {
-            btn.innerHTML = `<img src="${relativeIconPath}" alt="" style="width:28px;height:28px;vertical-align:middle;">`;
-        }
+    if (icon.endsWith('.svg')) {
+    // SVG: fetch and inline
+    const iconUrl = icon.startsWith('http') ? icon : `${window.location.origin}${icon}`;
+    fetch(iconUrl)
+        .then(res => res.text())
+        .then(svg => {
+            btn.innerHTML = `<span 
+                style="display: inline-block;"
+                class="overlay-button-svg-or-img-symbol">
+                ${svg}</span>`;
+        })
+        .catch(() => {
+            btn.innerHTML = `<span style="font-size: 28px;">❓</span>`;
+        });
+    } else if (icon.startsWith('http') || icon.startsWith('/')) {
+        // Other images: use <img>
+        const iconUrl = icon.startsWith('http') ? icon : `${window.location.origin}${icon}`;
+        btn.innerHTML = `<img 
+            src="${iconUrl}"
+            alt="" 
+            class="overlay-button-svg-or-img-symbol">`;
     } else {
-        btn.innerHTML = `<span class="material-symbols-outlined" style="font-size: 28px;">${icon}</span>`;
+        // Material Symbol
+        btn.innerHTML = `<span 
+            class="material-symbols-outlined" 
+            style="font-size: 28px;">
+            ${icon}
+        </span>`;
     }
 
     // Add/remove overlay logic
-    if (isPrimary) {
+    if (enabledByDefault) {
         overlay.addTo(map);
     }
     btn.onclick = function() {
@@ -130,138 +96,6 @@ function createOverlayToggleButton({ label, icon, isPrimary = false, overlay, co
     containerDiv.appendChild(btn);
 }
 
-// Add primary and secondary overlays
-allOverlays.forEach(({url, label, icon, disabled, isPrimary}) => {
-    if (!disabled) {
-        const overlay = createStyledOverlay(url);
-        overlayLayers[url] = overlay;
-        createOverlayToggleButton({
-            label,
-            icon,
-            isPrimary,
-            overlay,
-            containerDiv: overlayToggleDiv
-        });
-    }
-});
-
-// Add external overlays
-const externalOverlays = data.external;
-const externalToggleDiv = document.getElementById('overlay-toggle-external');
-const externalOverlayLayers = {};
-
-externalOverlays.forEach(({url, label, icon, disabled}) => {
-    if (!disabled) {
-        const overlay = createStyledOverlay(url);
-        externalOverlayLayers[url] = overlay;
-        createOverlayToggleButton({
-            label,
-            icon,
-            isPrimary: false,
-            overlay,
-            containerDiv: externalToggleDiv
-        });
-    }
-});
-
-function styleFromStyleUrl(styleUrl, featureWeight) {
-    // Match #line-xxxxxx, #poly-xxxxxx, or #icon-xxxxxx
-    const match = styleUrl?.match(/#(?:line|poly|icon-\d+)-([0-9A-Fa-f]{6})/);
-    if (match) {
-        return {
-            color: `#${match[1]}`,
-            weight: featureWeight,
-            opacity: 1,
-            fillColor: `#${match[1]}`,
-            fillOpacity: 0.2
-        };
-    } else {
-        return {
-            color: "#0074D9",
-            weight: featureWeight,
-            opacity: 0.8,
-            fillColor: "#0074D9",
-            fillOpacity: 0.2
-        };
-    }
-}
-
-function colorFromStyleUrl(styleUrl) {
-    // Match #line-xxxxxx, #poly-xxxxxx, or #icon-xxxxxx
-    const match = styleUrl?.match(/#(?:line|poly|icon-\d+)-([0-9A-Fa-f]{6})/);
-    return match ? `#${match[1]}` : "#CCCCCC";
-}
-
-function pointToLayer(feature, latlng) {
-    const styleUrl = feature.properties?.styleUrl;
-    const fillColor = colorFromStyleUrl(styleUrl);
-
-    // Extract the relevant style (ignoring everything after the second '-')
-    const relevantStyle = styleUrl?.split('-')[1]?.split('-')[0];
-
-    // Default to 'question_mark' if no match is found
-    const iconName = iconMapping[relevantStyle] || 'question_mark';
-
-    // Create a combined divIcon with both the circle and the Material Symbols icon
-    const iconSizePx = 24;
-    const combinedIconHtml = `
-        <div style="position: relative; width: 12px; height: 12px;">
-            <div style="
-                width: 22px; 
-                height: 22px; 
-                border-radius: 50%; 
-                background-color: ${fillColor}; 
-                opacity: 0.8; 
-                border: 1px 
-                solid white;
-            "></div>
-            <span class="material-symbols-outlined" style="position: absolute; top: 4px; left: 4px; font-size: 16px; color: #e6e5e1;">${iconName}</span>
-        </div>
-    `;
-
-    const combinedDivIcon = L.divIcon({
-        className: 'custom-combined-icon',
-        html: combinedIconHtml,
-        iconSize: [iconSizePx, iconSizePx],
-        iconAnchor: [iconSizePx / 2, iconSizePx / 2]
-    });
-
-    // Create a small colored dot icon for zoomed-out view
-    const smallDotIcon = `
-        <div style="position: relative; width: 12px; height: 12px;">
-            <div style="
-                width: 6px; 
-                height: 6px; 
-                border-radius: 50%; 
-                background-color: #000000; 
-                opacity: 0.8; 
-                border: 1px 
-                solid white;
-            "></div>
-        </div>
-    `;
-
-    const smallDivDotIcon = L.divIcon({
-        className: 'custom-combined-icon',
-        html: smallDotIcon,
-        iconSize: [iconSizePx/2, iconSizePx/2],
-        iconAnchor: [iconSizePx / 4, iconSizePx / 4]
-    });
-
-    // Create a marker with the combined icon
-    const marker = L.marker(latlng, { icon: combinedDivIcon });
-
-    // Store both icons for zoom-based style switching
-    marker._originalIcon = combinedDivIcon;
-    marker._smallDotIcon = smallDivDotIcon;
-
-    // Add to global array for zoom-based style switching
-    window.allCustomMarkers = window.allCustomMarkers || [];
-    window.allCustomMarkers.push(marker);
-
-    return marker;
-}
-
 function createStyledOverlay(url) {
     return omnivore.kml(url, null, L.geoJson(null, {
         style: function(feature) {
@@ -277,11 +111,130 @@ function createStyledOverlay(url) {
                 featureWeight = 3;
             }
 
-            return styleFromStyleUrl(styleUrl, featureWeight);
+            return styleFromGMapsStyleUrl(styleUrl, featureWeight);
         },
         pointToLayer: pointToLayer,
         onEachFeature: interactivePoints
     }));
+}
+
+function addCyclosmLiteButton(){
+    // Create the CyclOSM Lite layer
+    const cyclosmLayer = L.tileLayer('https://{s}.tile-cyclosm.openstreetmap.fr/cyclosm-lite/{z}/{x}/{y}.png', {
+        attribution: '&copy; Cyclosm contributors'
+    });
+
+    // Use the shared overlay button logic
+    createOverlayToggleButton({
+        label: 'Велоалеи от CyclOSM Lite / Bike paths from CyclOSM Lite',
+        icon: 'bike_lane',
+        enabledByDefault: false,
+        overlay: cyclosmLayer,
+        containerDiv: primaryToggleDiv
+    });
+}
+
+function addPrimaryOverlayButtons() {
+    const primaryOverlays = data.primary
+    const primaryOverlayLayers = {};
+    // Add primary overlays
+    primaryOverlays.forEach(({url, label, icon, disabled, enabledByDefault}) => {
+        if (!disabled) {
+            const overlay = createStyledOverlay(url);
+            primaryOverlayLayers[url] = overlay;
+            createOverlayToggleButton({
+                label,
+                icon,
+                enabledByDefault,
+                overlay,
+                containerDiv: primaryToggleDiv
+            });
+        }
+    });
+}
+
+function addExternalOverlayButtons() {
+    // Add external overlays
+    const externalOverlays = data.external;
+    const externalToggleDiv = document.getElementById('overlay-toggle-external');
+    const externalOverlayLayers = {};
+    externalOverlays.forEach(({url, label, icon, disabled}) => {
+        if (!disabled) {
+            const overlay = createStyledOverlay(url);
+            externalOverlayLayers[url] = overlay;
+            createOverlayToggleButton({
+                label,
+                icon,
+                enabledByDefault: false,
+                overlay,
+                containerDiv: externalToggleDiv
+            });
+        }
+    });
+}
+
+function styleFromGMapsStyleUrl(styleUrl, featureWeight) {
+    const match = styleUrl?.match(/#(?:line|poly|icon-\d+)-([0-9A-Fa-f]{6})/);
+    
+    const style = {};
+    style.weight = featureWeight,
+    style.opacity = 1,
+    style.fillOpacity = 0.2
+    
+    const defaultColor = "#0074D9";
+    const extractedColor = `#${match[1]}`;
+
+    if (match) {
+        style.color = extractedColor;
+        style.fillColor = extractedColor;
+    } else {
+        style.color = defaultColor;
+        style.fillColor = defaultColor;
+    }
+
+    return style;
+}
+
+function colorFromGMapsStyleUrl(styleUrl) {
+    // Match #line-xxxxxx, #poly-xxxxxx, or #icon-xxxxxx
+    const match = styleUrl?.match(/#(?:line|poly|icon-\d+)-([0-9A-Fa-f]{6})/);
+    return match ? `#${match[1]}` : "#CCCCCC";
+}
+
+function pointToLayer(feature, latlng) {
+    const styleUrl = feature.properties?.styleUrl;
+    const fillColor = colorFromGMapsStyleUrl(styleUrl);
+
+    // Extract the relevant style (ignoring everything after the second '-')
+    const relevantStyle = styleUrl?.split('-')[1]?.split('-')[0];
+
+    // Default to 'question_mark' if no match is found
+    const iconName = iconMapping[relevantStyle] || 'question_mark';
+
+    // Create a combined divIcon with both the circle and the Material Symbols icon
+    const iconSizePx = 16;
+    const combinedIconHtml = `
+        <div style="position: relative; width: 12px; height: 12px;">
+            <div class="overlay-pin-icon" style="background-color: ${fillColor};"></div>
+            <span class="material-symbols-outlined overlay-pin-symbol">${iconName}</span>
+        </div>
+    `;
+
+    const combinedDivIcon = L.divIcon({
+        className: 'custom-combined-icon',
+        html: combinedIconHtml,
+        iconSize: [iconSizePx, iconSizePx],
+        iconAnchor: [iconSizePx / 2, iconSizePx / 2]
+    });
+
+    // Create a marker with the combined icon
+    const marker = L.marker(latlng, { icon: combinedDivIcon });
+
+    // Add to global array for zoom-based style switching (if needed elsewhere)
+    window.allCustomMarkers = window.allCustomMarkers || [];
+    window.allCustomMarkers.push(marker);
+
+    return marker;
 }
 
 function escapeHtml(text) {
@@ -295,7 +248,7 @@ function extractLinks(text) {
     return [...(text.matchAll(/https?:\/\/[^\s"<]+/g))].map(match => match[0]);
 }
 
-const pointPopupHtml = (name, description) => {
+const overlayPinLinkButtonHtml = (name, description) => {
     const links = extractLinks(description || '');
     let safeDescription = escapeHtml(description || '');
     safeDescription = safeDescription.replace(/(https?:\/\/[^\s"<]+)/g, '<a href="$1" target="_blank" rel="noopener noreferrer">Link</a>');
@@ -304,19 +257,15 @@ const pointPopupHtml = (name, description) => {
         buttonsHtml = `
             <div style="display: flex; gap: 8px; margin-top: 8px; justify-content: center;">
                 ${links.map((link, i) => `
-                    <button onclick="window.open('${link}', '_blank')" style="
-                        width: 40px;
-                        height: 40px;
-                        border-radius: 50%;
-                        border: none;
-                        background: #e6e5e1;
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                        cursor: pointer;
-                        box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-                    " title="Open link ${i+1}">
-                        <span class="material-symbols-outlined" style="font-size: 20px; color: #444;">link</span>
+                    <button onclick="window.open('${link}', '_blank')" 
+                        class="popup-link-button"
+                        title="Open link ${i+1}">
+                        <span 
+                            class="material-symbols-outlined" 
+                            style="font-size: 24px; 
+                            color: #00000095;">
+                            link
+                        </span>
                     </button>
                 `).join('')}
             </div>
@@ -334,7 +283,7 @@ function interactivePoints(feature, layer) {
         const name = feature.properties?.name || '';
         const description = feature.properties?.description || '';
         if (name && description) {
-            layer.bindPopup(pointPopupHtml(name, description));
+            layer.bindPopup(overlayPinLinkButtonHtml(name, description));
         } else if (name) {
             layer.bindPopup(`<strong>${name}</strong>`);
         }

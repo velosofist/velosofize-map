@@ -168,16 +168,6 @@ html, body {
   right: 10px;
 }
 
-#overlay-label-popup {
-  background: #fffbe8;
-  border: 1px solid #ccc;
-  padding: 6px 12px;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-  z-index: 9999;
-  pointer-events: none;
-}
-
 /* ====== Overlay Zoom ====== */
 #overlay-zoom {
   position: fixed;
@@ -197,7 +187,8 @@ html, body {
 }
 
 /* ====== Overlay Toggles ====== */
-.button-container-pod {
+.button-container-pod,
+#overlay-button-label-popup {
   display: flex;
   flex-direction: column;
   background: #fdf6e3;
@@ -210,6 +201,16 @@ html, body {
   gap: 8px;
 }
 
+#overlay-button-label-popup {
+  z-index: 9999;
+}
+
+.overlay-button-svg-or-img-symbol {
+  width: 28px;
+  height: 28px;
+  vertical-align: middle;
+}
+
 /* ====== Main Buttons ====== */
 #legend-button span,
 #fullscreen-button span,
@@ -218,7 +219,7 @@ html, body {
   color: rgba(0, 0, 0, 0.8);
 }
 
-.overlay-toggle-btn {
+.overlay-toggle-button {
   padding: 4px 4px;
   font-size: 28px;
   cursor: pointer;
@@ -234,8 +235,8 @@ html, body {
 }
 
 /* Prevent selection of icons as text */
-.overlay-toggle-btn,
-.overlay-toggle-btn *,
+.overlay-toggle-button,
+.overlay-toggle-button *,
 #close-legend-button,
 #switch-language-legend-button,
 .material-symbols-outlined,
@@ -245,12 +246,12 @@ html, body {
   -ms-user-select: none;
 }
 
-.overlay-toggle-btn[data-active="true"] {
+.overlay-toggle-button[data-active="true"] {
   background: #86C68090; /* Active state background */
   color: #fff; /* Active state text color */
 }
 
-.overlay-toggle-btn[data-active="false"] {
+.overlay-toggle-button[data-active="false"] {
   background: transparent; /* Inactive state background */
   color: inherit; /* Inactive state text color */
 }
@@ -367,6 +368,35 @@ html, body {
   border-radius: 12px;
   z-index: 3000;
   transition: opacity 0.5s;
+}
+
+.popup-link-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background: #e6e5e1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.overlay-pin-icon {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    opacity: 1;
+    border: 1px solid white;
+}
+
+.overlay-pin-symbol {
+    position: absolute; 
+    top: 3px;
+    left: 3px;
+    font-size: 12px;
+    color: #e6e5e1;
 }
 
 /* ====== Misc ====== */

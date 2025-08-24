@@ -10,7 +10,7 @@ function miscButtons() {
   // --- Fullscreen Button ---
   const fullscreenBtn = document.createElement('button');
   fullscreenBtn.id = 'fullscreen-button';
-  fullscreenBtn.className = 'overlay-toggle-btn';
+  fullscreenBtn.className = 'overlay-toggle-button';
   fullscreenBtn.title = 'Full screen';
   fullscreenBtn.innerHTML = '<span class="material-symbols-outlined">fullscreen</span>';
   fullscreenBtn.onclick = function() {
@@ -28,7 +28,7 @@ function miscButtons() {
   // --- Legend Button ---
   const legendBtn = document.createElement('button');
   legendBtn.id = 'legend-button';
-  legendBtn.className = 'overlay-toggle-btn';
+  legendBtn.className = 'overlay-toggle-button';
   legendBtn.title = 'Legend';
   legendBtn.innerHTML = '<span class="material-symbols-outlined">help</span>';
   legendBtn.onclick = function() {
@@ -39,7 +39,7 @@ function miscButtons() {
   // --- Upload Layer Button ---
   const uploadBtn = document.createElement('button');
   uploadBtn.id = 'upload-layer';
-  uploadBtn.className = 'overlay-toggle-btn';
+  uploadBtn.className = 'overlay-toggle-button';
   uploadBtn.title = 'Add custom layer';
   uploadBtn.innerHTML = '<span class="material-symbols-outlined">upload_file</span>';
   uploadBtn.onclick = function() {

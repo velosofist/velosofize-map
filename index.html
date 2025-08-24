@@ -81,7 +81,7 @@
 
     <div id ='container-overlays-buttons'
     class="button-container">
-      <div id="overlay-toggle-secondary" class="button-container-pod"></div>
+      <div id="overlay-toggle-primary" class="button-container-pod"></div>
     </div>
 
     <div id="container-misc-buttons"
@@ -119,11 +119,11 @@
     function loadAppScripts() {
       [
         'src/baseLayer.js',
+        'src/overlays.js',
         'src/controlButtons.js',
         'src/miscButtons.js',
         'src/main.js',
         'src/navigation.js',
-        'src/overlays.js',
         'src/ios.js',
         'src/legend.js'
       ].forEach(function(src) {

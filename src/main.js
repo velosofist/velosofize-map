@@ -58,6 +58,10 @@ window.onload = function() {
     }
   });
 
+  addCyclosmLiteButton()
+  addPrimaryOverlayButtons()
+  addExternalOverlayButtons()
+
   setupHideExternalOverlaysButton();
   setupZoomControls();
   setupCurrentLocationButton();

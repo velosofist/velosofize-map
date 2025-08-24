@@ -1,13 +1,14 @@
 // Limits to the coordinates users can view (around Bulgaria's borders)
-const southWest = L.latLng(
-  40.749972, 
-  22.118564
+const southBound = 40.749972;
+const westBound = 22.118564;
+const northBound = 44.361463;
+const eastBound = 29.123858;
+
+// Pass coordinate arrays directly
+const bounds = L.latLngBounds(
+  [southBound, westBound],
+  [northBound, eastBound]
 );
-const northEast = L.latLng(
-  44.361463, 
-  29.123858
-);
-const bounds = L.latLngBounds(southWest, northEast);
 
 const map = L.map('map', {
   //center on Sofia center
@@ -56,23 +57,22 @@ const iconMapping = {
     '1644': 'local_parking',
 };
 
-const overlaysData = {
+const overlaysConfig = {
     "primary": [
         {
             "url": "/overlays/separated/velosofize_bikelanes.kml",
             "label": "Велоалеи / Bike lanes",
             "icon": "bike_lane",
+            "enabledByDefault": true,
             "disabled": false
         },
         {
             "url": "/overlays/separated/velosofize_routes.kml",
             "label": "Отсечки от Velosofize (по субективни критерии) / Routes from Velosofize (subjective)",
             "icon": "directions_bike",
+            "enabledByDefault": true,
             "disabled": false
         },
-    ],
-    "secondary": [
-
     ],
     "external": [
         {
