@@ -1,71 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>Маршрути</name>
-    <Style id="line-01579B-4294-normal">
+    <name>Маршрути (VELOSOFIZE)</name>
+    <Style id="line-01579B-3519-normal">
       <LineStyle>
         <color>ff9b5701</color>
-        <width>4.294</width>
+        <width>3.519</width>
       </LineStyle>
     </Style>
-    <Style id="line-01579B-4294-highlight">
+    <Style id="line-01579B-3519-highlight">
       <LineStyle>
         <color>ff9b5701</color>
-        <width>6.441</width>
+        <width>5.2785</width>
       </LineStyle>
     </Style>
-    <StyleMap id="line-01579B-4294">
+    <StyleMap id="line-01579B-3519">
       <Pair>
         <key>normal</key>
-        <styleUrl>#line-01579B-4294-normal</styleUrl>
+        <styleUrl>#line-01579B-3519-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#line-01579B-4294-highlight</styleUrl>
+        <styleUrl>#line-01579B-3519-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="line-0BA9CC-3713-normal">
+    <Style id="line-0BA9CC-4100-normal">
       <LineStyle>
         <color>ffcca90b</color>
-        <width>3.713</width>
-      </LineStyle>
-    </Style>
-    <Style id="line-0BA9CC-3713-highlight">
-      <LineStyle>
-        <color>ffcca90b</color>
-        <width>5.5695</width>
-      </LineStyle>
-    </Style>
-    <StyleMap id="line-0BA9CC-3713">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-0BA9CC-3713-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-0BA9CC-3713-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="line-A52714-4100-normal">
-      <LineStyle>
-        <color>ff1427a5</color>
         <width>4.1</width>
       </LineStyle>
     </Style>
-    <Style id="line-A52714-4100-highlight">
+    <Style id="line-0BA9CC-4100-highlight">
       <LineStyle>
-        <color>ff1427a5</color>
+        <color>ffcca90b</color>
         <width>6.15</width>
       </LineStyle>
     </Style>
-    <StyleMap id="line-A52714-4100">
+    <StyleMap id="line-0BA9CC-4100">
       <Pair>
         <key>normal</key>
-        <styleUrl>#line-A52714-4100-normal</styleUrl>
+        <styleUrl>#line-0BA9CC-4100-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#line-A52714-4100-highlight</styleUrl>
+        <styleUrl>#line-0BA9CC-4100-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-A52714-3325-normal">
+      <LineStyle>
+        <color>ff1427a5</color>
+        <width>3.325</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-A52714-3325-highlight">
+      <LineStyle>
+        <color>ff1427a5</color>
+        <width>4.9875</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-A52714-3325">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-A52714-3325-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-A52714-3325-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="line-CCCCCC-3713-normal">
@@ -112,31 +112,32 @@
         <styleUrl>#line-F4EB37-3519-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="line-F8971B-4100-normal">
+    <Style id="line-F8971B-3519-normal">
       <LineStyle>
         <color>ff1b97f8</color>
-        <width>4.1</width>
+        <width>3.519</width>
       </LineStyle>
     </Style>
-    <Style id="line-F8971B-4100-highlight">
+    <Style id="line-F8971B-3519-highlight">
       <LineStyle>
         <color>ff1b97f8</color>
-        <width>6.15</width>
+        <width>5.2785</width>
       </LineStyle>
     </Style>
-    <StyleMap id="line-F8971B-4100">
+    <StyleMap id="line-F8971B-3519">
       <Pair>
         <key>normal</key>
-        <styleUrl>#line-F8971B-4100-normal</styleUrl>
+        <styleUrl>#line-F8971B-3519-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#line-F8971B-4100-highlight</styleUrl>
+        <styleUrl>#line-F8971B-3519-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Placemark>
       <name>Велоалея бул. Евлоги Георгиев</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -170,7 +171,8 @@
     </Placemark>
 <Placemark>
       <name>Велоалея бул. Евлоги Георгиев</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -207,7 +209,8 @@
     </Placemark>
 <Placemark>
       <name>Велоалея бул. Евлоги Георгиев</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -243,7 +246,8 @@
     </Placemark>
 <Placemark>
       <name>бул. Цар Борис III</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -277,7 +281,8 @@
     </Placemark>
 <Placemark>
       <name>Велоалея бул. Гоце Делчев</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -310,7 +315,8 @@
     </Placemark>
 <Placemark>
       <name>Велоалея - жк. Младост</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -360,7 +366,8 @@
     </Placemark>
 <Placemark>
       <name>Велоалея - жк. Младост</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -398,7 +405,8 @@
     </Placemark>
 <Placemark>
       <name>Велоалея - бул. Ломско шосе</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -429,7 +437,8 @@
     </Placemark>
 <Placemark>
       <name>Велоалея - бул. Акад. Иван Гешов</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -463,7 +472,8 @@
     </Placemark>
 <Placemark>
       <name>Велоалея по бул. Мария</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -496,7 +506,8 @@
     </Placemark>
 <Placemark>
       <name>Велоалея надлез Надежда</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -533,7 +544,8 @@
     </Placemark>
 <Placemark>
       <name>Велоалея бул. Бъкстон</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -565,7 +577,8 @@
     </Placemark>
 <Placemark>
       <name>Велоалея - бул. България - бул. Пенчо Славейков - север</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -603,7 +616,8 @@
     </Placemark>
 <Placemark>
       <name>Велоалея -  бул. Царица Йоанна</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -634,7 +648,8 @@
     </Placemark>
 <Placemark>
       <name>бул. Никола Мушанов</name>
-      <styleUrl>#line-0BA9CC-3713</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 2<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-0BA9CC-4100</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -667,7 +682,8 @@
     </Placemark>
 <Placemark>
       <name>Велолента - бул. Тодор Александров - южна</name>
-      <styleUrl>#line-0BA9CC-3713</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 2<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-0BA9CC-4100</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -700,7 +716,8 @@
     </Placemark>
 <Placemark>
       <name>ул. Фритьоф Нансен</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -735,7 +752,8 @@
     </Placemark>
 <Placemark>
       <name>Велоалея - бул. Копенхаген</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -777,7 +795,8 @@
     </Placemark>
 <Placemark>
       <name>Велоалаея - ул. Обиколна</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -817,7 +836,8 @@
     </Placemark>
 <Placemark>
       <name>Бул. България</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -853,7 +873,8 @@
     </Placemark>
 <Placemark>
       <name>Велоалея - бул. Дондуков</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -886,7 +907,8 @@
     </Placemark>
 <Placemark>
       <name>Велоалея по бул. Прага</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -917,7 +939,8 @@
     </Placemark>
 <Placemark>
       <name>Велоалея - ул. Г.С. Раковски</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -953,7 +976,8 @@
     </Placemark>
 <Placemark>
       <name>ул. Монтевидео</name>
-      <styleUrl>#line-0BA9CC-3713</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 2<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-0BA9CC-4100</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -984,7 +1008,8 @@
     </Placemark>
 <Placemark>
       <name>Велоалея - ул. Обиколна</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -1037,7 +1062,8 @@
     </Placemark>
 <Placemark>
       <name>Велоалея - бул. Пейо К. Яворов</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -1069,7 +1095,8 @@
     </Placemark>
 <Placemark>
       <name>бул. Монтевидео</name>
-      <styleUrl>#line-0BA9CC-3713</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 2<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-0BA9CC-4100</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -1100,7 +1127,8 @@
     </Placemark>
 <Placemark>
       <name>Велоалея - бул Ботеевградско Шосе - юг</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -1152,7 +1180,8 @@
     </Placemark>
 <Placemark>
       <name>бул. Т. Каблешков</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -1183,7 +1212,8 @@
     </Placemark>
 <Placemark>
       <name>Велоалея - бул. Асен Йорданов - бул. Искарско Шосе</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -1221,7 +1251,8 @@
     </Placemark>
 <Placemark>
       <name>пл. Македония</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -1252,7 +1283,8 @@
     </Placemark>
 <Placemark>
       <name>бул. Т. Каблешков</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -1287,7 +1319,8 @@
     </Placemark>
 <Placemark>
       <name>бул. България</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -1331,7 +1364,8 @@
     </Placemark>
 <Placemark>
       <name>Велоалея - ул. даскал Стоян Попандреев</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -1377,7 +1411,8 @@
     </Placemark>
 <Placemark>
       <name>Велоалея - бул. Дондуков</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -1411,7 +1446,8 @@
     </Placemark>
 <Placemark>
       <name>бул. Скобелев</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -1442,7 +1478,8 @@
     </Placemark>
 <Placemark>
       <name>Велоалея - бул. Витоша - изток</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -1478,7 +1515,8 @@
     </Placemark>
 <Placemark>
       <name>бул. Патриарх Евтимий</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -1509,7 +1547,8 @@
     </Placemark>
 <Placemark>
       <name>бул. Витоша</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -1541,7 +1580,8 @@
     </Placemark>
 <Placemark>
       <name>бул. Витоша</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -1572,7 +1612,8 @@
     </Placemark>
 <Placemark>
       <name>бул. Витоша</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -1604,7 +1645,8 @@
     </Placemark>
 <Placemark>
       <name>Велоалея - бул Ботеевградско Шосе - север</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -1644,7 +1686,8 @@
     </Placemark>
 <Placemark>
       <name>Бул. България</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -1681,7 +1724,8 @@
     </Placemark>
 <Placemark>
       <name>Велоалея Надежда</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -1713,7 +1757,8 @@
     </Placemark>
 <Placemark>
       <name>Филип Кутев</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -1751,7 +1796,8 @@
     </Placemark>
 <Placemark>
       <name>бул. Филип Кутев</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -1789,7 +1835,8 @@
     </Placemark>
 <Placemark>
       <name>бул. Овча Купел</name>
-      <styleUrl>#line-0BA9CC-3713</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 2<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-0BA9CC-4100</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -1820,7 +1867,8 @@
     </Placemark>
 <Placemark>
       <name>бул. Овча Купел</name>
-      <styleUrl>#line-0BA9CC-3713</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 2<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-0BA9CC-4100</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -1851,7 +1899,8 @@
     </Placemark>
 <Placemark>
       <name>бул. Овча Купел</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -1884,7 +1933,8 @@
     </Placemark>
 <Placemark>
       <name>бул. Овча Купел</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -1917,7 +1967,8 @@
     </Placemark>
 <Placemark>
       <name>Line 74</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -1948,7 +1999,8 @@
     </Placemark>
 <Placemark>
       <name>Велоалея - Самоковско Шосе</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -1996,7 +2048,8 @@
     </Placemark>
 <Placemark>
       <name>Line 77</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -2028,7 +2081,8 @@
     </Placemark>
 <Placemark>
       <name>Line 69</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -2062,7 +2116,8 @@
     </Placemark>
 <Placemark>
       <name>Line 70</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -2096,7 +2151,8 @@
     </Placemark>
 <Placemark>
       <name>Line 82</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -2127,7 +2183,8 @@
     </Placemark>
 <Placemark>
       <name>бул. Копривщица</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: Пловдив<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -2175,7 +2232,8 @@
     </Placemark>
 <Placemark>
       <name>бул. 6-ти Септември - бул. Руски -  бул. Христо Ботев</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: Пловдив<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -2215,7 +2273,8 @@
     </Placemark>
 <Placemark>
       <name>бул. Васил Априлов</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: Пловдив<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -2247,7 +2306,8 @@
     </Placemark>
 <Placemark>
       <name>бул. Марица</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: Пловдив<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -2294,7 +2354,8 @@
     </Placemark>
 <Placemark>
       <name>ул. Калиакра -  ул. Македония</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: Пловдив<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -2330,7 +2391,8 @@
     </Placemark>
 <Placemark>
       <name>бул. Никола Вапцаров</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: Пловдив<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -2371,7 +2433,8 @@
     </Placemark>
 <Placemark>
       <name>бул. Любен Каравелов</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: Пловдив<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -2403,7 +2466,8 @@
     </Placemark>
 <Placemark>
       <name>бул. Княгиня Мария Луиза</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: Пловдив<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -2438,7 +2502,8 @@
     </Placemark>
 <Placemark>
       <name>бул. Освобождение -  бул. 6-ти Септември</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: Пловдив<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -2484,7 +2549,8 @@
     </Placemark>
 <Placemark>
       <name>бул. Санкт Петербург</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: Пловдив<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -2516,7 +2582,8 @@
     </Placemark>
 <Placemark>
       <name>ул. Проф. Цветан Лазаров</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: Пловдив<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -2549,7 +2616,8 @@
     </Placemark>
 <Placemark>
       <name>ул. Менделеев -  ул. Цар Симеон -  ул. Шипка</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: Пловдив<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -2587,7 +2655,8 @@
     </Placemark>
 <Placemark>
       <name>ул. Цар Симеон -  ул. Св. Княз Борис I – Покръстител</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: Пловдив<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -2622,7 +2691,8 @@
     </Placemark>
 <Placemark>
       <name>Line 16</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: Пловдив<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -2654,7 +2724,8 @@
     </Placemark>
 <Placemark>
       <name>Line 17</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: Пловдив<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -2688,7 +2759,8 @@
     </Placemark>
 <Placemark>
       <name>бул. Северен</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: Пловдив<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -2719,7 +2791,8 @@
     </Placemark>
 <Placemark>
       <name>бул. България</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: Пловдив<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -2757,7 +2830,8 @@
     </Placemark>
 <Placemark>
       <name>бул. Васил Априлов</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: Пловдив<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -2789,7 +2863,8 @@
     </Placemark>
 <Placemark>
       <name>Line 19</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: Пловдив<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -2823,7 +2898,8 @@
     </Placemark>
 <Placemark>
       <name>Line 87</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -2857,7 +2933,8 @@
     </Placemark>
 <Placemark>
       <name>Line 88</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -2888,7 +2965,8 @@
     </Placemark>
 <Placemark>
       <name>Противопосочна велолента - ул. Княз Борис I</name>
-      <styleUrl>#line-0BA9CC-3713</styleUrl>
+      <description><![CDATA[Категория: Велоалеи (неотделени от движението)<br>Категория #: 2<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-0BA9CC-4100</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи (неотделени от движението)</value>
@@ -2919,7 +2997,8 @@
     </Placemark>
 <Placemark>
       <name>бул. Сливница</name>
-      <styleUrl>#line-0BA9CC-3713</styleUrl>
+      <description><![CDATA[Категория: Велоалеи (неотделени от движението)<br>Категория #: 2<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-0BA9CC-4100</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи (неотделени от движението)</value>
@@ -2954,7 +3033,8 @@
     </Placemark>
 <Placemark>
       <name>Велолента - бул. Сливница - южна</name>
-      <styleUrl>#line-0BA9CC-3713</styleUrl>
+      <description><![CDATA[Категория: Велоалеи (неотделени от движението)<br>Категория #: 2<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-0BA9CC-4100</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи (неотделени от движението)</value>
@@ -2990,7 +3070,8 @@
     </Placemark>
 <Placemark>
       <name>Велолента - бул. Сливница - север</name>
-      <styleUrl>#line-0BA9CC-3713</styleUrl>
+      <description><![CDATA[Категория: Велоалеи (неотделени от движението)<br>Категория #: 2<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-0BA9CC-4100</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи (неотделени от движението)</value>
@@ -3027,7 +3108,8 @@
     </Placemark>
 <Placemark>
       <name>Велолента - бул. д-р Петър Дертлиев - изток</name>
-      <styleUrl>#line-0BA9CC-3713</styleUrl>
+      <description><![CDATA[Категория: Велоалеи (неотделени от движението)<br>Категория #: 2<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-0BA9CC-4100</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи (неотделени от движението)</value>
@@ -3064,7 +3146,8 @@
     </Placemark>
 <Placemark>
       <name>Велолента - ул. Сребърна -  ул. Люба Величкова -  ул. Атанас Дуков – север</name>
-      <styleUrl>#line-0BA9CC-3713</styleUrl>
+      <description><![CDATA[Категория: Велоалеи (неотделени от движението)<br>Категория #: 2<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-0BA9CC-4100</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи (неотделени от движението)</value>
@@ -3111,7 +3194,8 @@
     </Placemark>
 <Placemark>
       <name>Велолента - Студентски град</name>
-      <styleUrl>#line-0BA9CC-3713</styleUrl>
+      <description><![CDATA[Категория: Велоалеи (неотделени от движението)<br>Категория #: 2<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-0BA9CC-4100</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи (неотделени от движението)</value>
@@ -3147,7 +3231,8 @@
     </Placemark>
 <Placemark>
       <name>Велоалея - жк. Младост</name>
-      <styleUrl>#line-0BA9CC-3713</styleUrl>
+      <description><![CDATA[Категория: Велоалеи (неотделени от движението)<br>Категория #: 2<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-0BA9CC-4100</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи (неотделени от движението)</value>
@@ -3180,7 +3265,8 @@
     </Placemark>
 <Placemark>
       <name>бул. Копенхаген</name>
-      <styleUrl>#line-0BA9CC-3713</styleUrl>
+      <description><![CDATA[Категория: Велоалеи (неотделени от движението)<br>Категория #: 2<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-0BA9CC-4100</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи (неотделени от движението)</value>
@@ -3213,7 +3299,8 @@
     </Placemark>
 <Placemark>
       <name>Line 80</name>
-      <styleUrl>#line-0BA9CC-3713</styleUrl>
+      <description><![CDATA[Категория: Велоалеи (неотделени от движението)<br>Категория #: 2<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-0BA9CC-4100</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи (неотделени от движението)</value>
@@ -3246,7 +3333,8 @@
     </Placemark>
 <Placemark>
       <name>Велолента - Бул. Сливница </name>
-      <styleUrl>#line-0BA9CC-3713</styleUrl>
+      <description><![CDATA[Категория: Велоалеи (неотделени от движението)<br>Категория #: 2<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-0BA9CC-4100</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи (неотделени от движението)</value>
@@ -3278,7 +3366,8 @@
     </Placemark>
 <Placemark>
       <name>Велолента - ул. Сребърна -  ул. Люба Величкова -  ул. Атанас Дуков – север</name>
-      <styleUrl>#line-0BA9CC-3713</styleUrl>
+      <description><![CDATA[Категория: Велоалеи (неотделени от движението)<br>Категория #: 2<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-0BA9CC-4100</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи (неотделени от движението)</value>
@@ -3320,7 +3409,8 @@
     </Placemark>
 <Placemark>
       <name>Алея към водопада</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: Карлово<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -3354,7 +3444,8 @@
     </Placemark>
 <Placemark>
       <name>бул. Македония</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: Кюстендил<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -3388,7 +3479,8 @@
     </Placemark>
 <Placemark>
       <name/>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: Кюстендил<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -3422,7 +3514,8 @@
     </Placemark>
 <Placemark>
       <name>бул. Свобода</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: Пловдив<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -3453,7 +3546,8 @@
     </Placemark>
 <Placemark>
       <name/>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 1<br>Град/район: Бургас<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -3517,7 +3611,8 @@
     </Placemark>
 <Placemark>
       <name>ул. Индустриална</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 1<br>Град/район: Бургас<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -3554,7 +3649,8 @@
     </Placemark>
 <Placemark>
       <name>бул. Иван Вазов</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 1<br>Град/район: Бургас<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -3592,7 +3688,8 @@
     </Placemark>
 <Placemark>
       <name>Line 530</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 1<br>Град/район: Бургас<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -3630,7 +3727,8 @@
     </Placemark>
 <Placemark>
       <name>Морска градина</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 1<br>Град/район: Бургас<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -3681,7 +3779,8 @@
     </Placemark>
 <Placemark>
       <name>ул. Индустриална</name>
-      <styleUrl>#line-0BA9CC-3713</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 2<br>Град/район: Бургас<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-0BA9CC-4100</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -3714,7 +3813,8 @@
     </Placemark>
 <Placemark>
       <name>ул. Индустриална</name>
-      <styleUrl>#line-0BA9CC-3713</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 2<br>Град/район: Бургас<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-0BA9CC-4100</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -3748,7 +3848,8 @@
     </Placemark>
 <Placemark>
       <name>бул. Тодор Александров</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 1<br>Град/район: Бургас<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -3800,7 +3901,8 @@
     </Placemark>
 <Placemark>
       <name>ул. Спортна</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 1<br>Град/район: Бургас<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -3843,7 +3945,8 @@
     </Placemark>
 <Placemark>
       <name>Line 537</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 1<br>Град/район: Бургас<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -3886,7 +3989,8 @@
     </Placemark>
 <Placemark>
       <name>Line 538</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 1<br>Град/район: Бургас<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -3928,7 +4032,8 @@
     </Placemark>
 <Placemark>
       <name>Line 539</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 1<br>Град/район: Благоевград<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -3962,7 +4067,8 @@
     </Placemark>
 <Placemark>
       <name>Line 540</name>
-      <styleUrl>#line-0BA9CC-3713</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 2<br>Град/район: Благоевград<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-0BA9CC-4100</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -3998,7 +4104,8 @@
     </Placemark>
 <Placemark>
       <name>Line 541</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 1<br>Град/район: Бургас<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -4043,7 +4150,8 @@
     </Placemark>
 <Placemark>
       <name>Line 542</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 1<br>Град/район: Бургас<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -4081,7 +4189,8 @@
     </Placemark>
 <Placemark>
       <name>Line 543</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 1<br>Град/район: Бургас<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -4122,7 +4231,8 @@
     </Placemark>
 <Placemark>
       <name>Line 544</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 1<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -4155,7 +4265,8 @@
     </Placemark>
 <Placemark>
       <name>Line 545</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 1<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -4186,7 +4297,8 @@
     </Placemark>
 <Placemark>
       <name>бул. Демокрация</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 1<br>Град/район: Бургас<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -4220,7 +4332,8 @@
     </Placemark>
 <Placemark>
       <name>Line 547</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 1<br>Град/район: Бургас<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -4271,7 +4384,8 @@
     </Placemark>
 <Placemark>
       <name>Line 548</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 1<br>Град/район: Бургас<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -4312,7 +4426,8 @@
     </Placemark>
 <Placemark>
       <name>Line 549</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 1<br>Град/район: Бургас<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -4345,7 +4460,8 @@
     </Placemark>
 <Placemark>
       <name>Line 550</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 1<br>Град/район: Бургас<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -4381,7 +4497,8 @@
     </Placemark>
 <Placemark>
       <name>ул. Марица</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 1<br>Град/район: Шумен<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -4420,7 +4537,8 @@
     </Placemark>
 <Placemark>
       <name>Line 553</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 1<br>Град/район: Бургас<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -4453,7 +4571,8 @@
     </Placemark>
 <Placemark>
       <name>бул. Св. Димитър Солунски</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 1<br>Град/район: Благоевград<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -4488,7 +4607,8 @@
     </Placemark>
 <Placemark>
       <name>Line 555</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 1<br>Град/район: Бургас<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -4533,7 +4653,8 @@
     </Placemark>
 <Placemark>
       <name>Line 556</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 1<br>Град/район: Бургас<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -4569,7 +4690,8 @@
     </Placemark>
 <Placemark>
       <name>Line 557</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 1<br>Град/район: Бургас<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -4605,7 +4727,8 @@
     </Placemark>
 <Placemark>
       <name>ул. Капрони</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 1<br>Град/район: Стара Загора<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -4653,7 +4776,8 @@
     </Placemark>
 <Placemark>
       <name>ул. Орешака</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 1<br>Град/район: Стара Загора<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -4788,7 +4912,8 @@
     </Placemark>
 <Placemark>
       <name>E85</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 1<br>Град/район: Стара Загора<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -5076,7 +5201,8 @@
     </Placemark>
 <Placemark>
       <name>Казанлък - р. Тунджа</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: Стара Загора<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -5204,7 +5330,8 @@
     </Placemark>
 <Placemark>
       <name>бул. Освобождение</name>
-      <styleUrl>#line-0BA9CC-3713</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 2<br>Град/район: Стара Загора<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-0BA9CC-4100</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -5237,7 +5364,8 @@
     </Placemark>
 <Placemark>
       <name>Кръгово Руски паметник</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: Велоалеи<br>Категория #: 1<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Велоалеи</value>
@@ -5273,7 +5401,8 @@
     </Placemark>
 <Placemark>
       <name>Line 546</name>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 1<br>Град/район: <br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -5304,7 +5433,8 @@
     </Placemark>
 <Placemark>
       <name/>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 1<br>Град/район: Благоевград<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -5366,7 +5496,8 @@
     </Placemark>
 <Placemark>
       <name/>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 1<br>Град/район: Благоевград<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -5522,7 +5653,8 @@
     </Placemark>
 <Placemark>
       <name/>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 1<br>Град/район: Благоевград<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -5653,7 +5785,8 @@
     </Placemark>
 <Placemark>
       <name/>
-      <styleUrl>#line-01579B-4294</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 1<br>Град/район: Благоевград<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-01579B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>

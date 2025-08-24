@@ -1,71 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>Маршрути</name>
-    <Style id="line-01579B-4294-normal">
+    <name>Маршрути (VELOSOFIZE)</name>
+    <Style id="line-01579B-3519-normal">
       <LineStyle>
         <color>ff9b5701</color>
-        <width>4.294</width>
+        <width>3.519</width>
       </LineStyle>
     </Style>
-    <Style id="line-01579B-4294-highlight">
+    <Style id="line-01579B-3519-highlight">
       <LineStyle>
         <color>ff9b5701</color>
-        <width>6.441</width>
+        <width>5.2785</width>
       </LineStyle>
     </Style>
-    <StyleMap id="line-01579B-4294">
+    <StyleMap id="line-01579B-3519">
       <Pair>
         <key>normal</key>
-        <styleUrl>#line-01579B-4294-normal</styleUrl>
+        <styleUrl>#line-01579B-3519-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#line-01579B-4294-highlight</styleUrl>
+        <styleUrl>#line-01579B-3519-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="line-0BA9CC-3713-normal">
+    <Style id="line-0BA9CC-4100-normal">
       <LineStyle>
         <color>ffcca90b</color>
-        <width>3.713</width>
-      </LineStyle>
-    </Style>
-    <Style id="line-0BA9CC-3713-highlight">
-      <LineStyle>
-        <color>ffcca90b</color>
-        <width>5.5695</width>
-      </LineStyle>
-    </Style>
-    <StyleMap id="line-0BA9CC-3713">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-0BA9CC-3713-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-0BA9CC-3713-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="line-A52714-4100-normal">
-      <LineStyle>
-        <color>ff1427a5</color>
         <width>4.1</width>
       </LineStyle>
     </Style>
-    <Style id="line-A52714-4100-highlight">
+    <Style id="line-0BA9CC-4100-highlight">
       <LineStyle>
-        <color>ff1427a5</color>
+        <color>ffcca90b</color>
         <width>6.15</width>
       </LineStyle>
     </Style>
-    <StyleMap id="line-A52714-4100">
+    <StyleMap id="line-0BA9CC-4100">
       <Pair>
         <key>normal</key>
-        <styleUrl>#line-A52714-4100-normal</styleUrl>
+        <styleUrl>#line-0BA9CC-4100-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#line-A52714-4100-highlight</styleUrl>
+        <styleUrl>#line-0BA9CC-4100-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-A52714-3325-normal">
+      <LineStyle>
+        <color>ff1427a5</color>
+        <width>3.325</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-A52714-3325-highlight">
+      <LineStyle>
+        <color>ff1427a5</color>
+        <width>4.9875</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-A52714-3325">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-A52714-3325-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-A52714-3325-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="line-CCCCCC-3713-normal">
@@ -112,30 +112,31 @@
         <styleUrl>#line-F4EB37-3519-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="line-F8971B-4100-normal">
+    <Style id="line-F8971B-3519-normal">
       <LineStyle>
         <color>ff1b97f8</color>
-        <width>4.1</width>
+        <width>3.519</width>
       </LineStyle>
     </Style>
-    <Style id="line-F8971B-4100-highlight">
+    <Style id="line-F8971B-3519-highlight">
       <LineStyle>
         <color>ff1b97f8</color>
-        <width>6.15</width>
+        <width>5.2785</width>
       </LineStyle>
     </Style>
-    <StyleMap id="line-F8971B-4100">
+    <StyleMap id="line-F8971B-3519">
       <Pair>
         <key>normal</key>
-        <styleUrl>#line-F8971B-4100-normal</styleUrl>
+        <styleUrl>#line-F8971B-3519-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#line-F8971B-4100-highlight</styleUrl>
+        <styleUrl>#line-F8971B-3519-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Placemark>
       <name>Графа</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -170,6 +171,7 @@
     </Placemark>
 <Placemark>
       <name>Арсеналски</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -205,6 +207,7 @@
     </Placemark>
 <Placemark>
       <name>ул. Люба Величкова - Ловен парк</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -240,6 +243,7 @@
     </Placemark>
 <Placemark>
       <name>ул. Черковна</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -274,6 +278,7 @@
     </Placemark>
 <Placemark>
       <name>ул. Силистра</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -307,6 +312,7 @@
     </Placemark>
 <Placemark>
       <name>Line 9</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -342,6 +348,7 @@
     </Placemark>
 <Placemark>
       <name>Line 10</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -382,6 +389,7 @@
     </Placemark>
 <Placemark>
       <name>Line 12</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -423,6 +431,7 @@
     </Placemark>
 <Placemark>
       <name>Line 13</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -467,6 +476,7 @@
     </Placemark>
 <Placemark>
       <name>Line 76</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -503,6 +513,7 @@
     </Placemark>
 <Placemark>
       <name>Line 14</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -538,6 +549,7 @@
     </Placemark>
 <Placemark>
       <name>ул. Гео Милев</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -570,6 +582,7 @@
     </Placemark>
 <Placemark>
       <name>Line 16</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -613,6 +626,7 @@
     </Placemark>
 <Placemark>
       <name>Line 17</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -650,6 +664,7 @@
     </Placemark>
 <Placemark>
       <name>Line 18</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -686,6 +701,7 @@
     </Placemark>
 <Placemark>
       <name>Line 19</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -720,6 +736,7 @@
     </Placemark>
 <Placemark>
       <name>Line 20</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -751,6 +768,7 @@
     </Placemark>
 <Placemark>
       <name>Line 21</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -783,6 +801,7 @@
     </Placemark>
 <Placemark>
       <name>Line 23</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -816,6 +835,7 @@
     </Placemark>
 <Placemark>
       <name>Line 25</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -850,6 +870,7 @@
     </Placemark>
 <Placemark>
       <name>Line 26</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -890,6 +911,7 @@
     </Placemark>
 <Placemark>
       <name>Line 24</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -940,6 +962,7 @@
     </Placemark>
 <Placemark>
       <name>Line 27</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -973,6 +996,7 @@
     </Placemark>
 <Placemark>
       <name>Line 28</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -1011,6 +1035,7 @@
     </Placemark>
 <Placemark>
       <name>Line 29</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -1046,6 +1071,7 @@
     </Placemark>
 <Placemark>
       <name>Line 30</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -1086,6 +1112,7 @@
     </Placemark>
 <Placemark>
       <name>Line 31</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -1124,6 +1151,7 @@
     </Placemark>
 <Placemark>
       <name>Line 32</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -1156,6 +1184,7 @@
     </Placemark>
 <Placemark>
       <name>Line 33</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -1189,7 +1218,8 @@
     </Placemark>
 <Placemark>
       <name>Line 15</name>
-      <styleUrl>#line-F8971B-4100</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 4<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-F8971B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -1224,6 +1254,7 @@
     </Placemark>
 <Placemark>
       <name>Line 43</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -1268,6 +1299,7 @@
     </Placemark>
 <Placemark>
       <name>Line 44</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -1302,6 +1334,7 @@
     </Placemark>
 <Placemark>
       <name>Line 48</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -1333,6 +1366,7 @@
     </Placemark>
 <Placemark>
       <name>Line 50</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -1378,6 +1412,7 @@
     </Placemark>
 <Placemark>
       <name>Line 51</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -1415,6 +1450,7 @@
     </Placemark>
 <Placemark>
       <name>Line 52</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -1455,6 +1491,7 @@
     </Placemark>
 <Placemark>
       <name>Line 46</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -1498,6 +1535,7 @@
     </Placemark>
 <Placemark>
       <name>Line 48</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -1538,7 +1576,8 @@
     </Placemark>
 <Placemark>
       <name>ул. Стара Слатинска</name>
-      <styleUrl>#line-A52714-4100</styleUrl>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 5<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-A52714-3325</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Удобни</value>
@@ -1582,6 +1621,7 @@
     </Placemark>
 <Placemark>
       <name>Line 51</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -1613,6 +1653,7 @@
     </Placemark>
 <Placemark>
       <name>Line 52</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -1648,6 +1689,7 @@
     </Placemark>
 <Placemark>
       <name>Line 5</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -1681,6 +1723,7 @@
     </Placemark>
 <Placemark>
       <name>Line 53</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -1720,6 +1763,7 @@
     </Placemark>
 <Placemark>
       <name>Line 54</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -1751,6 +1795,7 @@
     </Placemark>
 <Placemark>
       <name>Line 55</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -1787,6 +1832,7 @@
     </Placemark>
 <Placemark>
       <name>Line 56</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -1819,6 +1865,7 @@
     </Placemark>
 <Placemark>
       <name>Line 57</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -1852,6 +1899,7 @@
     </Placemark>
 <Placemark>
       <name>Line 58</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -1888,6 +1936,7 @@
     </Placemark>
 <Placemark>
       <name>Line 59</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -1920,6 +1969,7 @@
     </Placemark>
 <Placemark>
       <name>Line 62</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -1952,6 +2002,7 @@
     </Placemark>
 <Placemark>
       <name>Line 63</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -1988,6 +2039,7 @@
     </Placemark>
 <Placemark>
       <name>Line 63</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -2030,6 +2082,7 @@
     </Placemark>
 <Placemark>
       <name>Line 67</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -2061,6 +2114,7 @@
     </Placemark>
 <Placemark>
       <name>Line 70</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -2094,6 +2148,7 @@
     </Placemark>
 <Placemark>
       <name>Line 73</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -2128,6 +2183,7 @@
     </Placemark>
 <Placemark>
       <name>Line 74</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -2181,6 +2237,7 @@
     </Placemark>
 <Placemark>
       <name>Line 75</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -2214,6 +2271,7 @@
     </Placemark>
 <Placemark>
       <name>Line 76</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -2249,6 +2307,7 @@
     </Placemark>
 <Placemark>
       <name>Line 77</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -2280,6 +2339,7 @@
     </Placemark>
 <Placemark>
       <name>Line 78</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -2315,6 +2375,7 @@
     </Placemark>
 <Placemark>
       <name>Line 79</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -2346,6 +2407,7 @@
     </Placemark>
 <Placemark>
       <name>Line 80</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -2382,6 +2444,7 @@
     </Placemark>
 <Placemark>
       <name>Line 12</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -2414,6 +2477,7 @@
     </Placemark>
 <Placemark>
       <name>Line 81</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -2448,6 +2512,7 @@
     </Placemark>
 <Placemark>
       <name>Line 82</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -2479,6 +2544,7 @@
     </Placemark>
 <Placemark>
       <name>Line 83</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -2510,6 +2576,7 @@
     </Placemark>
 <Placemark>
       <name>Line 85</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -2541,6 +2608,7 @@
     </Placemark>
 <Placemark>
       <name>Line 87</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -2572,6 +2640,7 @@
     </Placemark>
 <Placemark>
       <name>Line 88</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -2607,6 +2676,7 @@
     </Placemark>
 <Placemark>
       <name>Line 91</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -2638,6 +2708,7 @@
     </Placemark>
 <Placemark>
       <name>Line 92</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -2677,6 +2748,7 @@
     </Placemark>
 <Placemark>
       <name>Line 93</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -2710,6 +2782,7 @@
     </Placemark>
 <Placemark>
       <name>Line 94</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -2744,6 +2817,7 @@
     </Placemark>
 <Placemark>
       <name>Line 95</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -2775,6 +2849,7 @@
     </Placemark>
 <Placemark>
       <name>Line 96</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -2811,6 +2886,7 @@
     </Placemark>
 <Placemark>
       <name>Line 103</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -2844,6 +2920,7 @@
     </Placemark>
 <Placemark>
       <name>Line 105</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -2884,6 +2961,7 @@
     </Placemark>
 <Placemark>
       <name>Line 106</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -2930,6 +3008,7 @@
     </Placemark>
 <Placemark>
       <name>Line 107</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -2962,6 +3041,7 @@
     </Placemark>
 <Placemark>
       <name>Line 108</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -2996,6 +3076,7 @@
     </Placemark>
 <Placemark>
       <name>Line 109</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -3030,6 +3111,7 @@
     </Placemark>
 <Placemark>
       <name>Line 110</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -3068,6 +3150,7 @@
     </Placemark>
 <Placemark>
       <name>Line 111</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -3103,6 +3186,7 @@
     </Placemark>
 <Placemark>
       <name>Line 113</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -3144,6 +3228,7 @@
     </Placemark>
 <Placemark>
       <name>Line 114</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -3178,6 +3263,7 @@
     </Placemark>
 <Placemark>
       <name>Line 115</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -3213,6 +3299,7 @@
     </Placemark>
 <Placemark>
       <name>Line 115</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -3249,6 +3336,7 @@
     </Placemark>
 <Placemark>
       <name>Line 116</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -3283,6 +3371,7 @@
     </Placemark>
 <Placemark>
       <name>Line 118</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -3321,6 +3410,7 @@
     </Placemark>
 <Placemark>
       <name>Line 119</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -3352,6 +3442,7 @@
     </Placemark>
 <Placemark>
       <name>Line 120</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -3391,6 +3482,7 @@
     </Placemark>
 <Placemark>
       <name>Line 121</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -3426,6 +3518,7 @@
     </Placemark>
 <Placemark>
       <name>Line 122</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -3469,6 +3562,7 @@
     </Placemark>
 <Placemark>
       <name>Line 123</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -3502,6 +3596,7 @@
     </Placemark>
 <Placemark>
       <name>Line 124</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -3535,6 +3630,7 @@
     </Placemark>
 <Placemark>
       <name>Line 125</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -3570,6 +3666,7 @@
     </Placemark>
 <Placemark>
       <name>Line 127</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -3601,6 +3698,7 @@
     </Placemark>
 <Placemark>
       <name>Line 128</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -3633,6 +3731,7 @@
     </Placemark>
 <Placemark>
       <name>Line 129</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -3669,6 +3768,7 @@
     </Placemark>
 <Placemark>
       <name>Line 130</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -3701,6 +3801,7 @@
     </Placemark>
 <Placemark>
       <name>Line 131</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -3732,6 +3833,7 @@
     </Placemark>
 <Placemark>
       <name>Line 132</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -3764,6 +3866,7 @@
     </Placemark>
 <Placemark>
       <name>Line 133</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -3798,6 +3901,7 @@
     </Placemark>
 <Placemark>
       <name>Line 134</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -3830,6 +3934,7 @@
     </Placemark>
 <Placemark>
       <name>Line 135</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -3868,6 +3973,7 @@
     </Placemark>
 <Placemark>
       <name>Line 47</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -3909,6 +4015,7 @@
     </Placemark>
 <Placemark>
       <name>Line 137</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -3941,6 +4048,7 @@
     </Placemark>
 <Placemark>
       <name>Line 138</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -3975,6 +4083,7 @@
     </Placemark>
 <Placemark>
       <name>Line 63</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -4023,6 +4132,7 @@
     </Placemark>
 <Placemark>
       <name>Line 140</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -4057,6 +4167,7 @@
     </Placemark>
 <Placemark>
       <name>Line 142</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -4109,6 +4220,7 @@
     </Placemark>
 <Placemark>
       <name>Line 145</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -4143,6 +4255,7 @@
     </Placemark>
 <Placemark>
       <name>Line 145</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -4178,6 +4291,7 @@
     </Placemark>
 <Placemark>
       <name>Line 23</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -4215,6 +4329,7 @@
     </Placemark>
 <Placemark>
       <name>Line 146</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -4248,7 +4363,8 @@
     </Placemark>
 <Placemark>
       <name>Line 147</name>
-      <styleUrl>#line-A52714-4100</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 5<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-A52714-3325</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -4281,6 +4397,7 @@
     </Placemark>
 <Placemark>
       <name>Line 31</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -4318,6 +4435,7 @@
     </Placemark>
 <Placemark>
       <name>Line 22</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -4356,6 +4474,7 @@
     </Placemark>
 <Placemark>
       <name>Line 27</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -4400,6 +4519,7 @@
     </Placemark>
 <Placemark>
       <name>Line 153</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -4435,6 +4555,7 @@
     </Placemark>
 <Placemark>
       <name>Line 154</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -4472,6 +4593,7 @@
     </Placemark>
 <Placemark>
       <name>Line 156</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -4509,6 +4631,7 @@
     </Placemark>
 <Placemark>
       <name>Line 157</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -4540,6 +4663,7 @@
     </Placemark>
 <Placemark>
       <name>Line 158</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -4574,6 +4698,7 @@
     </Placemark>
 <Placemark>
       <name>Line 159</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -4606,6 +4731,7 @@
     </Placemark>
 <Placemark>
       <name>Line 160</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -4643,6 +4769,7 @@
     </Placemark>
 <Placemark>
       <name>Line 161</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -4676,6 +4803,7 @@
     </Placemark>
 <Placemark>
       <name>Line 162</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -4716,6 +4844,7 @@
     </Placemark>
 <Placemark>
       <name>Line 163</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -4751,6 +4880,7 @@
     </Placemark>
 <Placemark>
       <name>Line 164</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -4788,6 +4918,7 @@
     </Placemark>
 <Placemark>
       <name>Line 165</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -4819,6 +4950,7 @@
     </Placemark>
 <Placemark>
       <name>Line 166</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -4850,6 +4982,7 @@
     </Placemark>
 <Placemark>
       <name>Line 167</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -4884,6 +5017,7 @@
     </Placemark>
 <Placemark>
       <name>Line 168</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -4917,6 +5051,7 @@
     </Placemark>
 <Placemark>
       <name>Line 168</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -4950,6 +5085,7 @@
     </Placemark>
 <Placemark>
       <name>Line 169</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -5000,6 +5136,7 @@
     </Placemark>
 <Placemark>
       <name>Line 170</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -5031,6 +5168,7 @@
     </Placemark>
 <Placemark>
       <name>Line 171</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -5064,6 +5202,7 @@
     </Placemark>
 <Placemark>
       <name>Line 172</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -5095,6 +5234,7 @@
     </Placemark>
 <Placemark>
       <name>Line 173</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -5126,6 +5266,7 @@
     </Placemark>
 <Placemark>
       <name>Line 174</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -5157,6 +5298,7 @@
     </Placemark>
 <Placemark>
       <name>Line 175</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -5189,6 +5331,7 @@
     </Placemark>
 <Placemark>
       <name>Line 176</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -5220,6 +5363,7 @@
     </Placemark>
 <Placemark>
       <name>Line 177</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -5254,6 +5398,7 @@
     </Placemark>
 <Placemark>
       <name>Line 178</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -5286,6 +5431,7 @@
     </Placemark>
 <Placemark>
       <name>Line 179</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -5317,6 +5463,7 @@
     </Placemark>
 <Placemark>
       <name>Line 180</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -5349,6 +5496,7 @@
     </Placemark>
 <Placemark>
       <name>Line 181</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -5381,6 +5529,7 @@
     </Placemark>
 <Placemark>
       <name>Line 182</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -5417,6 +5566,7 @@
     </Placemark>
 <Placemark>
       <name>Line 183</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -5451,6 +5601,7 @@
     </Placemark>
 <Placemark>
       <name>Line 185</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -5482,6 +5633,7 @@
     </Placemark>
 <Placemark>
       <name>Line 34</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -5525,6 +5677,7 @@
     </Placemark>
 <Placemark>
       <name>Line 62</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -5562,6 +5715,7 @@
     </Placemark>
 <Placemark>
       <name>Line 44</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -5596,6 +5750,7 @@
     </Placemark>
 <Placemark>
       <name>Line 186</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -5631,6 +5786,7 @@
     </Placemark>
 <Placemark>
       <name>Line 38</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -5663,6 +5819,7 @@
     </Placemark>
 <Placemark>
       <name>Line 190</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -5698,6 +5855,7 @@
     </Placemark>
 <Placemark>
       <name>Line 191</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -5731,6 +5889,7 @@
     </Placemark>
 <Placemark>
       <name>Line 192</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -5766,6 +5925,7 @@
     </Placemark>
 <Placemark>
       <name>Line 193</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -5798,6 +5958,7 @@
     </Placemark>
 <Placemark>
       <name>Line 194</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -5830,6 +5991,7 @@
     </Placemark>
 <Placemark>
       <name>Line 195</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -5862,6 +6024,7 @@
     </Placemark>
 <Placemark>
       <name>Line 196</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -5895,6 +6058,7 @@
     </Placemark>
 <Placemark>
       <name>Line 197</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -5927,6 +6091,7 @@
     </Placemark>
 <Placemark>
       <name>Line 68</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -5958,6 +6123,7 @@
     </Placemark>
 <Placemark>
       <name>Line 196</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -5989,6 +6155,7 @@
     </Placemark>
 <Placemark>
       <name>Line 68</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -6026,6 +6193,7 @@
     </Placemark>
 <Placemark>
       <name>Line 59</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -6058,6 +6226,7 @@
     </Placemark>
 <Placemark>
       <name>Line 203</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -6092,6 +6261,7 @@
     </Placemark>
 <Placemark>
       <name>Line 204</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -6125,6 +6295,7 @@
     </Placemark>
 <Placemark>
       <name>Line 204</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -6162,6 +6333,7 @@
     </Placemark>
 <Placemark>
       <name>Line 205</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -6195,6 +6367,7 @@
     </Placemark>
 <Placemark>
       <name>Line 206</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -6228,6 +6401,7 @@
     </Placemark>
 <Placemark>
       <name>Line 207</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -6259,6 +6433,7 @@
     </Placemark>
 <Placemark>
       <name>Line 208</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -6290,6 +6465,7 @@
     </Placemark>
 <Placemark>
       <name>Line 209</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -6322,7 +6498,8 @@
     </Placemark>
 <Placemark>
       <name/>
-      <styleUrl>#line-A52714-4100</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 5<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-A52714-3325</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -6354,6 +6531,7 @@
     </Placemark>
 <Placemark>
       <name>Line 212</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -6385,6 +6563,7 @@
     </Placemark>
 <Placemark>
       <name>Line 213</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -6417,6 +6596,7 @@
     </Placemark>
 <Placemark>
       <name>Line 214</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -6450,6 +6630,7 @@
     </Placemark>
 <Placemark>
       <name>Line 215</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -6481,6 +6662,7 @@
     </Placemark>
 <Placemark>
       <name>Line 216</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -6512,6 +6694,7 @@
     </Placemark>
 <Placemark>
       <name>Line 217</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -6543,6 +6726,7 @@
     </Placemark>
 <Placemark>
       <name>Line 218</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -6576,6 +6760,7 @@
     </Placemark>
 <Placemark>
       <name>Line 219</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -6611,6 +6796,7 @@
     </Placemark>
 <Placemark>
       <name>Line 74</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -6645,6 +6831,7 @@
     </Placemark>
 <Placemark>
       <name>Line 220</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -6676,6 +6863,7 @@
     </Placemark>
 <Placemark>
       <name>Line 221</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -6707,6 +6895,7 @@
     </Placemark>
 <Placemark>
       <name>Line 222</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -6739,6 +6928,7 @@
     </Placemark>
 <Placemark>
       <name>Line 223</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -6771,6 +6961,7 @@
     </Placemark>
 <Placemark>
       <name>Line 227</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -6802,6 +6993,7 @@
     </Placemark>
 <Placemark>
       <name>Line 228</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -6833,6 +7025,7 @@
     </Placemark>
 <Placemark>
       <name>Line 228</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -6865,6 +7058,7 @@
     </Placemark>
 <Placemark>
       <name>Line 229</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -6898,6 +7092,7 @@
     </Placemark>
 <Placemark>
       <name>Line 14</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -6941,6 +7136,7 @@
     </Placemark>
 <Placemark>
       <name>Line 78</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -6978,6 +7174,7 @@
     </Placemark>
 <Placemark>
       <name>Line 69</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -7013,6 +7210,7 @@
     </Placemark>
 <Placemark>
       <name>Line 232</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -7050,6 +7248,7 @@
     </Placemark>
 <Placemark>
       <name>Line 233</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -7083,6 +7282,7 @@
     </Placemark>
 <Placemark>
       <name>Line 234</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -7115,6 +7315,7 @@
     </Placemark>
 <Placemark>
       <name>Line 235</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -7149,6 +7350,7 @@
     </Placemark>
 <Placemark>
       <name>Line 80</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -7183,6 +7385,7 @@
     </Placemark>
 <Placemark>
       <name>Line 81</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -7214,6 +7417,7 @@
     </Placemark>
 <Placemark>
       <name>Line 82</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -7245,6 +7449,7 @@
     </Placemark>
 <Placemark>
       <name>Line 239</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -7279,6 +7484,7 @@
     </Placemark>
 <Placemark>
       <name>Line 240</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -7312,6 +7518,7 @@
     </Placemark>
 <Placemark>
       <name>Line 241</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -7343,6 +7550,7 @@
     </Placemark>
 <Placemark>
       <name>Line 242</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -7375,6 +7583,7 @@
     </Placemark>
 <Placemark>
       <name>Line 243</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -7407,7 +7616,8 @@
     </Placemark>
 <Placemark>
       <name>Line 244</name>
-      <styleUrl>#line-F8971B-4100</styleUrl>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 4<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-F8971B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Удобни</value>
@@ -7439,6 +7649,7 @@
     </Placemark>
 <Placemark>
       <name>Line 69</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -7475,6 +7686,7 @@
     </Placemark>
 <Placemark>
       <name>Line 79</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -7515,6 +7727,7 @@
     </Placemark>
 <Placemark>
       <name>Line 62</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -7554,6 +7767,7 @@
     </Placemark>
 <Placemark>
       <name>Line 25</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -7587,6 +7801,7 @@
     </Placemark>
 <Placemark>
       <name>Line 248</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -7620,6 +7835,7 @@
     </Placemark>
 <Placemark>
       <name>Панчарево</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -7676,6 +7892,7 @@
     </Placemark>
 <Placemark>
       <name>Line 250</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -7710,7 +7927,8 @@
     </Placemark>
 <Placemark>
       <name>Line 252</name>
-      <styleUrl>#line-A52714-4100</styleUrl>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 5<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-A52714-3325</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Удобни</value>
@@ -7742,6 +7960,7 @@
     </Placemark>
 <Placemark>
       <name>Line 253</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -7774,6 +7993,7 @@
     </Placemark>
 <Placemark>
       <name>Line 254</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -7808,6 +8028,7 @@
     </Placemark>
 <Placemark>
       <name>Line 255</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -7848,6 +8069,7 @@
     </Placemark>
 <Placemark>
       <name>Line 257</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -7884,7 +8106,8 @@
     </Placemark>
 <Placemark>
       <name/>
-      <styleUrl>#line-F8971B-4100</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 4<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-F8971B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -7919,6 +8142,7 @@
     </Placemark>
 <Placemark>
       <name>Line 70</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -7951,6 +8175,7 @@
     </Placemark>
 <Placemark>
       <name>Line 67</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -7987,6 +8212,7 @@
     </Placemark>
 <Placemark>
       <name>Line 258</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -8018,6 +8244,7 @@
     </Placemark>
 <Placemark>
       <name>Line 262</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -8055,6 +8282,7 @@
     </Placemark>
 <Placemark>
       <name>Line 263</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -8086,6 +8314,7 @@
     </Placemark>
 <Placemark>
       <name>Line 264</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -8117,7 +8346,8 @@
     </Placemark>
 <Placemark>
       <name>Line 265</name>
-      <styleUrl>#line-A52714-4100</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 5<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-A52714-3325</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -8151,7 +8381,8 @@
     </Placemark>
 <Placemark>
       <name/>
-      <styleUrl>#line-F8971B-4100</styleUrl>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 4<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-F8971B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Удобни</value>
@@ -8190,6 +8421,7 @@
     </Placemark>
 <Placemark>
       <name>Line 267</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -8221,6 +8453,7 @@
     </Placemark>
 <Placemark>
       <name>Line 65</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -8253,6 +8486,7 @@
     </Placemark>
 <Placemark>
       <name>Line 266</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -8285,6 +8519,7 @@
     </Placemark>
 <Placemark>
       <name>Line 267</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -8320,6 +8555,7 @@
     </Placemark>
 <Placemark>
       <name>Line 268</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -8355,6 +8591,7 @@
     </Placemark>
 <Placemark>
       <name>Line 269</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -8388,6 +8625,7 @@
     </Placemark>
 <Placemark>
       <name>Line 270</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -8422,6 +8660,7 @@
     </Placemark>
 <Placemark>
       <name>Line 269</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -8455,6 +8694,7 @@
     </Placemark>
 <Placemark>
       <name>Line 270</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -8491,6 +8731,7 @@
     </Placemark>
 <Placemark>
       <name>Line 271</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -8522,6 +8763,7 @@
     </Placemark>
 <Placemark>
       <name>Line 271</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -8555,6 +8797,7 @@
     </Placemark>
 <Placemark>
       <name>Line 272</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -8589,6 +8832,7 @@
     </Placemark>
 <Placemark>
       <name>Line 274</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -8622,6 +8866,7 @@
     </Placemark>
 <Placemark>
       <name>Line 276</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -8653,6 +8898,7 @@
     </Placemark>
 <Placemark>
       <name>Line 277</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -8692,6 +8938,7 @@
     </Placemark>
 <Placemark>
       <name>Line 8</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -8725,6 +8972,7 @@
     </Placemark>
 <Placemark>
       <name>Line 36</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: https://sofenhagen.com/<br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -8767,6 +9015,7 @@
     </Placemark>
 <Placemark>
       <name>Line 279</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -8801,6 +9050,7 @@
     </Placemark>
 <Placemark>
       <name>Line 280</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -8836,6 +9086,7 @@
     </Placemark>
 <Placemark>
       <name>Line 281</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -8867,6 +9118,7 @@
     </Placemark>
 <Placemark>
       <name/>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -8909,6 +9161,7 @@
     </Placemark>
 <Placemark>
       <name>Line 283</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -8957,6 +9210,7 @@
     </Placemark>
 <Placemark>
       <name>Line 284</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -8991,6 +9245,7 @@
     </Placemark>
 <Placemark>
       <name>Line 285</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -9024,7 +9279,8 @@
     </Placemark>
 <Placemark>
       <name/>
-      <styleUrl>#line-A52714-4100</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 5<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-A52714-3325</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -9060,6 +9316,7 @@
     </Placemark>
 <Placemark>
       <name>Line 288</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -9091,6 +9348,7 @@
     </Placemark>
 <Placemark>
       <name>Line 289</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -9128,6 +9386,7 @@
     </Placemark>
 <Placemark>
       <name>Line 290</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -9160,6 +9419,7 @@
     </Placemark>
 <Placemark>
       <name>Line 291</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -9194,6 +9454,7 @@
     </Placemark>
 <Placemark>
       <name>Line 291</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -9225,6 +9486,7 @@
     </Placemark>
 <Placemark>
       <name>Line 292</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -9263,6 +9525,7 @@
     </Placemark>
 <Placemark>
       <name>Line 72</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -9317,7 +9580,8 @@
     </Placemark>
 <Placemark>
       <name>Line 21</name>
-      <styleUrl>#line-F8971B-4100</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 4<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-F8971B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -9374,6 +9638,7 @@
     </Placemark>
 <Placemark>
       <name>Line 293</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -9416,6 +9681,7 @@
     </Placemark>
 <Placemark>
       <name>Line 294</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -9468,6 +9734,7 @@
     </Placemark>
 <Placemark>
       <name>Line 295</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -9508,6 +9775,7 @@
     </Placemark>
 <Placemark>
       <name>Line 292</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -9542,6 +9810,7 @@
     </Placemark>
 <Placemark>
       <name>Line 282</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -9585,6 +9854,7 @@
     </Placemark>
 <Placemark>
       <name>Line 283</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -9617,6 +9887,7 @@
     </Placemark>
 <Placemark>
       <name>Line 284</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -9649,7 +9920,8 @@
     </Placemark>
 <Placemark>
       <name>Line 1</name>
-      <styleUrl>#line-F8971B-4100</styleUrl>
+      <description><![CDATA[Категория: Неасфалтирани/труднопроходими<br>Категория #: 4<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-F8971B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Неасфалтирани/труднопроходими</value>
@@ -9681,7 +9953,8 @@
     </Placemark>
 <Placemark>
       <name>Line 2</name>
-      <styleUrl>#line-F8971B-4100</styleUrl>
+      <description><![CDATA[Категория: Неасфалтирани/труднопроходими<br>Категория #: 4<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-F8971B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Неасфалтирани/труднопроходими</value>
@@ -9718,7 +9991,8 @@
     </Placemark>
 <Placemark>
       <name>Line 4</name>
-      <styleUrl>#line-F8971B-4100</styleUrl>
+      <description><![CDATA[Категория: Неасфалтирани/труднопроходими<br>Категория #: 4<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-F8971B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Неасфалтирани/труднопроходими</value>
@@ -9750,7 +10024,8 @@
     </Placemark>
 <Placemark>
       <name>Алеята на север от реката</name>
-      <styleUrl>#line-F8971B-4100</styleUrl>
+      <description><![CDATA[Категория: Неасфалтирани/труднопроходими<br>Категория #: 4<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-F8971B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Неасфалтирани/труднопроходими</value>
@@ -9791,7 +10066,8 @@
     </Placemark>
 <Placemark>
       <name>Line 187</name>
-      <styleUrl>#line-F8971B-4100</styleUrl>
+      <description><![CDATA[Категория: Неасфалтирани/труднопроходими<br>Категория #: 4<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-F8971B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Неасфалтирани/труднопроходими</value>
@@ -9823,7 +10099,8 @@
     </Placemark>
 <Placemark>
       <name>Line 188</name>
-      <styleUrl>#line-F8971B-4100</styleUrl>
+      <description><![CDATA[Категория: Неасфалтирани/труднопроходими<br>Категория #: 4<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-F8971B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Неасфалтирани/труднопроходими</value>
@@ -9856,7 +10133,8 @@
     </Placemark>
 <Placemark>
       <name>Line 86</name>
-      <styleUrl>#line-F8971B-4100</styleUrl>
+      <description><![CDATA[Категория: Неасфалтирани/труднопроходими<br>Категория #: 4<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-F8971B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Неасфалтирани/труднопроходими</value>
@@ -9887,7 +10165,8 @@
     </Placemark>
 <Placemark>
       <name>Line 5</name>
-      <styleUrl>#line-F8971B-4100</styleUrl>
+      <description><![CDATA[Категория: Неасфалтирани/труднопроходими<br>Категория #: 4<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-F8971B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Неасфалтирани/труднопроходими</value>
@@ -9921,7 +10200,8 @@
     </Placemark>
 <Placemark>
       <name>Line 90</name>
-      <styleUrl>#line-F8971B-4100</styleUrl>
+      <description><![CDATA[Категория: Неасфалтирани/труднопроходими<br>Категория #: 4<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-F8971B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Неасфалтирани/труднопроходими</value>
@@ -9957,7 +10237,8 @@
     </Placemark>
 <Placemark>
       <name>Line 49</name>
-      <styleUrl>#line-F8971B-4100</styleUrl>
+      <description><![CDATA[Категория: Неасфалтирани/труднопроходими<br>Категория #: 4<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-F8971B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Неасфалтирани/труднопроходими</value>
@@ -9997,7 +10278,8 @@
     </Placemark>
 <Placemark>
       <name>Line 12</name>
-      <styleUrl>#line-F8971B-4100</styleUrl>
+      <description><![CDATA[Категория: Неасфалтирани/труднопроходими<br>Категория #: 4<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-F8971B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Неасфалтирани/труднопроходими</value>
@@ -10029,7 +10311,8 @@
     </Placemark>
 <Placemark>
       <name>Line 13</name>
-      <styleUrl>#line-F8971B-4100</styleUrl>
+      <description><![CDATA[Категория: Неасфалтирани/труднопроходими<br>Категория #: 4<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-F8971B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Неасфалтирани/труднопроходими</value>
@@ -10063,7 +10346,8 @@
     </Placemark>
 <Placemark>
       <name>Line 14</name>
-      <styleUrl>#line-F8971B-4100</styleUrl>
+      <description><![CDATA[Категория: Неасфалтирани/труднопроходими<br>Категория #: 4<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-F8971B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Неасфалтирани/труднопроходими</value>
@@ -10096,7 +10380,8 @@
     </Placemark>
 <Placemark>
       <name>Line 15</name>
-      <styleUrl>#line-F8971B-4100</styleUrl>
+      <description><![CDATA[Категория: Неасфалтирани/труднопроходими<br>Категория #: 4<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-F8971B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Неасфалтирани/труднопроходими</value>
@@ -10129,7 +10414,8 @@
     </Placemark>
 <Placemark>
       <name>Line 16</name>
-      <styleUrl>#line-F8971B-4100</styleUrl>
+      <description><![CDATA[Категория: Неасфалтирани/труднопроходими<br>Категория #: 4<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-F8971B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Неасфалтирани/труднопроходими</value>
@@ -10174,7 +10460,8 @@
     </Placemark>
 <Placemark>
       <name>Line 17</name>
-      <styleUrl>#line-F8971B-4100</styleUrl>
+      <description><![CDATA[Категория: Неасфалтирани/труднопроходими<br>Категория #: 4<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-F8971B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Неасфалтирани/труднопроходими</value>
@@ -10206,7 +10493,8 @@
     </Placemark>
 <Placemark>
       <name>Line 18</name>
-      <styleUrl>#line-F8971B-4100</styleUrl>
+      <description><![CDATA[Категория: Неасфалтирани/труднопроходими<br>Категория #: 4<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-F8971B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Неасфалтирани/труднопроходими</value>
@@ -10241,6 +10529,7 @@
     </Placemark>
 <Placemark>
       <name>Line 18</name>
+      <description><![CDATA[Категория: Неасфалтирани/труднопроходими<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -10293,7 +10582,8 @@
     </Placemark>
 <Placemark>
       <name>Line 20</name>
-      <styleUrl>#line-F8971B-4100</styleUrl>
+      <description><![CDATA[Категория: Неасфалтирани/труднопроходими<br>Категория #: 4<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-F8971B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Неасфалтирани/труднопроходими</value>
@@ -10327,7 +10617,8 @@
     </Placemark>
 <Placemark>
       <name>Line 21</name>
-      <styleUrl>#line-F8971B-4100</styleUrl>
+      <description><![CDATA[Категория: Неасфалтирани/труднопроходими<br>Категория #: 4<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-F8971B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Неасфалтирани/труднопроходими</value>
@@ -10377,7 +10668,8 @@
     </Placemark>
 <Placemark>
       <name>Line 4</name>
-      <styleUrl>#line-A52714-4100</styleUrl>
+      <description><![CDATA[Категория: Широки/пусти тротари<br>Категория #: 5<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-A52714-3325</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Широки/пусти тротари</value>
@@ -10408,7 +10700,8 @@
     </Placemark>
 <Placemark>
       <name>Line 5</name>
-      <styleUrl>#line-A52714-4100</styleUrl>
+      <description><![CDATA[Категория: Широки/пусти тротари<br>Категория #: 5<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-A52714-3325</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Широки/пусти тротари</value>
@@ -10443,7 +10736,8 @@
     </Placemark>
 <Placemark>
       <name>Line 1</name>
-      <styleUrl>#line-A52714-4100</styleUrl>
+      <description><![CDATA[Категория: Широки/пусти тротари<br>Категория #: 5<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-A52714-3325</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Широки/пусти тротари</value>
@@ -10482,7 +10776,8 @@
     </Placemark>
 <Placemark>
       <name>Line 2</name>
-      <styleUrl>#line-A52714-4100</styleUrl>
+      <description><![CDATA[Категория: Широки/пусти тротари<br>Категория #: 5<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-A52714-3325</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Широки/пусти тротари</value>
@@ -10539,7 +10834,8 @@
     </Placemark>
 <Placemark>
       <name>Line 3</name>
-      <styleUrl>#line-A52714-4100</styleUrl>
+      <description><![CDATA[Категория: Широки/пусти тротари<br>Категория #: 5<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-A52714-3325</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Широки/пусти тротари</value>
@@ -10570,7 +10866,8 @@
     </Placemark>
 <Placemark>
       <name>Line 10</name>
-      <styleUrl>#line-A52714-4100</styleUrl>
+      <description><![CDATA[Категория: Широки/пусти тротари<br>Категория #: 5<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-A52714-3325</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Широки/пусти тротари</value>
@@ -10605,7 +10902,8 @@
     </Placemark>
 <Placemark>
       <name>Line 273</name>
-      <styleUrl>#line-A52714-4100</styleUrl>
+      <description><![CDATA[Категория: Широки/пусти тротари<br>Категория #: 5<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-A52714-3325</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Широки/пусти тротари</value>
@@ -10651,7 +10949,8 @@
     </Placemark>
 <Placemark>
       <name>Line 68</name>
-      <styleUrl>#line-A52714-4100</styleUrl>
+      <description><![CDATA[Категория: Широки/пусти тротари<br>Категория #: 5<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-A52714-3325</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Широки/пусти тротари</value>
@@ -10685,7 +10984,8 @@
     </Placemark>
 <Placemark>
       <name>бул. Владимир Вазов</name>
-      <styleUrl>#line-A52714-4100</styleUrl>
+      <description><![CDATA[Категория: Широки/пусти тротари<br>Категория #: 5<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-A52714-3325</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Широки/пусти тротари</value>
@@ -10731,47 +11031,8 @@
       </LineString>
     </Placemark>
 <Placemark>
-      <name>Line 9</name>
-      <styleUrl>#line-A52714-4100</styleUrl>
-      <ExtendedData>
-        <Data name="Категория">
-          <value>Широки/пусти тротари</value>
-        </Data>
-        <Data name="Категория #">
-          <value>5.0</value>
-        </Data>
-        <Data name="Град/район">
-          <value>София</value>
-        </Data>
-        <Data name="name">
-          <value/>
-        </Data>
-        <Data name="description">
-          <value/>
-        </Data>
-        <Data name="Категория #">
-          <value/>
-        </Data>
-      </ExtendedData>
-      <LineString>
-        <tessellate>1</tessellate>
-        <coordinates>
-          23.3712525,42.6718418,0
-          23.3716027,42.6715082,0
-          23.376213,42.67491,0
-          23.375755,42.67487,0
-          23.373998,42.673495,0
-          23.372808,42.67294,0
-          23.3685566,42.6699043,0
-          23.3679408,42.6698097,0
-          23.3672914,42.6698899,0
-          23.3668594,42.6700519,0
-          23.3654605,42.6709927,0
-        </coordinates>
-      </LineString>
-    </Placemark>
-<Placemark>
       <name/>
+      <description><![CDATA[Категория: <br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -10805,7 +11066,8 @@
     </Placemark>
 <Placemark>
       <name>Line 20</name>
-      <styleUrl>#line-A52714-4100</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 5<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-A52714-3325</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -10840,7 +11102,8 @@
     </Placemark>
 <Placemark>
       <name>Line 33</name>
-      <styleUrl>#line-F8971B-4100</styleUrl>
+      <description><![CDATA[Категория: Неизпробвани<br>Категория #: 4<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-F8971B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Неизпробвани</value>
@@ -10875,6 +11138,7 @@
     </Placemark>
 <Placemark>
       <name/>
+      <description><![CDATA[Категория: Неизпробвани<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -10910,6 +11174,7 @@
     </Placemark>
 <Placemark>
       <name/>
+      <description><![CDATA[Категория: <br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -10942,6 +11207,7 @@
     </Placemark>
 <Placemark>
       <name>Line 65</name>
+      <description><![CDATA[Категория: Неизпробвани<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -10980,7 +11246,8 @@
     </Placemark>
 <Placemark>
       <name>Line 66</name>
-      <styleUrl>#line-F8971B-4100</styleUrl>
+      <description><![CDATA[Категория: Неизпробвани<br>Категория #: 4<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-F8971B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value>Неизпробвани</value>
@@ -11019,6 +11286,7 @@
     </Placemark>
 <Placemark>
       <name/>
+      <description><![CDATA[Категория: <br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -11052,6 +11320,7 @@
     </Placemark>
 <Placemark>
       <name>Line 68</name>
+      <description><![CDATA[Категория: <br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -11087,7 +11356,47 @@
       </LineString>
     </Placemark>
 <Placemark>
+      <name/>
+      <description><![CDATA[Категория: <br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-F4EB37-3519</styleUrl>
+      <ExtendedData>
+        <Data name="Категория">
+          <value/>
+        </Data>
+        <Data name="Категория #">
+          <value>3.0</value>
+        </Data>
+        <Data name="Град/район">
+          <value>София</value>
+        </Data>
+        <Data name="name">
+          <value/>
+        </Data>
+        <Data name="description">
+          <value/>
+        </Data>
+        <Data name="Категория #">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          23.3944826,42.6539347,0
+          23.3940251,42.6546319,0
+          23.393793,42.6553528,0
+          23.3937472,42.6559897,0
+          23.393398,42.656151,0
+          23.392867,42.656803,0
+          23.392692,42.657406,0
+          23.391818,42.658732,0
+          23.392426,42.65896,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+<Placemark>
       <name>ул. Академик Методи Попов</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -11119,6 +11428,7 @@
     </Placemark>
 <Placemark>
       <name>Път до Хисарлъка</name>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: Кюстендил<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -11290,7 +11600,8 @@
     </Placemark>
 <Placemark>
       <name/>
-      <styleUrl>#line-F8971B-4100</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 4<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-F8971B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -11325,7 +11636,8 @@
     </Placemark>
 <Placemark>
       <name>Line 504</name>
-      <styleUrl>#line-F8971B-4100</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 4<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-F8971B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -11357,6 +11669,7 @@
     </Placemark>
 <Placemark>
       <name/>
+      <description><![CDATA[Категория: <br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -11389,6 +11702,7 @@
     </Placemark>
 <Placemark>
       <name/>
+      <description><![CDATA[Категория: <br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -11422,7 +11736,8 @@
     </Placemark>
 <Placemark>
       <name/>
-      <styleUrl>#line-F8971B-4100</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 4<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-F8971B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -11456,6 +11771,7 @@
     </Placemark>
 <Placemark>
       <name>ул. Атанас Узунов</name>
+      <description><![CDATA[Категория: <br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -11561,7 +11877,8 @@
     </Placemark>
 <Placemark>
       <name/>
-      <styleUrl>#line-F8971B-4100</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 4<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-F8971B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -11597,6 +11914,7 @@
     </Placemark>
 <Placemark>
       <name/>
+      <description><![CDATA[Категория: <br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -11631,7 +11949,8 @@
     </Placemark>
 <Placemark>
       <name/>
-      <styleUrl>#line-F8971B-4100</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 4<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-F8971B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -11666,6 +11985,7 @@
     </Placemark>
 <Placemark>
       <name/>
+      <description><![CDATA[Категория: <br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -11697,7 +12017,8 @@
     </Placemark>
 <Placemark>
       <name/>
-      <styleUrl>#line-F8971B-4100</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 4<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-F8971B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -11731,7 +12052,8 @@
     </Placemark>
 <Placemark>
       <name/>
-      <styleUrl>#line-F8971B-4100</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 4<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-F8971B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -11765,7 +12087,8 @@
     </Placemark>
 <Placemark>
       <name/>
-      <styleUrl>#line-F8971B-4100</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 4<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-F8971B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -11829,7 +12152,8 @@
     </Placemark>
 <Placemark>
       <name/>
-      <styleUrl>#line-F8971B-4100</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 4<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-F8971B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -11866,6 +12190,7 @@
     </Placemark>
 <Placemark>
       <name/>
+      <description><![CDATA[Категория: <br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -11902,6 +12227,7 @@
     </Placemark>
 <Placemark>
       <name/>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -11933,7 +12259,8 @@
     </Placemark>
 <Placemark>
       <name>Line 523</name>
-      <styleUrl>#line-A52714-4100</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 5<br>Град/район: София<br><br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-A52714-3325</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -11965,6 +12292,7 @@
     </Placemark>
 <Placemark>
       <name/>
+      <description><![CDATA[Категория: Удобни<br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -11999,7 +12327,8 @@
     </Placemark>
 <Placemark>
       <name/>
-      <styleUrl>#line-F8971B-4100</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 4<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-F8971B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -12037,6 +12366,7 @@
     </Placemark>
 <Placemark>
       <name>ул. Демокрация</name>
+      <description><![CDATA[Категория: <br>Категория #: 3<br>Град/район: Кюстендил<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -12068,7 +12398,8 @@
     </Placemark>
 <Placemark>
       <name>Line 539</name>
-      <styleUrl>#line-A52714-4100</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 5<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-A52714-3325</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -12099,7 +12430,8 @@
     </Placemark>
 <Placemark>
       <name>Line 539</name>
-      <styleUrl>#line-A52714-4100</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 5<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-A52714-3325</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -12130,6 +12462,7 @@
     </Placemark>
 <Placemark>
       <name/>
+      <description><![CDATA[Категория: <br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -12171,7 +12504,8 @@
     </Placemark>
 <Placemark>
       <name/>
-      <styleUrl>#line-F8971B-4100</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 4<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-F8971B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -12237,7 +12571,8 @@
     </Placemark>
 <Placemark>
       <name/>
-      <styleUrl>#line-F8971B-4100</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 4<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-F8971B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -12333,6 +12668,7 @@
     </Placemark>
 <Placemark>
       <name/>
+      <description><![CDATA[Категория: <br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -12368,7 +12704,8 @@
     </Placemark>
 <Placemark>
       <name/>
-      <styleUrl>#line-F8971B-4100</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 4<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-F8971B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -12465,6 +12802,7 @@
     </Placemark>
 <Placemark>
       <name>Line 546</name>
+      <description><![CDATA[Категория: <br>Категория #: 3<br>Град/район: <br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -12498,7 +12836,8 @@
     </Placemark>
 <Placemark>
       <name>Line 548</name>
-      <styleUrl>#line-F8971B-4100</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 4<br>Град/район: <br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-F8971B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -12531,7 +12870,8 @@
     </Placemark>
 <Placemark>
       <name>Line 544</name>
-      <styleUrl>#line-A52714-4100</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 5<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-A52714-3325</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -12562,7 +12902,8 @@
     </Placemark>
 <Placemark>
       <name/>
-      <styleUrl>#line-A52714-4100</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 5<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-A52714-3325</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -12597,7 +12938,8 @@
     </Placemark>
 <Placemark>
       <name/>
-      <styleUrl>#line-F8971B-4100</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 4<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-F8971B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -12630,7 +12972,8 @@
     </Placemark>
 <Placemark>
       <name/>
-      <styleUrl>#line-F8971B-4100</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 4<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-F8971B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -12667,6 +13010,7 @@
     </Placemark>
 <Placemark>
       <name/>
+      <description><![CDATA[Категория: <br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -12708,7 +13052,8 @@
     </Placemark>
 <Placemark>
       <name/>
-      <styleUrl>#line-F8971B-4100</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 4<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-F8971B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -12761,7 +13106,8 @@
     </Placemark>
 <Placemark>
       <name/>
-      <styleUrl>#line-A52714-4100</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 5<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-A52714-3325</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -12793,7 +13139,8 @@
     </Placemark>
 <Placemark>
       <name/>
-      <styleUrl>#line-F8971B-4100</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 4<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-F8971B-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -12830,6 +13177,7 @@
     </Placemark>
 <Placemark>
       <name/>
+      <description><![CDATA[Категория: <br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -12862,7 +13210,8 @@
     </Placemark>
 <Placemark>
       <name/>
-      <styleUrl>#line-A52714-4100</styleUrl>
+      <description><![CDATA[Категория: <br>Категория #: 5<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-A52714-3325</styleUrl>
       <ExtendedData>
         <Data name="Категория">
           <value/>
@@ -12902,6 +13251,7 @@
     </Placemark>
 <Placemark>
       <name>Line 555</name>
+      <description><![CDATA[Категория: <br>Категория #: 3<br>Град/район: <br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -12933,6 +13283,7 @@
     </Placemark>
 <Placemark>
       <name/>
+      <description><![CDATA[Категория: <br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -12966,6 +13317,7 @@
     </Placemark>
 <Placemark>
       <name/>
+      <description><![CDATA[Категория: <br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -12998,6 +13350,7 @@
     </Placemark>
 <Placemark>
       <name/>
+      <description><![CDATA[Категория: <br>Категория #: 3<br>Град/район: <br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -13031,6 +13384,7 @@
     </Placemark>
 <Placemark>
       <name/>
+      <description><![CDATA[Категория: <br>Категория #: 3<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
       <styleUrl>#line-F4EB37-3519</styleUrl>
       <ExtendedData>
         <Data name="Категория">
@@ -13058,6 +13412,78 @@
           23.3542747,42.6789894,0
           23.3539099,42.6792113,0
           23.34877,42.68299,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+<Placemark>
+      <name/>
+      <description><![CDATA[Категория: <br>Категория #: 4<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-F8971B-3519</styleUrl>
+      <ExtendedData>
+        <Data name="Категория">
+          <value/>
+        </Data>
+        <Data name="Категория #">
+          <value>4.0</value>
+        </Data>
+        <Data name="Град/район">
+          <value>София</value>
+        </Data>
+        <Data name="name">
+          <value/>
+        </Data>
+        <Data name="description">
+          <value/>
+        </Data>
+        <Data name="Категория #">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          23.3838688,42.6601024,0
+          23.3850487,42.6592044,0
+          23.3847335,42.6589142,0
+          23.3855585,42.6583428,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+<Placemark>
+      <name/>
+      <description><![CDATA[Категория: <br>Категория #: 5<br>Град/район: София<br>name: <br>description: <br>Категория #: ]]></description>
+      <styleUrl>#line-A52714-3325</styleUrl>
+      <ExtendedData>
+        <Data name="Категория">
+          <value/>
+        </Data>
+        <Data name="Категория #">
+          <value>5.0</value>
+        </Data>
+        <Data name="Град/район">
+          <value>София</value>
+        </Data>
+        <Data name="name">
+          <value/>
+        </Data>
+        <Data name="description">
+          <value/>
+        </Data>
+        <Data name="Категория #">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          23.376213,42.67491,0
+          23.3716027,42.6715082,0
+          23.3712525,42.6718418,0
+          23.3685566,42.6699043,0
+          23.3679408,42.6698097,0
+          23.3672914,42.6698899,0
+          23.3668594,42.6700519,0
+          23.3654605,42.6709927,0
         </coordinates>
       </LineString>
     </Placemark>

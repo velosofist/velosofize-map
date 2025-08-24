@@ -30,8 +30,8 @@ def write_kml(placemarks, output_file):
             f.write(pm + '\n')
         f.write('</Document>\n</kml>\n')
 
-write_kml(cat_1_2, 'velosofize_export_bikelanes.kml')
-write_kml(cat_other, 'velosofize_export_others.kml')
+write_kml(cat_1_2, 'velosofize_bikelanes.kml')
+write_kml(cat_other, 'velosofize_routes.kml')
 
-print(f"Written {len(cat_1_2)} placemarks to velosofize_export_bikelanes.kml")
-print(f"Written {len(cat_other)} placemarks to velosofize_export_others.kml")
+print(f"Written {len(cat_1_2)} placemarks to velosofize_bikelanes.kml")
+print(f"Written {len(cat_other)} placemarks to velosofize_routes.kml")
