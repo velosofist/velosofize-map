@@ -168,41 +168,39 @@ html, body {
   right: 10px;
 }
 
-/* ====== Overlay Zoom ====== */
-#overlay-zoom {
+#container-control-buttons {
   position: fixed;
   right: 10px;
   bottom: 24px;
-  z-index: 2000;
-  display: flex;
-  flex-direction: column;
-  background: #fdf6e3;
-  color: rgba(0, 0, 0, 0.8);
-  border: 2px solid #eee8d5;
-  box-shadow: 0px 0px 10px black;
-  padding: 4px;
-  box-sizing: border-box;
-  border-radius: 32px;
-  gap: 8px;
 }
 
 /* ====== Overlay Toggles ====== */
 .button-container-pod,
 #overlay-button-label-popup {
   display: flex;
-  flex-direction: column;
   background: #fdf6e3;
   color: rgba(0, 0, 0, 0.8);
   border: 2px solid #eee8d5;
   box-shadow: 0px 0px 10px black;
-  padding: 4px;
+}
+
+.button-container-pod {
+  flex-direction: column;
+  padding: 2px;
   box-sizing: border-box;
   border-radius: 32px;
   gap: 8px;
 }
 
 #overlay-button-label-popup {
+  padding: 8px;
+  border-radius: 12px;
+  gap: 8px;
   z-index: 9999;
+  max-width: 50vw;
+  box-sizing: border-box;
+  word-break: break-word;
+  font-weight: bold;
 }
 
 .overlay-button-svg-or-img-symbol {

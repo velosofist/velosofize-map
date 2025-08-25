@@ -1,25 +1,32 @@
-function setupZoomControls() {
-  const secondaryDiv = document.getElementById('overlay-zoom');
-  if (!secondaryDiv) return;
+function createStyledButton(label, icon, onClick) {
+  const btn = document.createElement('button');
+  btn.title = label;
+  btn.innerHTML = `<span class="material-symbols-outlined" style="font-size: 24px;">${icon}</span>`;
+  btn.style.padding = '6px 6px';
+  btn.style.fontSize = '12px';
+  btn.style.cursor = 'pointer';
+  btn.style.border = "2px solid rgba(0, 0, 0, 0.4)";
+  btn.style.background = '#eee8d5';
+  btn.style.color = '#08103b';
+  btn.style.borderRadius = '50%';
+  btn.dataset.active = 'false';
+  btn.onclick = onClick;
+  return btn;
+}
+const controlButtonsContainer = document.querySelector('#container-control-buttons .button-container-pod');
+
+function addZoomControls() {
+  if (!controlButtonsContainer) return;
 
   const zoomInBtn = createStyledButton('Zoom in', 'add', () => map.zoomIn());
   const zoomOutBtn = createStyledButton('Zoom out', 'remove', () => map.zoomOut());
 
-  const zoomBtnContainer = document.createElement('div');
-  zoomBtnContainer.style.display = 'flex';
-  zoomBtnContainer.style.flexDirection = 'column';
-  zoomBtnContainer.style.alignItems = 'center';
-  zoomBtnContainer.style.gap = '8px';
-
-  zoomBtnContainer.appendChild(zoomInBtn);
-  zoomBtnContainer.appendChild(zoomOutBtn);
-
-  secondaryDiv.appendChild(zoomBtnContainer);
+  controlButtonsContainer.appendChild(zoomInBtn);
+  controlButtonsContainer.appendChild(zoomOutBtn);
 }
 
-function setupCurrentLocationButton() {
-  const secondaryDiv = document.getElementById('overlay-zoom');
-  if (!secondaryDiv) return;
+function addCurrentLocationButton() {
+  if (!controlButtonsContainer) return;
 
   let userLocationMarker = null;
   const locateBtn = createStyledButton('Show my location', 'my_location', () => {
@@ -56,28 +63,16 @@ function setupCurrentLocationButton() {
     );
   });
 
-  // Add the button below the zoom controls
-  let zoomBtnContainer = secondaryDiv.querySelector('.zoom-btn-container');
-  if (!zoomBtnContainer) {
-    zoomBtnContainer = document.createElement('div');
-    zoomBtnContainer.className = 'zoom-btn-container';
-    zoomBtnContainer.style.display = 'flex';
-    zoomBtnContainer.style.flexDirection = 'column';
-    zoomBtnContainer.style.alignItems = 'center';
-    zoomBtnContainer.style.gap = '8px';
-    secondaryDiv.appendChild(zoomBtnContainer);
-  }
-  zoomBtnContainer.appendChild(locateBtn);
+  controlButtonsContainer.appendChild(locateBtn);
 }
 
-function setupHideExternalOverlaysButton() {
-  const containerExternal = document.getElementById('container-overlays-external-buttons');
-  const containerPrimary = document.getElementById('container-overlays-buttons');
-  const secondaryDiv = document.getElementById('overlay-zoom');
-  if (!containerExternal || !containerPrimary || !secondaryDiv) return;
+function addHideExternalOverlaysButton() {
+  const containerExternalOverlaysButtons = document.getElementById('container-overlays-external-buttons');
+  const containerPrimaryOverlaysButtons = document.getElementById('container-overlays-buttons');
+  if (!containerExternalOverlaysButtons || !containerPrimaryOverlaysButtons || !controlButtonsContainer) return;
 
   // Add fade effect styles
-  [containerExternal, containerPrimary].forEach(container => {
+  [containerExternalOverlaysButtons, containerPrimaryOverlaysButtons].forEach(container => {
     container.style.transition = 'opacity 0.5s ease';
     container.style.opacity = '1';
     container.style.visibility = 'visible';
@@ -88,7 +83,7 @@ function setupHideExternalOverlaysButton() {
   const toggleBtn = createStyledButton('Hide/show overlays', 'layers_clear', () => {
     isHidden = !isHidden;
     if (isHidden) {
-      [containerExternal, containerPrimary].forEach(container => {
+      [containerExternalOverlaysButtons, containerPrimaryOverlaysButtons].forEach(container => {
         container.style.opacity = '0';
         setTimeout(() => {
           container.style.visibility = 'hidden';
@@ -96,7 +91,7 @@ function setupHideExternalOverlaysButton() {
       });
       toggleBtn.querySelector('.material-symbols-outlined').textContent = 'layers';
     } else {
-      [containerExternal, containerPrimary].forEach(container => {
+      [containerExternalOverlaysButtons, containerPrimaryOverlaysButtons].forEach(container => {
         container.style.visibility = 'visible';
         container.style.opacity = '1';
       });
@@ -104,17 +99,5 @@ function setupHideExternalOverlaysButton() {
     }
   });
 
-  // Use the same styling and container as the zoom/location buttons
-  let zoomBtnContainer = secondaryDiv.querySelector('.zoom-btn-container');
-  if (!zoomBtnContainer) {
-    zoomBtnContainer = document.createElement('div');
-    zoomBtnContainer.className = 'zoom-btn-container';
-    zoomBtnContainer.style.display = 'flex';
-    zoomBtnContainer.style.flexDirection = 'column';
-    zoomBtnContainer.style.alignItems = 'center';
-    zoomBtnContainer.style.gap = '8px';
-    secondaryDiv.appendChild(zoomBtnContainer);
-  }
-
-  zoomBtnContainer.insertBefore(toggleBtn, zoomBtnContainer.firstChild);
+  controlButtonsContainer.appendChild(toggleBtn);
 }
