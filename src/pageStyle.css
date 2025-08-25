@@ -150,27 +150,27 @@ html, body {
 
 #container-overlays-external-buttons {
   position: absolute;
-  left: 74px;
+  left: 56px;
   top: 50%;
   transform: translateY(-50%);
 }
 
 #container-overlays-buttons {
   position: absolute;
-  left: 10px;
+  left: 2px;
   top: 50%;
   transform: translateY(-50%);
 }
 
 #container-misc-buttons {
   position: absolute;
+  right: 2px;
   top: 10px;
-  right: 10px;
 }
 
 #container-control-buttons {
   position: fixed;
-  right: 10px;
+  right: 2px;
   bottom: 24px;
 }
 
