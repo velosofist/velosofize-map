@@ -64,7 +64,13 @@
       ],
       "paint": {
         "fill-color": "#C1DDBF",
-        "fill-opacity": 0.45
+        "fill-opacity": {
+          "base": 1,
+          "stops": [
+            [8, 0.6],
+            [12, 1]
+          ]
+        }
       }
     },
     {
@@ -82,14 +88,8 @@
         "fill-opacity": {
           "base": 1,
           "stops": [
-            [
-              8,
-              0.6
-            ],
-            [
-              22,
-              1
-            ]
+            [8, 0.6],
+            [12, 1]
           ]
         }
       }

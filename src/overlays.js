@@ -106,7 +106,7 @@ function createStyledOverlay(url) {
             if (feature.geometry?.type === 'Point') {
                 featureWeight = 1;
             } else if (feature.geometry?.type === 'LineString') {
-                featureWeight = 4;
+                featureWeight = 5;
             } else if (feature.geometry?.type === 'Polygon') {
                 featureWeight = 3;
             }
@@ -175,24 +175,16 @@ function addExternalOverlayButtons() {
 
 function styleFromGMapsStyleUrl(styleUrl, featureWeight) {
     const match = styleUrl?.match(/#(?:line|poly|icon-\d+)-([0-9A-Fa-f]{6})/);
-    
-    const style = {};
-    style.weight = featureWeight,
-    style.opacity = 1,
-    style.fillOpacity = 0.2
-    
     const defaultColor = "#0074D9";
-    const extractedColor = `#${match[1]}`;
-
-    if (match) {
-        style.color = extractedColor;
-        style.fillColor = extractedColor;
-    } else {
-        style.color = defaultColor;
-        style.fillColor = defaultColor;
-    }
-
-    return style;
+    const fillColor = match ? `#${match[1]}` : defaultColor;
+    
+    return {
+        color: fillColor,
+        fillColor: fillColor,
+        weight: featureWeight,
+        opacity: 0.8,
+        fillOpacity: 0.2,
+    };
 }
 
 function colorFromGMapsStyleUrl(styleUrl) {
