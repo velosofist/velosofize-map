@@ -48,7 +48,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "fill-color": "hsl(47, 13%, 86%)",
+        "fill-color": "#FAEFE6",
         "fill-opacity": 0.7
       }
     },
@@ -63,7 +63,7 @@
         "grass"
       ],
       "paint": {
-        "fill-color": "hsl(82, 46%, 72%)",
+        "fill-color": "#C1DDBF",
         "fill-opacity": 0.45
       }
     },
@@ -78,7 +78,7 @@
         "wood"
       ],
       "paint": {
-        "fill-color": "hsl(82, 46%, 72%)",
+        "fill-color": "#94BB87",
         "fill-opacity": {
           "base": 1,
           "stops": [
@@ -246,7 +246,7 @@
         "national_park"
       ],
       "paint": {
-        "fill-color": "#E1EBB0",
+        "fill-color": "#000000",
         "fill-opacity": {
           "base": 1,
           "stops": [
@@ -500,7 +500,7 @@
       "type": "symbol",
       "source": "openmaptiles",
       "source-layer": "housenumber",
-      "minzoom": 17,
+      "minzoom": 16,
       "filter": [
         "==",
         "$type",
@@ -511,7 +511,7 @@
         "text-font": [
           "Noto Sans Regular"
         ],
-        "text-size": 20
+        "text-size": 14
       },
       "paint": {
         "text-color": "rgba(110, 88, 73, 1)"
@@ -1604,7 +1604,6 @@
       "type": "symbol",
       "source": "openmaptiles",
       "source-layer": "poi",
-      "minzoom": 12,
       "filter": [
         "all",
         [
@@ -1625,10 +1624,16 @@
           "subclass"
         ],
         "icon-size": 1,
-        "icon-allow-overlap": true
+        "icon-allow-overlap": true,
+        "text-field": "{name}",
+        "text-font": ["Noto Sans Regular"],
+        "text-size": 12,
+        "text-offset": [0, 0.8],
+        "text-anchor": "top"
       },
       "paint": {
-        "icon-opacity": 0.5
+        "icon-opacity": 0.7,
+        "text-opacity": 0.7
       }
     },
     {
@@ -1636,7 +1641,6 @@
       "type": "symbol",
       "source": "openmaptiles",
       "source-layer": "poi",
-      "minzoom": 12,
       "filter": [
         "all",
         [
@@ -1660,10 +1664,16 @@
           "subclass"
         ],
         "icon-size": 1,
-        "icon-allow-overlap": true
+        "icon-allow-overlap": true,
+        "text-field": "{name}",
+        "text-font": ["Noto Sans Regular"],
+        "text-size": 12,
+        "text-offset": [0, 0.8],
+        "text-anchor": "top"
       },
       "paint": {
-        "icon-opacity": 1
+        "icon-opacity": 1,
+        "text-opacity": 0.7
       }
     }
   ],
