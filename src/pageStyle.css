@@ -178,21 +178,23 @@ html, body {
 .button-container-pod,
 #overlay-button-label-popup {
   display: flex;
-  background: #fdf6e3;
-  color: rgba(0, 0, 0, 0.8);
-  border: 2px solid #eee8d5;
-  box-shadow: 0px 0px 10px black;
+  /* color: rgba(0, 0, 0, 0.8); */
+  /* border: rgba(0, 0, 0, 1); */
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
 }
 
 .button-container-pod {
   flex-direction: column;
+  background: #fdf6e390;
   padding: 2px;
   box-sizing: border-box;
   border-radius: 32px;
-  gap: 8px;
+  gap: 6px;
 }
 
 #overlay-button-label-popup {
+  background: #fdf6e3;
   padding: 8px;
   border-radius: 12px;
   gap: 8px;
@@ -232,6 +234,14 @@ html, body {
   -webkit-tap-highlight-color: transparent; /* Remove blue tap highlight on mobile */
 }
 
+.overlay-toggle-button[data-active="false"] {
+  background: #eee8d5; /* Inactive state background */
+}
+
+.overlay-toggle-button[data-active="true"] {
+  background: #bddfa2; /* Active state background */
+}
+
 /* Prevent selection of icons as text */
 .overlay-toggle-button,
 .overlay-toggle-button *,
@@ -242,16 +252,6 @@ html, body {
   user-select: none;
   -webkit-user-select: none;
   -ms-user-select: none;
-}
-
-.overlay-toggle-button[data-active="true"] {
-  background: #86C68090; /* Active state background */
-  color: #fff; /* Active state text color */
-}
-
-.overlay-toggle-button[data-active="false"] {
-  background: transparent; /* Inactive state background */
-  color: inherit; /* Inactive state text color */
 }
 
 /* ====== Legend Overlay ====== */
