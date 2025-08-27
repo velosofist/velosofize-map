@@ -106,7 +106,7 @@ function createStyledOverlay(url) {
             if (feature.geometry?.type === 'Point') {
                 featureWeight = 1;
             } else if (feature.geometry?.type === 'LineString') {
-                featureWeight = 5;
+                featureWeight = 4;
             } else if (feature.geometry?.type === 'Polygon') {
                 featureWeight = 3;
             }
@@ -182,7 +182,7 @@ function styleFromGMapsStyleUrl(styleUrl, featureWeight) {
         color: fillColor,
         fillColor: fillColor,
         weight: featureWeight,
-        opacity: 0.8,
+        opacity: 1,
         fillOpacity: 0.2,
     };
 }
