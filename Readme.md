@@ -1,6 +1,6 @@
 # Velosofize Map
 
-<img width="1740" height="904" alt="image" src="https://github.com/user-attachments/assets/aadeaf70-5795-40bd-aee9-ed9e7eaca223" />
+<img alt="image" src="attachments/demo_screengrab.png" />
 
 ## Introduction
 
