@@ -12,7 +12,7 @@ The Velosofize project includes resources from other repositories, such as velos
 
 ## Projects used
 
-The development of Velosofize Map in its current form would not be possible without the generous contributions to other free-to-use and open-source projects, including:
+The development of Velosofize Map in its current form would not be possible without the generous contributions to other free-to-use and/or open-source projects, including:
 
 * [OpenStreetMap](https://www.openstreetmap.org/)
 * [CyclOSM](https://www.cyclosm.org/)
@@ -27,6 +27,7 @@ The development of Velosofize Map in its current form would not be possible with
 * [MapBox's togeojson tool](https://github.com/mapbox/togeojson)
 * [Черна писта](https://chernapista.com)
 * [Overpass Turbo](https://overpass-turbo.eu/)
+* [Sofenhagen.com](https://sofenhagen.com)
 
 and others. Further attributions will be added to NOTICES.md along with respective licenses. Attributions to other projects are included throughout https://github.com/velosofist/velosofize/ , including in <https://docs.velosofize.com/bg/alternatives> .
 
@@ -37,3 +38,4 @@ Much like JSON is superior to XML in many respects, GeoJson as a format might se
 ## Contributions
 
 In case of interest in contributing, please reach out on GitHub or at <velosofize@gmail.com> .
+
