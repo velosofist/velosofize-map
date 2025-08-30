@@ -32,14 +32,6 @@ const baseLayerConfig = [
     render: 'maplibre',
     style: '/src/styles/bright/style.json',
     attribution: '&copy; OpenFreemap, Maplibre'
-  },
-  {
-    name: 'cyclosm',
-    icon: '/attachments/tile_icons/tile_cyclosm.png',
-    alt: 'CyclOSM',
-    render: 'maplibre',
-    style: '/imports/src/styles/cyclosm/style.json',
-    attribution: '&copy; CyclOSM, OpenStreetMap contributors'
   }
 ];
 

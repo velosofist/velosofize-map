@@ -7,6 +7,10 @@ document.getElementById('layer-icon-btn').onclick = function() {
   currentBaseLayerId = (currentBaseLayerId + 1) % baseLayerConfig.length;
   setBaseLayer(baseLayerConfig[currentBaseLayerId].name);
   updateLayerIcon();
+  // Force redraw map
+  if (map && map.invalidateSize) {
+    map.invalidateSize();
+  }
 };
 
 map.getContainer().addEventListener('contextmenu', e => e.preventDefault());

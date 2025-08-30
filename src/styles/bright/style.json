@@ -1675,6 +1675,31 @@
         "icon-opacity": 1,
         "text-opacity": 0.7
       }
+    },
+    {
+      "id": "mall",
+      "type": "symbol",
+      "source": "openmaptiles",
+      "source-layer": "poi",
+      "filter": [
+        "all",
+        ["==", "$type", "Point"],
+        ["==", "subclass", "mall"]
+      ],
+      "layout": {
+        "icon-image": "shop",
+        "icon-size": 1,
+        "icon-allow-overlap": true,
+        "text-field": "{name}",
+        "text-font": ["Noto Sans Regular"],
+        "text-size": 12,
+        "text-offset": [0, 0.8],
+        "text-anchor": "top"
+      },
+      "paint": {
+        "icon-opacity": 1,
+        "text-opacity": 1
+      }
     }
   ],
   "id": "basic"

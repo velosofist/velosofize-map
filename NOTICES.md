@@ -1,3 +1,12 @@
+# Notices
+
+- [Notices](#notices)
+  - [Leaflet.js:](#leafletjs)
+  - [OpenStreetMap:](#openstreetmap)
+  - [Google fonts:](#google-fonts)
+  - [Maplibre bright theme](#maplibre-bright-theme)
+  - [CyclOSM CartoCSS style](#cyclosm-cartocss-style)
+
 ## Leaflet.js:
 
 https://leafletjs.com/
@@ -302,3 +311,4 @@ The icons in `symbols/osmandapp` are taken from the
 
 The inner tube bicycle icon is based on
 https://www.flaticon.com/free-icon/inner-tube_1575936.
+
