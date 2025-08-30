@@ -39,6 +39,7 @@ GeoJson as a format might seem like an obvious choice for the representation of 
 
 ## Contributions
 
-In case of interest in contributing, please reach out on GitHub or at <velosofize@gmail.com> .
+In case of interest in contributing, please see the [contributions page](https://docs.velosofize.com/en/contributions/) and reach out on GitHub or at <velosofize@gmail.com> .
+
 
 
