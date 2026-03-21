@@ -59,20 +59,7 @@ const iconMapping = {
 
 const overlaysConfig = {
     "primary": [
-        {
-            "url": "/overlays/separated/velosofize_bikelanes.kml",
-            "label": "Велоалеи / Bike lanes",
-            "icon": "bike_lane",
-            "enabledByDefault": true,
-            "disabled": true,
-        },
-        {
-            "url": "/overlays/separated/velosofize_routes.kml",
-            "label": "Отсечки от Velosofize (по субективни критерии) / Routes from Velosofize (subjective)",
-            "icon": "directions_bike",
-            "enabledByDefault": true,
-            "disabled": true,
-        },
+        
     ],
     "external": [
         {
