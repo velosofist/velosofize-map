@@ -1452,7 +1452,7 @@
       "layout": {
         "icon-size": 1,
         "text-anchor": "top",
-        "text-field": "{name:latin}\n{name:nonlatin}",
+        "text-field": "{name:bg}",
         "text-font": [
           "Noto Sans Regular"
         ],
@@ -1484,7 +1484,7 @@
       ],
       "layout": {
         "symbol-placement": "line",
-        "text-field": "{name:latin} {name:nonlatin}",
+        "text-field": "{name:bg}",
         "text-font": [
           "Noto Sans Regular"
         ],
@@ -1536,7 +1536,7 @@
       ],
       "layout": {
         "text-anchor": "center",
-        "text-field": "{name:latin}\n{name:nonlatin}",
+        "text-field": "{name:bg}",
         "text-font": [
           "Noto Sans Regular"
         ],
@@ -1582,7 +1582,7 @@
         ]
       ],
       "layout": {
-        "text-field": "{name:latin}\n{name:nonlatin}",
+        "text-field": "{name:bg}",
         "text-font": [
           "Noto Sans Regular"
         ],
