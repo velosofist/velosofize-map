@@ -57,5 +57,17 @@ window.onload = function() {
   miscButtons()
 };
 
+const updateHash = () => {
+    const center = map.getCenter();
+    const zoom = Math.round(map.getZoom());
+    const lat = center.lat.toFixed(4);
+    const lng = center.lng.toFixed(4);
+    
+    // Format: #map=zoom/lat/lng/variable
+    window.location.hash = `map=${zoom}/${lat}/${lng}`;
+    // TODO In the future add /currentBaseLayer
+};
+
+map.on('moveend', updateHash);
 document.getElementById('map').style.height = window.innerHeight + 'px';
 document.getElementById('map').style.width = window.innerWidth + 'px';
