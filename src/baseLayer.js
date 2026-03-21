@@ -34,7 +34,7 @@ function fillBaseLayerList() {
 };
 
 layersList = fillBaseLayerList();
-const defaultBaseLayer = layersList['custom'];
+const defaultBaseLayer = layersList['bright'];
 
 function updateLayerIcon() {
   const { icon, alt } = baseLayerConfig[currentBaseLayerId];
