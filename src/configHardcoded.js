@@ -6,22 +6,22 @@ const eastBound = 29.123858;
 
 // Pass coordinate arrays directly
 const bounds = L.latLngBounds(
-  [southBound, westBound],
-  [northBound, eastBound]
+    [southBound, westBound],
+    [northBound, eastBound]
 );
 
 const map = L.map('map', {
   //center on Sofia center
-  center: [
-    42.685534, 
-    23.319048
-  ],
-  zoom: 15,
-  zoomControl: false,
-  minZoom: 8,
-  maxZoom: 19,
-  maxBounds: bounds,
-  maxBoundsViscosity: 0.5
+    center: [
+        42.696753,
+        23.321396
+    ],
+    zoom: 15,
+    zoomControl: false,
+    minZoom: 8,
+    maxZoom: 19,
+    maxBounds: bounds,
+    maxBoundsViscosity: 0.5
 });
 
 const baseLayerConfig = [
