@@ -148,16 +148,16 @@ html, body {
   box-sizing: border-box;
 }
 
-#container-overlays-external-buttons {
+#container-overlays-buttons {
   position: absolute;
-  left: 56px;
+  right: 2px;
   top: 50%;
   transform: translateY(-50%);
 }
 
-#container-overlays-buttons {
+#container-external-overlays-buttons {
   position: absolute;
-  left: 2px;
+  right: 56px;
   top: 50%;
   transform: translateY(-50%);
 }
