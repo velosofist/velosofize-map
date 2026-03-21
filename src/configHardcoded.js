@@ -16,7 +16,7 @@ const map = L.map('map', {
     42.685534, 
     23.319048
   ],
-  zoom: 13,
+  zoom: 15,
   zoomControl: false,
   minZoom: 8,
   maxZoom: 19,
