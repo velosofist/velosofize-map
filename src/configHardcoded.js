@@ -34,21 +34,13 @@ const baseLayerConfig = [
     attribution: '&copy; OpenFreemap, Maplibre'
   },
   {
-    name: 'opencyclemap',
-    icon: '/attachments/tile_icons/tile_cyclosm.png',
-    alt: 'OpenCycleMap',
+    name: 'light',
+    icon: '/attachments/tile_icons/tile_osm.png',
+    alt: 'Velosofize',
     render: 'maplibre',
-    style: '/imports/src/styles/opencyclemap/style.json',
-    attribution: 'Maps &copy Thunderforest, Data &copy OpenStreetMap contributors'
-  },
-  {
-    name: 'cyclosm',
-    icon: '/attachments/tile_icons/tile_cyclosm.png',
-    alt: 'CyclOSM',
-    render: 'maplibre',
-    style: '/imports/src/styles/cyclosm/style.json',
-    attribution: '&copy; CyclOSM, OpenStreetMap contributors'
-  },
+    style: '/src/styles/bright/style.json',
+    attribution: '&copy; OpenFreemap, Maplibre'
+  }
 ];
 
 // Mapping of relevant styles from Google My Maps to Material Symbols icon names

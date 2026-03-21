@@ -889,7 +889,7 @@
           "coalesce",
           [
             "get",
-            "name:en"
+            "name:bg"
           ],
           [
             "get",
@@ -945,7 +945,7 @@
           "coalesce",
           [
             "get",
-            "name:en"
+            "name:bg"
           ],
           [
             "get",
@@ -1025,7 +1025,7 @@
           "coalesce",
           [
             "get",
-            "name:en"
+            "name:bg"
           ],
           [
             "get",
@@ -1207,7 +1207,7 @@
             "rank"
           ]
         ],
-        "text-field": "{name}",
+        "text-field": "{name:bg}",
         "text-font": [
           "Noto Sans Regular"
         ],
@@ -1308,7 +1308,7 @@
             "rank"
           ]
         ],
-        "text-field": "{name:en}",
+        "text-field": "{name:bg}",
         "text-font": [
           "Noto Sans Regular"
         ],
@@ -1393,7 +1393,7 @@
         ],
         "icon-size": 1,
         "icon-allow-overlap": true,
-        "text-field": "{name}",
+        "text-field": "{name:bg}",
         "text-font": [
           "Noto Sans Regular"
         ],
@@ -1406,7 +1406,8 @@
       },
       "paint": {
         "icon-opacity": 0.7,
-        "text-opacity": 0.7
+        "text-opacity": 0.8,
+        "text-color": "#fdf6e3"
       }
     },
     {
@@ -1438,7 +1439,7 @@
         ],
         "icon-size": 1,
         "icon-allow-overlap": true,
-        "text-field": "{name}",
+        "text-field": "{name:bg}",
         "text-font": [
           "Noto Sans Regular"
         ],
@@ -1451,7 +1452,8 @@
       },
       "paint": {
         "icon-opacity": 1,
-        "text-opacity": 0.7
+        "text-opacity": 0.8,
+        "text-color": "#fdf6e3"
       }
     },
     {
@@ -1476,7 +1478,7 @@
         "icon-image": "shop",
         "icon-size": 1,
         "icon-allow-overlap": true,
-        "text-field": "{name}",
+        "text-field": "{name:bg}",
         "text-font": [
           "Noto Sans Regular"
         ],
@@ -1489,7 +1491,8 @@
       },
       "paint": {
         "icon-opacity": 1,
-        "text-opacity": 1
+        "text-opacity": 1,
+        "text-color": "#fdf6e3"
       }
     },
     {
@@ -1652,6 +1655,30 @@
       "paint": {
         "line-color": "#007BFF",
         "line-width": 3
+      }
+    },
+    {
+      "id": "bicycle-parking-dot",
+      "type": "circle",
+      "source": "openmaptiles",
+      "source-layer": "poi",
+      "minzoom": 14,
+      "filter": [
+        "all",
+        ["==", "class", "bicycle_parking"]
+      ],
+      "paint": {
+        "circle-color": "#007BFF",
+        "circle-radius": [
+          "interpolate",
+          ["linear"],
+          ["zoom"],
+          14, 2,
+          16, 4,
+          19, 6
+        ],
+        "circle-stroke-width": 2,
+        "circle-stroke-color": "#ffffff"
       }
     }
   ]

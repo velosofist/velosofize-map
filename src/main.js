@@ -46,7 +46,7 @@ window.onload = function() {
     }
   });
 
-  addCyclosmLiteButton()
+  // addCyclosmLiteButton()
   addPrimaryOverlayButtons()
   addExternalOverlayButtons()
 
