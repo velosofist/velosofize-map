@@ -9,7 +9,7 @@
     },
     "cycleways": {
       "type": "geojson",
-      "data": "/imports/overlays/external_sources/cycleways_osm.geojson"
+      "data": "/cycleways_osm.geojson"
     },
     "velosofize": {
       "type": "geojson",
@@ -1334,9 +1334,9 @@
         "visibility": "visible"
       },
       "paint": {
-        "text-color": "hsl(0, 0%, 86%)",
+        "text-color": "#fdf6e3",
         "text-halo-blur": 0,
-        "text-halo-color": "hsla(0, 0%, 0%, 0.75)",
+        "text-halo-color": "hsla(0, 0%, 0%, 0.5)",
         "text-halo-width": 2
       },
       "filter": [
@@ -1364,7 +1364,7 @@
         "text-size": 16
       },
       "paint": {
-        "text-color": "rgba(255, 255, 255, 0.5)"
+        "text-color": "#fdf6e3"
       }
     },
     {
@@ -1394,9 +1394,14 @@
         "icon-size": 1,
         "icon-allow-overlap": true,
         "text-field": "{name}",
-        "text-font": ["Noto Sans Regular"],
+        "text-font": [
+          "Noto Sans Regular"
+        ],
         "text-size": 12,
-        "text-offset": [0, 0.8],
+        "text-offset": [
+          0,
+          0.8
+        ],
         "text-anchor": "top"
       },
       "paint": {
@@ -1434,9 +1439,14 @@
         "icon-size": 1,
         "icon-allow-overlap": true,
         "text-field": "{name}",
-        "text-font": ["Noto Sans Regular"],
+        "text-font": [
+          "Noto Sans Regular"
+        ],
         "text-size": 12,
-        "text-offset": [0, 0.8],
+        "text-offset": [
+          0,
+          0.8
+        ],
         "text-anchor": "top"
       },
       "paint": {
@@ -1451,17 +1461,30 @@
       "source-layer": "poi",
       "filter": [
         "all",
-        ["==", "$type", "Point"],
-        ["==", "subclass", "mall"]
+        [
+          "==",
+          "$type",
+          "Point"
+        ],
+        [
+          "==",
+          "subclass",
+          "mall"
+        ]
       ],
       "layout": {
         "icon-image": "shop",
         "icon-size": 1,
         "icon-allow-overlap": true,
         "text-field": "{name}",
-        "text-font": ["Noto Sans Regular"],
+        "text-font": [
+          "Noto Sans Regular"
+        ],
         "text-size": 12,
-        "text-offset": [0, 0.8],
+        "text-offset": [
+          0,
+          0.8
+        ],
         "text-anchor": "top"
       },
       "paint": {
@@ -1475,7 +1498,11 @@
       "minzoom": 14,
       "filter": [
         "all",
-        ["==", "Категория #", "3.0"]
+        [
+          "==",
+          "Категория #",
+          "3.0"
+        ]
       ],
       "source": "velosofize",
       "paint": {
@@ -1489,12 +1516,19 @@
       "minzoom": 14,
       "filter": [
         "all",
-        ["==", "Категория #", "4.0"]
+        [
+          "==",
+          "Категория #",
+          "4.0"
+        ]
       ],
       "source": "velosofize",
       "paint": {
         "line-color": "#f4eb3766",
-        "line-dasharray": [3, 1],
+        "line-dasharray": [
+          3,
+          1
+        ],
         "line-width": 3
       }
     },
@@ -1504,7 +1538,11 @@
       "minzoom": 14,
       "filter": [
         "all",
-        ["==", "Категория #", "5.0"]
+        [
+          "==",
+          "Категория #",
+          "5.0"
+        ]
       ],
       "source": "velosofize",
       "layout": {
@@ -1513,7 +1551,10 @@
       },
       "paint": {
         "line-color": "#f4eb3766",
-        "line-dasharray": [0, 2],
+        "line-dasharray": [
+          0,
+          2
+        ],
         "line-width": 3
       }
     },
@@ -1525,8 +1566,33 @@
       "source-layer": "transportation",
       "filter": [
         "all",
-        ["match", ["get", "class"], ["path", "pedestrian", "footway"], true, false],
-        ["match", ["get", "bicycle"], ["yes", "designated"], true, false]
+        [
+          "match",
+          [
+            "get",
+            "class"
+          ],
+          [
+            "path",
+            "pedestrian",
+            "footway"
+          ],
+          true,
+          false
+        ],
+        [
+          "match",
+          [
+            "get",
+            "bicycle"
+          ],
+          [
+            "yes",
+            "designated"
+          ],
+          true,
+          false
+        ]
       ],
       "layout": {
         "line-cap": "round",
@@ -1546,21 +1612,37 @@
       "paint": {
         "line-color": "#007BFF",
         "line-width": 3,
-        "line-dasharray": [1, 1]
+        "line-dasharray": [
+          1,
+          1
+        ]
       }
     },
     {
       "id": "cycle-paths",
       "type": "line",
       "minzoom": 14,
-      "source": "openmaptiles", 
+      "source": "openmaptiles",
       "source-layer": "transportation",
       "filter": [
         "any",
-        ["==", "class", "cycleway"],
-        ["all", 
-          ["==", "class", "path"], 
-          ["==", "subclass", "cycleway"]
+        [
+          "==",
+          "class",
+          "cycleway"
+        ],
+        [
+          "all",
+          [
+            "==",
+            "class",
+            "path"
+          ],
+          [
+            "==",
+            "subclass",
+            "cycleway"
+          ]
         ]
       ],
       "layout": {

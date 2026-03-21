@@ -26,13 +26,29 @@ const map = L.map('map', {
 
 const baseLayerConfig = [
   {
-    name: 'libre',
+    name: 'custom',
     icon: '/attachments/tile_icons/tile_osm.png',
-    alt: 'Maplibre',
+    alt: 'Velosofize',
     render: 'maplibre',
-    style: '/src/styles/bright/style.json',
+    style: '/src/styles/dark/style.json',
     attribution: '&copy; OpenFreemap, Maplibre'
-  }
+  },
+  {
+    name: 'opencyclemap',
+    icon: '/attachments/tile_icons/tile_cyclosm.png',
+    alt: 'OpenCycleMap',
+    render: 'maplibre',
+    style: '/imports/src/styles/opencyclemap/style.json',
+    attribution: 'Maps &copy Thunderforest, Data &copy OpenStreetMap contributors'
+  },
+  {
+    name: 'cyclosm',
+    icon: '/attachments/tile_icons/tile_cyclosm.png',
+    alt: 'CyclOSM',
+    render: 'maplibre',
+    style: '/imports/src/styles/cyclosm/style.json',
+    attribution: '&copy; CyclOSM, OpenStreetMap contributors'
+  },
 ];
 
 // Mapping of relevant styles from Google My Maps to Material Symbols icon names
@@ -56,14 +72,14 @@ const overlaysConfig = {
             "label": "Велоалеи / Bike lanes",
             "icon": "bike_lane",
             "enabledByDefault": true,
-            "disabled": true
+            "disabled": true,
         },
         {
             "url": "/overlays/separated/velosofize_routes.kml",
             "label": "Отсечки от Velosofize (по субективни критерии) / Routes from Velosofize (subjective)",
             "icon": "directions_bike",
             "enabledByDefault": true,
-            "disabled": true
+            "disabled": true,
         },
     ],
     "external": [
@@ -71,7 +87,7 @@ const overlaysConfig = {
             "url": "/overlays/chernapista/chernapista_condensed.kml",
             "label": "ПТП с участие на велосипедисти от chernapista.com",
             "icon": "car_crash",
-            "disabled": false
+            "disabled": false,
         },
     ]
 };
