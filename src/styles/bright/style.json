@@ -15,7 +15,7 @@
     },
     "cycleways": {
       "type": "geojson",
-      "data": "/cycleways_osm.geojson"
+      "data": "/imports/overlays/external_sources/"
     },
     "velosofize": {
       "type": "geojson",
