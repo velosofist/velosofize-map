@@ -26,19 +26,19 @@ const map = L.map('map', {
 
 const baseLayerConfig = [
   {
-    name: 'custom',
+    name: 'bright',
     icon: '/attachments/tile_icons/tile_osm.png',
-    alt: 'Velosofize',
+    alt: 'Velosofize Bright',
     render: 'maplibre',
-    style: '/src/styles/dark/style.json',
+    style: '/src/styles/bright/style.json',
     attribution: '&copy; OpenFreemap, Maplibre'
   },
   {
-    name: 'light',
+    name: 'dark',
     icon: '/attachments/tile_icons/tile_osm.png',
-    alt: 'Velosofize',
+    alt: 'Velosofize Dark',
     render: 'maplibre',
-    style: '/src/styles/bright/style.json',
+    style: '/src/styles/dark/style.json',
     attribution: '&copy; OpenFreemap, Maplibre'
   }
 ];
