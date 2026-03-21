@@ -9,7 +9,7 @@
     },
     "cycleways": {
       "type": "geojson",
-      "data": "/cycleways_osm.geojson"
+      "data": "/imports/overlays/external_sources/cycleways_osm.geojson"
     },
     "velosofize": {
       "type": "geojson",
