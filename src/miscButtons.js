@@ -31,7 +31,8 @@ function miscButtons() {
     }
   );
   legendBtn.id = 'legend-button';
-  rightUpperPod.appendChild(legendBtn);
+  // Add the new designations in the legend before uncommenting
+  // rightUpperPod.appendChild(legendBtn);
 
   // --- Upload Layer Button ---
   // Create a hidden file input for uploading
@@ -52,7 +53,8 @@ function miscButtons() {
     }
   );
   uploadBtn.id = 'upload-layer';
-  rightUpperPod.appendChild(uploadBtn);
+  // TODO fix file uploads before uncommenting
+  // rightUpperPod.appendChild(uploadBtn);
 }
 
 let userLayer = null;

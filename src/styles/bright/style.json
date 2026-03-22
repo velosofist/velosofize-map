@@ -1883,7 +1883,8 @@
           "in",
           "class",
           "path",
-          "track"
+          "track",
+          "sidewalk"
         ]
       ],
       "layout": {
@@ -1891,7 +1892,7 @@
         "line-join": "bevel"
       },
       "paint": {
-        "line-color": "rgba(168, 63, 10, 0.56)",
+        "line-color": "#a93f0a80",
         "line-dasharray": [
           1,
           1
@@ -1916,7 +1917,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "line-color": "rgba(200, 124, 90, 1)",
+        "line-color": "#a93f0a80",
         "line-width": [
           "interpolate",
           ["linear"],
@@ -1926,6 +1927,70 @@
         ],
         "line-dasharray": [0.2, 0.2],
         "line-opacity": 0.9
+      }
+    },
+    {
+      "id": "land-access-tracks-left",
+      "type": "line",
+      "minzoom": 14,
+      "source": "openmaptiles",
+      "source-layer": "transportation",
+      "filter": [
+        "all",
+        ["==", "class", "track"]
+      ],
+      "layout": {
+        "line-join": "round",
+        "line-cap": "round"
+      },
+      "paint": {
+        "line-color": "#a93f0a80",
+        "line-width": [
+          "interpolate",
+          ["linear"],
+          ["zoom"],
+          14, 0.5,
+          18, 2
+        ],
+        "line-offset": [
+          "interpolate",
+          ["linear"],
+          ["zoom"],
+          14, 3,
+          18, 4
+        ]
+      }
+    },
+    {
+      "id": "land-access-tracks-right",
+      "type": "line",
+      "minzoom": 14,
+      "source": "openmaptiles",
+      "source-layer": "transportation",
+      "filter": [
+        "all",
+        ["==", "class", "track"]
+      ],
+      "layout": {
+        "line-join": "round",
+        "line-cap": "round"
+      },
+      "paint": {
+        "line-color": "#a93f0a80",
+        "line-width": [
+          "interpolate",
+          ["linear"],
+          ["zoom"],
+          14, 0.5,
+          18, 2
+        ],
+        "line-offset": [
+          "interpolate",
+          ["linear"],
+          ["zoom"],
+          14, -3,
+          18, -4
+        ]
       }
     }
   ],
