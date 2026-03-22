@@ -17,6 +17,10 @@
       "type": "geojson",
       "data": "/imports/overlays/external_sources/"
     },
+    "sofia_province": {
+      "type": "geojson",
+      "data": "/imports/overlays/external_sources/sofia_province_yurukov.geojson"
+    },
     "velosofize": {
       "type": "geojson",
       "data": "/overlays/separated/velosofize_routes.geojson"
@@ -621,7 +625,7 @@
       "type": "line",
       "source": "openmaptiles",
       "source-layer": "transportation",
-      "minzoom": 0,
+      "minzoom": 14,
       "maxzoom": 24,
       "filter": [
         "all",
@@ -1608,6 +1612,75 @@
       }
     },
     {
+      "id": "sofia-province-outline",
+      "type": "line",
+      "source": "sofia_province",
+      "layout": {
+        "line-join": "round",
+        "line-cap": "round"
+      },
+      "paint": {
+        "line-color": "#00000080",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              3,
+              0.5
+            ],
+            [
+              22,
+              15
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "sofia-province-label",
+      "type": "symbol",
+      "source": "sofia_province",
+      "minzoom": 1, 
+      "layout": {
+        "symbol-placement": "line",
+        "text-field": "София-град",
+        "text-font": ["Noto Sans Regular"],
+        "text-size": 24,
+        "text-offset": [0, 0.8],
+        "text-letter-spacing": 0.1,
+        "symbol-spacing": 350,
+        "text-allow-overlap": true,
+        "text-ignore-placement": true,
+        "text-max-angle": 45,
+        "text-rotation-alignment": "map"
+      },
+      "paint": {
+        "text-color": "#00000080"
+      }
+    },
+    {
+      "id": "use-other-layer-label",
+      "type": "symbol",
+      "source": "sofia_province",
+      "minzoom": 1,
+      "layout": {
+        "symbol-placement": "line",
+        "text-field": "Превключете слоя!",
+        "text-font": ["Noto Sans Regular"],
+        "text-size": 24,
+        "text-offset": [0, -0.8],
+        "text-letter-spacing": 0.1,
+        "symbol-spacing": 350,
+        "text-allow-overlap": true,
+        "text-ignore-placement": true,
+        "text-max-angle": 45,
+        "text-rotation-alignment": "map"
+      },
+      "paint": {
+        "text-color": "#00000080"
+      }
+    },
+    {
       "id": "amenities",
       "type": "symbol",
       "source": "openmaptiles",
@@ -1916,6 +1989,35 @@
         ],
         "circle-stroke-width": 2,
         "circle-stroke-color": "#ffffff"
+      }
+    },
+    {
+      "id": "steps-any",
+      "type": "line",
+      "source": "openmaptiles",
+      "source-layer": "transportation",
+      "minzoom": 16,
+      "filter": [
+        "all",
+        ["==", "class", "path"],
+        ["==", "subclass", "steps"]
+      ],
+      "layout": {
+        "line-cap": "butt",
+        "line-join": "miter",
+        "visibility": "visible"
+      },
+      "paint": {
+        "line-color": "rgba(200, 124, 90, 1)",
+        "line-width": [
+          "interpolate",
+          ["linear"],
+          ["zoom"],
+          16, 8,
+          20, 16
+        ],
+        "line-dasharray": [0.2, 0.2],
+        "line-opacity": 0.9
       }
     }
   ],
