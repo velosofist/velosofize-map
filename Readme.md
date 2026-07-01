@@ -1,6 +1,6 @@
-# Velosofize Map
+# Velosofize Map (Deprecated in favor of [Velo-Sofia](https://velo-sofia.com) )
 
-A free effort to map the information that Bulgarian cyclists need to get around.
+A free effort to map the information that Bulgarian cyclists need to get around. This project is deprecated due to low interest in contributions, so I can focus on the more maintainable [Velo-Sofia](https://velo-sofia.com) instead.
 
 <img alt="image" src="attachments/demo_screengrab.png" />
 
