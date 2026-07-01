@@ -10,7 +10,7 @@ This repository serves as the frontend for the web app map.velosofize.com. It is
 
 The focus of the project is to gather vital information for cyclists in Bulgaria, as well as references to other projects with similar goals, all in one place. The data should be, as much as possible, accessible without downloading dedicated apps and the underlying routes are to be accessible for export so that users can make their own modifications.
 
-The Velosofize project includes resources from other repositories, such as velosofist/velosofize-docs and velosofist/velosofize-minima-theme , which account for the blog section of the website (docs.velosofize.com) and its styling.
+The Velosofize project includes resources from other repositories, such as velosofist/velosofize-docs and velosofist/velosofize-minima-theme , which account for the blog section of the website (docs.old.velo-sofia.com) and its styling.
 
 ## Projects used
 
@@ -31,7 +31,7 @@ The development of Velosofize Map in its current form would not be possible with
 * [Overpass Turbo](https://overpass-turbo.eu/)
 * [Sofenhagen.com](https://sofenhagen.com)
 
-and others. Further attributions will be added to NOTICES.md along with respective licenses. Attributions to other projects are included throughout the blog section of the website <docs.velosofize.com> , including in [the Alternatives section](https://docs.velosofize.com/bg/alternatives).
+and others. Further attributions will be added to NOTICES.md along with respective licenses. Attributions to other projects are included throughout the blog section of the website <docs.old.velo-sofia.com> , including in [the Alternatives section](https://docs.old.velo-sofia.com/bg/alternatives).
 
 ## Why KML format instead of GeoJson?
 
