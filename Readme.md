@@ -6,7 +6,7 @@ A free effort to map the information that Bulgarian cyclists need to get around.
 
 ## Introduction
 
-This repository serves as the frontend for the web app map.velosofize.com. It is intended as a free-to-use platform in the long-term which sources data from personal contributions of the project's creator and OpenStreetMap data.
+This repository serves as the frontend for the web app map.old.velo-sofia.com. It is intended as a free-to-use platform in the long-term which sources data from personal contributions of the project's creator and OpenStreetMap data.
 
 The focus of the project is to gather vital information for cyclists in Bulgaria, as well as references to other projects with similar goals, all in one place. The data should be, as much as possible, accessible without downloading dedicated apps and the underlying routes are to be accessible for export so that users can make their own modifications.
 
